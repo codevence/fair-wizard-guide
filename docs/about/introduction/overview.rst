@@ -3,12 +3,12 @@
 Overview
 ********
 
-Different components in the Data Stewardship Wizard are connected to create a data management plan and help with data management in general. Different components are typically made and used by different user roles. Data stewards work on preparing content (such as **knowledge models** or **document templates**) for researchers that they can use to work on their data management plans while filling in the **questionnaires** and exporting **documents**.
+Different components in the |project_name_full| are connected to create a data management plan and help with data management in general. Different components are typically made and used by different user roles. Data stewards work on preparing content (such as **knowledge models** or **document templates**) for researchers that they can use to work on their data management plans while filling in the **questionnaires** and exporting **documents**.
 
 .. figure:: overview/overview.png
    :align: center
 
-   Different components of the Data Stewardship Wizard and roles interacting with them.
+   Different components of the |project_name_full| and roles interacting with them.
 
 
 Knowledge Model

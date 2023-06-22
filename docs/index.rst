@@ -19,7 +19,7 @@ Structure of the Guide
 
 The guide sections are organized into three categories:
 
-- **About** contains an introduction to the Data Stewardship Wizard and its content to gain quick insight into how it works at a high level.
+- **About** contains an introduction to the |project_name_full| and its content to gain quick insight into how it works at a high level.
 - **Application** is structured the same way as |project_name|'s main menu to quickly find the relevant sections about how to use a specific part of the application.
 - **More** contains all additional information related to |project_name|, such as development roadmap, how to develop own content, or how to run own instance.
 

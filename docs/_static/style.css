@@ -1,5 +1,5 @@
 .sidebar-logo-container {
-    margin: 1.5rem;
+    margin: 1rem .5rem;
 }
 
 .sidebar-tree .toctree-l1>.reference, .sidebar-tree .toctree-l1>label .icon {
@@ -12,7 +12,7 @@
 
 .sidebar-tree .current-page>.reference {
     color: var(--color-brand-primary);
-    background: #f15a2420 !important;
+    background: #019AD620 !important;
 }
 
 .sidebar-tree .reference {

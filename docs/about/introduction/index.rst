@@ -1,7 +1,7 @@
 Introduction
 ************
 
-This section will cover the essentials of the Data Stewardship Wizard, including its key components and how they operate together to facilitate effective data management for researchers and data stewards.
+This section will cover the essentials of the |project_name_full|, including its key components and how they operate together to facilitate effective data management for researchers and data stewards.
 
 ----
 

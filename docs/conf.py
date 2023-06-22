@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Data Stewardship Wizard'
-copyright = '2023, DSW Team'
-author = 'DSW Team'
+project = 'FAIR Wizard'
+copyright = '2023, FAIR Wizard Team'
+author = 'FAIR Wizard Team'
 
-project_name = 'DSW'
-project_name_full = 'Data Stewardship Wizard'
+project_name = 'FAIR Wizard'
+project_name_full = 'FAIR Wizard'
 
 # The full version, including alpha/beta/rc tags
 version = release = '3.23'
@@ -72,13 +72,13 @@ html_theme_options = {
     'light_logo': 'logo/logo-light-mode.svg',
     'dark_logo': 'logo/logo-dark-mode.svg',
     'light_css_variables': {
-        'color-brand-primary': '#f15a24',
-        'color-brand-content': '#f15a24',
+        'color-brand-primary': '#019AD6',
+        'color-brand-content': '#019AD6',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'dark_css_variables': {
-        'color-brand-primary': '#f15a24',
-        'color-brand-content': '#f15a24',
+        'color-brand-primary': '#019AD6',
+        'color-brand-content': '#019AD6',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,

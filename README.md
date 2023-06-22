@@ -1,4 +1,4 @@
-# DSW User Guide
+# FAIR Wizard Guide
 
 [![License](https://img.shields.io/github/license/ds-wizard/guide)](LICENSE)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4975/badge)](https://bestpractices.coreinfrastructure.org/projects/4975)

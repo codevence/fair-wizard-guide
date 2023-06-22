@@ -2,7 +2,7 @@
 Metamodel Schemas
 *****************
 
-As Data Stewardship Wizard evolves, the internal structures may change during the time. To support migration under the hood, we use metamodel versioning for KM and templates.
+As |project_name_full| evolves, the internal structures may change during the time. To support migration under the hood, we use metamodel versioning for KM and templates.
 
 ----
 

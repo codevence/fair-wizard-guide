@@ -140,18 +140,18 @@ These are the basic Markdown elements supported by all applications.
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://ds-wizard.org" target="_blank">DS Wizard</a>
+                        <a href="https://fair-wizard.com" target="_blank">FAIR Wizard</a>
                     </td>
                     <td class="td-markdown-code">
-                        [DS Wizard](https://ds-wizard.org)
+                        [FAIR Wizard](https://fair-wizard.com)
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img src="https://ds-wizard.org/static/dsw-logo-horizontal-color-transparent.svg" style="height: 50px">
+                        <img src="https://fair-wizard.com/static/fair-wizard-logo.svg" style="height: 50px">
                     </td>
                     <td class="td-markdown-code">
-                        ![](https://ds-wizard.org/static/dsw-logo-horizontal-color-transparent.svg)
+                        ![](https://fair-wizard.com/static/fair-wizard-logo.svg)
                     </td>
                 </tr>
             </tbody>
