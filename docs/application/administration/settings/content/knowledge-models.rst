@@ -11,7 +11,7 @@ If we want to let users to see and browse certain Knowledge Models (specifically
 Integration Config
 ==================
 
-The integrations specified in Knowledge Models can use configuration values (typicaly secrets such as API keys or tokens) from YAML configuration specified in :ref:`integration.yml file<integration-yml-file>` or the content specified here under **Integration Config**. The value here can be for example:
+The integrations specified in Knowledge Models can use configuration values (typicaly secrets such as API keys or tokens) from YAML configuration specified here under **Integration Config**. The value here can be for example:
 
 .. CODE-BLOCK:: yaml
 

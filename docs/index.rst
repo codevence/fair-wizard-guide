@@ -90,6 +90,5 @@ Here are some recommended sections where to start based on the role:
     :caption: More
 
     more/changelog
-    more/self-hosted-dsw/index
     more/development/index
     more/miscellaneous/index
