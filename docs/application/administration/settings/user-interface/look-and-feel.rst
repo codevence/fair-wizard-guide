@@ -14,10 +14,6 @@ Logo and Colors
 
 If enabled by deployment, we may also change the **Logo** and set **Primary Color** and **Illustrations Color** to adjust the visual style to branding of our organisation or basically to our taste.
 
-.. NOTE::
-
-    As this requires re-compilation of stylesheets, the deployment must be adjusted to enable this options.
-
 
 Custom Menu Links
 =================
