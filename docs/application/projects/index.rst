@@ -9,7 +9,7 @@ This section is about :ref:`projects<project>` -- how to create them, how to wor
 
 Projects are mainly used by the researchers. We have the introduction video about how to create project, fill the questionnaire and get the documents.
 
-.. youtube:: XrI8qYtWSBw
+.. youtube:: usCrhfG_OXE
     :width: 100%
     :align: center
 
