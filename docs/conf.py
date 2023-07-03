@@ -84,6 +84,9 @@ html_theme_options = {
     'sidebar_hide_name': True,
     'top_of_page_button': None,
 }
+html_js_files = [
+    'js/track.js',
+]
 
 
 def setup(app):
