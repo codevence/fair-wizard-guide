@@ -10,6 +10,18 @@ Changelog
 .. _tools:
 
 
+.. _v3.25.1-fronted:
+
+3.25.1 (frontend)
+=================
+
+* *Release: 6 July 2023*
+
+* **Bugfixes**
+  
+  * Fixed change logo button in settings.
+
+
 
 .. _v3.25:
 
