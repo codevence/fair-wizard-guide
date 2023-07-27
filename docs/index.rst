@@ -7,7 +7,7 @@ Data stewards can easily capture the knowledge, including required project data 
 
 Once the questionnaire is completed, a DMP can be easily generated using a selected template and output format. The document is then stored in |project_name| for easy access and future reference. This is especially helpful because many funding agencies now require a DMP for their application process.
 
-But the benefits of using |project_name| go beyond just creating a DMP. Researchers also learn how to handle data correctly, make it FAIR, maintain it throughout the project, and curate it long-term. This intelligent, guided, and efficient approach to composing DMPs is useful for ELIXIR nodes, research institutions, and individual researchers alike.
+But the benefits of using |project_name| go beyond just creating a DMP. Researchers also learn how to handle data correctly, make it FAIR, maintain it throughout the project, and curate it long-term. This intelligent, guided, and efficient approach to composing DMPs is useful for research infrastructures, institutions, and individual researchers alike.
 
 
 Structure of the Guide
