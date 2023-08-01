@@ -11,6 +11,38 @@ Changelog
 .. _tools:
 
 
+.. _v3.26:
+
+3.26
+====
+
+* *Release: 1 August 2023*
+
+* **Features:**
+
+  * Added explicit info when there are no questions in a chapter.
+  * Comments tab is now highlighted when comments are open on a specific question.
+
+* **Bugfixes:**
+  
+  * Fixed cursor on radio input in the document template format selection.
+  * Fixed file upload UI in the document template editor.
+  * Fixed description in Markdown inputs.
+  * Fixed deleting queued documents (the dropdown menu was sometimes disappearing).
+  * Fixed link to document template development from the Data Steward dashboard.
+  * Fixed displaying of alphabetical identifiers for answers, choices, and items.
+
+* **Misc:**
+
+  * Default role was changed to Researcher when running a fresh instance.
+  * Deleting users is now much faster.
+  * Upgraded Bootstrap to 5.3.0 in frontend.
+
+* **More:**
+
+  * `API Changelog 3.25.0 ➔ 3.26.0 <https://api-docs.fair-wizard.com/changelogs/3.25.0-3.26.0.html>`__
+
+
 .. _v3.25.1-backend:
 
 3.25.1 (backend)
@@ -282,8 +314,8 @@ Changelog
 
 .. _v3.22:
 
-3.22.0
-======
+3.22
+====
 
 * *Release: 4 April 2023*
 
