@@ -6,8 +6,78 @@ Changelog
     https://github.com/sphinx-doc/sphinx/issues/1961#issuecomment-1322281847
 
 .. _frontend-backend:
+.. _frontend:
 .. _backend:
 .. _tools:
+
+
+.. _v3.25.1-backend:
+
+3.25.1 (backend)
+=================
+
+* *Release: 19 July 2023*
+
+* **Bugfixes**
+  
+  * Fixed user activation when logging in for the first time using OpenID, and no Terms of Service or Privacy Policy were set.
+
+
+
+.. _v3.25.2-fronted:
+
+3.25.2 (frontend)
+=================
+
+* *Release: 18 July 2023*
+
+* **Bugfixes**
+  
+  * Fixed preview of item questions in KM Editor that could sometimes cause two items to have the same value when filling them in.
+
+
+
+.. _v3.25.1-fronted:
+
+3.25.1 (frontend)
+=================
+
+* *Release: 6 July 2023*
+
+* **Bugfixes**
+  
+  * Fixed change logo button in settings.
+
+
+
+.. _v3.25:
+
+3.25
+====
+
+* *Release: 4 July 2023*
+
+* **Features:**
+
+  * Added revoke all to :ref:`active sessions<active-sessions>`.
+  * Added Terms of Service and/or Privacy agreement confirmation during SSO signup when they are set.
+  * :ref:`Preview in KM Editor<km-editor-preview>` now opens on current question (corresponding answers are pre-selected if the question is nested).
+  * Improved :ref:`phase selection<questionnaire-current-phase>` in questionnaire and phase description is now used.
+  * Improved question tags selection when :ref:`creating a new project<create-project-custom>` to make it more clear which questions will be used.
+  * Added support for uploading more files in document template editor.
+  
+* **Bugfixes:**
+  
+  * Fixed links from TODOs or comments to questions in collapsed items (they now expand).
+  * Fixed SMTP configuration without username and password for authentication.
+
+* **Misc:**
+
+  * Added *robots.txt* to client and server to prevent indexing of the applications.
+
+* **More:**
+
+  * `API Changelog 3.24.0 ➔ 3.25.0 <https://api-docs.fair-wizard.com/changelogs/3.24.0-3.25.0.html>`__
 
 
 .. _v3.24.1-backend:
