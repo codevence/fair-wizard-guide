@@ -11,6 +11,18 @@ Changelog
 .. _tools:
 
 
+.. _v3.25.1-tools:
+
+3.25.1 (tools)
+==============
+
+* *Release: 10 August 2023*
+
+* **Bugfixes:**
+
+  * Fixed loading custom mail config in mailer.
+
+
 .. _v3.25.3-frontend:
 
 3.25.3 (frontend)
