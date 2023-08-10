@@ -11,6 +11,19 @@ Changelog
 .. _tools:
 
 
+.. _v3.25.3-frontend:
+
+3.25.3 (frontend)
+=================
+
+* *Release: 10 August 2023*
+
+* **Bugfixes:**
+  
+  * Fixed the knowledge model filter on the project list.
+
+
+
 .. _v3.25.1-backend:
 
 3.25.1 (backend)
