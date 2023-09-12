@@ -7,7 +7,7 @@ beautifulsoup4==4.12.2
 CacheControl==0.12.11
 certifi==2022.12.7
 charset-normalizer==3.1.0
-cssutils==2.6.0
+cssutils==2.7.1
 dict2css==0.3.0
 docutils==0.18.1
 domdf-python-tools==3.6.1
