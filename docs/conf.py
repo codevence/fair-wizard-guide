@@ -41,7 +41,9 @@ rst_prolog = f"""
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx-prompt',
     'sphinx_substitution_extensions',
+    'sphinx_reredirects',
     'sphinxcontrib.youtube',
     'sphinx.ext.todo',
     'sphinx_toolbox.confval',
@@ -97,3 +99,7 @@ suppress_warnings = [
     # Suppress "WARNING: unknown mimetype (issue with .ico)
     'epub.unknown_project_files',
 ]
+
+redirects = {
+     'more/changelog': 'https://changelog.fair-wizard.com'
+ }
