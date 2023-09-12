@@ -90,14 +90,9 @@ Here are some recommended sections where to start based on the role:
     application/profile/index
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :caption: More
 
-    more/changelog
-
-
-.. toctree::
-    :maxdepth: 2
-    
+    Changelog <https://changelog.fair-wizard.com>
     more/development/index
     more/miscellaneous/index
