@@ -25,7 +25,7 @@ project_name = 'FAIR Wizard'
 project_name_full = 'FAIR Wizard'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.0'
+version = release = '4.1'
 
 rst_prolog = f"""
 
