@@ -14,6 +14,8 @@ File for import and export of Knowledge Models is a JSON file that contains all 
 +-------------------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | Metamodel Version | Schema file                                                                                                   | Changes (brief)                         | Since     |
 +===================+===============================================================================================================+=========================================+===========+
+| 14                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/km-package/kmp_schema_v14.json>`__ | Optional Integration fields             | 4.1.0     |
++-------------------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 13                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/km-package/kmp_schema_v13.json>`__ | New question value types                | 3.12.0    |
 +-------------------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 12                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/km-package/kmp_schema_v12.json>`__ | Enhanced integration (e.g. widget type) | 3.10.0    |
@@ -49,6 +51,10 @@ Document Context is provided to the document templates by document worker. It co
 +-------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | Metamodel Version | Schema file                                                                                                            | Changes (brief)                         | Since     |
 +===================+========================================================================================================================+=========================================+===========+
+| 13                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v13.json>`__ | Removed states from templates           | 4.1.0     |
++-------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
+| 12                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v12.json>`__ | Optional Integration fields             | 4.1.0     |
++-------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 11                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v11.json>`__ | Change template metadata                | 3.20.0    |
 +-------------------+------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 10                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v10.json>`__ | New question value types                | 3.12.0    |
@@ -84,6 +90,10 @@ Each template has its descriptor file ``template.json`` which contains all the i
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | Metamodel Version | Schema file                                                                                                                | Changes (brief)                         | Since     |
 +===================+============================================================================================================================+=========================================+===========+
+| 13                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v13.json>`__ | Removed states from templates           | 3.20.0    |
++-------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
+| 12                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v12.json>`__ | Optional Integration fields             | 3.12.0    |
++-------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 11                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v11.json>`__ | Change template metadata                | 3.20.0    |
 +-------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | 10                | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v10.json>`__ | New question value types                | 3.12.0    |
