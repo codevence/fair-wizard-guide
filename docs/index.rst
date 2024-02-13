@@ -1,13 +1,13 @@
 |project_name| User Guide
 *************************
 
-The |project_name_full| is a tool that helps researchers and data stewards create data management plans (DMPs) easily, efficiently, and in a FAIR manner.
+The |project_name_full| is an enterprise-ready and user-friendly ecosystem for creating Data Management Plans. It does not only provide all necessary tools for researchers and data stewards to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, but it is a suite of tools to incorporate Data Management Planning process with needs of institutions.
 
 Data stewards can easily capture the knowledge, including required project data and decisions in knowledge models that are then turned into per-project questionnaires to be filled by researchers. The questionnaires guide researchers through the process using recommendations, FAIR metrics indications, and only showing relevant questions based on previous answers.
 
 Once the questionnaire is completed, a DMP can be easily generated using a selected template and output format. The document is then stored in |project_name| for easy access and future reference. This is especially helpful because many funding agencies now require a DMP for their application process.
 
-But the benefits of using |project_name| go beyond just creating a DMP. Researchers also learn how to handle data correctly, make it FAIR, maintain it throughout the project, and curate it long-term. This intelligent, guided, and efficient approach to composing DMPs is useful for research infrastructures, institutions, and individual researchers alike.
+But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerfull tools provided within the |project_name|. This includes advanced user management, custom integration with data and more.
 
 .. youtube:: oU6z9V4jW0Q
     :width: 100%
@@ -20,7 +20,13 @@ Structure of the Guide
 The guide sections are organized into three categories:
 
 - **About** contains an introduction to the |project_name_full| and its content to gain quick insight into how it works at a high level.
-- **Application** is structured the same way as |project_name|'s main menu to quickly find the relevant sections about how to use a specific part of the application.
+- **Application** is structured the same way as |project_name|'s applications menu, so it is easy to quickly find the relevant sections about how to use a specific part of the application:
+
+  - Data Management Planner
+  - Admin Center
+  - Integration Hub
+  - Reporting
+
 - **More** contains all additional information related to |project_name|, such as development roadmap, how to develop own content, or how to run own instance.
 
 Here are some recommended sections where to start based on the role:
@@ -82,12 +88,9 @@ Here are some recommended sections where to start based on the role:
     :maxdepth: 2
     :caption: Application
 
-    application/knowledge-models/index
-    application/document-templates/index
-    application/projects/index
-    application/documents/index
-    application/administration/index
-    application/profile/index
+    application/data-management-planner/index
+    application/admin-center/index
+    application/integration-hub/index
 
 .. toctree::
     :maxdepth: 2
