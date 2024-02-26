@@ -16,5 +16,4 @@ Administration section serves as the name suggests to admins with managing the |
     :maxdepth: 2
 
     settings/index
-    users/index
     locales/index

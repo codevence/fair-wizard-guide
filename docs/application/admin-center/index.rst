@@ -17,5 +17,4 @@ Admin Center
     Users<users/index>
     User Groups<user-groups/index>
     Import<import/index>
-
-    
+    Settings<settings/index>

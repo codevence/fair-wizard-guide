@@ -3,7 +3,7 @@
 Data Management Planner
 ***********************
 
-...
+Data Management Planner is the Data Stewardship Wizard engine for creation of Data Management Plans. This application is mainly used for creating Data Management Plans by **researchers**, but it also includes creation and editing of Knowledge Models and creation and editing of :guilabel:`Document Templates` done by **data stewards**.
 
 ----
 

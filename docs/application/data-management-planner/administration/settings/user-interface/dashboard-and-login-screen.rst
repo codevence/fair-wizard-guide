@@ -18,21 +18,19 @@ We can select the **Dashboard Style** whether the user should see a standard **w
 
   * **Create KM / Project Template Widgets** let the user to quickly start a new knowledge model editor or project template.
 
-  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the DSW Registry connection is configured.
+  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the |registry_name| connection is configured.
 
-  * **Import KM / Document Template Widgets** allow to proceed easily to import of a knowledge model or a document template in case the DSW Registry connection is configured.
+  * **Import KM / Document Template Widgets** allow to proceed easily to import of a knowledge model or a document template in case the |registry_name| connection is configured.
 
 * **Administrator**
 
-  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the DSW Registry connection is configured.
+  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the |registry_name| connection is configured.
 
   * **Usage Widget** summarises the usage just as is also possible to see in the :doc:`../info/usage`.
 
   * **Configure Organization Widget** quickly navigates to :doc:`../system/organization` if it is not yet done.
 
   * **Configure Look and Feel Widget** quickly navigates to :doc:`../user-interface/look-and-feel` to adjust style of the |project_name| instance.
-
-  * **Connect DSW Registry Widget** quickly navigates to :doc:`../content/dsw-registry` to configure the connection (if not yet been done).
 
   * **Add OpenID Widget** quickly navigates to :doc:`../system/authentication` to configure the identity provider services (if not yet been done).
 

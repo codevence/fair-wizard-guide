@@ -1,6 +1,6 @@
-.. _import:
+.. _user-import:
 
-Import
-******
+Import Users
+************
 
 ...
