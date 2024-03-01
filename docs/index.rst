@@ -70,7 +70,13 @@ Here are some recommended sections where to start based on the role:
       - 
     * - 
       - :ref:`project-importers`
-      - 
+      -
+    * -
+      - Integration Hub
+      - Admin Center 
+    * -
+      - :ref:`integration-hub`
+      - :ref:`admin-center`
 
 
 .. raw:: html
