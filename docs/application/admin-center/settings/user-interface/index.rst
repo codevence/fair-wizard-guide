@@ -1,9 +1,9 @@
 User Interface
 **************
 
-...
+.. ATTENTION::
 
-----
+    This section is currently under construction.
 
 .. toctree::
     :maxdepth: 2
