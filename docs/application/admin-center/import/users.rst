@@ -1,4 +1,4 @@
-.. _user-import:
+.. _import-users:
 
 Users Import
 ************
