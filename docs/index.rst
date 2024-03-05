@@ -92,11 +92,12 @@ Here are some recommended sections where to start based on the role:
 
 .. toctree::
     :maxdepth: 2
-    :caption: Application
+    :caption: Applications
 
     application/data-management-planner/index
     application/admin-center/index
     application/integration-hub/index
+    application/reporting/index
 
 .. toctree::
     :maxdepth: 2

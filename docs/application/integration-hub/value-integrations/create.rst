@@ -1,4 +1,4 @@
-.. _create:
+.. _value-integrations-create:
 
 Create
 ******
@@ -7,4 +7,9 @@ As an administrator, we can create a value integration. To start, we must fill i
 
 .. TODO::
 
-    Add a screenshot of the form.
+    Replace screenshot.
+
+.. figure:: create/create.png
+    :width: 528
+    
+    Create value integration.

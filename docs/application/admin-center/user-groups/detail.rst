@@ -7,13 +7,27 @@ As an administrator, we can manage existing user group from User Group Settings.
 
 .. TODO::
 
-    Add screenshot of User Group Settings Info
+    Replace screenshot
+
+
+.. figure:: detail/info.png
+    :width: 528
+    
+    User group detail.
+
 
 We can also see list of all members of a group. Each member can be set as either Owner of a group or its member. Member can also be removed from the group by clicking on the x button. We can view users’ profile by clicking his name.
 
 .. TODO::
 
-    Add screenshot of User Group Settings Members
+    Replace screenshot
+
+
+.. figure:: detail/members.png
+    :width: 528
+    
+    User group members.
+
 
 We can add new members to the group by picking them from dropdown menu.
 

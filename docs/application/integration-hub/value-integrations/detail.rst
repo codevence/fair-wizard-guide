@@ -1,4 +1,4 @@
-.. _detail:
+.. _value-integrations-detail:
 
 Detail
 ******
@@ -7,13 +7,25 @@ As an administrator, we need to fill in some information about the Integration. 
 
 .. TODO::
 
-    Add a screenshot of the info page.
+    Replace screenshot
+
+
+.. figure:: detail/info.png
+
+    Value integration detail info.
+
 
 In Values, we can set up specific values. First, we need to give names to columns and then fill the rows with data. We can do that either manually or use Import functionality. We can also manually delete columns or rows or :guilabel:`Delete all`.
 
 .. TODO::
 
-    Add a screenshot of the values page.
+    Replace screenshot
+
+
+.. figure:: detail/values.png
+
+    Value integration detail valuess.
+
 
 .. NOTE::
 
@@ -27,7 +39,13 @@ We can import any CSV file. To do that, we click on the :guilabel:`Import` butto
 
 .. TODO::
 
-    Add a screenshot of the import modal.
+    Replace screenshot
+
+
+.. figure:: detail/import-modal.png
+
+    Value integration import.
+
 
 If we choose to insert values manually or do some changes to the values, we can always use :guilabel:`Export` button to get the data.
 

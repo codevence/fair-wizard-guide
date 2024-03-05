@@ -7,4 +7,9 @@ As an administrator, we can create a new user group. For the user group we must 
 
 .. TODO::
 
-    Add a screenshot of the create user group form
+    Replace screenshot
+
+.. figure:: create/create.png
+    :width: 528
+    
+    Create user group.

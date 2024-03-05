@@ -7,7 +7,13 @@ As administrators, we can create new users manually by clicking :guilabel:`Invit
 
 .. TODO::
 
-    Add screenshot of user creation form
+    Replace screenshot
+
+
+.. figure:: invite/invite.png
+    :width: 528
+    
+    User groups.    
 
 
 .. NOTE::

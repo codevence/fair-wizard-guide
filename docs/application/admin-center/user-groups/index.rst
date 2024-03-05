@@ -11,7 +11,21 @@ User Group Settings can be opened by clicking the name of a user group or by sel
 
 .. TODO::
 
-    Add screenshot of user groups list
+    Replace screenshot
+
+
+.. figure:: index/index.png
+    :width: 528
+    
+    User groups.
+
+
+----
+
+.. raw:: html
+    
+    <h2>Table of Contents</h2>
+
 
 .. toctree::
     :maxdepth: 2

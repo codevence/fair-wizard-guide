@@ -1,4 +1,4 @@
-.. _users-import:
+.. _user-import:
 
 Users Import
 ************
@@ -7,4 +7,9 @@ As an administrator we can import users using provided template. The template ha
 
 .. TODO::
 
-    Add screenshot of user import download template screen
+    Replace screenshot
+
+.. figure:: users/users.png
+    :width: 528
+    
+    Import users.

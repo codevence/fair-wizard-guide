@@ -7,4 +7,9 @@ As an administrator, we can import projects using provided template. The templat
 
 .. TODO::
 
-    Add screenshot of user import download template screen
+    Replace screenshot
+
+.. figure:: projects/projects.png
+    :width: 528
+    
+    Import projects.
