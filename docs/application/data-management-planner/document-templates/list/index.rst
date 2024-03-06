@@ -9,21 +9,7 @@ For each document template, we can see the latest version present; however, we c
 
     A document template can be deleted only if it is not used already for documents, projects, or settings.
 
-Each item may be marked with *unsupported metamodel* when the document template is not compatible with the version of |project_name|. :doc:`../../../../more/development/metamodel-schemas` are used to define structures that developers can interact with. If the template originates from the `DSW Registry <https://registry.ds-wizard.org>`__ and the registry is configured, *update available* will appear.
-
-To configure the registry, follow this steps:
-
-1. Go to Settings -> Content Settings -> DSW Registry
-2. Click on Enabled
-3. Click on Sign Up
-4. Fill out your email
-5. With a token you will get to login to https://registry.ds-wizard.org
-6. Open Questionnaire Report
-7. Copy the Template ID
-8. Go back to Wizard -> Document Templates -> List
-9. Click on Import
-10. Paste the Template ID
-11. Click on Import
+Each item may be marked with *unsupported metamodel* when the document template is not compatible with the version of |project_name|. :doc:`../../../../more/development/metamodel-schemas` are used to define structures that developers can interact with. If the template originates from the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, *update available* will appear.
 
 If your template is not from the registry, you will have to :doc:`../editors/detail/publish` a new version via template editor, which will increase the metamodel version automatically.
 

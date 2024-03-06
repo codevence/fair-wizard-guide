@@ -8,20 +8,20 @@ We can import an existing locale by navigating to :menuselection:`Settings → L
 
 .. _locale-import-from-registry:
 
-From DSW Registry
-=================
+From FAIR Wizard Registry
+=========================
 
-If the |project_name| instance is connected to the `DSW Registry <https://registry.ds-wizard.org>`__, it is possible to import locales from it by entering the **locale ID** of desired template (e.g. ``dsw:cs:0.2.0``) and pressing the :guilabel:`Import` button.
+The |project_name| instance is connected to the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. That allows us to import locales from it by entering the **locale ID** of desired template (e.g. ``dsw:cs:4.3.0``) and pressing the :guilabel:`Import` button.
 
 .. NOTE::
 
-    In case of locales present in the `DSW Registry <https://registry.ds-wizard.org>`__, we will be notified about the available upgrades.
+    In case of locales present in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, we will be notified about the available upgrades.
 
 
 .. figure:: import/registry.png
     :width: 500
     
-    Input for importing a locale from DSW Registry.
+    Input for importing a locale from FAIR Wizard Registry.
 
 
 

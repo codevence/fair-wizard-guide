@@ -7,20 +7,20 @@ We can import an existing document template by navigating to :doc:`./index` (:me
 
 .. _doc-template-import-from-registry:
 
-From DSW Registry
-=================
+From FAIR Wizard Registry
+=========================
 
-If the |project_name| instance is connected to the `DSW Registry <https://registry.ds-wizard.org>`__, it is possible to import document templates from it by entering the **document template ID** of desired template (e.g. ``dsw:questionnaire-report:2.7.1``) and pressing the :guilabel:`Import` button.
+The |project_name| instance is connected to the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. That allows us to import document templates from it by entering the **document template ID** of desired template (e.g. ``dsw:questionnaire-report:2.11.0``) and pressing the :guilabel:`Import` button.
 
 .. NOTE::
 
-    In case of document templates present in the `DSW Registry <https://registry.ds-wizard.org>`__, we will be notified about the available upgrades.
+    In case of document templates present in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, we will be notified about the available upgrades.
 
 
 .. figure:: import/registry.png
     :width: 500
     
-    Input for importing a document template from DSW Registry.
+    Input for importing a document template from FAIR Wizard Registry.
 
 
 From file
