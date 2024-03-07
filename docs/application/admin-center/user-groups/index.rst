@@ -14,7 +14,7 @@ User Group Settings can be opened by clicking the name of a user group or by sel
     Replace screenshot
 
 
-.. figure:: index/index.png
+.. figure:: index/list.png
     :width: 528
     
     User groups.

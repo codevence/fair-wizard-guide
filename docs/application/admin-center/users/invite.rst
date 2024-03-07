@@ -10,7 +10,7 @@ As administrators, we can create new users manually by clicking :guilabel:`Invit
     Replace screenshot
 
 
-.. figure:: invite/invite.png
+.. figure:: invite/form.png
     :width: 528
     
     User groups.    

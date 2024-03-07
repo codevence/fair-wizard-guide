@@ -11,7 +11,7 @@ We can start creating a new value integration by clicking on the :guilabel:`Crea
 
     Replace screenshot
 
-.. figure:: index/index.png
+.. figure:: index/list.png
     
     Value integrations.
 

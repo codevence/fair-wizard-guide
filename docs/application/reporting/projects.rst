@@ -10,7 +10,7 @@ As an administrator, we can create a report based on various projects. We can se
     replace image with new one
 
 
-.. figure:: projects/projects_overview.png
+.. figure:: projects/overview.png
     :width: 528
     
     Projects overview.
@@ -23,7 +23,7 @@ New report can be created by clicking on the dropdown menu in the top right corn
     replace image with new one
 
 
-.. figure:: projects/view_settings.png
+.. figure:: projects/settings.png
     :width: 528
     
     Form for editing reporting view.
