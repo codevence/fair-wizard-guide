@@ -9,11 +9,6 @@ User Groups list allows administrators to see and manage all user groups in a |p
 
 User Group Settings can be opened by clicking the name of a user group or by selecting :guilabel:`Edit` in the right dropdown menu for the desired row. There, a user group can be also deleted via the :guilabel:`Delete` action. Finally, a new user group can be created by clicking :guilabel:`Create`.
 
-.. TODO::
-
-    Replace screenshot
-
-
 .. figure:: index/list.png
     :width: 528
     

@@ -7,13 +7,10 @@ As an administrator, we can use value integration to setup an integration to be 
 
 We can start creating a new value integration by clicking on the :guilabel:`Create` button.
 
-.. TODO::
-
-    Replace screenshot
-
 .. figure:: index/list.png
     
     Value integrations.
+
 
 ----
 

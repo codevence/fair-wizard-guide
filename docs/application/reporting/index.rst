@@ -9,10 +9,6 @@ Reporting can be currently done on top of :ref:`projects<reporting-projects>` an
 
 To get latest data, click on :guilabel:`Scrape now` button. This will scrape the data from the other apps and store it in the reporting database.
 
-.. TODO::
-
-    Add screenshot of the Reporting
-
 ----
 
 .. raw:: html
