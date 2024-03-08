@@ -9,7 +9,7 @@ As Data Stewardship Wizard evolves, the internal structures may change during th
 KM Package (.km file)
 =====================
 
-File for import and export of Knowledge Models is a JSON file that contains all KM packages (lists of change events with additional metadata). The structure of events is versioned using the KM metamodel version number and migrations in |project_name| automatically update the KMs when needed. As said, files according to this schema can be exported from :doc:`../../application/knowledge-models/list/index` or :doc:`../../application/knowledge-models/list/detail` and then used for :doc:`../../application/knowledge-models/list/import`.
+File for import and export of Knowledge Models is a JSON file that contains all KM packages (lists of change events with additional metadata). The structure of events is versioned using the KM metamodel version number and migrations in |project_name| automatically update the KMs when needed. As said, files according to this schema can be exported from :doc:`../../application/data-management-planner/knowledge-models/list/index` or :doc:`../../application/data-management-planner/knowledge-models/list/detail` and then used for :doc:`../../application/data-management-planner/knowledge-models/list/import`.
 
 +-------------------+---------------------------------------------------------------------------------------------------------------+-----------------------------------------+-----------+
 | Metamodel Version | Schema file                                                                                                   | Changes (brief)                         | Since     |
@@ -81,7 +81,7 @@ Document Context is provided to the document templates by document worker. It co
 Template (.json file)
 =====================
 
-Each template has its descriptor file ``template.json`` which contains all the information about the template, its format(s) and steps how to produce the document(s). It is also versioned by the Template metamodel version number. This file also contains the actual number of the supported version... With local :doc:`./document-templates/index`, we will need to manage the file according to the schema; however, when :doc:`../../application/document-templates/editors/index` are used, we will define it using forms directly in |project_name|.
+Each template has its descriptor file ``template.json`` which contains all the information about the template, its format(s) and steps how to produce the document(s). It is also versioned by the Template metamodel version number. This file also contains the actual number of the supported version... With local :doc:`./document-templates/index`, we will need to manage the file according to the schema; however, when :doc:`../../application/data-management-planner/document-templates/editors/index` are used, we will define it using forms directly in |project_name|.
 
 .. NOTE::
 
