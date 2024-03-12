@@ -21,7 +21,7 @@ Knowledge Models
 
 We can specify here what knowledge models are compatible with our document template. This is useful to capture if our template is usable only with a certain knowledge model(s) which will guarantee us some content (specific chapters, questions, answers, etc.). For each entry, we are prompted to specify the **Organization ID**, **Knowledge Model ID**, **Min Version**, and **Max Version**. Any of these value can be left empty which means *any value*.
 
-For example, if we set **Organization ID** to *dsw*, **Knowledge Model ID** to *root*, **Min Version** to *2.4.0* and leave **Max Version** empty, it will mean knowledge model *dsw:root:2.4.0* and any higher version. So that example would work for *dsw:root:2.4.4* or *dsw:root:2.5.0* but not for *dsw:root:2.3.0* nor *acme:base-km:2.6.0*
+For example, if we set **Organization ID** to *fw*, **Knowledge Model ID** to *root*, **Min Version** to *2.4.0* and leave **Max Version** empty, it will mean knowledge model *fw:root:2.4.0* and any higher version. So that example would work for *fw:root:2.4.4* or *fw:root:2.5.0* but not for *fw:root:2.3.0* nor *acme:base-km:2.6.0*
 
 
 .. figure:: template/allowed-kms.png
