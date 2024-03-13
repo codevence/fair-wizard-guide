@@ -20,6 +20,10 @@ If there is a locale with newer version available in the `FAIR Wizard Registry <
     List of locales.
 
 
+.. WARNING ::
+
+    For now, only Data Management Plannner has localization.
+
 ----
 
 

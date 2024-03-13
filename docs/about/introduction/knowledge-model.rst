@@ -207,7 +207,7 @@ API integration connects to an external service API to search for the answers. W
 Widget Integration
 ^^^^^^^^^^^^^^^^^^
 
-Widget integration doesn't use an API but a widget implemented using the `DSW Integration Widget SDK <https://github.com/ds-wizard/dsw-integration-widget-sdk>`_. Then we need to configure the **widget URL** where the widget is deployed.
+Widget integration doesn't use an API but a widget implemented using the `DSW Integration SDK <https://github.com/ds-wizard/dsw-integration-sdk>`_. Then we need to configure the **widget URL** where the widget is deployed.
 
 
 .. _annotations:
