@@ -3,7 +3,7 @@
 Document Template Specification
 *******************************
 
-Each document template in |project_name| has metadata stored. If developing locally with :doc:`./tdk`, you can find and manage them  in ``template.json`` file. In case of using :doc:`../../../application/data-management-planner/document-templates/editors/index`, you can manage them on **Settings** tab.
+Each document template in |project_name| has metadata stored. If developing locally with :doc:`./tdk`, you can find and manage them  in ``template.json`` file. In case of using :doc:`../../../applications/data-management-planner/document-templates/editors/index`, you can manage them on **Settings** tab.
 
 
 Specification Structure
