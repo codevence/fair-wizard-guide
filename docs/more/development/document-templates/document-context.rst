@@ -9,7 +9,7 @@ Document Context
 
 Document context is an object that carries all information related to a FAIR Wizard questionnaire in order to produce a document. To investigate it, it is the best to use *Questionnaire Report* template with ``JSON`` format. The core fields are:
 
-* ``config`` = object with FAIR Wizard configuration related to documents, e.g., ``clientUrl`` for referring to the FAIR Wizard instance
+* ``config`` = object with FAIR Wizard configuration related to documents, e.g., ``clientUrl`` for referring to the FAIR Wizard
 * ``createdAt`` = timestamp when the document was created
 * ``createdBy`` = object describing author of the document
 * ``knowledgeModel`` = object describing used KM for the questionnaire
@@ -22,7 +22,7 @@ Document context is an object that carries all information related to a FAIR Wiz
 * ``level`` = current desirability level selected for the questionnaire
 * ``levels`` = list of desirability levels possible
 * ``metrics`` = list of available metrics
-* ``organization`` = object describing organization that runs the FAIR Wizard instance
+* ``organization`` = object describing organization that runs the FAIR Wizard
 * ``package`` = object with metadata about the KM package such as ``version``, ``name``, or ``description``
 * ``questionnaireName`` = name of the questionnaire
 * ``questionnaireReplies`` = map of replies with path-reply pairs, each reply has ``type`` and ``value``
@@ -90,7 +90,7 @@ Aliases:
 ContextConfig
 ~~~~~~~~~~~~~
 
--  ``client_url`` (``str``) - base URL of the FAIR Wizard instance (client app)
+-  ``client_url`` (``str``) - base URL of the FAIR Wizard application (client app)
 
 
 .. _odc-document:

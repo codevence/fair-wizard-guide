@@ -1,13 +1,13 @@
 |project_name| User Guide
 *************************
 
-The |project_name_full| is an enterprise-ready and user-friendly ecosystem for creating Data Management Plans. It does not only provide all necessary tools for researchers and data stewards to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, but it is a suite of tools to incorporate Data Management Planning process with needs of institutions.
+The |project_name_full| is an enterprise-ready and user-friendly application for creating Data Management Plans. It does not only provide all necessary tools for researchers and data stewards to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, but it is a suite of tools to incorporate Data Management Planning process with needs of institutions.
 
 Data stewards can easily capture the knowledge, including required project data and decisions in knowledge models that are then turned into per-project questionnaires to be filled by researchers. The questionnaires guide researchers through the process using recommendations, FAIR metrics indications, and only showing relevant questions based on previous answers.
 
 Once the questionnaire is completed, a DMP can be easily generated using a selected template and output format. The document is then stored in |project_name| for easy access and future reference. This is especially helpful because many funding agencies now require a DMP for their application process.
 
-But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerfull tools provided within the |project_name|. This includes advanced user management, custom integration with data and more.
+But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerfull tools provided within the |project_name|. This includes advanced user management, custom integrations with data and more.
 
 .. youtube:: oU6z9V4jW0Q
     :width: 100%
@@ -27,7 +27,7 @@ The guide sections are organized into three categories:
   - Integration Hub
   - Reporting
 
-- **More** contains all additional information related to |project_name|, such as development roadmap, how to develop own content, or how to run own instance.
+- **More** contains all additional information related to |project_name|, such as changelog or development of various extensions.
 
 Here are some recommended sections where to start based on the role:
 
@@ -94,10 +94,10 @@ Here are some recommended sections where to start based on the role:
     :maxdepth: 2
     :caption: Applications
 
-    application/data-management-planner/index
-    application/admin-center/index
-    application/integration-hub/index
-    application/reporting/index
+    applications/data-management-planner/index
+    applications/admin-center/index
+    applications/integration-hub/index
+    applications/reporting/index
 
 .. toctree::
     :maxdepth: 2
