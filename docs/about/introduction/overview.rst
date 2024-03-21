@@ -30,12 +30,10 @@ While the knowledge model defines the structure of the questionnaire, it does no
 
 :ref:`Learn more about document templates →<document-template>`
 
-
 Questionnaire
 -------------
 
 A questionnaire is part of a :ref:`project<project>` where researchers fill in their answers regarding their particular research. It uses a specific knowledge model that defines its structure.
-
 
 :ref:`Learn more about questionnaires →<questionnaire>`
 
@@ -46,15 +44,38 @@ Documents are produced from the questionnaire answers and a document template. T
 
 :ref:`Learn more about documents →<documents>`
 
-
 Admin Center
 ============
 
-The Admin Center is a place where administrators can manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself.
+The Admin Center is an application in which can administrators manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. 
+
+Users
+-----
+
+Users are people who use the FAIR Wizard. They can be researchers, data stewards, or administrators. Each user has a role that defines what they can do in the application. Users can be organized into user groups.
+
+:ref:`Learn more about users →<user-list>`
+
+Imports
+-------
+
+Imports are used to import data into the FAIR Wizard. This can be used to import users and projects.
+
+:ref:`Learn more about imports →<import>`
 
 Integration Hub
 ===============
 
+The Integration Hub is an application that is used to create integrations. At the moment it allows creation of Value Integrations.
+
+Value Itegrations
+-----------------
+
+Value Integrations are used to create integrations from data stored in CSV format. These integrations can then be used in Knowledge Models.
+
+:ref:`Learn more about value integrations →<value-integrations>`
+
 Reporting
 =========
 
+Reporting is an application that is used to generate reports. Reports can be done on Projects and Users.

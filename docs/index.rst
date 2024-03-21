@@ -20,7 +20,7 @@ Structure of the Guide
 The guide sections are organized into three categories:
 
 - **About** contains an introduction to the |project_name_full| and its content to gain quick insight into how it works at a high level.
-- **Application** is structured the same way as |project_name|'s applications menu, so it is easy to quickly find the relevant sections about how to use a specific part of the application:
+- **Applications** is structured the same way as |project_name|'s applications menu, so it is easy to quickly find the relevant sections about how to use a specific part of the application:
 
   - Data Management Planner
   - Admin Center
@@ -50,15 +50,30 @@ Here are some recommended sections where to start based on the role:
     * -
       - :ref:`document-template`
       - 
-    * - Application
-      - Application
-      - Application
+    * - Applications
+      - Applications
+      - Applications
+    * - :ref:`data-management-planner`
+      - :ref:`data-management-planner`
+      - :ref:`admin-center`
+    * -
+      - :ref:`integration-hub`
+      - :ref:`reporting`
+    * - Features
+      - Features
+      - Features
     * - :ref:`projects`
       - :ref:`knowledge-models`
-      - :ref:`documents`
-    * - 
+      - :ref:`user-list`
+    * - :ref:`documents`
       - :ref:`document-templates`
+      - :ref:`user-groups`
+    * - 
+      - :ref:`project-templates`
       - :ref:`administration`
+    * - 
+      - :ref:`value-integrations`
+      -
     * -
       - More
       - More
@@ -67,17 +82,10 @@ Here are some recommended sections where to start based on the role:
       - :ref:`submission-service`
     * - 
       - :ref:`integration_questions`
-      - 
+      - `Changelog <https://fair-wizard.com/changelog>`__
     * - 
       - :ref:`project-importers`
       -
-    * -
-      - Integration Hub
-      - Admin Center 
-    * -
-      - :ref:`integration-hub`
-      - :ref:`admin-center`
-
 
 .. raw:: html
     
@@ -103,6 +111,6 @@ Here are some recommended sections where to start based on the role:
     :maxdepth: 2
     :caption: More
 
-    Changelog <https://changelog.fair-wizard.com>
+    Changelog <https://fair-wizard.com/changelog>
     more/development/index
     more/miscellaneous/index
