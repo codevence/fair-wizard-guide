@@ -9,7 +9,7 @@ Template Development Kit
 
     * Your favorite text editor or IDE
     * Template Development Kit (see below)
-    * |project_name| instance (recommended to have local one) with your admin account
+    * |project_name| application with your admin account
     * Python 3.10+ (with pip) or Docker
 
 Our Template Development Kit (TDK) provides a simple way how to work with templates locally. It is a CLI tool written in Python.
