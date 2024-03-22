@@ -1,7 +1,13 @@
 Usage
 *****
 
-.. ATTENTION::
+Usage allows us quickly see numbers of users, active users in the |project_name| such as number of available scraper invocations for reporting. We cannot perform any actions on this page.
 
-    This section is currently under construction.
+.. figure:: usage/usage.png
     
+    Usage statistics.
+
+
+.. TODO:: 
+
+    Add screenshots

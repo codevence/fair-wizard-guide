@@ -1,8 +1,7 @@
 User Interface Settings
 ***********************
 
-User Interface (UI) settings allow us to manage how the |project_name| looks like: styling, titles, or the dashboard shown when user logs information.
-
+User Interface (UI) settings allow us to manage how the Data Management Planner app looks like: dashboard shown when user logs in, announcements and custom menu links.
 
 ----
 
@@ -13,5 +12,5 @@ User Interface (UI) settings allow us to manage how the |project_name| looks lik
 .. toctree::
     :maxdepth: 2
 
-    Dashboard & Login Screen<dashboard-and-login-screen>
-    Look & Feel<look-and-feel>
+    Dashboard<dashboard>
+    Menu<menu>
