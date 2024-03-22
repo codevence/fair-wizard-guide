@@ -18,4 +18,5 @@ Admin Center is an application for management of the FAIR Wizard application and
     Users<users/index>
     User Groups<user-groups/index>
     Import<import/index>
+    Audit Log<audit-log/index>
     Settings<settings/index>

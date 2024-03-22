@@ -73,7 +73,10 @@ Here are some recommended sections where to start based on the role:
       - :ref:`administration`
     * - 
       - :ref:`value-integrations`
+      - :ref:`settings`
+    * - 
       -
+      - :ref:`audit-log`
     * -
       - More
       - More

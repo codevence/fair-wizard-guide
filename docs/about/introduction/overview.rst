@@ -63,6 +63,13 @@ Imports are used to import data into the FAIR Wizard. This can be used to import
 
 :ref:`Learn more about imports →<import>`
 
+Audit Log
+---------
+
+Audit Log is a log of all the actions that have been done in the FAIR Wizard. It is used to track changes and actions done by users.
+
+:ref:`Learn more about audit log →<audit-log>`
+
 Integration Hub
 ===============
 
