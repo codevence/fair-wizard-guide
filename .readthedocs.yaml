@@ -5,7 +5,9 @@ version: 2
 sphinx:
   configuration: docs/conf.py
 
-formats: all
+formats:
+  - hmtlzip
+  - pdf
 
 build:
   os: ubuntu-22.04
