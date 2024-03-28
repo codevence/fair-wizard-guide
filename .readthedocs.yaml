@@ -6,7 +6,7 @@ sphinx:
   configuration: docs/conf.py
 
 formats:
-  - hmtlzip
+  - htmlzip
   - pdf
 
 build:
