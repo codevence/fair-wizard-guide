@@ -6,6 +6,7 @@ User Detail
 As administrators, we can edit existing users manually on the detail (selected user from the :ref:`users list<user-list>`). It is possible to change all properties of the user, including possibility to change whether the user account is active or inactive. 
 
 .. figure:: detail/profile.png
+    :width: 528
     
     Detail of a user profile.
 
@@ -13,6 +14,7 @@ As administrators, we can edit existing users manually on the detail (selected u
 The password can be also changed (after selecting :guilabel:`Password` from the left navigation of user settings).
 
 .. figure:: detail/password.png
+    :width: 528
     
     Form for changing password of a user.
 
@@ -61,7 +63,25 @@ There are three user roles available: researchers, data steward, and admin. Perm
                     <td class="text-center">✔</td>
                 </tr>
                 <tr>
+                    <td>Integration Hub</td>
+                    <td class="text-center"></td>
+                    <td class="text-center">✔</td>
+                    <td class="text-center">✔</td>
+                </tr>
+                <tr>
+                    <td>User Groups</td>
+                    <td class="text-center"></td>
+                    <td class="text-center">✔</td>
+                    <td class="text-center">✔</td>
+                </tr>
+                <tr>
                     <td>Settings</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                    <td class="text-center">✔</td>
+                </tr>
+                <tr>
+                    <td>Imports</td>
                     <td class="text-center"></td>
                     <td class="text-center"></td>
                     <td class="text-center">✔</td>
@@ -74,6 +94,18 @@ There are three user roles available: researchers, data steward, and admin. Perm
                 </tr>
                 <tr>
                     <td>Users</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                    <td class="text-center">✔</td>
+                </tr>
+                <tr>
+                    <td>Reporting</td>
+                    <td class="text-center"></td>
+                    <td class="text-center"></td>
+                    <td class="text-center">✔</td>
+                </tr>
+                <tr>
+                    <td>Audit Log</td>
                     <td class="text-center"></td>
                     <td class="text-center"></td>
                     <td class="text-center">✔</td>

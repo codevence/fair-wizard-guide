@@ -47,7 +47,7 @@ Documents are produced from the questionnaire answers and a document template. T
 Admin Center
 ============
 
-The Admin Center is an application in which can administrators manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. 
+The Admin Center is an application in which can administrators manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. User groups can also be managed by data stewards.
 
 Users
 -----

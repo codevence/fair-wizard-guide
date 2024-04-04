@@ -20,6 +20,16 @@ Sidebar Login Info
 
 It is also possible to write another message that users will see on the login screen. The Sidebar Login info is placed underneath the login form. We can also use HTML or Markdown as in the Login Info.
 
+.. WARNING::
+
+  Defining HTML classes in the login info can overwrite |project_name| application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
+
+.. figure:: dashboard-and-login/dashboard-and-login.png
+  :width: 700
+    
+  Privacy and Support settings.
+
+
 Announcements
 =============
 
@@ -30,3 +40,8 @@ Another option to adjust the dashboard and/or the login screen is to add Announc
 * **Critical** - red to signalize the Announcement is critical and it needs attention.
 
 The content of the Announcement can be edited using Markdown. There are also two additional switches which determine, where the Announcement is displayed. The Announcement can be set up to be displayed either on the dashboard after users log in or on the login screen before the users log in. It is also possible to display the same Announcement in both places. Number of Announcements is not limited.
+
+.. figure:: dashboard-and-login/announcements.png
+  :width: 700
+    
+  Announcements settings.

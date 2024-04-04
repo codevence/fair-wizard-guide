@@ -6,7 +6,7 @@ Projects
 As an administrator, we can create a report based on various projects. We can select from many different fields and see how our projects are doing in them. The report can be modified and save to be viewed later. The data of the report can also be exported to a CSV file.
 
 .. figure:: projects/overview.png
-    :width: 528
+    :width: 700
     
     Projects overview.
 
@@ -14,7 +14,7 @@ As an administrator, we can create a report based on various projects. We can se
 New report can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The report can be saved by clicking on :guilabel:`Save`. We can also delete the report by clicking on :guilabel:`Delete`.
 
 .. figure:: projects/settings.png
-    :width: 528
+    :width: 400
     
     Form for editing reporting view.
 
