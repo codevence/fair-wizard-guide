@@ -208,7 +208,7 @@ These elements extending the basic syntax are supported in |project_name|.
                 </tr>
                 <tr>
                     <td>
-                        <ul><li><input disabled checked type="checkbox">Task 1</li><li><input disabled type="checkbox">Task 2</li></ul>
+                        <ul><li><input disabled checked type="checkbox"> Task 1</li><li><input disabled type="checkbox"> Task 2</li></ul>
                     </td>
                     <td class="td-markdown-code">
                         - [x] Task 1<br>
