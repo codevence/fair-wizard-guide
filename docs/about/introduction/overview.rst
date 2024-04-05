@@ -47,7 +47,7 @@ Documents are produced from the questionnaire answers and a document template. T
 Admin Center
 ============
 
-The Admin Center is an application in which can administrators manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. 
+The Admin Center is an application in which can administrators manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. User groups can also be managed by data stewards.
 
 Users
 -----
@@ -62,6 +62,13 @@ Imports
 Imports are used to import data into the FAIR Wizard. This can be used to import users and projects.
 
 :ref:`Learn more about imports →<import>`
+
+Audit Log
+---------
+
+Audit Log is a log of all the actions that have been done in the FAIR Wizard. It is used to track changes and actions done by users.
+
+:ref:`Learn more about audit log →<audit-log>`
 
 Integration Hub
 ===============

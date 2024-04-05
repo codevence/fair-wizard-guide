@@ -1,7 +1,11 @@
-Edit Profile
-************
+User Settings
+*************
 
-After navigating to :guilabel:`Edit profile` from the :doc:`../index` menu, we can change the information of our profile: **Email** address, **First name**, **Last name**, and **Affiliation**. We need to submit the changes by clicking :guilabel:`Save` button.
+After navigating to :guilabel:`Edit profile` from the :doc:`../index` menu, we open the User Settings. We can view our **Email** address, **First name**, **Last name**, and **Affiliation**. To edit those values, we must first switch to the :ref:`Admin App <edit-profile-admin>` and continue there.
+
+We can see API Keys we have generated and App Keys used to connect to different apps.
+
+We can also see Active Sessions and revoke them if needed.
 
 In case of configured submission services, there might be additional inputs under **Submission Settings** such as API tokens or other information used for the document submission.
 
@@ -15,8 +19,6 @@ In case of configured submission services, there might be additional inputs unde
     The values of **Submission Settings** are treated as potentially sensitive information; thus are stored encrypted.
 
 
-If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from the left menu titled **User settings**.
-
 ----
 
 .. raw:: html
@@ -27,7 +29,8 @@ If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from 
 .. toctree::
     :maxdepth: 2
 
-    Change Password<password>
     API Keys<api-keys>
+    App Keys<app-keys>
     Active Sessions<active-sessions>
+    Submission Settings<submission-settings>
     

@@ -3,9 +3,7 @@
 Settings
 ********
 
-.. ATTENTION::
-
-    This section is currently under construction.
+Settings section serves admins with managing the FAIR Wizard, more specificaly its Admin Center. By navigating via :guilabel:`Settings` item from the main menu, we can manage the things listed below.
 
 
 ----
@@ -17,7 +15,7 @@ Settings
 .. toctree::
     :maxdepth: 2
 
-    System Settings<system/index>
+    System<system/index>
     Authentication<authentication/index>
-    User Interface Settings<user-interface/index>
+    User Interface<user-interface/index>
     Info<info/index>

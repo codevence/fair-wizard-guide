@@ -1,5 +1,5 @@
-Dashboard & Login Screen Settings
-*********************************
+Dashboard Settings
+******************
 
 The dashboard settings allows us to adjust what users will see after they log in, i.e. on the application initial page called the dashboard. 
 
@@ -29,31 +29,6 @@ We can select the **Dashboard Style** whether the user should see a standard **w
   * **Usage Widget** summarises the usage just as is also possible to see in the :doc:`../info/usage`.
 
   * **Configure Organization Widget** quickly navigates to :doc:`../system/organization` if it is not yet done.
-
-  * **Configure Look and Feel Widget** quickly navigates to :doc:`../user-interface/look-and-feel` to adjust style of the |project_name|.
-
-  * **Add OpenID Widget** quickly navigates to :doc:`../system/authentication` to configure the identity provider services (if not yet been done).
-
-
-.. _login-info:
-
-Login Info
-==========
-
-It is possible to write a message that users will see before logging in the |project_name|, using HTML or Markdown. The Login info is placed in the center of the login screen. We can use it to explain users in what cases they can/should use our |project_name|, how they should log in (e.g. if we have more :ref:`authentication services<auth-services>` configured), or if there is any news regarding our |project_name|.
-
-.. WARNING::
-
-  Defining HTML classes in the login info can overwrite |project_name| application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
-
-
-.. _sidebar-login-info:
-
-Sidebar Login Info
-==================
-
-It is also possible to write another message that users will see on the login screen. The Sidebar Login info is placed underneath the login form. We can also use HTML or Markdown as in the Login Info.
-
 
 .. _announcements:
 

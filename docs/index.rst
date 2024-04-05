@@ -69,11 +69,14 @@ Here are some recommended sections where to start based on the role:
       - :ref:`document-templates`
       - :ref:`user-groups`
     * - 
-      - :ref:`project-templates`
+      - :ref:`user-groups`
       - :ref:`administration`
     * - 
+      - :ref:`project-templates`
+      - :ref:`settings`
+    * - 
       - :ref:`value-integrations`
-      -
+      - :ref:`audit-log`
     * -
       - More
       - More

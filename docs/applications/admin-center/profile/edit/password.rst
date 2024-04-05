@@ -1,3 +1,5 @@
+.. _password-admin:
+
 Change Password
 ***************
 

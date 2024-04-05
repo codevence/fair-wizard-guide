@@ -5,11 +5,6 @@ Document Template Editors
 
 On this page, we can see a list of all document template editors. Everyone with the data steward role assigned can see all the document template editors and use them.
 
-.. TODO::
-
-    figure
-
-
 We can use the search field to search for a specific document template editor. The editors are sorted by when they were last updated but we can change that.
 
 We can :doc:`./create` by clicking the :guilabel:`Create` button.
