@@ -103,5 +103,8 @@ suppress_warnings = [
 ]
 
 redirects = {
-     'more/changelog': 'https://changelog.fair-wizard.com'
+     'more/changelog': 'https://fair-wizard.com/changelog',
+     'application/knowledge-models/editors/create': 'applications/data-management-planner/knowledge-models/editors/create',
+     'application/document-templates/editors/create': 'applications/data-management-planner/document-templates/editors/create',
+     'application/projects/list/detail/questionnaire/#integration-question': '/applications/data-management-planner/projects/list/detail/questionnaire/#integration-question'
  }
