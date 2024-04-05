@@ -13,6 +13,6 @@ Additional information related to |project_name| that might be useful.
 .. toctree::
     :maxdepth: 1
 
-    dsw-registry
+    fw-registry
     markdown-cheatsheet
     
