@@ -106,5 +106,5 @@ redirects = {
     'more/changelog': 'https://changelog.fair-wizard.com',
     'application/knowledge-models/editors/create': '/application/data-management-planner/knowledge-models/editors/create.html',
     'application/document-templates/editors/create': '/application/data-management-planner/document-templates/editors/create.html',
-    'application/projects/list/detail/*': '/application/data-management-planner/projects/list/detail/$source' 
+    'application/projects/list/detail/questionnaire': '/application/data-management-planner/projects/list/detail/questionnaire.html#integration-question' 
  }
