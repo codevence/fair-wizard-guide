@@ -103,8 +103,11 @@ suppress_warnings = [
 ]
 
 redirects = {
-     'more/changelog': 'https://fair-wizard.com/changelog',
-     'application/knowledge-models/editors/create.html': 'applications/data-management-planner/knowledge-models/editors/create.html',
-     'application/document-templates/editors/create.html': 'applications/data-management-planner/document-templates/editors/create.html',
-     'application/projects/list/detail/questionnaire.html/#integration-question': '/applications/data-management-planner/projects/list/detail/questionnaire.html/#integration-question'
+    'more/changelog': 'https://fair-wizard.com/changelog',
+    'application/knowledge-models/editors/create': '/application/data-management-planner/knowledge-models/editors/create.html',
+    'application/document-templates/editors/create': '/application/data-management-planner/document-templates/editors/create.html',
+    'application/projects/list/detail/questionnaire': '/application/data-management-planner/projects/list/detail/questionnaire.html#integration-question',
+    'application/knowledge-models/editors/create': '/applications/data-management-planner/knowledge-models/editors/create.html',
+    'application/document-templates/editors/create': '/applications/data-management-planner/document-templates/editors/create.html',
+    'application/projects/list/detail/questionnaire': '/applications/data-management-planner/projects/list/detail/questionnaire.html#integration-question',
  }
