@@ -106,5 +106,8 @@ redirects = {
     'more/changelog': 'https://changelog.fair-wizard.com',
     'application/knowledge-models/editors/create': '/en/production/application/data-management-planner/knowledge-models/editors/create.html',
     'application/document-templates/editors/create': '/en/production/application/data-management-planner/document-templates/editors/create.html',
-    'application/projects/list/detail/questionnaire': '/en/production/application/data-management-planner/projects/list/detail/questionnaire.html#integration-question' 
+    'application/projects/list/detail/*': '/en/production/application/data-management-planner/projects/list/detail/$source',
+    'application/knowledge-models/editors/create': '/en/production/applications/data-management-planner/knowledge-models/editors/create.html',
+    'application/document-templates/editors/create': '/en/production/applications/data-management-planner/document-templates/editors/create.html',
+    'application/projects/list/detail/*': '/en/production/applications/data-management-planner/projects/list/detail/$source'
  }
