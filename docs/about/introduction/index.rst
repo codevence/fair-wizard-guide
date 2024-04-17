@@ -17,6 +17,3 @@ This section will cover the essentials of the |project_name_full|, including its
     knowledge-model
     document-template
     project
-
-    
-    

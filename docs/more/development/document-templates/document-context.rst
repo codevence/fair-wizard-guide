@@ -7,9 +7,9 @@ Document Context
 
     To work efficiently with the Document Context, you want to use object instead of the JSON-like one. Please read through `DocumentContext.md <https://github.com/ds-wizard/engine-tools/blob/develop/packages/dsw-document-worker/support/DocumentContext.md>`__ directly (select different version if needed).
 
-Document context is an object that carries all information related to a DSW questionnaire in order to produce a document. To investigate it, it is the best to use *Questionnaire Report* template with ``JSON`` format. The core fields are:
+Document context is an object that carries all information related to a FAIR Wizard questionnaire in order to produce a document. To investigate it, it is the best to use *Questionnaire Report* template with ``JSON`` format. The core fields are:
 
-* ``config`` = object with DSW configuration related to documents, e.g., ``clientUrl`` for referring to the DSW instance
+* ``config`` = object with FAIR Wizard configuration related to documents, e.g., ``clientUrl`` for referring to the FAIR Wizard
 * ``createdAt`` = timestamp when the document was created
 * ``createdBy`` = object describing author of the document
 * ``knowledgeModel`` = object describing used KM for the questionnaire
@@ -22,7 +22,7 @@ Document context is an object that carries all information related to a DSW ques
 * ``level`` = current desirability level selected for the questionnaire
 * ``levels`` = list of desirability levels possible
 * ``metrics`` = list of available metrics
-* ``organization`` = object describing organization that runs the DSW instance
+* ``organization`` = object describing organization that runs the FAIR Wizard
 * ``package`` = object with metadata about the KM package such as ``version``, ``name``, or ``description``
 * ``questionnaireName`` = name of the questionnaire
 * ``questionnaireReplies`` = map of replies with path-reply pairs, each reply has ``type`` and ``value``
@@ -90,7 +90,7 @@ Aliases:
 ContextConfig
 ~~~~~~~~~~~~~
 
--  ``client_url`` (``str``) - base URL of the DSW instance (client app)
+-  ``client_url`` (``str``) - base URL of the FAIR Wizard application (client app)
 
 
 .. _odc-document:
