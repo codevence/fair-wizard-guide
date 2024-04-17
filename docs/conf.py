@@ -109,5 +109,5 @@ redirects = {
     'application/projects/list/detail/questionnaire': '/application/data-management-planner/projects/list/detail/questionnaire.html#integration-question',
     'application/knowledge-models/editors/create': '/applications/data-management-planner/knowledge-models/editors/create.html',
     'application/document-templates/editors/create': '/applications/data-management-planner/document-templates/editors/create.html',
-    'application/projects/list/detail/questionnaire': '/applications/data-management-planner/projects/list/detail/questionnaire.html#integration-question',
+    'application/projects/list/detail/questionnaire': '/applications/data-management-planner/projects/list/detail/questionnaire.html#integration-question'
  }
