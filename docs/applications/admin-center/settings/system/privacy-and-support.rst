@@ -6,7 +6,7 @@ To request users to agree with **Privacy Policy** and/or **Terms of Service** do
 Support
 =======
 
-These settings also allow us to configure **Support Email** that users can use to request help or report issues. Similarly **Support Site Name** and **Support Site URL** can be used in case we want users to create tickets in issue tracker of some repository, e.g., on GitHub. **Support Site Icon** can also be configurated, using `Font Awesome <https://fontawesome.com/v5/search>`_. These support links together with an icon are then shown in :guilabel:`Report issue` modal window.
+These settings also allow us to configure **Support Email** that users can use to request help or report issues. Similarly **Support Site Name** and **Support Site URL** can be used in case we want users to create tickets in issue tracker of some repository, e.g., on GitHub. **Support Site Icon** can also be configured, using `Font Awesome <https://fontawesome.com/v5/search>`_. These support links together with an icon are then shown in :guilabel:`Report issue` modal window.
 
 .. figure:: privacy-and-support/privacy-and-support.png
     :width: 700
