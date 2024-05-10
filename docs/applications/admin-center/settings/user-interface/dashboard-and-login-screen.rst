@@ -35,7 +35,7 @@ Announcements
 
 Another option to adjust the dashboard and/or the login screen is to add Announcements. Announcements are displayed above the main content in the login screen. In dashboard, they are also displayed above the main content for both **welcome** and **role-based** dashboard style. There are three levels of Announcements:
 
-* **Info** - light blue color for sending informations to the users.
+* **Info** - light blue color for sending information to the users.
 * **Warning** - yellow to warn the users about something.
 * **Critical** - red to signalize the Announcement is critical and it needs attention.
 

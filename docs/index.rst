@@ -7,7 +7,7 @@ Data stewards can easily capture the knowledge, including required project data 
 
 Once the questionnaire is completed, a DMP can be easily generated using a selected template and output format. The document is then stored in |project_name| for easy access and future reference. This is especially helpful because many funding agencies now require a DMP for their application process.
 
-But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerfull tools provided within the |project_name|. This includes advanced user management, custom integrations with data and more.
+But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerful tools provided within the |project_name|. This includes advanced user management, custom integrations with data and more.
 
 .. youtube:: oU6z9V4jW0Q
     :width: 100%
