@@ -68,7 +68,7 @@ We can use Jinja2 templates (`Ginger <https://ginger.tobiasdammers.nl>`_ impleme
 Secrets and Other Properties
 ----------------------------
 
-Sometimes, we might need to use some secrets (for example for authentication token), additional properties (such as API URL if we want to use different one for testing and production), or basically any information that we do not want to include in the knowledge model. In that case, we can define some properties in the instance settings.
+Sometimes, we might need to use some secrets (for example for authentication token), additional properties (such as API URL if we want to use different one for testing and production), or basically any information that we do not want to include in the knowledge model. In that case, we can define some properties in the FAIR Wizard settings.
 
 We need to navigate to :guilabel:`Administration → Settings → Knowledge Models` and there is a field called **Integration Config**. It is a YAML organized by the **Integration ID** at the top level and key value pairs for each property.
 
