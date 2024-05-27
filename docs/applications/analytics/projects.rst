@@ -18,8 +18,14 @@ New view can be created by clicking on the dropdown menu in the top right corner
     
     Form for editing analytics view.
 
-    
-We can resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
+
+Various fields have filters that can be used to narrow down the data.
+
+.. TODO::
+
+    Add screenshot for filters.
+
+We can also resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 .. NOTE::
 
