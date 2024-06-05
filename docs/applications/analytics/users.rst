@@ -17,12 +17,26 @@ New view can be created by clicking on the dropdown menu in the top right corner
     
     Form for editing analytics view.
 
+
+Various fields have filters that can be used to narrow down the data.
+
+.. TODO::
+
+    Add screenshot for filters.
+
     
 We can resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 .. NOTE::
 
     Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
+
+
+By clicking on the first or last name of a user, we can see more details about the user, such as role, status or email. The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab we can the list of projects user is part of and their role in the project. In the :guilabel:`User Groups` tab we can see list of user groups that user is member or owner of.
+
+.. TODO::
+
+    Add screenshot for user detail.
 
 
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
