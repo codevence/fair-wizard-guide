@@ -7,7 +7,7 @@ After navigating to :guilabel:`Edit profile` from the :doc:`../index` menu, we o
 
 .. figure:: index/form.png
     
-    Form for editting profile.
+    Form for editing profile.
 
 
 If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from the left menu titled **User settings**.

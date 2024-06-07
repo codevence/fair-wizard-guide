@@ -3,7 +3,7 @@
 Questionnaire
 *************
 
-Questionnaire is the first tab of the project detail. This is the most imporant part where we fill in all the details about our project.
+Questionnaire is the first tab of the project detail. This is the most important part where we fill in all the details about our project.
 
 
 .. _questionnaire-current-phase:
@@ -60,7 +60,7 @@ Each question has an identifier which indicates the chapter it belongs to, as we
 
 Some additional information can also be part of the question:
 
-- **Question tags** - can indicate some additional groupping of questions, for example what DMP templates is this question used for
+- **Question tags** - can indicate some additional grouping of questions, for example what DMP templates is this question used for
 - **Description** - additional information explaining the question
 - **Desirability** - what phase this question become desirable in
 - **List of references** - links to additional external resources related to the question
@@ -88,7 +88,7 @@ Options Question
 
 Options question has a list of pre-set answers and we can choose one from those. There can be some follow-up questions (indicated by the icon by the answer). These questions are displayed only if we select that answer.
 
-If there are some merics set for the answers, we can see labels with the metrics by the answer as well. The color of the label indicates how good or bad the answer is (red means bad, green good, yellow something in between).
+If there are some metrics set for the answers, we can see labels with the metrics by the answer as well. The color of the label indicates how good or bad the answer is (red means bad, green good, yellow something in between).
 
 .. figure:: questionnaire/options-question.png
     
@@ -179,7 +179,7 @@ Some value questions (such as email or URL) validates the answer written there. 
 .. figure:: questionnaire/warnings.png
     :width: 487
     
-    Warnings refering to questions with invalid values.
+    Warnings referring to questions with invalid values.
 
 
 Comments
@@ -239,7 +239,7 @@ We can then open the :guilabel:`TODOs` tab from the questionnaire menu to see th
 Version History
 ===============
 
-When we open the :guilabel:`Version history` tab from the questionnaire menu bar we can see the list of all the changes that happened in that questionnaire. We can see who and when made what changes groupped by months and days.
+When we open the :guilabel:`Version history` tab from the questionnaire menu bar we can see the list of all the changes that happened in that questionnaire. We can see who and when made what changes grouped by months and days.
 
 .. figure:: questionnaire/version-history.png
     :width: 320

@@ -7,7 +7,7 @@ Reporting is an application for management of reports. It allows scraping of dat
 
 Reporting can be currently done on top of :ref:`projects<reporting-projects>` and :ref:`users<reporting-users>`.
 
-To get latest data, click on :guilabel:`Scrape now` button. This will scrape the data from the other apps and store it in the reporting database.
+To get latest data, click on :guilabel:`Scrape now` button. This will scrape the data from the other apps and store it in the reporting database. Once the data has been updated, the page will automatically refresh.
 
 ----
 

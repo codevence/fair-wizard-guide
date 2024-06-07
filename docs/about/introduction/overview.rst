@@ -75,8 +75,8 @@ Integration Hub
 
 The Integration Hub is an application that is used to create integrations. At the moment it allows creation of Value Integrations.
 
-Value Itegrations
------------------
+Value Integrations
+------------------
 
 Value Integrations are used to create integrations from data stored in CSV format. These integrations can then be used in Knowledge Models.
 
