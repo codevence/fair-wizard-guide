@@ -82,7 +82,7 @@ Value Integrations are used to create integrations from data stored in CSV forma
 
 :ref:`Learn more about value integrations →<value-integrations>`
 
-Reporting
+Analytics
 =========
 
-Reporting is an application that is used to generate reports. Reports can be done on Projects and Users.
+Analytics is an application showing FAIR Wizard data in a form of table. This data can serve to analyze contents of FAIR Wizard. Analytics gathers data about Projects, Users and User Groups.

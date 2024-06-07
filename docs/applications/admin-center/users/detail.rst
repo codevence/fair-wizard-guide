@@ -99,7 +99,7 @@ There are three user roles available: researchers, data steward, and admin. Perm
                     <td class="text-center">✔</td>
                 </tr>
                 <tr>
-                    <td>Reporting</td>
+                    <td>Analytics</td>
                     <td class="text-center"></td>
                     <td class="text-center"></td>
                     <td class="text-center">✔</td>
