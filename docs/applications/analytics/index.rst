@@ -9,9 +9,16 @@ To get latest data, click on :guilabel:`Synchronize Data` button. This will sync
 
 It is also possible to turn on regular synchronization in settings. This will synchronize the data every day at set time.
 
-.. TODO::
+.. figure:: index/index.png
+    :width: 700
 
-    Add image of regular synchronization settings.
+    Regular Synchronization settings.
+
+
+.. NOTE::
+
+    Don't forget to click on :guilabel:`Save` to activate regular synchronization.
+
 
 ----
 
@@ -25,4 +32,5 @@ It is also possible to turn on regular synchronization in settings. This will sy
 
     Projects<projects>
     Users<users>
+    User Groups<user-groups>
     
