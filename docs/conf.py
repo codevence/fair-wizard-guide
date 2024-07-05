@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.6'
+version = release = '4.7'
 
 rst_prolog = f"""
 

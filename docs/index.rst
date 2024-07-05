@@ -25,7 +25,7 @@ The guide sections are organized into three categories:
   - Data Management Planner
   - Admin Center
   - Integration Hub
-  - Reporting
+  - Analytics
 
 - **More** contains all additional information related to |project_name|, such as changelog or development of various extensions.
 
@@ -58,7 +58,7 @@ Here are some recommended sections where to start based on the role:
       - :ref:`admin-center`
     * -
       - :ref:`integration-hub`
-      - :ref:`reporting`
+      - :ref:`analytics`
     * - Features
       - Features
       - Features
@@ -108,7 +108,7 @@ Here are some recommended sections where to start based on the role:
     applications/data-management-planner/index
     applications/admin-center/index
     applications/integration-hub/index
-    applications/reporting/index
+    applications/analytics/index
 
 .. toctree::
     :maxdepth: 2
