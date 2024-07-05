@@ -5,26 +5,18 @@ Knowledge Models
 
 As an administrator, we can view analytics of knowledge models. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
-.. TODO::
-
-    Add screenshot.
-
-.. .. figure:: knowledge-models/overview.png
-..     :width: 700
+ .. figure:: knowledge-models/overview.png
+     :width: 700
     
-..     Knowledge models overview.
+     Knowledge models overview.
 
 
 New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
 
-.. TODO::
-
-    Add screenshot.
-
-.. .. figure:: knowledge-models/settings.png
-..     :width: 400
+ .. figure:: knowledge-models/settings.png
+     :width: 400
     
-..     Form for editing analytics view.
+     Form for editing analytics view.
 
 
 Various fields have filters that can be used to narrow down the data.

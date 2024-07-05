@@ -13,14 +13,10 @@ We can share project with other |project_name| users or even external collaborat
 
 If we want to only see how Sharing is set up or copy the project link, we can use the arrow button which is a part of the :guilabel:`Share` button.
 
-.. TODO::
+ .. figure:: sharing/share-dropdown.png
+     :width: 300
 
-    Add screenshot.
-
-.. .. figure:: sharing/share-dropdown.png
-..     :width: 300
-
-..     Fast project sharing.
+     Fast project sharing.
 
 
 .. NOTE::
