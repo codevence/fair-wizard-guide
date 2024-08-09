@@ -17,4 +17,5 @@ Moreover, there are also options to :guilabel:`Log out`, see basic information a
     :maxdepth: 2
 
     Edit Profile<edit/index>
+    About<about>
     
