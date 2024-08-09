@@ -56,3 +56,28 @@ pip freeze > docs/requirements.txt
 
 This project is licensed under the  Creative Commons Attribution-ShareAlike (CC BY-SA) - see the
 [LICENSE](LICENSE) file for more details.
+
+## reStructuredText Conventions
+
+### Headings
+
+Headings should use the following syntax for specific levels:
+
+```rst
+Chapter (page)
+**************
+
+Section
+=======
+
+Subsection
+----------
+
+Subsubsection
+^^^^^^^^^^^^^
+
+Paragraph
+"""""""""
+```
+
+Always the number of characters should match length of the text.

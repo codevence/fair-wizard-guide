@@ -16,4 +16,5 @@ Integration Hub is an application for management of integrations. For now, it of
     :maxdepth: 2
 
     Value Integrations<value-integrations/index>
+    Profile<profile/index>
     
