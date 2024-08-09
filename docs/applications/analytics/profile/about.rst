@@ -7,12 +7,7 @@ The :guilabel:`API URL` link provides access to the server's API endpoints, whic
 
 The :guilabel:`API Documentation` link directs to the API documentation presented in Swagger UI that provides detailed descriptions of available operations and parameters.
 
-.. .. figure:: about/modal.png
-..     :width: 500
+.. figure:: about/modal.png
+     :width: 500
     
-..     Modal window with versions of the tool's components.
-
-.. TODO::
-    
-    Add screenshot
-    
+     Modal window with versions of the tool's components.
