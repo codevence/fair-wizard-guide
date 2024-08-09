@@ -214,7 +214,7 @@ Assign Comments
 
 We can assign comments to a specific user. This is useful when we want to ask someone to reply or when we want to assign a task to someone. We can assign a comment by clicking on the :guilabel:`Assign comment thread` button in the comment. We can also see who the comment is assigned to in the comment list.
 
-When a comments is assigned to a user, they are notified by an email. Comments assigned to us are also visible in the :ref:`profile<profile-data-management-planner>`.
+When a comments is assigned to a user, they are notified by an email. Comments assigned to us are also visible in the :ref:`profile<planner-profile>`.
 
 
 Comment Threads
