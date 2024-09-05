@@ -28,4 +28,20 @@ We can also resize all rows height by clicking on the double arrow in the top le
     Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
 
 
+By clicking on the Knowledge Model id or name, we can open that Knowledge Model detail. If we choose to click on a certain version of a Knowledge Model, that versions detail will open.
+
+The Knowledge Model details have four tabs. The :guilabel:`Readme` tab shows the exact information that we can see in the Knowledge Model Detail within the Data Management Planner. The :guilabel:`Projects` tab shows all Projects that are using the selected Knowledge Model. The :guilabel:`KM Editors` tab shows all Knowledge Model Editors that are using the selected Knowledge Model. Both of these tabs also display numbers next to them, representing the number of created Projects or Knowledge Model Editors.
+
+ .. figure:: knowledge-models/km-editors.png
+    
+     Knowledge Model Editors created using this Knowledge Model.
+
+The last tab, :guilabel:`Insights`, is the most complex. It shows us detailed information for each question and answer, such as the number of times a certain question was displayed to users and how these questions were answered.
+
+Furthermore, we can also open various questions to see insights into how the Researchers are answering them.
+
+ .. figure:: knowledge-models/insights.png
+    
+     Insights to usage of this Knowledge Model in Projects.
+
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.

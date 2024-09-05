@@ -29,16 +29,3 @@ We can select the **Dashboard Style** whether the user should see a standard **w
   * **Usage Widget** summarizes the usage just as is also possible to see in the :doc:`../info/usage`.
 
   * **Configure Organization Widget** quickly navigates to :doc:`../system/organization` if it is not yet done.
-
-.. _announcements:
-
-Announcements
-=============
-
-Another option to adjust the dashboard and/or the login screen is to add Announcements. Announcements are displayed above the main content in the login screen. In dashboard, they are also displayed above the main content for both **welcome** and **role-based** dashboard style. There are three levels of Announcements:
-
-* **Info** - light blue color for sending information to the users.
-* **Warning** - yellow to warn the users about something.
-* **Critical** - red to signalize the Announcement is critical and it needs attention.
-
-The content of the Announcement can be edited using Markdown. There are also two additional switches which determine, where the Announcement is displayed. The Announcement can be set up to be displayed either on the dashboard after users log in or on the login screen before the users log in. It is also possible to display the same Announcement in both places. Number of Announcements is not limited.

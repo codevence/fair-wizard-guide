@@ -38,7 +38,6 @@ There are three desirability states the question can be in:
     If there is no phase defined on the knowledge model, the current phase selection is not visible in the questionnaire detail.
 
 
-
 Chapters
 ========
 
@@ -50,6 +49,7 @@ For the opened chapter, we can see a navigation tree for the chapter structure, 
     :width: 299
     
     Chapter list showing the also the questions for the opened chapter.
+
 
 Questionnaire Area
 ==================
@@ -108,6 +108,7 @@ There is a trash bin icon in the item's top right corner that we can use to **de
     
     List of items question with a single item.
 
+
 Value Question
 --------------
 
@@ -130,7 +131,6 @@ When we pick an answer from the list, we not only have the answer but also **a l
 .. figure:: questionnaire/integration-question.png
     
     Integration question with a response from FAIRsharing containing also a link.
-
 
 
 Multi-Choice Question
@@ -192,12 +192,14 @@ We sometimes want to leave comments to discuss things with our team or just remi
     
     Example of a comment.
 
+
 .. _add-comment:
 
 Add Comment
 -----------
 
 To add a comment, we need to click on the comments icon by the question which opens a side panel with all the comments related to that question. Then, we can write the comment into the text box and submit.
+
 
 View Comments
 -------------
@@ -207,12 +209,30 @@ When there are any comments for a question, the comments icon is changed. It has
 In the questionnaire menu bar, there is also a :guilabel:`Comments` tab, showing a badge with the number of comments everywhere in the questionnaire. If we open the tab, we can see a list of questions for each chapter where there are some comments. Clicking on the question there will bring us to that question and open the comments side panel.
 
 
+Assign Comments
+---------------
+
+We can assign comments to a specific user. This is useful when we want to ask someone to reply or when we want to assign a task to someone. We can assign a comment by clicking on the :guilabel:`Assign comment thread` button in the comment. We can also see who the comment is assigned to in the comment list.
+
+When a comments is assigned to a user, they are notified by an email. Comments assigned to us are also visible in the :ref:`profile<planner-profile>`.
+
+
 Comment Threads
 ---------------
 
 Comments are organized into comment threads for better clarity. We can either start a new thread or reply in an existing thread if our comment is on the same topic. 
 
 When the thread is resolved, we can click on the ✔ icon in order to resolve it. Resolved threads can be later viewed by selecting :guilabel:`View resolved comments`. They can also be reopened if needed.
+
+
+Resolved Comments
+-----------------
+
+When we resolve a comment, it is not deleted but only hidden. We can see all resolved comments by selecting :guilabel:`View resolved comments` from the comments tab. We can also reopen the resolved comment if needed.
+
+.. note::
+
+    The :guilabel:`View resolved comments` switch is only present when there is at least one resolved comment in the questionnaire.
 
 
 Editor Notes
@@ -245,6 +265,7 @@ When we open the :guilabel:`Version history` tab from the questionnaire menu bar
     :width: 320
     
     Version history shows all events changing the project.
+
 
 Name a Version
 --------------

@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.8'
+version = release = '4.9'
 
 rst_prolog = f"""
 
@@ -96,6 +96,7 @@ html_js_files = [
 
 def setup(app):
     app.add_css_file('style.css')
+    app.add_js_file('https://js-eu1.hs-scripts.com/26982596.js')
 
 suppress_warnings = [
     # Suppress "WARNING: unknown mimetype (issue with .ico)
