@@ -148,13 +148,9 @@ Item Select Question
 
 The item selection question is used together with the list of items question. When creating an item selection question, you must choose one of the existing list of items questions. The answers provided to that list of items question are then offered as possible answers in the item selection question.
 
-.. TODO::
-
-    Add a screenshot of the item select question.
-
-.. .. figure:: questionnaire/item-select-question.png
+ .. figure:: questionnaire/item-select-question.png
     
-..     Item select question with a list of items as possible answers.
+     Item select question with a list of items as possible answers.
 
 
 View settings
