@@ -40,7 +40,7 @@ The knowledge model consists of chapters at the top level. Each chapter has a **
 Question
 --------
 
-Questions are used to collect the answers from users. Each question has a **title** (the actual question), a **description**, a **phase** when it becomes desirable, a list of :ref:`references<reference>` and :ref:`experts<expert>`, and a selection of :ref:`question tags<question-tag>`.
+Questions are used to collect the answers from users. Each question has a **title** (the actual question), a **description**, a **phase** when it becomes desirable, a list of :ref:`resource pages<resource-page>` gathered in a :ref:`resource collection<resource-collection>` or :ref:`URL references<url-reference>` and :ref:`experts<expert>`, and a selection of :ref:`question tags<question-tag>`.
 
 Then there are some additional settings based on the **question type**.
 
@@ -101,6 +101,14 @@ Multi-Choice Question
 The multi-choice question has a list of :ref:`choices<choice>`. Users can then pick as many of those choices as they wish. There are, however, no follow-up questions available for this question type.
 
 
+.. _item-select-question:
+
+Item Select Question
+^^^^^^^^^^^^^^^^^^^^
+
+The item selection question works in conjunction with the :ref:`list of items question<list-of-items-question>`. It is used to select one of the previously created items within a series of interconnected list of items question.
+
+
 .. _answer:
 
 Answer
@@ -129,25 +137,35 @@ A choice is used with :ref:`multi-choice questions<multi-choice-question>`. It o
 Reference
 ---------
 
-We can provide some additional references for :ref:`questions<question>` to help users better understand it or learn more details. There are more types of references.
+References are used to provide additional information for :ref:`questions<question>`. There are two types of references. :ref:`Resource page reference<resource-page>` and :ref:`URL reference<url-reference>`. resource page references are gathered in the resource collections.
 
+.. _resource-collection:
+
+Resource Collection
+^^^^^^^^^^^^^^^^^^^
+
+Resource collections are used to group together :ref:`resource pages<resource-page>` that are related to each other. Each resource collection has a **title** and has a list of resource pages. Resource collection is created on a level of a Knowledge Model.
+
+.. _resource-page:
+
+Resource Page
+^^^^^^^^^^^^^
+
+A resource page is a simple page that can be used to provide information for :ref:`questions<question>`. It has a **title** and a **content**. Resource pages are gathered in the :ref:`resource collections<resource-collection>`.
+
+.. _url-reference:
 
 URL Reference
 ^^^^^^^^^^^^^
 
-A URL reference is a simple link to any website. It has **URL** which is the actual link and a **label** that describes what the reference is about.
+A URL reference is a simple link to any website. It has **URL** which is the actual link and a **label** that describes what the reference is about. URL reference is set up on a level of question, not on a level of knowledge model.
+
 
 Book Reference
 ^^^^^^^^^^^^^^
 
 .. warning::
     Book references are deprecated.
-
-Resource Page Reference
-^^^^^^^^^^^^^^^^^^^^^^^
-
-.. warning::
-    Resource page references are not yet implemented.
 
 
 .. _expert:
