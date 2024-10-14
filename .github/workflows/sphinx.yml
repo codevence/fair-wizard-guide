@@ -37,6 +37,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r docs/requirements.txt
 
+      - name: Install ImageMagick
+        run: |
+          rpm -Uvh ImageMagick-7.1.1-39.x86_64.rpm
+
       - name: Run Sphinx
         run: |
           cd docs
