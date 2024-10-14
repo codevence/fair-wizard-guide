@@ -117,3 +117,4 @@ Here are some recommended sections where to start based on the role:
     Changelog <https://fair-wizard.com/changelog>
     more/development/index
     more/miscellaneous/index
+    more/faq

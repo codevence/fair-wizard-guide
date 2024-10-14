@@ -107,6 +107,14 @@ Version 14 (since 4.10.0)
 * Added item select questions.
 * Added resource collections and pages, incl. change in resource page references.
 
+.. NOTE::
+  
+  Here are necessary updates done to DSW open-source templates, this can be used as a reference for your own templates:
+
+    * `Questionnaire report <https://github.com/ds-wizard/questionnaire-report-template/commit/b79bcfcec850cf3e983a8c2f675ba37a13f62bbc>`_
+    * `Horizon Europe <https://github.com/ds-wizard/horizon-europe-dmp-template/commit/b55bf092d1eaa628c485a92c6b312b22da58f1fc>`_
+
+
 Version 13 (since 4.3.0)
 ------------------------
 
