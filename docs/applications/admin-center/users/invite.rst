@@ -13,4 +13,4 @@ As administrators, we can create new users manually by clicking :guilabel:`Invit
 
 .. NOTE::
 
-    If the user is created by administrator, the user is activated by default and no email is sent to the user.
+    If the user is invited by administrator, the user is activated by default. We can select if we want to send an invitation email or not by :guilabel:`Send invitation email` switch.

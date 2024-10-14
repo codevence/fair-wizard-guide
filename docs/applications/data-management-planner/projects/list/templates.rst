@@ -18,7 +18,7 @@ Sharing the Project Templates
 
 .. WARNING::
 
-    Project templates follow the same rules for sharing as regular projects. Therefore, to make it available for other users, we need to set up proper :ref:`sharing settings<sharing>`.
+    Project templates follow the same rules for sharing as regular projects. Therefore, to make it available for other users, we need to set up :ref:`sharing settings<sharing>` properly.
 
     
 We can either share them with specific users only, or we can simply enable that the project template is **visible by all other logged-in users** and that they can only **view** it (as we do not want them to change it).
