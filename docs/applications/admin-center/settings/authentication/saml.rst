@@ -13,3 +13,17 @@ Based on SAML, FAIR Wizard supports authentication using `Shibboleth <https://ww
     :width: 700
     
     Example configuration of SAML service.
+
+.. TODO::
+
+    Update above screenshot, there is now Add automation button
+
+We can use the **Add automation** button to add some extra steps after users use this login option. There are two tabs. Configuration, where we can set up automation using the `Integration SDK <https://integration-sdk.fair-wizard.com/en/latest/>`__ and Logs where we can see logs of the automation. The automation can have its name changed and it can be enabled or disabled.
+
+.. TODO::
+
+    Add Automation Configuration screenshot
+
+.. NOTE::
+
+    There can be only one automation per login configuration however multiple things can be set up in one automation script.
