@@ -13,6 +13,7 @@ Additional information related to |project_name| that might be useful.
 .. toctree::
     :maxdepth: 1
 
+    chatbot
     fw-registry
     markdown-cheatsheet
     
