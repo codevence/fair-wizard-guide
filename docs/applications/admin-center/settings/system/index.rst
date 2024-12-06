@@ -15,3 +15,4 @@ System settings allow us to configure Privacy and Support settings of |project_n
 
     Support<support>
     Users<users>
+    AI Assistant<ai-assistant>
