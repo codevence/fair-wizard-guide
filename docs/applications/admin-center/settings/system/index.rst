@@ -13,5 +13,6 @@ System settings allow us to configure Privacy and Support settings of |project_n
 .. toctree::
     :maxdepth: 2
 
-    Privacy and Support<privacy-and-support>
+    Support<support>
     Users<users>
+    AI Assistant<ai-assistant>
