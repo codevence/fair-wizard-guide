@@ -9,17 +9,19 @@ Automations
 
 Automations are customizable pieces of code that adjust the behavior of FAIR Wizard when certain events occur. Currently, automations support events when user logs in via Single Sing On (OpenID or SAML).
 
-.. TODO::
+.. figure:: automations/list.png
+    
+    List of Automations with possible actions.
 
-    Add list screenshot
 
 The Automations use the Integration SDK to create and manage automations. The SDK provides a set of classes and methods that allow you to create and manage automations. The SDK is available in the FAIR Wizard application and can be accessed by going to the Open ID or SAML Settings. The SDK has its own `documentation <https://integration-sdk.fair-wizard.com/en/latest/>`__.
 
 From Automations list we can open specific automations or delete them. To create a new automation, go either to :doc:`../settings/authentication/openid` or :doc:`../settings/authentication/saml`.
 
-.. TODO::
+.. figure:: automations/openid-configuration.png
 
-    Add Automation detail screenshot
+    Example of Open ID Automation configuration.
+
 
 Example of OpenID Automation to check if an user should be able to login:
 
@@ -51,3 +53,21 @@ Example of OpenID Automation to check if an user should be able to login:
             email=email,
             user_group_uuids=groups,
         )
+
+.. figure:: automations/openid-logs.png
+
+    Each run of an Automation is logged.
+
+
+Similarly we can set up an Automation for SAML login.
+
+.. figure:: automations/saml-configuration.png
+
+    Example of SAML Automation configuration.
+
+
+.. figure:: automations/saml-logs.png
+
+    Each run of an Automation is logged.
+
+    
