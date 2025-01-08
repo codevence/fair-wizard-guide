@@ -31,6 +31,7 @@ It is also possible to turn on regular synchronization in settings. This will sy
     :maxdepth: 2
 
     Knowledge Models<knowledge-models>
+    Document Templates<document-templates>
     Projects<projects>
     Users<users>
     User Groups<user-groups>

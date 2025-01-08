@@ -29,3 +29,24 @@ We can also resize all rows height by clicking on the double arrow in the top le
 
 
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
+
+Project details
+---------------
+
+By clicking on the Project name, we can open that Project detail. The Project detail has four tabs and details. The tabs are as follows:
+
+- Metrics
+- Users
+- User Groups
+- Documents
+
+The :guilabel:`Metrics` tab shows all metrics that are used in the selected Project. We can also see contributors, who is contributing to the Project, when and what is the share of contributions. The :guilabel:`Users` tab shows all Users that are part of the selected Project and their roles. The :guilabel:`User Groups` tab shows all User Groups that are part of the selected Project and their role. The :guilabel:`Documents` tab shows all Documents that were generated using the Project. There are also other Document metadata, such as format, size, and author.
+
+The Project details on the right side show additional Project metadata, such as Description, Phase, Sharing options, numbers of Comments and TODOs, Project Tags, Knowledge Model and Questions Tags.
+
+Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual Project.
+
+.. TODO::
+
+    Add screenshot of the Project detail.
+
