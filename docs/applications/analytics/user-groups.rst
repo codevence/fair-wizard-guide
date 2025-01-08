@@ -3,11 +3,11 @@
 User Groups
 ***********
 
-As an administrator, we can view analytics of User Groups. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+As an administrator, we can view analytics of ser Groups. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: user-groups/overview.png
 
-   User Groups Overview.
+   User groups overview.
 
 
 New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
@@ -29,20 +29,20 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
     Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
 
 
-User Group details
+User group details
 ------------------
 
-By clicking on the User Group name, we can open the User Group details. The User Group detail has two tabs and details. The tabs are as follows:
+By clicking on the user group name, we can open the user group details. The user group detail has two tabs and details. The tabs are as follows:
 
 - Members
 - Projects
 
- The :guilabel:`Members` and :guilabel:`Projects` tabs show the number of respective items. In the :guilabel:`Members` tab, we can see the members of the Group and their role. In the :guilabel:`Projects` tab, we can see the projects that have the Group assigned, as well as the role assigned to the User Group.
+ The :guilabel:`Members` and :guilabel:`Projects` tabs show the number of respective items. In the :guilabel:`Members` tab, we can see the members of the group and their role. In the :guilabel:`Projects` tab, we can see the projects that have the group assigned, as well as the role assigned to the user group.
 
 .. figure:: user-groups/detail.png
     
-    Form for editing analytics view.
+    Form for editing Analytics view.
 
- The User Group details on the right side show User Group metadata, such as the description or date created.
+ The user group details on the right side show user group metadata, such as the description or date created.
 
-Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual Knowledge Model.
+Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual knowledge model.

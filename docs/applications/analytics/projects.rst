@@ -33,20 +33,20 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 Project details
 ---------------
 
-By clicking on the Project name, we can open that Project detail. The Project detail has four tabs and details. The tabs are as follows:
+By clicking on the project name, we can open that project detail. The project detail has four tabs and details. The tabs are as follows:
 
 - Metrics
 - Users
 - User Groups
 - Documents
 
-The :guilabel:`Metrics` tab shows all metrics that are used in the selected Project. We can also see contributors, who is contributing to the Project, when and what is the share of contributions. The :guilabel:`Users` tab shows all Users that are part of the selected Project and their roles. The :guilabel:`User Groups` tab shows all User Groups that are part of the selected Project and their role. The :guilabel:`Documents` tab shows all Documents that were generated using the Project. There are also other Document metadata, such as format, size, and author.
+The :guilabel:`Metrics` tab shows all metrics that are used in the selected project. We can also see contributors, who is contributing to the project, when and what is the share of contributions. The :guilabel:`Users` tab shows all users that are part of the selected project and their roles. The :guilabel:`User Groups` tab shows all user groups that are part of the selected project and their role. The :guilabel:`Documents` tab shows all documents that were generated using the project. There are also other document metadata, such as format, size, and author.
 
-The Project details on the right side show additional Project metadata, such as Description, Phase, Sharing options, numbers of Comments and TODOs, Project Tags, Knowledge Model and Questions Tags.
+The project details on the right side show additional project metadata, such as description, phase, sharing options, numbers of comments and TODOs, project tags, knowledge model and questions tags.
 
-Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual Project.
+Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual project.
 
 .. TODO::
 
-    Add screenshot of the Project detail.
+    Add screenshot of the project detail.
 

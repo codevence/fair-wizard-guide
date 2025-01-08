@@ -3,7 +3,7 @@
 Users
 *****
 
-As an administrator, we can view analytics of Users. We can select from many different fields and see how our Users are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+As an administrator, we can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: users/overview.png
     :width: 700
@@ -33,18 +33,17 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 User details
 ------------
 
-By clicking on the first or last name of a User, we can open that User detail. The User detail has two tabs and details. The tabs are as follows:
+By clicking on the first or last name of a user, we can open that user detail. The user detail has two tabs and details. The tabs are as follows:
 
 - Projects
-- User Groups
+- user Groups
 
-The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab we can the list of Projects which this User is part of and their role in the Project. In the :guilabel:`User Groups` tab we can see list of User Groups this User is member or owner of and the Group visibility.
+The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab we can the list of projects which this user is part of and their role in the project. In the :guilabel:`user Groups` tab we can see list of user groups this user is member or owner of and the group visibility.
 
-The User details on the right side shows additional User metadata, such as Role, Email, or Affiliation.
+The user details on the right side shows additional user metadata, such as role, email, or affiliation.
 
-Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual User.
+Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual user.
 
 .. figure:: users/detail.png
     
     User detail.
-
