@@ -9,18 +9,22 @@ As an administrator, we can view analytics of document templates. We can create 
 
     Add screenshot of the Document Templates overview.
 
-.. figure:: document-templates/overview.png
-    :width: 700
+.. .. figure:: document-templates/overview.png
+..     :width: 700
     
-    Document Templates overview.
+..     Document Templates overview.
 
 
 New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
 
-.. figure:: document-templates/settings.png
-    :width: 400
+.. TODO::
+
+    Add screenshot of editing analytics view.
+
+.. .. figure:: document-templates/settings.png
+..     :width: 400
     
-    Form for editing analytics view.
+..     Form for editing analytics view.
 
 
 Various fields have filters that can be used to narrow down the data.

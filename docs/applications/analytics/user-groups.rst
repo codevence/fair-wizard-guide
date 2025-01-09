@@ -40,9 +40,10 @@ By clicking on the user group name, we can open the user group details. The user
  The :guilabel:`Members` and :guilabel:`Projects` tabs show the number of respective items. In the :guilabel:`Members` tab, we can see the members of the group and their role. In the :guilabel:`Projects` tab, we can see the projects that have the group assigned, as well as the role assigned to the user group.
 
 .. figure:: user-groups/detail.png
-    
-    Form for editing Analytics view.
 
- The user group details on the right side show user group metadata, such as the description or date created.
+   Form for editing Analytics view.
+
+
+The user group details on the right side show user group metadata, such as the description or date created.
 
 Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual knowledge model.
