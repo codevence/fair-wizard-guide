@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'FAIR Wizard'
-copyright = '2024, FAIR Wizard Team'
+copyright = '2020 - 2025, FAIR Wizard Team'
 author = 'FAIR Wizard Team'
 
 project_name = 'FAIR Wizard'
@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.13'
+version = release = '4.14'
 
 rst_prolog = f"""
 

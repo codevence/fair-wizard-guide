@@ -106,7 +106,7 @@ There is a trash bin icon in the item's top right corner that we can use to **de
 
 .. figure:: questionnaire/list-of-items-question.png
     
-    List of items question with a single item.
+    List of items question with a multiple items.
 
 
 Value Question
@@ -203,7 +203,7 @@ All of value question types (except for color) can have validations set on them.
 Comments
 ========
 
-We sometimes want to leave comments to discuss things with our team or just reminders for ourselves. We can write comments to each question in the questionnaire.
+We sometimes want to leave comments to discuss things with our team or just reminders for ourselves. We can write comments to each question in the questionnaire. The comments can be browsed using the navigation buttons.
 
 .. figure:: questionnaire/comments.png
     :width: 603
