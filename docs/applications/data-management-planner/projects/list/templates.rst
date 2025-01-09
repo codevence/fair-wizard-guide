@@ -13,6 +13,13 @@ Project templates are special type of projects where we can set up everything --
 
 When we want to turn a project into a project template we need to go to the :ref:`project settings<project-settings>` and check the :guilabel:`Project Template` checkbox.
 
+The following video explains all aspects of Project Templates.
+
+.. youtube:: 6EJlABTYTLI
+    :width: 100%
+    :align: center
+
+
 Sharing the Project Templates
 =============================
 
