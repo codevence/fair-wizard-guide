@@ -3,7 +3,7 @@
 User Groups
 ***********
 
-As a data steward or an administrator, we can create a user group. The group can be used to add multiple people to a project at once. A group can be selected in :ref:`sharing settings<sharing>` of a project.
+As a data steward or an admin, we can create a user group. The group can be used to add multiple people to a project at once. A group can be selected in :ref:`sharing settings<sharing>` of a project.
 
 User Groups list allows us to see and manage all user groups in the FAIR Wizard. The list can be searched based using name fragment, and sorted via properties of user groups, name and date created.
 

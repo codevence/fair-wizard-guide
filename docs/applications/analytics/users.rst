@@ -3,7 +3,7 @@
 Users
 *****
 
-As an administrator, we can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+As an admin, we can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: users/overview.png
     :width: 700
