@@ -3,7 +3,7 @@
 Import
 ******
 
-As an administrator, we can import users and projects using provided templates. 
+As an admin, we can import users and projects using provided templates. 
 
 .. figure:: index/index.png
     

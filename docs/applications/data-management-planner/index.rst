@@ -18,7 +18,6 @@ Data Management Planner is an application for collaborative and effective creati
     Knowledge Models<knowledge-models/index>
     Document Templates<document-templates/index>
     Projects<projects/index>
-    Documents<documents/index>
     Administration<administration/index>
     Profile<profile/index>
     
