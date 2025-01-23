@@ -3,7 +3,7 @@
 User Group Detail
 *****************
 
-As an administrator, we can manage existing user group from User Group Settings. We can change name and description of a group and make it private. If a group is private, then only its members and application admins can see it.
+As an admin, we can manage existing user group from User Group Settings. We can change name and description of a group and make it private. If a group is private, then only its members and application admins can see it.
 
 .. figure:: detail/info.png
     :width: 528

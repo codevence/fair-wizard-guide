@@ -65,7 +65,7 @@ Here are some recommended sections where to start based on the role:
     * - :ref:`projects`
       - :ref:`knowledge-models`
       - :ref:`user-list`
-    * - :ref:`documents`
+    * -
       - :ref:`document-templates`
       - :ref:`user-groups`
     * - 

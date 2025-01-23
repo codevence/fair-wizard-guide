@@ -3,7 +3,7 @@
 Projects
 ********
 
-As an administrator, we can view analytics of projects. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+As an admin, we can view analytics of projects. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: projects/overview.png
     :width: 700
