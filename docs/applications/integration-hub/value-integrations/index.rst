@@ -3,7 +3,7 @@
 Value Integrations
 ******************
 
-As an administrator, we can use value integration to setup an integration to be used by Data Stewards in their Knowledge Models as source of data.
+As an admin, we can use value integration to setup an integration to be used by Data Stewards in their Knowledge Models as source of data.
 
 We can start creating a new value integration by clicking on the :guilabel:`Create` button.
 

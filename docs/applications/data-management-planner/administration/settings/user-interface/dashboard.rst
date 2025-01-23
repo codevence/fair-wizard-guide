@@ -22,7 +22,7 @@ We can select the **Dashboard Style** whether the user should see a standard **w
 
   * **Import KM / Document Template Widgets** allow to proceed easily to import of a knowledge model or a document template in case the |registry_name| connection is configured.
 
-* **Administrator**
+* **Admin**
 
   * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the |registry_name| connection is configured.
 
