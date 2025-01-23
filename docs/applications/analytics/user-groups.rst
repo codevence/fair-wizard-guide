@@ -41,7 +41,7 @@ By clicking on the user group name, we can open the user group details. The user
 
 .. figure:: user-groups/detail.png
 
-   Form for editing Analytics view.
+   User group detail.
 
 
 The user group details on the right side show user group metadata, such as the description or date created.

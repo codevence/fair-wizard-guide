@@ -46,7 +46,7 @@ The project details on the right side show additional project metadata, such as 
 
 Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual project.
 
-.. TODO::
+.. figure:: projects/detail.png
 
-    Add screenshot of the project detail.
+    Projects detail.
 
