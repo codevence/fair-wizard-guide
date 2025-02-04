@@ -1,4 +1,4 @@
-.. _analytics-user-groups:
+.. _analytics-User-Groups:
 
 User Groups
 ***********
@@ -7,7 +7,7 @@ As an admin, we can view analytics of user groups. We can create and edit views 
 
 .. figure:: user-groups/overview.png
 
-   User Groups Overview.
+   User groups overview.
 
 
 New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
@@ -22,16 +22,28 @@ Various fields have filters that can be used to narrow down the data.
 
 We can also resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
+The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
+
 .. NOTE::
 
     Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
 
 
-By clicking on the user group name, we can open the user group details. We can see user group metadata, such as the description or date created. The :guilabel:`Members` and :guilabel:`Projects` tabs show the number of respective items. In the :guilabel:`Members` tab, we can see the members of the group and their roles. In the :guilabel:`Projects` tab, we can see the projects that have the group assigned, as well as the role assigned to the user group.
+User group details
+------------------
+
+By clicking on the user group name, we can open the user group details. The user group detail has two tabs and details. The tabs are as follows:
+
+- Members
+- Projects
+
+ The :guilabel:`Members` and :guilabel:`Projects` tabs show the number of respective items. In the :guilabel:`Members` tab, we can see the members of the group and their role. In the :guilabel:`Projects` tab, we can see the projects that have the group assigned, as well as the role assigned to the user group.
 
 .. figure:: user-groups/detail.png
-    
-    Form for editing analytics view.
+
+   User group detail.
 
 
-The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
+The user group details on the right side show user group metadata, such as the description or date created.
+
+Lastly we can click on the :guilabel:`Open in Admin Center` button to open the actual knowledge model.
