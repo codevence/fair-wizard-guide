@@ -14,3 +14,7 @@ When we want to access the |project_name| through |project_name| API we have to 
 After filling out the :guilabel:`API Key Name` and :guilabel:`Expiration`, an **API Key** is generated. In this step we have to copy the API Key, because after seeing it once, it is no longer possible to access it again.
 
 After we click on Done button, the new API Key is hidden and the information about this key is added to the table below, that contains all Active API Keys.
+
+.. NOTE::
+
+    Data Management Planner has its own API Key. The other apps share common API Key, that can be set up in the :ref:`api-keys-admin` settings in the Admin Center.

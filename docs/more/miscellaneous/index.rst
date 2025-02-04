@@ -15,5 +15,6 @@ Additional information related to |project_name| that might be useful.
 
     chatbot
     fw-registry
+    keyboard-shortcuts
     markdown-cheatsheet
     
