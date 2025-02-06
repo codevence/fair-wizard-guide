@@ -87,7 +87,7 @@ html_theme_options = {
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
-    'top_of_page_button': None,
+    'top_of_page_buttons': [],
 }
 html_js_files = [
     'js/track.js',
