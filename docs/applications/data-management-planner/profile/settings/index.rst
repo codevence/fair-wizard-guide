@@ -1,7 +1,7 @@
 User Settings
 *************
 
-After navigating to :guilabel:`Edit profile` from the :doc:`../index` menu, we open the User Settings. We can view our **Email** address, **First name**, **Last name**, and **Affiliation**. To edit those values, we must first switch to the :ref:`Admin App <edit-profile-admin>` and continue there.
+After navigating to :guilabel:`User settings` from the :doc:`../index` menu, we open the User Settings. We can view our **Email** address, **First name**, **Last name**, and **Affiliation**. To edit those values, we must first switch to the :ref:`Admin App <edit-profile-admin>` and continue there.
 
 We can see API Keys we have generated and App Keys used to connect to different apps.
 
