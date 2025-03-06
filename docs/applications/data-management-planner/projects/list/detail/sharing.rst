@@ -130,7 +130,7 @@ There are different roles in the project that can access different features:
 
 The following video tutorial explains and showcases sharing options and tools that can be used while collaborating with others. Some features mentioned in the video are also explained in the :ref:`project questionnaire<project-questionnaire>`.
 
-.. youtube:: Yzg6I6epcXQ
+.. youtube:: ykxHWsjCTEQ
     :width: 100%
     :align: center
 

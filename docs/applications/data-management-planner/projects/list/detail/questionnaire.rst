@@ -76,7 +76,7 @@ We can get more information on how various collaboration tools work and can be u
 
 The most important part is, however, answering the question. The way of how to answer the question differs based on the question type.
 
-The following video tutorial explains questions and different question types in more detail.
+Watch this video to learn more about question types:
 
 .. youtube:: jdKooHVZEhI
     :width: 100%

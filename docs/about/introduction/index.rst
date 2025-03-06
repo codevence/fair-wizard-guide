@@ -3,7 +3,7 @@ Introduction
 
 This section will cover the essentials of the |project_name_full|, including its key components and how they operate together to facilitate effective data management for researchers and data stewards.
 
-Watch the following video to see the basic researcher workflow in |project_name_full|.
+Watch this video to see the basic researcher workflow in |project_name_full|:
 
 .. youtube:: mUMpntpuTJY
     :width: 100%
