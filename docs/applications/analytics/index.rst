@@ -20,6 +20,13 @@ It is also possible to turn on regular synchronization in settings. This will sy
     Don't forget to click on :guilabel:`Save` to activate regular synchronization.
 
 
+Watch this video to learn more about analytics:
+
+.. youtube:: 7oLK0ppd-bo
+    :width: 100%
+    :align: center
+
+    
 ----
 
 .. raw:: html

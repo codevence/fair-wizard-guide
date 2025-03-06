@@ -28,7 +28,7 @@ The |project_name| instance is connected to the `FAIR Wizard Registry <https://r
 From file
 =========
 
-We can import a locale as a ZIP package. Such a package can be created as an export from |project_name|.
+We can import a locale as a ZIP package. Such a package can be created as an export from |project_name|. We can also select multiple files at once.
 
 .. figure:: import/file.png
     :width: 500

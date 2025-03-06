@@ -26,7 +26,7 @@ If there is an ongoing :ref:`knowledge model migration<knowledge-model-migration
 - **Continue migration**
 - **Cancel migration**
 
-The following video explains all aspects of Knowledge Model Editors.
+Watch this video to learn more about knowledge model editors:
 
 .. youtube:: tYcKRxFNx8U
     :width: 100%

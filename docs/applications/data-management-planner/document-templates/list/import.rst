@@ -26,7 +26,7 @@ The |project_name| is connected to the `FAIR Wizard Registry <https://registry.f
 From file
 =========
 
-We can import a document template as a ZIP package. Such a package can be created as an export from |project_name| or using the Template Development Kit (see :ref:`document-template-development`).
+We can import a document template as a ZIP package. Such a package can be created as an export from |project_name| or using the Template Development Kit (see :ref:`document-template-development`). We can also select multiple files at once.
 
 
 .. figure:: import/file.png

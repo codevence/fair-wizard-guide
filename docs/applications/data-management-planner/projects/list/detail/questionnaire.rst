@@ -76,7 +76,7 @@ We can get more information on how various collaboration tools work and can be u
 
 The most important part is, however, answering the question. The way of how to answer the question differs based on the question type.
 
-The following video tutorial explains questions and different question types in more detail.
+Watch this video to learn more about question types:
 
 .. youtube:: jdKooHVZEhI
     :width: 100%
@@ -178,6 +178,11 @@ In the questionnaire tab, there is a menu bar with various options. The first on
     
     Different view options accessible form the questionnaire toolbar.
 
+
+.. NOTE::
+
+    If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:View button.
+    
 
 Import answers
 ==============

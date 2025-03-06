@@ -27,7 +27,7 @@ The |project_name| is connected to the `FAIR Wizard Registry <https://registry.f
 From file
 =========
 
-We can import a knowledge model as a KM file. Such a file can be created as an export from |project_name| (from :doc:`./index` or :doc:`./detail`).
+We can import a knowledge model as a KM file. Such a file can be created as an export from |project_name| (from :doc:`./index` or :doc:`./detail`). We can also select multiple files at once.
 
 
 .. figure:: import/file.png

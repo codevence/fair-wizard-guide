@@ -5,6 +5,13 @@ Document Templates
 
 This section is about managing the document templates and document template editors. Similarly to Knowledge Models, we can manage :doc:`./list/index` or work on new or customize existing templates using :doc:`./editors/index`.
 
+Watch this video to learn more about document templates:
+
+.. youtube:: RoedJwy6U44
+    :width: 100%
+    :align: center
+
+
 ----
 
 

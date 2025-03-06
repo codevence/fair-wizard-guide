@@ -9,3 +9,8 @@ As an admin, we can import projects using provided template. The template has fo
     :width: 528
     
     Import projects.
+
+.. WARNING::
+
+    Using Microsoft Excel to edit the template may cause issues with the encoding of the file. If you encounter any issues, please use some other editor to edit the file.
+
