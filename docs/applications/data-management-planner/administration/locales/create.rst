@@ -5,13 +5,12 @@ We can create a new locale directly in |project_name| by pressing :guilabel:`Cre
 
 Finally, a PO file is requested from us. We can create such PO file in a standard (`gettext <https://www.gnu.org/software/gettext/>`__-based) way. The needed POT file is always part of the release attachments of the `wizard client application <https://github.com/ds-wizard/engine-frontend/tags>`__ (select the desired release and there is ``wizard.pot`` asset).
 
-.. TODO:: 
-
-    Add a screenshot of the form.
+.. figure:: create/form.png
+    
+    Detail of a locale.
 
 
 .. TODO::
 
     Update, that the localization is different and only for the Data Management Planner.
 
-    

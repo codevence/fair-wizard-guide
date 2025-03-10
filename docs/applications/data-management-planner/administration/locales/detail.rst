@@ -15,3 +15,4 @@ In the top bar, we can :guilabel:`Export` the locale as a ZIP package, set or un
 .. figure:: detail/detail.png
     
     Detail of a locale.
+
