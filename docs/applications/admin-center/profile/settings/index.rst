@@ -1,9 +1,9 @@
 .. _edit-profile-admin:
 
-Edit Profile
-************
+User Settings
+*************
 
-After navigating to :guilabel:`Edit profile` from the :doc:`../index` menu, we open the User Settings. We can edit our **Email** address, **First name**, **Last name**, and **Affiliation**. We need to submit the changes by clicking :guilabel:`Save` button.
+After navigating to :guilabel:`User settings` from the :doc:`../index` menu, we open the User Settings. We can edit our **Email** address, **First name**, **Last name**, and **Affiliation**. We need to submit the changes by clicking :guilabel:`Save` button.
 
 .. figure:: index/form.png
     
