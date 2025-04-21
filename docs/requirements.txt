@@ -26,7 +26,7 @@ more-itertools==10.6.0
 msgpack==1.1.0
 myst-parser==4.0.1
 natsort==8.4.0
-packaging==24.2
+packaging==25.0
 platformdirs==4.3.7
 Pygments==2.19.1
 PyYAML==6.0.2
