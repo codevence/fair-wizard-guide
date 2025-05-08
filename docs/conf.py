@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.16'
+version = release = '4.17'
 
 rst_prolog = f"""
 
@@ -58,7 +58,7 @@ templates_path = []
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['env/*', 'env/**', '_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -87,7 +87,7 @@ html_theme_options = {
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
-    'top_of_page_button': None,
+    'top_of_page_buttons': [],
 }
 html_js_files = [
     'js/track.js',
