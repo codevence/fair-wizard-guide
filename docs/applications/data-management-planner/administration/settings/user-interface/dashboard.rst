@@ -28,4 +28,4 @@ We can select the **Dashboard Style** whether the user should see a standard **w
 
   * **Usage Widget** summarizes the usage just as is also possible to see in the :doc:`../info/usage`.
 
-  * **Configure Organization Widget** quickly navigates to :doc:`../system/organization` if it is not yet done.
+  * **Configure Organization Widget** quickly navigates to :ref:`organization-settings` if it is not yet done.

@@ -1,8 +1,7 @@
 System Settings
 ***************
 
-System settings allow us to configure Privacy and Support settings of |project_name|. There is also Users settings.
-
+System settings allow us to configure Organization settings of |project_name|, set up Support, define how new users are set up, manage localizations and toggle AI Assistant.
 
 ----
 
@@ -13,6 +12,8 @@ System settings allow us to configure Privacy and Support settings of |project_n
 .. toctree::
     :maxdepth: 2
 
+    Organization<organization>
     Support<support>
     Users<users>
+    Locales<locales>
     AI Assistant<ai-assistant>
