@@ -16,4 +16,3 @@ Administration section serves admins with managing the |project_name|. By naviga
     :maxdepth: 2
 
     settings/index
-    locales/index
