@@ -14,4 +14,3 @@ Registry allows us to:
 
 - :ref:`Import knowledge models from FAIR Wizard Registry<km-import-from-registry>`
 - :ref:`Import document templates from FAIR Wizard Registry<doc-template-import-from-registry>`
-- :ref:`Import locales from FAIR Wizard Registry<locale-import-from-registry>`
