@@ -1,7 +1,5 @@
-..  _project-importers:
-
-Project Importers
-*****************
+Importers
+*********
 
 .. WARNING::
 
