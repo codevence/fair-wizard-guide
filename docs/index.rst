@@ -87,7 +87,7 @@ Here are some recommended sections where to start based on the role:
       - :ref:`integration_questions`
       - `Changelog <https://fair-wizard.com/changelog>`__
     * - 
-      - :ref:`project-importers`
+      - :ref:`importers`
       -
 
 .. raw:: html

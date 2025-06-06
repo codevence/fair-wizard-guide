@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.18'
+version = release = '4.19'
 
 rst_prolog = f"""
 
@@ -50,6 +50,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx_toolbox.confval',
     'sphinx.ext.imgconverter',
+    'notfound.extension',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
