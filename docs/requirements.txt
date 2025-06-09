@@ -32,7 +32,7 @@ Pygments==2.19.1
 PyYAML==6.0.2
 requests==2.32.3
 roman-numerals-py==3.1.0
-ruamel.yaml==0.18.12
+ruamel.yaml==0.18.14
 ruamel.yaml.clib==0.2.12
 six==1.17.0
 snowballstemmer==3.0.1
