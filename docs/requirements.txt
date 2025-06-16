@@ -30,7 +30,7 @@ packaging==25.0
 platformdirs==4.3.8
 Pygments==2.19.1
 PyYAML==6.0.2
-requests==2.32.3
+requests==2.32.4
 roman-numerals-py==3.1.0
 ruamel.yaml==0.18.12
 ruamel.yaml.clib==0.2.12
