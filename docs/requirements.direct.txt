@@ -4,3 +4,4 @@ sphinx-toolbox
 sphinx-reredirects
 Sphinx-Substitution-Extensions
 sphinxcontrib-youtube
+sphinx-notfound-page
