@@ -7,7 +7,7 @@ Finally, a POT files can be downloaded here. From them, we can create PO files i
 
 We can :download:`download localization files here<./create/fw-4-20-0-locales.zip>`.
 
-.. TODO:: 
-    
-    Add create locale screenshot.
+.. figure:: create/form.png
+
+    Form for creating a new locale. Input for different locale files is at the bottom of the form.
 

@@ -7,9 +7,7 @@ We can import an existing locale by navigating to :menuselection:`Settings → L
 
 We can import a locale as a ZIP package. Such a package can be created as an export from |project_name|. We can also select multiple files at once.
 
-.. TODO::
+.. figure:: import/file.png
     
-    Update the screenshot
-    
-    Input for importing a locale using a ZIP package.
+    Input for importing a locale using a ZIP package (exported from some other FAIR Wizard instance).
 
