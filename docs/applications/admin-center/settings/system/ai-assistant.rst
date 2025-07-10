@@ -6,6 +6,7 @@ AI Assistant is FAIR Wizard wide feature that allows you to interact with the AI
 The AI Assistant is available in the bottom left corner of the screen. The AI Assistant will appear on the right side, where you can interact with it.
 
 .. figure:: ai-assistant/ai-assistant.png
+    :width: 300
     
     AI Assistant.
 

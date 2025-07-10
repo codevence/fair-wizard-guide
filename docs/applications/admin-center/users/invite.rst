@@ -8,7 +8,7 @@ As admins, we can create new users manually by clicking :guilabel:`Invite` on th
 .. figure:: invite/form.png
     :width: 400
     
-    Invite user.    
+    Invite user form.    
 
 
 .. NOTE::

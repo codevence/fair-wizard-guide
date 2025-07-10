@@ -5,18 +5,18 @@ Knowledge Models
 
 As an admin, we can view analytics of knowledge models. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
 
- .. figure:: knowledge-models/overview.png
-     :width: 700
-    
-     Knowledge models overview.
+.. figure:: knowledge-models/overview.png
+    :width: 700
+
+    Knowledge models overview.
 
 
 New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
 
- .. figure:: knowledge-models/settings.png
-     :width: 400
-    
-     Form for editing analytics view.
+.. figure:: knowledge-models/settings.png
+    :width: 400
+
+    Form for editing analytics view.
 
 
 Various fields have filters that can be used to narrow down the data.
@@ -42,9 +42,9 @@ By clicking on the knowledge model ID or name, wew can open that knowledge model
 
 The :guilabel:`Readme` tab shows the exact information that we can see in the knowledge model detail within the Data Management Planner. The :guilabel:`Projects` tab shows all projects that are using the selected knowledge model. The :guilabel:`KM editors` tab shows all knowledge model editors that are using the selected knowledge model. Both of these tabs also display numbers next to them, representing the number of created projects or knowledge model editors.
 
- .. figure:: knowledge-models/km-editors.png
-    
-     Knowledge model editors created using this knowledge model.
+.. figure:: knowledge-models/km-editors.png
+
+    Knowledge model editors created using this knowledge model.
 
 
 The last tab, :guilabel:`Insights`, is the most complex. It shows us detailed information for each question and answer, such as the number of times a certain question was displayed to users and how these questions were answered. If we are viewing details of a value question, we can use search functionality to find the value we are interested in.
@@ -55,7 +55,7 @@ The knowledge model details on the right side show additional knowledge model me
 
 Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual knowledge model.
 
- .. figure:: knowledge-models/insights.png
-    
-     Insights to usage of this knowledge model in projects.
+.. figure:: knowledge-models/insights.png
+
+    Insights to usage of this knowledge model in projects.
 
