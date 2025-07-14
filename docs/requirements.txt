@@ -6,7 +6,7 @@ babel==2.17.0
 beartype==0.21.0
 beautifulsoup4==4.13.4
 CacheControl==0.14.3
-certifi==2025.6.15
+certifi==2025.7.14
 charset-normalizer==3.4.2
 cssutils==2.11.1
 dict2css==0.3.0.post1
