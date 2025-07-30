@@ -300,6 +300,10 @@ At any point (also retroactively) we can name a version. Click on the triple dot
 
 When we have some named versions, we can choose :guilabel:`Named versions only`. Then, we don't see every single change but only the important versions we gave a name to.
 
+.. WARNING::
+
+    Named versions are migrated together with the project to new versions of the knowledge model. However it might happen that questions or answers are removed in the new version of the knowledge model. In that case, the named version will not be migrated and will be lost.
+
 
 View Questionnaire in a Version
 -------------------------------

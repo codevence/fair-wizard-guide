@@ -41,6 +41,10 @@ It is possible that there are no changes to review. This can happen when we don'
 
 We can leave the migration at any point now and come back to it later. We will see the project twice in the :ref:`project list<project-list>`, one of them tagged as :guilabel:`migrating`. If we open the migrating one, we can come back to the project migration. If we open the other one, we can access the original project, however, only in the read-only mode until the migration is finished or cancelled.
 
+.. WARNING::
+
+    Named versions are migrated together with the project to new versions of the knowledge model. However it might happen that questions or answers are removed in the new version of the knowledge model. In that case, the named version will not be migrated and will be lost.
+
 
 Cancelling a Project Migration
 ==============================
