@@ -24,7 +24,7 @@ Data Stewards
 Document Templates show “Unsupported Metamodel"
 -----------------------------------------------
 
-FAIR Wizard managed Document Templates are updated automatically. You can always find new versions in the `FAIR Wizard Registry <https://registry.fair-wizard.com/document-templates>`_. The FAIR Wizard also has information on new version of Document Templates in the Registry and will indicate that there is a newer version by yellow button :guilabel:`Update available`.
+FAIR Wizard managed Document Templates are updated automatically. You can always find new versions in the `FAIR Wizard Registry <https://registry.fair-wizard.com/document-templates>`_. The FAIR Wizard also has information on new version of Document Templates in the Registry and will indicate that there is a newer version by yellow :guilabel:`update available` badge.
 
 If this button is not present, check if templates are published by FAIR Wizard. If they are published by DSW, please switch to FAIR Wizard templates you can import from the Registry as the DSW templates are no longer managed for the FAIR Wizard.
 
