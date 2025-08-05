@@ -184,7 +184,7 @@ In the questionnaire tab, there is a menu bar with various options. The first on
 
 .. NOTE::
 
-    If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:View button.
+    If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:`View` button.
     
 
 Import answers
