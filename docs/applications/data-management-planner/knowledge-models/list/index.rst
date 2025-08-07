@@ -17,7 +17,7 @@ For each knowledge model (KM), we can see the latest version in the list. If we 
 
 If a newer version of the knowledge model is available in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, a yellow :guilabel:`update available` badge, which we can use for quick update of the template to the latest version, will appear.
 
-Finally, there is an option to :doc:`./import` by click the :guilabel:`Import` button in the top right part of the screen.
+Finally, there is an option to :doc:`./import` by clicking the :guilabel:`Import` button in the top right part of the screen.
 
 .. NOTE::
 
