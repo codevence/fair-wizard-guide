@@ -11,8 +11,8 @@ Project importers can be used to import the data from an external resource to |p
 
 FAIR Wizard comes with two importers already implemented. 
 
-    - Replies Importer
-    - maDMP Importer
+- Replies Importer
+- maDMP Importer
 
 .. NOTE::
 
