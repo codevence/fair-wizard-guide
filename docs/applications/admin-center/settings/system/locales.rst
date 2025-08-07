@@ -7,11 +7,9 @@ There is always the **English** locale (``Default English locale``) which is emb
 
 Another option is to switch other locale to be the default one using :guilabel:`Set default` action. The default locale will be used if there isn’t an available locale that matches the user’s preferences (explicit or implicit from the web browser) We can :guilabel:`Disable` or :guilabel:`Enable` locales except the default one (which must be enabled).
 
-.. TODO::
+.. figure:: locales/list.png
     
-    Update screenshot
-        
-        List of locales.
+    List of all locales.
 
 
 ----

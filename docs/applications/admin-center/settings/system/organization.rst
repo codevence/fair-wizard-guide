@@ -7,9 +7,9 @@ On this page, we can configure **Name**, **Description**, **Organization ID** fo
 
 The organization ID is used as a part of knowledge models and document templates IDs.
 
-.. TODO::
+.. figure:: organization/organization.png
 
-    Add screenshot
+    Organization settings.
 
 
 .. NOTE::

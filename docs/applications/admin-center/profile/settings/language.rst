@@ -1,13 +1,11 @@
 Language
 ********
 
-A user can explicitly select a desired language after clicking :guilabel:`Change language` from the :doc:`./index` menu. In case the language becomes unavailable later after the selection, it will fall back to the one marked as **default**.
+A user can explicitly select a desired language after clicking :guilabel:`Change language` from the :doc:`./index` menu. In case the language becomes unavailable later after the selection, FAIR Wizard will use language marked as **default**.
 
-.. TODO:: Add screenshot
-    
-    List window with language selection.
+The preferred language is determined in the following order: the user's profile settings, then browser settings, and finally the default system language if the previous options are not set.
 
+.. figure:: language/form.png
 
-.. NOTE::
+    Language selection in the user settings.
 
-    The selection of language is saved only locally in the browser (in local storage), so if we log in from different locations, we need to select the language there again.
