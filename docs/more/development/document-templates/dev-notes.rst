@@ -54,6 +54,6 @@ Styling MS Word Documents
 
 
 Compressing Images in MS Word Documents
-======================================
+=======================================
 
 **Issue**: Uncompressed images in MS Word documents can significantly increase the file size, often making it much larger than the original HTML or PDF version.
