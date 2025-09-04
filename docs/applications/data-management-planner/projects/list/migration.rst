@@ -22,7 +22,6 @@ We can start a project migration either from the :ref:`project list<project-list
     Choosing a new knowledge model for the project when creating a project migration.
 
 
-
 We can see the **original knowledge model**, its **version**, and selected **question tags** on the left side. On the right side we can choose new values for all of these. After we are satisfied with our selection we can click on :guilabel:`Create` button.
 
 Note that the original project will remain unchanged until the migration is finished. So we can cancel it anytime before it is finished without affecting the project.
@@ -39,7 +38,7 @@ The next screen is the project migration itself. We can go through all the chang
 
 It is possible that there are no changes to review. This can happen when we don't have all the answers in the questionnaire yet and those we have are not affected by the changes, i.e., all of the questions that we answered are in the original and in the new knowledge model.
 
-We can leave the migration at any point now and come back to it later. We will see the project twice in the :ref:`project list<project-list>`, one of them tagged as :guilabel:`migrating`. If we open the migrating one, we can come back to the project migration. If we open the other one, we can access the original project, however, only in the read-only mode until the migration is finished or cancelled.
+We can leave the migration at any point now and come back to it later. We will see the project twice in the :ref:`project list<project-list>`, one of them tagged with :guilabel:`migrating` badge. If we open the migrating one (either by clicking the project name or the :guilabel:`migrating` badge), we can come back to the project migration. If we open the other one, we can access the original project, however, only in the read-only mode until the migration is finished or cancelled.
 
 .. WARNING::
 
@@ -49,7 +48,7 @@ We can leave the migration at any point now and come back to it later. We will s
 Cancelling a Project Migration
 ==============================
 
-At any point before we finalize the migration, we can decide that we actually don't want to do the migration. We can simply navigate to the :ref:`project list<project-list>` and choose the :guilabel:`Cancel migration` action on the project tagged as :guilabel:`migrating`. This will cancel the migration and the original project will remain unaffected.
+At any point before we finalize the migration, we can decide that we actually don't want to do the migration. We can simply navigate to the :ref:`project list<project-list>` and choose the :guilabel:`Cancel migration` action on the project tagged with :guilabel:`migrating` badge. This will cancel the migration and the original project will remain unaffected.
 
 Finishing a Project Migration
 =============================
