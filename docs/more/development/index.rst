@@ -22,4 +22,3 @@ This section provides information on how to develop custom content for |project_
     Project Importers<importers>
     submission-service
     Integration via API<api>
-    plugins

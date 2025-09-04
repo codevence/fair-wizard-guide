@@ -16,4 +16,5 @@ System settings allow us to configure Organization settings of |project_name|, s
     Support<support>
     Users<users>
     Locales<locales>
-    AI Assistant<ai-assistant>
+    Features<features>
+    

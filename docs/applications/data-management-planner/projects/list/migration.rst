@@ -15,7 +15,7 @@ Watch this video to learn more about project migration:
 Creating a Project Migration
 ============================
 
-We can start a project migration either from the :ref:`project list<project-list>`, or from the :ref:`project settings<project-settings>`. Sometimes, when there is a newer version of the knowledge model available, we can see a tag :guilabel:`update available` next to the project name. We can click on the tag to start the migration as well.
+We can start a project migration either from the :ref:`project list<project-list>`, or from the :ref:`project settings<project-settings>`. Sometimes, when there is a newer version of the knowledge model available, we can see a yellow :guilabel:`update available` badge next to the project name. We can click on the badge to start the migration as well.
 
 .. figure:: migration/create.png
     
@@ -40,6 +40,10 @@ The next screen is the project migration itself. We can go through all the chang
 It is possible that there are no changes to review. This can happen when we don't have all the answers in the questionnaire yet and those we have are not affected by the changes, i.e., all of the questions that we answered are in the original and in the new knowledge model.
 
 We can leave the migration at any point now and come back to it later. We will see the project twice in the :ref:`project list<project-list>`, one of them tagged as :guilabel:`migrating`. If we open the migrating one, we can come back to the project migration. If we open the other one, we can access the original project, however, only in the read-only mode until the migration is finished or cancelled.
+
+.. WARNING::
+
+    Named versions are migrated together with the project to new versions of the knowledge model. However it might happen that questions or answers are removed in the new version of the knowledge model. In that case, the named version will not be migrated and will be lost.
 
 
 Cancelling a Project Migration

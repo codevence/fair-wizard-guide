@@ -184,7 +184,7 @@ In the questionnaire tab, there is a menu bar with various options. The first on
 
 .. NOTE::
 
-    If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:View button.
+    If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:`View` button.
     
 
 Import answers
@@ -299,6 +299,10 @@ Name a Version
 At any point (also retroactively) we can name a version. Click on the triple dots on any event we want to name and choose :guilabel:`Name this version`. Then we just fill in name and description of that version. If the event already has a named version, we can choose :guilabel:`Rename this version` instead.
 
 When we have some named versions, we can choose :guilabel:`Named versions only`. Then, we don't see every single change but only the important versions we gave a name to.
+
+.. WARNING::
+
+    Named versions are migrated together with the project to new versions of the knowledge model. However it might happen that questions or answers are removed in the new version of the knowledge model. In that case, the named version will not be migrated and will be lost.
 
 
 View Questionnaire in a Version

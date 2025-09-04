@@ -45,7 +45,7 @@ The document template details on the right side show additional document templat
 
 Lastly we can click on the :guilabel:`Open in Data Management Planner` button to open the actual document template.
 
- .. figure:: document-templates/detail.png
-    
-     Detail of a document template.
+.. figure:: document-templates/detail.png
+
+    Detail of a document template.
 
