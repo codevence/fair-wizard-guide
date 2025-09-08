@@ -85,4 +85,4 @@ To make this even easier, you can store those in ``.env`` file in the project ro
 Shared Configuration
 ====================
 
-Using the ``config`` command, you can manage shared user configuration stored in the `~/.dsw-tdk` directory. This shared configuration is then applied across all DSW projects, so you don’t need to set it up for each project individually.
+Using the ``config`` command, you can manage shared user configuration stored in the `~/.dsw-tdk` directory. This shared configuration is then applied across all document template projects, so you don’t need to set it up for each project individually.
