@@ -11,7 +11,7 @@ We can import an existing knowledge model by navigating to :doc:`./index` (:menu
 From FAIR Wizard Registry
 =========================
 
-We can import a knowledge model from the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. This is a repository of knowledge models. To import a knowledge model from the registry, we need to enter the **knowledge model ID** of the desired template (e.g. ``dsw:lifesciences:2.6.7``) and press the :guilabel:`Import` button.
+We can import a knowledge model from the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. This is a repository of knowledge models. To import a knowledge model from the registry, we need to enter the **knowledge model ID** (e.g. ``dsw:lifesciences:2.6.12``) and press the :guilabel:`Import` button.
 
 .. NOTE::
 
