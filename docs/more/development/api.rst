@@ -9,7 +9,7 @@ By selecting the :guilabel:`About` option from the :ref:`Profile<planner-profile
 Authentication and Authorization
 ================================
 
-DSW utilizes JSON Web Tokens (JWT) for both authentication and authorization, ensuring secure access and control over API interactions. To obtain a token, you must have a user account, and there are multiple methods to acquire one:
+FAIR Wizard utilizes JSON Web Tokens (JWT) for both authentication and authorization, ensuring secure access and control over API interactions. To obtain a token, you must have a user account, and there are multiple methods to acquire one:
 
 * **Credentials** (Email + Password): Send a POST request to /tokens with your email and password. If your credentials are correct and your account is active, you will receive a token along with its expiration time in the response.
 * **OpenID Identity Provider** (for our client only): This method involves a more complex OpenID/OAuth flow, utilizing redirects with the ``/auth/{id}/`` endpoints to authenticate.
