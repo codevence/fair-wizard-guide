@@ -176,6 +176,8 @@ URL Reference
 
 A URL reference is a simple link to any website. It has **URL** which is the actual link and a **label** that describes what the reference is about. URL reference is set up on a level of question, not on a level of knowledge model.
 
+.. _cross-reference:
+
 Cross Reference
 ^^^^^^^^^^^^^^^
 
