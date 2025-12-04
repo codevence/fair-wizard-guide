@@ -21,6 +21,10 @@ Back in the |project_name| settings, we can fill **Client ID**, **Client Secret*
 
     After setting a new OpenID service, we should directly test it and verify that the configuration works well. For that, we can simply open our |project_name| instance in a new anonymous window of the web browser.
 
+
+Automations
+===========
+
 We can use the **Create automation** button to add some extra steps after users use this login option. There are two tabs. Configuration, where we can set up automation using the `Integration SDK <https://integration-sdk.fair-wizard.com/en/latest/>`__ and Logs where we can see logs of the automation. The automation can have its name changed and it can be enabled or disabled. See details in :ref:`automations`.
 
 .. figure:: openid/openid-detail.png

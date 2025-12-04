@@ -1,6 +1,8 @@
 Features
 ********
 
+Settings of various miscellaneous features.
+
 .. figure:: features/features.png
 
     Switchable features.
