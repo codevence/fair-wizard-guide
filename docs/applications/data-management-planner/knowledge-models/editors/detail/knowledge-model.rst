@@ -60,6 +60,15 @@ There are different entities we can edit in the knowledge model, the editor show
 
 Besides their own fields, each entity has so called **Annotations**. They are arbitrary key value pairs that can be assigned to the entity and used later, when :ref:`developing a document template<document-template-development>`.
 
+URL Checker
+===========
+
+If we have at least one :ref:`URL Reference<url-reference>` in the knowledge model, a new tab :guilabel:`URL Checker` appears in the knowledge model editor. Here we can check whether each used URL is reachable or not. This allows us to quickly find broken links in the knowledge model and fix them.
+
+.. TODO::
+
+    Add figure
+
 
 Warnings
 ========

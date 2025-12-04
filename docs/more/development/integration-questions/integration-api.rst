@@ -27,6 +27,13 @@ If we want to connect an external service using the API there are certain requir
 Configuration
 =============
 
+Watch this video to learn the basic API Integration setup:
+
+.. youtube:: 9sHusXY95Pc
+    :width: 100%
+    :align: center
+
+
 The configuration is done in the :ref:`knowledge model editor<knowledge-model-editor>`. First of all, we need to create a new integration and choose its **Type** to be **API**. Then we need to fill the integration **Name**.
   
 Advanced Integration Configuration
