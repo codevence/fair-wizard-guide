@@ -57,6 +57,10 @@ Using these settings we can add `Open ID <https://openid.net/>`__ configuration 
 Automations
 ===========
 
+
+Automations
+===========
+
 We can use the **Create automation** button to add some extra steps after users use this login option. There are two tabs. Configuration, where we can set up automation using the `Integration SDK <https://integration-sdk.fair-wizard.com/en/latest/>`__ and Logs where we can see logs of the automation. The automation can have its name changed and it can be enabled or disabled. See details in :ref:`automations`.
 
 .. .. figure:: openid/openid-detail.png
