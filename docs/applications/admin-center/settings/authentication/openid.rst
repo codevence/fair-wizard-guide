@@ -67,5 +67,5 @@ We can use the **Create automation** button to add some extra steps after users 
 
 .. NOTE::
 
-There can be only one automation per login configuration. However, multiple actions can be set up within a single automation script.
+	There can be only one automation per login configuration. However, multiple actions can be set up within a single automation script.
 
