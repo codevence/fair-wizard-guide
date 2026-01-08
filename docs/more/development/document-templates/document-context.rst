@@ -115,7 +115,16 @@ Aliases:
 ContextConfig
 ~~~~~~~~~~~~~
 
--  ``client_url`` (``str``) - base URL of the FAIR Wizard instance (client app)
+- ``app_title`` (``str``) - passed by backend from Settings
+- ``app_title_short`` (``str``) - passed by backend from Settings
+- ``client_url`` (``str``) - base URL of the FAIR Wizard instance (client app)
+- ``illustrations_color`` (``str``) - passed by backend from Settings
+- ``logo_url`` (``str``) - passed by backend from Settings
+- ``primary_color`` (``str``) - passed by backend from Settings
+- ``service_domain_name`` (``str``)
+- ``service_name`` (``str``)
+- ``service_name_short`` (``str``)
+- ``service_url`` (``str``)
 
 
 .. _odc-document:

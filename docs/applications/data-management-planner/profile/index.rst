@@ -27,4 +27,5 @@ Moreover, there are also options to :guilabel:`Log out`, see basic information a
     User Settings<settings/index>
     Assigned Comments<assigned-comments>
     About<about>
+    News<news>
     
