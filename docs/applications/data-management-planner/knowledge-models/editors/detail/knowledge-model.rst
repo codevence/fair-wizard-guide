@@ -65,9 +65,10 @@ URL Checker
 
 If we have at least one :ref:`URL Reference<url-reference>` in the knowledge model, a new tab :guilabel:`URL Checker` appears in the knowledge model editor. Here we can check whether each used URL is reachable or not. This allows us to quickly find broken links in the knowledge model and fix them.
 
-.. TODO::
-
-    Add figure
+.. figure:: knowledge-model/url-checker.png
+    :width: 317
+    
+    Checked URLs with issue description.
 
 
 Warnings
