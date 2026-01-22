@@ -151,9 +151,9 @@ Item Select Question
 
 The item selection question is used together with the list of items question. When creating an item selection question, you must choose one of the existing list of items questions. The answers provided to that list of items question are then offered as possible answers in the item selection question.
 
- .. figure:: questionnaire/item-select-question.png
-    
-     Item select question with a list of items as possible answers.
+.. figure:: questionnaire/item-select-question.png
+
+    Item select question with a list of items as possible answers.
 
 
 File Question
@@ -203,7 +203,7 @@ Warnings
 All of value question types (except for color) can have validations set on them. If it is an invalid value, we will see :guilabel:`Warnings` tab in the questionnaire menu bar with a badge showing the number of warnings. If we click on it, we can see a list of all questions that has a warning and we can click on it to navigate quickly to that question.
 
 .. figure:: questionnaire/warnings.png
-    :width: 487
+    :width: 600
     
     Warnings referring to questions with invalid values.
 
@@ -217,7 +217,7 @@ When we are filling in the questionnaire, we can stumble upon a question that we
 We can then open the :guilabel:`TODOs` tab from the questionnaire menu to see the list of all questions with assigned TODO in the questionnaire. By clicking on a question there, we can quickly jump back to that question and fill it.
 
 .. figure:: questionnaire/todos.png
-    :width: 334
+    :width: 600
     
     List of TODOs.
 
@@ -228,7 +228,7 @@ Comments
 We sometimes want to leave comments to discuss things with our team or just reminders for ourselves. We can write comments to each question in the questionnaire. The comments can be browsed using the navigation buttons.
 
 .. figure:: questionnaire/comments.png
-    :width: 603
+    :width: 600
     
     Example of a comment.
 
@@ -287,7 +287,7 @@ Version History
 When we open the :guilabel:`Version history` tab from the questionnaire menu bar we can see the list of all the changes that happened in that questionnaire. We can see who and when made what changes grouped by months and days.
 
 .. figure:: questionnaire/version-history.png
-    :width: 320
+    :width: 600
     
     Version history shows all events changing the project.
 
@@ -333,8 +333,8 @@ Search is accessible from the questionnaire menu bar by clicking on the :guilabe
 
 We can click on any of the search results to quickly navigate to that question in the questionnaire.
 
-.. TODO::
-
-    Add screenshot of the search panel.
-
+.. figure:: questionnaire/search.png
+    :width: 600
+    
+    Search panel shows all matching questions, answers and other content in real-time.
     
