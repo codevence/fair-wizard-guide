@@ -5,7 +5,7 @@ We can create a new locale directly in |project_name| by pressing :guilabel:`Cre
 
 Finally, a POT files can be downloaded here. From them, we can create PO files in a standard (`gettext <https://www.gnu.org/software/gettext/>`__-based) way. There is a POT file for each app of FAIR Wizard and also for the emails.
 
-We can :download:`download localization files here<./create/fw-4-26-0-locales.zip>`.
+We can :download:`download localization files here<./create/fw-4-27-locales.zip>`.
 
 .. figure:: create/form.png
 
