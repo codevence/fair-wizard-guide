@@ -28,10 +28,11 @@ msgpack==1.1.2
 myst-parser==4.0.1
 natsort==8.4.0
 packaging==25.0
-platformdirs==4.5.0
+platformdirs==4.5.1
 Pygments==2.19.2
 PyYAML==6.0.3
 requests==2.32.5
+roman==5.2
 roman-numerals-py==3.1.0
 ruamel.yaml==0.18.16
 ruamel.yaml.clib==0.2.15
@@ -47,7 +48,7 @@ sphinx-prompt==1.10.2
 sphinx-reredirects==1.0.0
 sphinx-substitution-extensions==2025.11.17
 sphinx-tabs==3.4.5
-sphinx-toolbox==4.0.0
+sphinx-toolbox==4.1.0
 sphinxcontrib-applehelp==2.0.0
 sphinxcontrib-devhelp==2.0.0
 sphinxcontrib-htmlhelp==2.1.0
@@ -57,5 +58,5 @@ sphinxcontrib-serializinghtml==2.0.0
 sphinxcontrib-youtube==1.4.1
 tabulate==0.9.0
 typing_extensions==4.15.0
-urllib3==2.5.0
+urllib3==2.6.2
 webencodings==0.5.1
