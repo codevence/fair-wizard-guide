@@ -9,6 +9,8 @@ Once the questionnaire is completed, a DMP can be easily generated using a selec
 
 But the benefits of using |project_name| go beyond just creating a DMP. Institutions can use |project_name| to manage their Data Management Planning processes, using powerful tools provided within the |project_name|. This includes advanced user management, custom integrations with data and more.
 
+You are welcome to join the `DSW Discord community <https://discord.gg/MW3H9tdMcT>`__ where you can ask questions, share your experience, and get help from other users and administrators.
+
 .. youtube:: dRiWyimAQMA
     :width: 100%
     :align: center
@@ -84,7 +86,7 @@ Here are some recommended sections where to start based on the role:
       - :ref:`document-template-development`
       - :ref:`submission-service`
     * - 
-      - :ref:`integration_questions`
+      - :ref:`integration-questions`
       - `Changelog <https://fair-wizard.com/changelog>`__
     * - 
       - :ref:`importers`
