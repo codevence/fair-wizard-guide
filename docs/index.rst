@@ -72,7 +72,7 @@ Here are some recommended sections where to start based on the role:
       - :ref:`user-groups`
     * - 
       - :ref:`user-groups`
-      - :ref:`administration`
+      - :ref:`settings`
     * - 
       - :ref:`project-templates`
       - :ref:`settings`
