@@ -1,3 +1,5 @@
+.. _integration-api:
+
 Integration Question - API
 **************************
 
@@ -24,6 +26,8 @@ If we want to connect an external service using the API there are certain requir
   - The response must be JSON so |project_name| can parse it
   - There needs to be a JSON list where all the items matching the search query are
 
+.. _integration-api-configuration:
+
 Configuration
 =============
 
@@ -35,7 +39,7 @@ Watch this video to learn the basic API Integration setup:
 
 
 The configuration is done in the :ref:`knowledge model editor<knowledge-model-editor>`. First of all, we need to create a new integration and choose its **Type** to be **API**. Then we need to fill the integration **Name**.
-  
+
 Advanced Integration Configuration
 ----------------------------------
 
@@ -106,18 +110,32 @@ The Advance response configuration allows to set **Response Item Template for Se
 Migration from Legacy API Integration
 *************************************
 
-During the migration from legacy API integration to the new one, the existing API integrations will be automatically migrated. However, there are some differences between these two types of integrations in how they store the data. Here is how the data is stored in all states of the new API integration and how it was stored in the legacy API integration. There is also an example of the stored data in the legacy ORCID API integration.
+To migrate a knowledge model from API Integration Legacy to API Integration v2, we need to recreate the integration and connect it to the respective questions. To do that, open the knowledge model Editor. There, navigate to the existing integrations. The best practice is to create the integration from scratch. You can follow this :ref:`configuration guide<integration-api-configuration>`.
 
-**State A Legacy API integration (ApiLegacyIntegration)**
+We recommend recreating the integration to keep the original one as a reference. This allows you to copy the configuration from it and identify which questions are using the legacy integration so you can connect them to the new one.
 
-This is how the Legacy API integration stores the data.
+Once the new API Integration v2 instances are successfully created and the integration questions are connected to them, you can delete the old integrations and release the knowledge model. Then you can migrate projects.
+
+.. NOTE::
+
+    If you somehow manage to lose the content of the integrations before they are recreated, you can always create a new knowledge model editor.
+
+During the migration from API Integration Legacy to API Integration v2, the existing integration replies in projects are migrated automatically. However, there are differences in how the data is stored. The following sections describe how the data is handled in each state:
+- Legacy API Integration
+- Migrated to API Integration v2 (legacy data)
+- New API Integration v2 with “raw = HTTP response”
+
+**State A — Legacy API Integration (ApiLegacyIntegration)**
+
+This is how API Integration Legacy stores the data.
 
 **What is stored:**
-`IntegrationReply.value` carries:
+
+``IntegrationReply.value`` contains:
 
 - an ``id`` (the selected item identifier)
-- a ``type``: "IntegrationLegacyType"`
-- a ``value`` (the rendered markdown/text you see in the UI)
+- a ``type``: ``IntegrationLegacyType``
+- a ``value`` (the rendered markdown or text displayed in the UI)
 
 .. code:: json
 
@@ -131,15 +149,16 @@ This is how the Legacy API integration stores the data.
     }
 
 
-**State B — Migrated to new schema (but still old data/semantics)**
+**State B — Migrated to API Integration v2 (existing data)**
 
-After we migrate to the new API integration, the existing data will still have the same semantics as before, but it will be stored in a different way.
+After migrating to API Integration v2, the existing data is stored differently.
 
-**What is stored vs legacy:**
+**What changes compared to Legacy:**
 
 - ``id`` is **removed**
-- ``type`` becomes `"IntegrationType"` (instead of `"IntegrationLegacyType"`)
-- ``raw`` is **introduced but empty**: `"raw": {}`
+- ``raw`` is introduced but remains empty: ``"raw": {}``
+- ``type`` becomes ``IntegrationType`` instead of ``IntegrationLegacyType``
+- ``value`` remains the same (the markdown reply rendered in the UI)
 
 .. code:: json
 
@@ -153,14 +172,15 @@ After we migrate to the new API integration, the existing data will still have t
     }
 
 
-**State C — New integration (ApiIntegration) with “raw = HTTP response” semantics**
+**State C — New API Integration v2 with IntegrationType reply**
 
-If we delete the old answer and fill in a new one, or we are filling a new integration question with the new API integration, the data will be stored in a different way. The semantics of the stored data will also be different, as the `raw` field will now carry the raw HTTP response from the API, which can be used in the answer template.
+If you delete the old answer and provide a new one, or if you answer a new integration question using API Integration v2, the data is stored differently. The semantics of the stored data also change. The ``raw`` field now contains the raw HTTP response from the API, which can be used in the answer template.
 
-**What is stored**
+**What is stored:**
 
-- ``raw`` = **the actual integration HTTP response item/body** (the “source of truth”)
-- ``value`` = **custom text** (if user fills their own text) or **rendered template** (how the answer is presented in the UI, rendered from the ``raw`` data using the answer template)
+- ``raw`` = the actual integration HTTP response item or body, which serves as the source of truth
+- ``type`` = ``IntegrationType``
+- ``value`` = custom text entered by the user or rendered template output, generated from the ``raw`` data using the answer template
 
 .. code:: json
 
@@ -181,6 +201,26 @@ If we delete the old answer and fill in a new one, or we are filling a new integ
             },
             "type": "IntegrationType",
             "value": "**Kryštof** **Komanec** \nORCID: [**0000-0003-3856-1682**](https://orcid.org/0000-0003-3856-1682)\n\n"
+        }
+    }
+
+
+**State D - New API Integration v2 with PlainType reply**
+
+If custom reply is enabled in the integration configuration, the answer to an integration question can also be a plain text. In that case, the data is stored as follows.
+
+**What is stored:**
+
+- ``type`` = ``PlainType``
+- ``value`` = the plain text answer provided by the user.
+
+.. code:: json
+
+    {
+        "type": "IntegrationReply",
+        "value": {
+            "type": "PlainType",
+            "value": "https://orcid.org/0000-0003-3856-1682"
         }
     }
 
@@ -260,7 +300,7 @@ Secrets and Other Properties (Legacy)
 
 Sometimes, we might need to use some secrets (for example for authentication token), additional properties (such as API URL if we want to use different one for testing and production), or basically any information that we do not want to include in the knowledge model. In that case, we can define some properties in the instance settings.
 
-We need to navigate to :guilabel:`Administration → Settings → Knowledge Models` and there is a field called **Integration Config**. It is a YAML organized by the **Integration ID** at the top level and key value pairs for each property.
+We need to navigate to :guilabel:`Administration → Settings → knowledge models` and there is a field called **Integration Config**. It is a YAML organized by the **Integration ID** at the top level and key value pairs for each property.
 
 We can fill some properties in. So, for example, if the **Integration ID** of our integration is *ourIntegration* we can write:
 
