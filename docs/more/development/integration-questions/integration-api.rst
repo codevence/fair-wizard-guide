@@ -102,6 +102,89 @@ Advance Response Configuration
 
 The Advance response configuration allows to set **Response Item Template for Selection** which can be used to define how the selection of items from the integration will be presented before selection.
 
+
+Migration from Legacy API Integration
+*************************************
+
+During the migration from legacy API integration to the new one, the existing API integrations will be automatically migrated. However, there are some differences between these two types of integrations in how they store the data. Here is how the data is stored in all states of the new API integration and how it was stored in the legacy API integration. There is also an example of the stored data in the legacy ORCID API integration.
+
+**State A Legacy API integration (ApiLegacyIntegration)**
+
+This is how the Legacy API integration stores the data.
+
+**What is stored:**
+`IntegrationReply.value` carries:
+
+- an ``id`` (the selected item identifier)
+- a ``type``: "IntegrationLegacyType"`
+- a ``value`` (the rendered markdown/text you see in the UI)
+
+.. code:: json
+
+    {
+        "type": "IntegrationReply",
+        "value": {
+            "id": "0000-0003-3856-1682",
+            "type": "IntegrationLegacyType",
+            "value": "**Kryštof** **Komanec** \nORCID: **0000-0003-3856-1682** \n\n\n*Czech Technical University in Prague*  \n*Prague University of Economics and Business*  \n "
+        }
+    }
+
+
+**State B — Migrated to new schema (but still old data/semantics)**
+
+After we migrate to the new API integration, the existing data will still have the same semantics as before, but it will be stored in a different way.
+
+**What is stored vs legacy:**
+
+- ``id`` is **removed**
+- ``type`` becomes `"IntegrationType"` (instead of `"IntegrationLegacyType"`)
+- ``raw`` is **introduced but empty**: `"raw": {}`
+
+.. code:: json
+
+    {
+        "type": "IntegrationReply",
+        "value": {
+            "raw": {},
+            "type": "IntegrationType",
+            "value": "**Kryštof** **Komanec** \nORCID: **0000-0003-3856-1682** \n\n\n*Czech Technical University in Prague*  \n*Prague University of Economics and Business*  \n "
+        }
+    }
+
+
+**State C — New integration (ApiIntegration) with “raw = HTTP response” semantics**
+
+If we delete the old answer and fill in a new one, or we are filling a new integration question with the new API integration, the data will be stored in a different way. The semantics of the stored data will also be different, as the `raw` field will now carry the raw HTTP response from the API, which can be used in the answer template.
+
+**What is stored**
+
+- ``raw`` = **the actual integration HTTP response item/body** (the “source of truth”)
+- ``value`` = **custom text** (if user fills their own text) or **rendered template** (how the answer is presented in the UI, rendered from the ``raw`` data using the answer template)
+
+.. code:: json
+
+    {
+        "type": "IntegrationReply",
+        "value": {
+            "raw": {
+                "credit-name": null,
+                "email": [],
+                "family-names": "Komanec",
+                "given-names": "Kryštof",
+                "institution-name": [
+                    "Czech Technical University in Prague",
+                    "Prague University of Economics and Business"
+                ],
+                "orcid-id": "0000-0003-3856-1682",
+                "other-name": []
+            },
+            "type": "IntegrationType",
+            "value": "**Kryštof** **Komanec** \nORCID: [**0000-0003-3856-1682**](https://orcid.org/0000-0003-3856-1682)\n\n"
+        }
+    }
+
+
 Integration Question - API (Legacy)
 ***********************************
 
