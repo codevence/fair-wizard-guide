@@ -1,3 +1,5 @@
+.. _integration-api:
+
 Integration Question - API
 **************************
 
@@ -24,6 +26,8 @@ If we want to connect an external service using the API there are certain requir
   - The response must be JSON so |project_name| can parse it
   - There needs to be a JSON list where all the items matching the search query are
 
+.. _integration-api-configuration:
+
 Configuration
 =============
 
@@ -35,7 +39,7 @@ Watch this video to learn the basic API Integration setup:
 
 
 The configuration is done in the :ref:`knowledge model editor<knowledge-model-editor>`. First of all, we need to create a new integration and choose its **Type** to be **API**. Then we need to fill the integration **Name**.
-  
+
 Advanced Integration Configuration
 ----------------------------------
 
@@ -177,7 +181,7 @@ Secrets and Other Properties (Legacy)
 
 Sometimes, we might need to use some secrets (for example for authentication token), additional properties (such as API URL if we want to use different one for testing and production), or basically any information that we do not want to include in the knowledge model. In that case, we can define some properties in the instance settings.
 
-We need to navigate to :guilabel:`Administration → Settings → Knowledge Models` and there is a field called **Integration Config**. It is a YAML organized by the **Integration ID** at the top level and key value pairs for each property.
+We need to navigate to :guilabel:`Administration → Settings → knowledge models` and there is a field called **Integration Config**. It is a YAML organized by the **Integration ID** at the top level and key value pairs for each property.
 
 We can fill some properties in. So, for example, if the **Integration ID** of our integration is *ourIntegration* we can write:
 
