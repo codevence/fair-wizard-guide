@@ -24,4 +24,3 @@ Projects are mainly used by the researchers. Watch this video to see the basic r
     List<list/index>
     Files<files>
     Documents<documents>
-    Importers<importers>

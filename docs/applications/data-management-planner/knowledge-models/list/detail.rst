@@ -17,7 +17,14 @@ In the top pane, we can see the options based on our role:
 - :guilabel:`Fork KM` is again a shortcut for :doc:`../editors/create` for to create a fork (some more specific KM based on this one).
 - :guilabel:`Create project` is a shortcut to :doc:`../../projects/list/create` with this KM.
 - :guilabel:`Set deprecated` or :guilabel:`Restore` for setting a KM deprecated when we no longer want the **researchers** to use it.
-- :guilabel:`Delete` the specific version of the KM (possible only if is not used in any projects or linked in other KMs and editors, cannot be undone).
+- :guilabel:`Delete` for all versions of the KM. (Single version can be deleted from the KM's :doc:`./detail` page).
+
+.. WARNING::
+
+    It is possible to force delete a KM. Doing so will delete all KM versions, all KM editors based on this KM and all projects based on this KM, as well as all documents and files related to these projects.
+    
+    This action is irreversible, so be careful when doing it.
+    
 
 If we are not seeing the latest version of the KM, a warning message is shown in the top. Similarly, we will see a notification that update is available if there is a newer version in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__.
 
