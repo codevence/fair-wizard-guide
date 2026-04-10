@@ -1,5 +1,5 @@
-Open ID Settings
-****************
+Open ID
+*******
 
 Using these settings we can add `Open ID <https://openid.net/>`__ configuration to allow logging into the |project_name| instance via external identity provider. Here is a detailed description of the setup:
 

@@ -1,5 +1,5 @@
-System Settings
-***************
+System
+******
 
 System settings allow us to configure Organization settings of |project_name|, set up Support, define how new users are set up, manage localizations and toggle AI Assistant.
 

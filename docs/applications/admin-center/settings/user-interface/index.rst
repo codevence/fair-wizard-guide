@@ -1,5 +1,5 @@
-User Interface Settings
-***********************
+User Interface
+**************
 
 User Interface Settings allow us to customize login screen info and various announcements. It also allows us to change |project_name| title, logo and colors. Lastly we can add custom menu links.
 

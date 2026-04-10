@@ -1,5 +1,5 @@
-User Interface Settings
-***********************
+User Interface
+**************
 
 User Interface (UI) settings allow us to manage how the Data Management Planner app looks like: dashboard shown when user logs in and custom menu links.
 

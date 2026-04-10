@@ -1,5 +1,5 @@
-Dashboard and Login Screen Settings
-***********************************
+Dashboard and Login Screen
+**************************
 
 .. _login-info:
 

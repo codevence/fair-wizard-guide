@@ -1,5 +1,5 @@
-Menu Settings
-*************
+Menu
+****
 
 This part of settings allows us to adjust how the |project_name| menu looks like. 
 
