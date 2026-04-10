@@ -1,5 +1,5 @@
-Users Settings
-**************
+Users
+*****
 
 Users Settings allow us to configure default role for new users. It is also possible to set up a list of affiliations that will be suggested to users while they register or update their profiles.
 

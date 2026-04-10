@@ -1,5 +1,5 @@
-SAML Settings
-*************
+SAML
+****
 
 SAML is another option for authentication. However setting up `SAML <https://wiki.oasis-open.org/security/FrontPage>`__ is not trivial and requires certain level of technical knowledge. Please `contact the FAIR Wizard team <mailto:info@fair-wizard.com>`__ team to assist you with SAML configuration.
 

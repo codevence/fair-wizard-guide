@@ -1,5 +1,5 @@
-Internal Settings
-*****************
+Internal
+********
 
 Internal Settings allow us to enable or disable registration. Once turned off, users can only register using other ways, e.g. OpenID or SAML.
 
