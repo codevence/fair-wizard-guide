@@ -48,7 +48,6 @@ extensions = [
     'sphinx_reredirects',
     'sphinxcontrib.youtube',
     'sphinx.ext.todo',
-    'sphinx_toolbox.confval',
     'sphinx.ext.imgconverter',
     'notfound.extension',
 ]
