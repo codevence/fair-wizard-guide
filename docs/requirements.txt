@@ -34,7 +34,7 @@ PyYAML==6.0.3
 requests==2.33.1
 roman==5.2
 roman-numerals==4.1.0
-ruamel.yaml==0.18.16
+ruamel.yaml==0.19.1
 ruamel.yaml.clib==0.2.15
 six==1.17.0
 snowballstemmer==3.0.1
