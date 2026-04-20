@@ -13,7 +13,7 @@ cssutils==2.11.1
 dict2css==0.3.0.post1
 docutils==0.22.4
 domdf_python_tools==3.10.0
-filelock==3.25.2
+filelock==3.29.0
 furo==2025.12.19
 html5lib==1.1
 idna==3.11
