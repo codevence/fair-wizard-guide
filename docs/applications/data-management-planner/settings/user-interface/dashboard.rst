@@ -1,5 +1,5 @@
-Dashboard Settings
-******************
+Dashboard
+*********
 
 The dashboard settings allows us to adjust what users will see after they log in, i.e. on the application initial page called the dashboard. 
 

@@ -3,7 +3,7 @@
 Integration Hub
 ***************
 
-Integration hub is an application for management of integrations. For now, it offers creation of value integration.
+Integration hub is an application for management of integrations. It offers creation of value integration. Integration Values can be reached using Integration Plugin. It is set up automatically.
 
 Watch the following video to learn more about the Integration hub.
 
