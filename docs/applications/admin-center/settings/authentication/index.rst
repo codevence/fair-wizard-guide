@@ -26,5 +26,5 @@ The FAIR Wizard also supports `Shibboleth <https://www.shibboleth.net/>`__ and `
     :maxdepth: 2
 
     Internal<internal>
-    Open ID<openid>
+    OpenID<openid>
     SAML<saml>
