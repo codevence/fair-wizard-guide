@@ -10,7 +10,7 @@ We can import an existing document template by navigating to :doc:`./index` (:me
 From FAIR Wizard Registry
 =========================
 
-The |project_name| is connected to the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. That allows us to import document templates from it by entering the **document template ID** of desired template (e.g. ``fw:common-horizon-europe-dmp:1.15.0``) and pressing the :guilabel:`Import` button.
+The |project_name| is connected to the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__. That allows us to import document templates from it by entering the **document template ID** of desired template (e.g. ``fw:questionnaire-report:2.12.0``) and pressing the :guilabel:`Import` button.
 
 .. NOTE::
 
