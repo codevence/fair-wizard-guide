@@ -26,7 +26,7 @@ project_name_full = 'FAIR Wizard'
 registry_name = 'FAIR Wizard Registry'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.28'
+version = release = '4.29'
 
 rst_prolog = f"""
 
@@ -48,7 +48,6 @@ extensions = [
     'sphinx_reredirects',
     'sphinxcontrib.youtube',
     'sphinx.ext.todo',
-    'sphinx_toolbox.confval',
     'sphinx.ext.imgconverter',
     'notfound.extension',
 ]
@@ -59,7 +58,7 @@ templates_path = []
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['env/*', 'env/**', '_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['.venv', '.venv/**', 'env/*', 'env/**', '_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 

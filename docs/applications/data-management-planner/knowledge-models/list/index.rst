@@ -13,6 +13,7 @@ For each knowledge model (KM), we can see the latest version in the list. If we 
 - :guilabel:`Fork KM` is again a shortcut for :doc:`../editors/create` for to create a fork (some more specific KM based on this one).
 - :guilabel:`Create project` is a shortcut to :doc:`../../projects/list/create` with this KM.
 - :guilabel:`Set deprecated` or :guilabel:`Restore` for setting a KM deprecated when we no longer want the **researchers** to use it.
+- :guilabel:`Set public` or :guilabel:`Set private` for changing the visibility of the KM. Public KM can be viewed by non-logged in users.
 - :guilabel:`Delete` for all versions of the KM (possible only if is not used in any projects or linked in other KMs and editors).
 
 If a newer version of the knowledge model is available in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, a yellow :guilabel:`update available` badge, which we can use for quick update of the template to the latest version, will appear.

@@ -1,7 +1,7 @@
 .. _auth-services:
 
-Authentication Settings
-***********************
+Authentication
+**************
 
 The Authentication Settings page allows you to configure the authentication settings for users. You can configure the following settings:
 

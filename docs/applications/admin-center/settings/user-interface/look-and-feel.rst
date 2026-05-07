@@ -1,5 +1,5 @@
-Look and Feel Settings
-**********************
+Look and Feel
+*************
 
 Look and Feel Settings allow us to configure **Application Title** and **Short Application Title**. They are used together with **Logo** in the |project_name| and also in various email templates (invitation to a project, forgotten password, ...).
 
