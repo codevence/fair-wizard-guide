@@ -133,6 +133,18 @@ Custom Setup
 11. Click on ``Save``.
 12. Test your OpenID configuration in FAIR Wizard (You might need to refresh the login page for the login button to appear).
 
+
+Advanced Configuration
+======================
+
+In the ``Advanced`` dropdown of the OpenID configuration, we can set up additional options.
+
+- **Registration enabled** - if enabled, users will be able to register a new FAIR Wizard account using this OpenID service. If disabled, only existing FAIR Wizard OpenID accounts can log in.
+- **Scopes** - scopes requested from the OpenID provider.
+	- **Email** - some services (such as ORCID) do not provide an email address. By disabling this option, we can enable email completion upon the user's first login. This means that if the OpenID provider does not return an email address, the user will be prompted to enter it manually after the first login. FAIR Wizard requires an email address to send password reset instructions and other notifications, so it is required for the user account.
+	- **Profile** - if the provider does not return profile information, the user will be prompted to enter their first and last name manually after the first login.
+
+
 Automations
 ===========
 
