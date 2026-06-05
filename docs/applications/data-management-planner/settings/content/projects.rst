@@ -27,11 +27,6 @@ Anonymous Projects
 
 If we have set Knowledge Model as Public, we can also allow anonymous users to create projects where they will be able to fill questionnaires by enabling **Anonymous Projects**. These anonymous project then work as any other projects with public link set to edit permissions. However, if a logged-in user accesses such a project, then such a user may claim the ownership by clicking :guilabel:`Add to my projects` button. Anonymous users cannot create new documents, for that they must register and open the project as a logged-in user.
 
-Feedback
-========
-
-In case we want to allow users to provide feedback specific to questions directly from :ref:`questionnaires<project-questionnaire>`, we can enable **Feedback** and configure a GitHub repository which will be used as an issue tracker. We should have a bot/service account created with access to the GitHub repository and obtain `Personal Access Token <https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line>`_. This account will be used to create the GitHub issues in the repository. Then, we need to simply fill **GitHub Repository Owner**, **GitHub Repository Name**, and the **Access Token**.
-
 .. NOTE::
 
     The **Access Token** value is encrypted in the database.
