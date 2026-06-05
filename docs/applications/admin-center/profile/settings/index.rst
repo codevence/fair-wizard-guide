@@ -23,6 +23,7 @@ If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from 
     :maxdepth: 2
 
     Password<password>
+    Connected Accounts<connected-accounts>
     Language<language>
     Tours<tours>
     API Keys<api-keys>
