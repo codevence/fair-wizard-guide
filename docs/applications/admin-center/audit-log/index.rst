@@ -12,6 +12,10 @@ Audit log is a feature that allows admins to track everything that is happening 
 
 List can be searched based using content of audit logs. The dropdown menu can be used to select which app logs we want to display. Then we can also select which component we want to see. In the list we can see what particular action has been done, who did it and when it happened.
 
+.. NOTE::
+
+    Audit log cannot see user logging in the system, until the user is logged in. So actions connected to account creation and logging are placed under Anonymous user. This is not a system user, but it is used to show that the action was done by someone who is not logged in yet. After logging in, all actions are connected to the user account.
+
 
 .. figure:: index/list.png
     
