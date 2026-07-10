@@ -1,6 +1,10 @@
 AI Prefill Questionnaire
 ========================
 
+.. WARNING::
+
+   The AI Prefill feature is currently considered experimental. It may not always produce accurate results, and you should review all suggested answers carefully. This feature is also only available upon request. If you are interested in using it, please contact the [FAIR Wizard support team](mailto:support@fair-wizard.com). AI Prefill uses Claude.
+
 The AI Prefill feature helps you start filling a FAIR Wizard questionnaire from an existing document. Upload a document, preferably a data management plan (DMP), and FAIR Wizard will try to find matching questions and prefill relevant answers.
 
 This is useful when you already have project documentation and want to reuse it instead of filling the questionnaire from scratch.

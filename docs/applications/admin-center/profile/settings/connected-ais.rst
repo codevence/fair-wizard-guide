@@ -39,6 +39,47 @@ The authentication method is **OAuth**.
 
 Use the connection settings shown on the ``Connected AIs`` page when connecting your AI client. Once connected, your AI agent can access FAIR Wizard and interact with its resources on your behalf.
 
+Connecting in Claude
+--------------------
+
+In Claude:
+
+1. Open the menu in the top-left corner and click ``Customize``.
+2. Select ``Connectors``.
+3. Click ``Add`` in the top-right corner and choose ``Custom connector``.
+4. Enter any name for the connector.
+5. In FAIR Wizard, open your user profile and go to ``Connected AIs``:
+
+   ``https://<your-instance-url>/admin/users/edit/current/connected-ais``
+
+6. Copy the **Connection URL** shown there.
+7. In Claude, paste it into the ``Remote MCP server URL`` field.
+8. Leave the ``Advanced settings`` unchanged.
+9. After a short while, a ``Connect`` button should appear. Click it to open FAIR Wizard.
+10. If you are not already signed in, sign in and authorize the connection. You will then be redirected back automatically.
+11. The MCP server is now connected.
+
+Connecting in ChatGPT
+---------------------
+
+In ChatGPT:
+
+1. Open ``Settings``.
+2. Select ``Plugins`` from the left-hand menu.
+3. Click the ``+`` button.
+4. Enter any name for the plugin.
+5. In FAIR Wizard, open your user profile and go to ``Connected AIs``:
+
+   ``https://<your-instance-url>/admin/users/edit/current/connected-ais``
+
+6. Copy the **Connection URL** shown there.
+7. In ChatGPT, paste it into the ``Connection`` field.
+8. Leave the remaining settings unchanged and acknowledge the warning that custom MCP servers introduce risk.
+9. Click ``Publish`` and accept the terms.
+10. After a short while, a ``Connect`` button should appear. Click it to open FAIR Wizard.
+11. If you are not already signed in, sign in and authorize the connection. You will then be redirected back automatically.
+12. The MCP server is now connected.
+
 Connecting in Codex
 -------------------
 
@@ -59,35 +100,6 @@ Restart Codex if needed, then start a new chat and ask questions such as:
 * ``List my FAIR Wizard projects.``
 * ``Show me projects with the lowest FAIR metrics.``
 * ``List documents generated for project <project-uuid>.``
-
-Connecting in Claude
---------------------
-
-In Claude Desktop:
-
-1. Open the MCP or connectors settings.
-2. Add a new remote MCP server.
-3. Name it ``FAIR Wizard``.
-4. In FAIR Wizard, open ``User Settings -> Connected AIs`` and copy the **Connection URL**.
-5. Paste that URL into Claude.
-6. Save the connection.
-7. When prompted, complete the **OAuth** sign-in.
-8. Start a new chat and ask your question.
-
-Connecting in ChatGPT
----------------------
-
-In ChatGPT, use the FAIR Wizard connection provided in your workspace.
-
-In FAIR Wizard, open ``User Settings -> Connected AIs`` and copy the **Connection URL**:
-
-.. code-block:: text
-
-   https://<your-instance>/mcp
-
-Add that URL to the FAIR Wizard connection in ChatGPT. When prompted, complete the **OAuth** sign-in.
-
-After the connection is available, open a chat and start asking questions in plain language.
 
 What You Can Ask
 ----------------
