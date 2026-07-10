@@ -17,7 +17,7 @@ Microsoft Azure Setup
 2. Go to ``App registrations``.
 3. Click on ``New registration``.
 4. Fill in a name.
-5. Select ``Accounts in this organizational directory only (Single tenant)``.
+5. Select ``Single tenant only - ...``.
 6. Keep ``Redirect URI`` empty.
 7. Click on ``Register``.
 8. Copy and store ``Directory (tenant) ID`` and ``Application (client) ID``.
