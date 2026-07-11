@@ -12,10 +12,6 @@ It is especially useful for instance analytics, for example:
 * listing project documents,
 * checking who has access to a project.
 
-.. contents:: On this page
-   :local:
-   :depth: 2
-
 Before You Start
 ----------------
 
