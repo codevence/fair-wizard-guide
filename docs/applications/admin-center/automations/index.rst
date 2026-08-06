@@ -9,6 +9,8 @@ Automations
 
 Automations are customizable pieces of code that adjust the behavior of FAIR Wizard when certain events occur. Currently, automations support events when user logs in via Single Sing On (OpenID or SAML).
 
+Users need the :ref:`Manage Automations<roles>` role permission to create and configure Automations. This permission also requires :ref:`Manage Settings<roles>`.
+
 .. figure:: automations/list.png
 
     List of Automations with possible actions.
@@ -69,4 +71,3 @@ Similarly we can set up an Automation for SAML login.
 .. figure:: automations/saml-logs.png
 
     Each run of an Automation is logged.
-

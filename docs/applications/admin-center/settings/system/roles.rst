@@ -71,6 +71,18 @@ The role create/edit form includes these permissions:
    * - **Manage Document Templates**
      - Import, export, and delete document templates, and set them as deprecated or restore them.
      - None.
+   * - **Use Analytics**
+     - Access Analytics, configure analytics views, and view analytics data.
+     - None.
+   * - **Use Integration Hub**
+     - Access the Integration Hub and create Value Integrations.
+     - None.
+   * - **Use Audit Log**
+     - View the Audit Log.
+     - None.
+   * - **Manage Automations**
+     - Create and configure Automations, including those used during the OpenID login process.
+     - **Manage Settings**
    * - **Manage Users**
      - View, create, edit, and delete user accounts.
      - None.

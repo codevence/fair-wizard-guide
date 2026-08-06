@@ -5,6 +5,8 @@ Audit Log
 
 Audit log is a feature that allows admins to track everything that is happening in the FAIR Wizard.
 
+Users need the :ref:`Use Audit Log<roles>` role permission to view the Audit Log.
+
 .. NOTE::
 
     For now, audit log is available for Admin Center, Analytics and Integration Hub. Data Management Planner will be added in the future updates.

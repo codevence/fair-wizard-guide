@@ -5,6 +5,8 @@ Integration Hub
 
 Integration hub is an application for management of integrations. It offers creation of value integration. Integration Values can be reached using Integration Plugin. It is set up automatically.
 
+Users need the :ref:`Use Integration Hub<roles>` role permission to access the Integration Hub and create Value Integrations.
+
 Watch the following video to learn more about the Integration hub.
 
 .. youtube:: SUWXsTNugbI
