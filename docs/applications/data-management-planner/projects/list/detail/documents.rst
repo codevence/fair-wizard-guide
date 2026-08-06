@@ -9,7 +9,7 @@ While we can quickly see how the current state of the questionnaire looks like i
 
 
 .. figure:: documents/list.png
-    
+
     List of the documents on the project.
 
 
@@ -24,21 +24,21 @@ We can click on :guilabel:`New document` when we want to create a new document. 
 
 .. figure:: documents/new.png
     :width: 528
-    
+
     We can choose any compatible document template and format when creating a new document on the project.
 
 
 Document Submission
 ===================
 
-:ref:`Submission services<submission-service>` can be used to quickly submit the document directly from |project_name| to some external service.
+:ref:`Submission services<submission-service>` can be used to quickly submit the document directly from FAIR Wizard to some external service.
 
 .. figure:: documents/submission.png
     :width: 540
-    
+
     Submission service selection for a document.
 
 
-If there are any document submission services configured for our |project_name|, we should be able to see :guilabel:`Submit` option when we open document menu in the document list by clicking on the triple dots. Then we choose the desired from the list and click on :guilabel:`Submit`.
+If there are any document submission services configured for our FAIR Wizard, we should be able to see :guilabel:`Submit` option when we open document menu in the document list by clicking on the triple dots. Then we choose the desired from the list and click on :guilabel:`Submit`.
 
 We can see all the submissions for each document in the document list as well.

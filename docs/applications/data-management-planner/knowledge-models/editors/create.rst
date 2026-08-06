@@ -7,7 +7,7 @@ We can create a new knowledge model editor by navigating to :menuselection:`Know
 
 .. figure:: create/create-knowledge-model.png
     :width: 528
-    
+
     Form for creating a new knowledge model.
 
 

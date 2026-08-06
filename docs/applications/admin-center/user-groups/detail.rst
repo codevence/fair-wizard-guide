@@ -7,7 +7,7 @@ As an admin, we can manage existing user group from User Group Settings. We can 
 
 .. figure:: detail/info.png
     :width: 528
-    
+
     User group detail.
 
 
@@ -15,7 +15,7 @@ We can also see list of all members of a group. Each member can be set as either
 
 .. figure:: detail/members.png
     :width: 528
-    
+
     User group members.
 
 

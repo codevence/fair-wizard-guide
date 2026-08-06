@@ -7,5 +7,5 @@ As an admin, we can create a value integration. To start, we must fill in its na
 
 .. figure:: create/create.png
     :width: 450
-    
+
     Create value integration.

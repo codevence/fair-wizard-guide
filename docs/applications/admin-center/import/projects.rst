@@ -7,7 +7,7 @@ As an admin, we can import projects using provided template. The template has fo
 
 .. figure:: projects/projects.png
     :width: 528
-    
+
     Import projects.
 
 .. WARNING::

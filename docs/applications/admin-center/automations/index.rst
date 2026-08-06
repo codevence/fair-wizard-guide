@@ -10,7 +10,7 @@ Automations
 Automations are customizable pieces of code that adjust the behavior of FAIR Wizard when certain events occur. Currently, automations support events when user logs in via Single Sing On (OpenID or SAML).
 
 .. figure:: automations/list.png
-    
+
     List of Automations with possible actions.
 
 
@@ -70,4 +70,3 @@ Similarly we can set up an Automation for SAML login.
 
     Each run of an Automation is logged.
 
-    

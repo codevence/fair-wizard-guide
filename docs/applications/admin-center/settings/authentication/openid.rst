@@ -61,7 +61,7 @@ Microsoft Azure Setup
 
 .. figure:: openid/openid.png
     :width: 700
-    
+
     Example configuration of OpenID Microsoft Azure service.
 
 

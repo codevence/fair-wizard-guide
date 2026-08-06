@@ -7,7 +7,7 @@ Users with permission to manage users can edit existing users manually on the de
 
 .. figure:: detail/profile.png
     :width: 528
-    
+
     Detail of a user profile.
 
 
@@ -15,7 +15,7 @@ The password can also be changed (after selecting :guilabel:`Password` from the 
 
 .. figure:: detail/password.png
     :width: 528
-    
+
     Form for changing password of a user.
 
 .. _user-roles:

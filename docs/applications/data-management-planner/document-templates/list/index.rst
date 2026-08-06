@@ -9,18 +9,18 @@ For each document template, we can see the latest version present; however, we c
 
     A document template can be deleted only if it is not used already for documents, projects, or settings.
 
-Each item may be marked with :guilabel:`unsupported metamodel` when the document template is not compatible with the version of |project_name|. :doc:`../../../../more/development/metamodel-schemas` are used to define structures that developers can interact with. If the template originates from the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, :guilabel:`update available` badge will appear.
+Each item may be marked with :guilabel:`unsupported metamodel` when the document template is not compatible with the version of FAIR Wizard. :doc:`../../../../more/development/metamodel-schemas` are used to define structures that developers can interact with. If the template originates from the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__, :guilabel:`update available` badge will appear.
 
 If your template is not from the registry, you will have to :doc:`../editors/detail/publish` a new version via template editor, which will increase the metamodel version automatically.
 
 Finally, we can use :guilabel:`Import` new document templates by clicking the top right button (see :doc:`./import` for details).
 
 .. figure:: index/list.png
-    
+
     List of all document templates with actions.
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

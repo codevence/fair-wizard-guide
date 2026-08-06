@@ -16,7 +16,7 @@ Watch this video to learn more about document templates:
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

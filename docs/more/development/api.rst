@@ -2,7 +2,7 @@
 Integration via API
 *******************
 
-An Application Programming Interface (API) allows machines, such as other systems and tools, to perform actions and transfer data based on agreed-upon methods. 
+An Application Programming Interface (API) allows machines, such as other systems and tools, to perform actions and transfer data based on agreed-upon methods.
 
 By selecting the :guilabel:`About` option from the :ref:`Profile<planner-profile>` menu, users are directed to the :ref:`About<planner-about>` page where the :guilabel:`API URL` and :guilabel:`API Docs` are provided. The SwaggerUI API Documentation and OpenAPI Specifications allows you to explore all operations and data transfer and also you to directly try out the API calls, with example responses provided for guidance. In this way, you can reach Wizard API; however, in Admin Center, Analytics, and Integration Hub, you can reach the :guilabel:`API URL` and :guilabel:`API Docs` in the same way (via the :guilabel:`About` dialog).
 

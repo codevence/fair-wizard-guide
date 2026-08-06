@@ -10,5 +10,5 @@ These settings also allow us to configure **Support Email** that users can use t
 
 .. figure:: support/support.png
     :width: 700
-    
+
     Support settings.

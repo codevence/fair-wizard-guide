@@ -11,5 +11,5 @@ Another part of settings on this page are **Affiliations**. It servers to pre-de
 
 .. figure:: users/users.png
     :width: 700
-    
+
     Users settings.

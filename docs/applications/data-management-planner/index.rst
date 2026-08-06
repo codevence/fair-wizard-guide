@@ -8,7 +8,7 @@ Data Management Planner is an application for collaborative and effective creati
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -20,4 +20,3 @@ Data Management Planner is an application for collaborative and effective creati
     Projects<projects/index>
     Settings<settings/index>
     Profile<profile/index>
-    

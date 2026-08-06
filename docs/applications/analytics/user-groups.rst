@@ -14,7 +14,7 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 .. figure:: user-groups/settings.png
     :width: 400
-    
+
     Form for editing analytics view.
 
 

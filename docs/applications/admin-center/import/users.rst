@@ -7,14 +7,14 @@ As an admin we can import users using provided template. The template has five c
 
 .. figure:: users/users.png
     :width: 528
-    
+
     Import users.
 
 
 We can also select if we want to send an invitation email or not by :guilabel:`Send invitation email` switch.
 
 .. figure:: users/users-confirmation.png
-    
+
     Import users confirmation with switch to send invitation email.
 
 

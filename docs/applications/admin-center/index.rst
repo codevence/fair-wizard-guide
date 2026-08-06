@@ -8,7 +8,7 @@ Admin Center is an application for management of the FAIR Wizard application and
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 

@@ -7,5 +7,5 @@ As an admin, we can create a new user group. For the user group we must set its 
 
 .. figure:: create/create.png
     :width: 450
-    
+
     Create user group.

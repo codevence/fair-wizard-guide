@@ -162,7 +162,7 @@ References are used to provide additional information for :ref:`questions<questi
 Resource Collection
 ^^^^^^^^^^^^^^^^^^^
 
-Resource collections are used to group together :ref:`resource pages<resource-page>` that are related to each other. Each resource collection has a **title** and has a list of resource pages. Resource collection is created on a level of a knowledge model.
+Resource collections are used to group together :ref:`resource pages<resource-page>` that are related to each other. Each resource collection has a **title** and has a list of resource pages. Resource collections are created on the level of a knowledge model.
 
 .. _resource-page:
 
@@ -240,7 +240,7 @@ Integrations define a connection to an external service or resource where we can
 API Integration
 ^^^^^^^^^^^^^^^
 
-API integration connects to an external service API to search for the answers. We need to provide some **request** and **response** configuration, so |project_name| can use the API.
+API integration connects to an external service API to search for the answers. We need to provide some **request** and **response** configuration, so FAIR Wizard can use the API.
 
 .. _annotations:
 

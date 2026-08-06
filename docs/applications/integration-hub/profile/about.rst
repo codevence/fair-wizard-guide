@@ -11,5 +11,5 @@ The :guilabel:`API Docs` link directs to the API documentation presented in Swag
 
 .. figure:: about/modal.png
     :width: 500
-    
+
     Modal window with versions of the tool's components.

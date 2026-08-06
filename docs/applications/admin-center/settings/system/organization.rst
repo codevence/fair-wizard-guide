@@ -3,7 +3,7 @@
 Organization
 ************
 
-On this page, we can configure **Name**, **Description**, **Organization ID** for our |project_name|.
+On this page, we can configure **Name**, **Description**, **Organization ID** for our FAIR Wizard.
 
 The organization ID is used as a part of knowledge models and document templates IDs.
 

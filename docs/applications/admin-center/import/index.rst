@@ -3,17 +3,17 @@
 Import
 ******
 
-As an admin, we can import users and projects using provided templates. 
+As an admin, we can import users and projects using provided templates.
 
 .. figure:: index/index.png
-    
+
     Import options.
 
 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

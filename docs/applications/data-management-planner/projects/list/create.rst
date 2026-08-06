@@ -15,7 +15,7 @@ Based on our instance configuration, we can create the new project from a projec
 
 .. figure:: create/project-create.png
     :width: 500
-    
+
     Different options how to create a project.
 
 
@@ -42,7 +42,7 @@ If the knowledge model has :ref:`locales<knowledge-model-locales>`, we can choos
 
 .. figure:: create/project-create-custom.png
     :width: 528
-    
+
     Creating custom project with question tag selection.
 
 

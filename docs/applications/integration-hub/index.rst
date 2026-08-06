@@ -15,7 +15,7 @@ Watch the following video to learn more about the Integration hub.
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -24,4 +24,3 @@ Watch the following video to learn more about the Integration hub.
 
     Value Integrations<value-integrations/index>
     Profile<profile/index>
-    

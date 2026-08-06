@@ -369,7 +369,7 @@ Aliases:
 -  ``a`` (``dict[str,str]``) - same as ``annotations``
 
 
-Notes: 
+Notes:
 
 -  Equality of all KM entities is being done using the ``uuid`` comparison under the hood.
 -  All KM entities that have ``annotations`` have also the ``a`` alias.
@@ -507,7 +507,7 @@ FileQuestion
 ''''''''''''
 
 -  ``max_size`` (``Optional[int]``) - maximum file size (in bytes) allowed
--  ``file_types`` (``Optional[str]``) - comma-separated file type specifications 
+-  ``file_types`` (``Optional[str]``) - comma-separated file type specifications
 
 
 .. _odc-answer:

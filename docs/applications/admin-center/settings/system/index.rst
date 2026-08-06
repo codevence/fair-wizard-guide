@@ -1,14 +1,14 @@
 System
 ******
 
-System settings allow us to configure organization settings of |project_name|, set up support, define how new users are set up, manage roles and localizations, and toggle AI Assistant.
+System settings allow us to configure organization settings of FAIR Wizard, set up support, define how new users are set up, manage roles and localizations, and toggle AI Assistant.
 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
-    
+
 .. toctree::
     :maxdepth: 2
 
@@ -18,4 +18,4 @@ System settings allow us to configure organization settings of |project_name|, s
     Roles<roles>
     Locales<locales>
     Features<features>
-    
+

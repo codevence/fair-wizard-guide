@@ -6,7 +6,7 @@ User Interface (UI) settings allow us to manage how the Data Management Planner 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

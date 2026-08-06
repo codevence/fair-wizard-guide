@@ -9,7 +9,7 @@ Settings section serves admins with managing the FAIR Wizard, more specifically 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

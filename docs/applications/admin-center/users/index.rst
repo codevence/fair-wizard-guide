@@ -8,14 +8,14 @@ User list allows admins to see and manage all users in the FAIR Wizard. The list
 A :ref:`user detail<user-detail>` can be opened by clicking the name of a user or by selecting :guilabel:`Edit` in the right dropdown menu for the desired row. There, a user can be also deleted via the :guilabel:`Delete` action. Finally, admin can :ref:`invite a new user<user-invite>` by clicking :guilabel:`Invite`, or :ref:`import users<import-users>` by clicking :guilabel:`Import`.
 
 .. figure:: index/list.png
-    
+
     List of users.
 
 ----
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 

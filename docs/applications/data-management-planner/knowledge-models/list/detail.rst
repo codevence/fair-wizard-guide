@@ -38,13 +38,13 @@ In the top pane, we can see the options based on our permissions:
 .. WARNING::
 
     It is possible to force delete a KM. Doing so will delete all KM versions, all KM editors based on this KM and all projects based on this KM, as well as all documents and files related to these projects.
-    
+
     This action is irreversible, so be careful when using it.
-    
+
 
 If we are not seeing the latest version of the KM, a warning message is shown in the top. Similarly, we will see a notification that update is available if there is a newer version in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__ (if configured).
 
 
 .. figure:: detail/detail.png
-    
+
     Detail of a knowledge model.

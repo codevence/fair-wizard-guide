@@ -16,12 +16,12 @@ By clicking the triple dots on each of the item in the list we can access some a
 
 
 .. figure:: index/list.png
-    
+
     List of document template editors with actions.
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

@@ -25,7 +25,7 @@ In Values, we can set up specific values. First, we need to give names to column
 
 .. WARNING::
 
-    JSON is case sensitive. 
+    JSON is case sensitive.
 
 We can import any CSV file. To do that, we click on the :guilabel:`Import` button and select the file. The file should be in CSV format and the first row should contain the column names. The file should not contain any empty rows. If the file is not in the correct format, the system will display an error message.
 

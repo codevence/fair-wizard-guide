@@ -26,11 +26,11 @@ Watch this video to learn more about analytics:
     :width: 100%
     :align: center
 
-    
+
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -44,4 +44,3 @@ Watch this video to learn more about analytics:
     User Groups<user-groups>
     Settings<settings>
     Profile<profile/index>
-    

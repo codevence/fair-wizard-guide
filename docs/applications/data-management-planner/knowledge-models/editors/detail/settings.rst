@@ -15,7 +15,7 @@ The :guilabel:`Settings` tab allows us to adjust attributes of the knowledge mod
 
     **Name**, **Description** and **Version** are all visible to the researcher, when they select a knowledge model for their project. So the **Name** and **Description** should provide them with enough information to select a correct one.
 
-    **Knowledge Model ID** together with the :ref:`organization ID<organization-settings>` and knowledge model version after it is published are used for the identification. So the identifier of the knowledge model is: 
+    **Knowledge Model ID** together with the :ref:`organization ID<organization-settings>` and knowledge model version after it is published are used for the identification. So the identifier of the knowledge model is:
 
     .. code::
 
@@ -29,5 +29,5 @@ If the knowledge model was based on another knowledge model, we can also see the
 In the **Danger Zone** we can delete the knowledge model. Once it is deleted it can **no longer be recovered**.
 
 .. figure:: settings/settings-form.png
-    
+
     Knowledge model settings.

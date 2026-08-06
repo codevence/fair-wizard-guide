@@ -7,7 +7,7 @@ As an admin, we can view analytics of projects. We can create and edit views by 
 
 .. figure:: projects/overview.png
     :width: 700
-    
+
     Projects overview.
 
 
@@ -15,7 +15,7 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 .. figure:: projects/settings.png
     :width: 400
-    
+
     Form for editing analytics view.
 
 

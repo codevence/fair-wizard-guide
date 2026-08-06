@@ -6,7 +6,7 @@ Knowledge Model Editors
 As admins and data stewards, we can see a list of all knowledge model editors.
 
 .. figure:: index/knowledge-model-editors-list.png
-    
+
     List of knowledge model editors.
 
 
@@ -30,10 +30,10 @@ Watch this video to learn more about knowledge model editors:
 .. youtube:: tYcKRxFNx8U
     :width: 100%
     :align: center
-    
-    
+
+
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -43,4 +43,3 @@ Watch this video to learn more about knowledge model editors:
     Create<create>
     Detail<detail/index>
     Migration<migration>
-    

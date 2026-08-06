@@ -7,7 +7,7 @@ As an admin, we can view analytics of document templates. We can create and edit
 
 .. figure:: document-templates/overview.png
     :width: 700
-    
+
     Document Templates overview.
 
 
@@ -15,7 +15,7 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 .. figure:: document-templates/settings.png
     :width: 400
-    
+
     Form for editing analytics view.
 
 

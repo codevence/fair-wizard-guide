@@ -43,7 +43,7 @@ It allows to set both `basic <https://xlsxwriter.readthedocs.io/workbook.html#se
 Options
 -------
 
-It allows to specify various `workbook options <https://xlsxwriter.readthedocs.io/workbook.html#constructor>`__.
+It allows us to specify various `workbook options <https://xlsxwriter.readthedocs.io/workbook.html#constructor>`__.
 
 .. code:: json
 
@@ -433,4 +433,3 @@ Example
 
 .. |badge-status| image:: https://img.shields.io/badge/status-stable-green
 .. |badge-metamodel| image:: https://img.shields.io/badge/metamodel%20version-%E2%89%A5%2011-blue
-
