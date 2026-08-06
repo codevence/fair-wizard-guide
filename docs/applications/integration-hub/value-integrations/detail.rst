@@ -3,7 +3,7 @@
 Detail
 ******
 
-As an admin, we need to fill in some information about the Integration. We have filled ``name`` and ``ID`` in the previous step, now we just need to fill in the ``Response Item Template``. This defines how the items from the values will be displayed for the user. You can use the column names as item properties in ``Jinja2`` notation. You can also use ``Markdown`` for some formatting. For example, if there is a column called name, you can use ``**{{item.name}}**`` to display the name in bold.
+Users with the :ref:`Use Integration Hub<roles>` role permission can fill in value integration details. We have filled ``name`` and ``ID`` in the previous step, now we just need to fill in the ``Response Item Template``. This defines how the items from the values will be displayed for the user. You can use the column names as item properties in ``Jinja2`` notation. You can also use ``Markdown`` for some formatting. For example, if there is a column called name, you can use ``**{{item.name}}**`` to display the name in bold.
 
 .. figure:: detail/info.png
     :width: 700

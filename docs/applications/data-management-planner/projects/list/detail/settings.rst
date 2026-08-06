@@ -32,7 +32,7 @@ We can use the project as a :ref:`project template<project-templates>`. If we en
 
 .. NOTE::
 
-    Project template options are visible only for users with permission to manage project templates.
+    Project template options are visible only for users with the :ref:`Manage Project Templates<roles>` role permission.
 
 
 :guilabel:`Unsupported metamodel` badge can appear, when the document template is not compatible with the version of FAIR Wizard. Users should contact the person responsible for document templates or instance administration in this case.

@@ -5,7 +5,7 @@ Project Templates
 
 .. NOTE::
 
-    Project templates can be created by users with permission to manage project templates.
+    Project templates can be created by users with the :ref:`Manage Project Templates<roles>` role permission.
 
 When creating a new project, we need to choose a knowledge model and optionally select some question tags. After the project is created, we should also choose a :ref:`default document template<default-document-template>` and format to enable :ref:`preview<preview>`. It can be overwhelming for new researchers to set up everything when they are new to all this.
 

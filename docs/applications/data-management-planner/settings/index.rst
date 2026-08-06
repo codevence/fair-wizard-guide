@@ -1,7 +1,7 @@
 Settings
 ********
 
-This section covers different settings available to admin users. The settings are categorized as listed below.
+This section covers different settings available in Data Management Planner. Users need the :ref:`Manage Settings<roles>` role permission to view and manage these settings. The settings are categorized as listed below.
 
 .. NOTE::
 

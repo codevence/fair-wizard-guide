@@ -3,7 +3,7 @@
 Create Knowledge Model Editor
 *****************************
 
-We can create a new knowledge model editor by navigating to :menuselection:`Knowledge Models → Editors` in the main menu and then clicking the :guilabel:`Create` button.
+Users with the :ref:`Use Knowledge Model Editor<roles>` role permission can create a new knowledge model editor by navigating to :menuselection:`Knowledge Models → Editors` in the main menu and then clicking the :guilabel:`Create` button.
 
 .. figure:: create/create-knowledge-model.png
     :width: 528

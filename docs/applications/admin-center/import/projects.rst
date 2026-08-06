@@ -3,7 +3,7 @@
 Projects Import
 ***************
 
-As an admin, we can import projects using provided template. The template has four columns: name, knowledgeModelId, documentTemplateId and emails of users we want to add as owners to a project. Once it is filled with data, we can import it back to the FAIR Wizard to populate it with projects.
+Users with the :ref:`Manage ALL Projects<roles>` role permission can import projects using provided template. The template has four columns: name, knowledgeModelId, documentTemplateId and emails of users we want to add as owners to a project. Once it is filled with data, we can import it back to the FAIR Wizard to populate it with projects.
 
 .. figure:: projects/projects.png
     :width: 528
@@ -13,4 +13,3 @@ As an admin, we can import projects using provided template. The template has fo
 .. WARNING::
 
     Using Microsoft Excel to edit the template may cause issues with the encoding of the file. If you encounter any issues, please use some other editor to edit the file.
-

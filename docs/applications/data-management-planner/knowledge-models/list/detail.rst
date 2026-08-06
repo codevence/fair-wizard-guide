@@ -16,7 +16,7 @@ Locales
 
 A knowledge model has a source language and a published version can have locales for additional languages. These locales are used in projects to show the questionnaire content in the selected language.
 
-Locales are managed for a specific knowledge model version. From the knowledge model detail, users with permission to manage knowledge models can export a POT file, import a locale, download an existing locale, or delete a locale.
+Locales are managed for a specific knowledge model version. From the knowledge model detail, users with the :ref:`Manage Knowledge Models<roles>` role permission can export a POT file, import a locale, download an existing locale, or delete a locale.
 
 The exported POT file contains translatable strings from the knowledge model content, such as names, descriptions, answer labels, advice, and resource pages. Translators use this file to prepare a PO file for the target language.
 

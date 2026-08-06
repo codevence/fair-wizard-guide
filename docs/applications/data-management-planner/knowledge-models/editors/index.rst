@@ -3,7 +3,7 @@
 Knowledge Model Editors
 ***********************
 
-As admins and data stewards, we can see a list of all knowledge model editors.
+Users with the :ref:`Use Knowledge Model Editor<roles>` role permission can see a list of all knowledge model editors.
 
 .. figure:: index/knowledge-model-editors-list.png
 

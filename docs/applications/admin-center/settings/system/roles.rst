@@ -19,7 +19,7 @@ The **Admin** role cannot be changed or deleted. Other default roles can be adju
 Custom Roles
 ============
 
-Users with permission to manage settings can create custom roles when the default roles do not match the way an organization works. A role has a name and selected permissions.
+Users with the :ref:`Manage Settings<roles>` role permission can create custom roles when the default roles do not match the way an organization works. A role has a name and selected permissions.
 
 Custom roles are useful for cases such as:
 

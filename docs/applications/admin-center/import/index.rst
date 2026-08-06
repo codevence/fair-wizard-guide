@@ -3,7 +3,7 @@
 Import
 ******
 
-As an admin, we can import users and projects using provided templates.
+Users with the :ref:`Manage Users<roles>` role permission can import users. Users with the :ref:`Manage ALL Projects<roles>` role permission can import projects.
 
 .. figure:: index/index.png
 
