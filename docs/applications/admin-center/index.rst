@@ -3,7 +3,7 @@
 Admin Center
 ************
 
-Admin Center is an application for management of the FAIR Wizard application and users within it. This application is mainly used for administration by **admins**. It is used for users and user groups management, import of data, and settings management. User groups can also be managed by **data stewards**.
+Admin Center is an application for managing the FAIR Wizard application and users within it. It is used for user and user group management, data import, audit logs, automations, and settings management. User groups can also be managed by their owners.
 
 ----
 

@@ -1,7 +1,7 @@
 FAIR Wizard User Guide
 *************************
 
-The FAIR Wizard is an enterprise-ready and user-friendly application for creating Data Management Plans. It does not only provide all necessary tools for researchers and data stewards to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, but it is a suite of tools to incorporate Data Management Planning process with needs of institutions.
+The FAIR Wizard is an enterprise-ready and user-friendly application for creating Data Management Plans. It provides the tools researchers and data stewards need to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, and it offers a suite of tools for incorporating the Data Management Planning process into institutional workflows.
 
 Data stewards can easily capture the knowledge, including required project data and decisions in knowledge models that are then turned into per-project questionnaires to be filled by researchers. The questionnaires guide researchers through the process using recommendations, FAIR metrics indications, and only showing relevant questions based on previous answers.
 

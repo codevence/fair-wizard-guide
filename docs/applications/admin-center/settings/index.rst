@@ -3,7 +3,7 @@
 Settings
 ********
 
-Settings section serves admins with managing the FAIR Wizard, more specifically its Admin Center. By navigating via :guilabel:`Settings` item from the main menu, we can manage the things listed below.
+The Settings section is used to manage FAIR Wizard and Admin Center configuration. By navigating via :guilabel:`Settings` item from the main menu, we can manage the things listed below.
 
 Users need the :ref:`Manage Settings<roles>` role permission to view and manage these settings.
 

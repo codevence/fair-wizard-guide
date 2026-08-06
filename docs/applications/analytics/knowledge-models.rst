@@ -3,7 +3,7 @@
 Knowledge Models
 ****************
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of knowledge models. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of knowledge models. We can create and edit views by selecting from many different fields and see how our knowledge models are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: knowledge-models/overview.png
     :width: 700
@@ -33,7 +33,7 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 Knowledge model details
 -----------------------
 
-By clicking on the knowledge model ID or name, wew can open that knowledge model detail. If we choose to click on a certain version of a knowledge model, that specific versions detail will open. The knowledge model detail has four tabs and details. The tabs are as follows:
+By clicking on the knowledge model ID or name, we can open that knowledge model detail. If we choose to click on a certain version of a knowledge model, that specific version detail will open. The knowledge model detail has four tabs and details. The tabs are as follows:
 
 - Readme
 - Projects

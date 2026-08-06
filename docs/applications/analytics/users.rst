@@ -3,7 +3,7 @@
 Users
 *****
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: users/overview.png
     :width: 700
@@ -36,9 +36,9 @@ User details
 By clicking on the first or last name of a user, we can open that user detail. The user detail has two tabs and details. The tabs are as follows:
 
 - Projects
-- user Groups
+- User Groups
 
-The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab we can the list of projects which this user is part of and their role in the project. In the :guilabel:`user Groups` tab we can see list of user groups this user is member or owner of and the group visibility.
+The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab, we can see the list of projects this user is part of and their role in the project. In the :guilabel:`User Groups` tab, we can see the list of user groups where this user is a member or owner and the group visibility.
 
 The user details on the right side shows additional user metadata, such as role, email, or affiliation.
 

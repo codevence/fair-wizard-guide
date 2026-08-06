@@ -47,7 +47,7 @@ Documents are produced from the questionnaire answers and a document template. T
 Admin Center
 ============
 
-The Admin Center is an application in which can admins manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. User groups can also be managed by data stewards.
+The Admin Center is an application where users with the appropriate role permissions can manage the FAIR Wizard application. This includes management of users, their roles and user groups, various imports, and the application itself. User groups can also be managed by their owners.
 
 Users
 -----
@@ -85,4 +85,4 @@ Value Integrations are used to create integrations from data stored in CSV forma
 Analytics
 =========
 
-Analytics is an application showing FAIR Wizard data in a form of table. This data can serve to analyze contents of FAIR Wizard. Analytics gathers data about Projects, Users and User Groups.
+Analytics is an application that shows FAIR Wizard data in a table. This data can be used to analyze the contents of FAIR Wizard. Analytics gathers data about Projects, Users, and User Groups.
