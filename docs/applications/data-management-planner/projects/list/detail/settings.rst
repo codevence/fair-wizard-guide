@@ -7,6 +7,11 @@ In the :guilabel:`Settings` tab, we can configure some details about the project
 
 Next, we have **Project Tags**. These can be used for providing some metadata or categorization of the project. In the project list, we can filter the projects by these tags. We can write any text we want as a project tag and |project_name| will suggest us the tags that are there already in use so we can keep them consistent.
 
+.. NOTE::
+
+    Project tags might be disabled in some FAIR Wizard instances.
+
+
 .. figure:: settings/settings.png
     
     Project settings.
@@ -23,14 +28,21 @@ We can set a **default document template** and a **default document format**. Th
 Project Template
 ================
 
-We can use the project as a :ref:`project template<project-templates>`. If we enable this option, researchers can use it when creating a new project :ref:`from project template<from-project-template>`. Note that we also need to make it visible for other logged-in users in :ref:`sharing<sharing>` settings.
+We can use the project as a :ref:`project template<project-templates>`. If we enable this option, users with access to the project can use it when creating a new project :ref:`from project template<from-project-template>`. Project templates follow the same :ref:`sharing<sharing>` policy as projects, so we should share the template with users who should be able to use it.
 
 .. NOTE::
 
-    Project template options are visible only for Data Stewards or Admins.
+    Project template options are visible only for users with permission to manage project templates.
 
 
-:guilabel:`Unsupported metamodel` can appear, when the document template is not compatible with the version of |project_name|. Researchers should contact their Data Steward or Admin in this case.
+:guilabel:`Unsupported metamodel` badge can appear, when the document template is not compatible with the version of |project_name|. Users should contact the person responsible for document templates or instance administration in this case.
+
+Questionnaire Language
+======================
+
+If the project's knowledge model has :ref:`locales<knowledge-model-locales>`, we can choose the questionnaire language in project settings. The available options are the source language of the knowledge model and any locales added for that knowledge model version.
+
+Changing the questionnaire language changes the knowledge model texts shown in the questionnaire, such as questions, answer labels, descriptions, advice, and resource pages. It does not translate answers that users have typed into the project.
 
 Knowledge Model
 ===============

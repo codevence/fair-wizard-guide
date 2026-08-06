@@ -9,6 +9,8 @@ While all the possibilities are defined in the knowledge model, when researchers
 
 Knowledge models are created by data stewards in the :ref:`knowledge model editor<knowledge-model-editor>`.
 
+Each knowledge model also has a source language. A published knowledge model version can have additional :ref:`locales<knowledge-model-locales>` so the same questionnaire structure can be shown in different languages. These locales cover texts that are part of the knowledge model, such as question titles, descriptions, answer labels, advice, and resource pages. They do not translate answers typed by users.
+
 Knowledge Model Structure
 =========================
 
@@ -160,7 +162,7 @@ References are used to provide additional information for :ref:`questions<questi
 Resource Collection
 ^^^^^^^^^^^^^^^^^^^
 
-Resource collections are used to group together :ref:`resource pages<resource-page>` that are related to each other. Each resource collection has a **title** and has a list of resource pages. Resource collection is created on a level of a Knowledge Model.
+Resource collections are used to group together :ref:`resource pages<resource-page>` that are related to each other. Each resource collection has a **title** and has a list of resource pages. Resource collection is created on a level of a knowledge model.
 
 .. _resource-page:
 
