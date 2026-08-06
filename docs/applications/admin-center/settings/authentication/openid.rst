@@ -1,9 +1,9 @@
 OpenID Settings
 ****************
 
-Using these settings we can add `OpenID <https://openid.net/>`__ configuration to allow logging into the FAIR Wizard via external identity provider.
+Using these settings, we can add `OpenID <https://openid.net/>`__ configuration to allow logging into FAIR Wizard via an external identity provider.
 
-FAIR Wizard supports Microsoft Azure, ORCID, as well as any other OpenID providers. Following are detailed description of the setups for these options.
+FAIR Wizard supports Microsoft Azure, ORCID, and other OpenID providers. The following sections describe the setup for these options.
 
 .. NOTE::
 
@@ -24,18 +24,18 @@ Microsoft Azure Setup
 9. Click on ``Manage`` in the left menu → ``Certificates & Secrets``.
 10. Click on ``New client secret``.
 11. Fill description, set ``Expires`` and note it somewhere, then click on ``Add``.
-12. Copy ``Value`` and store it somewhere. You will not able to view it again.
+12. Copy ``Value`` and store it somewhere. You will not be able to view it again.
 
 13. Go to OpenID in FAIR Wizard: ``Admin Center`` → ``Settings`` → ``Organization OpenID`` → ``Create``.
 
 14. Fill in a ``Name`` of the service. This name will be used to identify the service in the list of login options, so it should be something descriptive.
 
-15. Open the ``Microsoft`` tab and fill in :
+15. Open the ``Microsoft`` tab and fill in:
 	- ``Application (client) ID``
 	- ``Directory (tenant) ID``
 	- ``Client Secret`` → ``<stored secret value>``
 
-16. (optional) fill Icon (``fab fa-microsoft``, or some other from `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_), ``Background Color`` and ``Text Color``.
+16. (optional) Fill in Icon (``fab fa-microsoft``, or another icon from `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_), ``Background Color`` and ``Text Color``.
 
 17. Click on ``Save``.
 
@@ -57,7 +57,7 @@ Microsoft Azure Setup
 32. Select ``ID`` and check ``email``, ``family_name`` and ``given_name``.
 33. Click on ``Add``.
 
-34. Test your OpenID configuration in FAIR Wizard (You might need to refresh the login page for the login button to appear).
+34. Test your OpenID configuration in FAIR Wizard. You might need to refresh the login page for the login button to appear.
 
 .. figure:: openid/openid.png
     :width: 700
@@ -78,7 +78,7 @@ ORCID requires a redirect URI before it allows us to save the application and ob
 	- ``Client Secret`` → ``placeholder``
 	- ``URL`` → ``https://orcid.org``
 5. Leave ``Parameters`` empty.
-6. (optional) fill Icon (``fab fa-orcid``), ``Background Color`` (``#A6CE39``), and ``Text Color``.
+6. (optional) Fill in Icon (``fab fa-orcid``), ``Background Color`` (``#A6CE39``), and ``Text Color``.
 7. Click on ``Save``.
 8. Copy ``Callback URL`` from FAIR Wizard. It will look similar to ``https://example.fair-wizard.com/admin/open-id/<uuid>/callback``.
 
@@ -99,7 +99,7 @@ ORCID requires a redirect URI before it allows us to save the application and ob
 	- ``Client Secret`` → ORCID ``Client Secret``
 	- ``URL`` → keep ``https://orcid.org``
 17. Click on ``Save``.
-18. Test your OpenID configuration in FAIR Wizard (You might need to refresh the login page for the login button to appear).
+18. Test your OpenID configuration in FAIR Wizard. You might need to refresh the login page for the login button to appear.
 
 .. NOTE::
 
@@ -129,9 +129,9 @@ Custom Setup
 	- Configure the client to provide the following details in ID tokens: ``email``, ``given_name``, ``family_name``.
 8. Go back to FAIR Wizard and fill in the real ``Client ID``, ``Client Secret``, and ``URL`` from the OpenID provider.
 9. Leave ``Parameters`` empty unless the provider documentation requires an additional parameter.
-10. (optional) fill Icon (some from `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_), ``Background Color`` and ``Text Color``.
+10. (optional) Fill in Icon (an icon from `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_), ``Background Color`` and ``Text Color``.
 11. Click on ``Save``.
-12. Test your OpenID configuration in FAIR Wizard (You might need to refresh the login page for the login button to appear).
+12. Test your OpenID configuration in FAIR Wizard. You might need to refresh the login page for the login button to appear.
 
 
 Advanced Configuration
