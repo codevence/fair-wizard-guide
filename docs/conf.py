@@ -22,7 +22,7 @@ copyright = '2020 - 2026, FAIR Wizard Team'
 author = 'FAIR Wizard Team'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.32'
+version = release = '4.33'
 
 rst_prolog = f"""
 
