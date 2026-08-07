@@ -22,3 +22,4 @@ Project detail is where we work on our data management plan. In this section, we
     files
     settings
     sharing
+    ai-prefill
