@@ -7,12 +7,12 @@ There is also option to :doc:`./publish` the document template via :guilabel:`Pu
 
 
 .. figure:: index/editor.png
-    
+
     Document template editor.
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

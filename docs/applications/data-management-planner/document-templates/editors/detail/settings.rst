@@ -26,19 +26,19 @@ For example, if we set **Organization ID** to *fw*, **Knowledge Model ID** to *r
 
 .. figure:: template/allowed-kms.png
     :width: 628
-    
+
     Allowed knowledge models specification for a document template.
 
 
 Formats
 =======
 
-Each document template can support multiple file formats and users will be able to select which one they want to use to generate (or preview a document). We can add a new format by clicking :guilabel:`Add` button. Then, each format must have a **Name** and **Icon** (by using `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_). 
+Each document template can support multiple file formats and users will be able to select which one they want to use to generate (or preview a document). We can add a new format by clicking :guilabel:`Add` button. Then, each format must have a **Name** and **Icon** (by using `Font Awesome <https://fontawesome.com/v6/search?o=r&m=free>`_).
 
 Each format has some steps which capture how a file for that format is produced. There are different steps defined such as ``json``, ``jinja2``, ``pandoc``, or ``wkhtmltopdf`` which is used as its **Name**. Then, the step may have certain configuration **Options**. For example, ``jinja2`` must have ``content-type``, ``extension``, and ``template`` specified. All the possible steps and their options are further described in the :ref:`Document Template Development<document-worker-steps>`.
 
 
 .. figure:: template/formats.png
     :width: 628
-    
+
     Markdown format specification with ``jinja`` step.

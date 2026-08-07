@@ -2,7 +2,7 @@
 Integration via API
 *******************
 
-An Application Programming Interface (API) allows machines, such as other systems and tools, to perform actions and transfer data based on agreed-upon methods. 
+An Application Programming Interface (API) allows machines, such as other systems and tools, to perform actions and transfer data based on agreed-upon methods.
 
 By selecting the :guilabel:`About` option from the :ref:`Profile<planner-profile>` menu, users are directed to the :ref:`About<planner-about>` page where the :guilabel:`API URL` and :guilabel:`API Docs` are provided. The SwaggerUI API Documentation and OpenAPI Specifications allows you to explore all operations and data transfer and also you to directly try out the API calls, with example responses provided for guidance. In this way, you can reach Wizard API; however, in Admin Center, Analytics, and Integration Hub, you can reach the :guilabel:`API URL` and :guilabel:`API Docs` in the same way (via the :guilabel:`About` dialog).
 
@@ -15,7 +15,7 @@ FAIR Wizard utilizes JSON Web Tokens (JWT) for both authentication and authoriza
 * **OpenID Identity Provider** (for our client only): This method involves a more complex OpenID/OAuth flow, utilizing redirects with the ``/auth/{id}/`` endpoints to authenticate.
 * **API Keys**:  You can generate an API key in your user profile, which remains valid until its specified expiration date.
 
-While several public endpoints are accessible without authentication, most endpoints require it. The system will check if you are authorized to perform specific operations based on your :ref:`roles<user-roles>` and their permissions. These roles are defined globally and can also be specific to projects. This ensures that only authorized users can access and manipulate with sensitive resources.
+While several public endpoints are accessible without authentication, most endpoints require it. The system will check if you are authorized to perform specific operations based on your :ref:`roles<user-roles>` and their permissions. These roles are defined globally and can also be specific to projects. This ensures that only authorized users can access and manipulate sensitive resources.
 
 Example
 =======

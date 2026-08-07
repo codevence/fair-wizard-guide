@@ -42,6 +42,7 @@ Document context is an object that carries all information related to a FAIR Wiz
    * ``description`` = optional description of the project
    * ``files`` = list of project files (each has ``uuid``, ``fileName``, ``fileSize``, and ``contentType``)
    * ``labels`` = path-list map of labels on questions (i.e. TODOs)
+   * ``language`` = language of the project (optional language code)
    * ``name`` = name of the project
    * ``phaseUuid`` = UUID of the current phase selected
    * ``replies`` = path-object map of replies to questions
@@ -163,6 +164,7 @@ KnowledgeModelPackage
 -  ``versions`` (``list[str]``)
 -  ``name`` (``str``)
 -  ``description`` (``Optional[str]``)
+-  ``language`` (``str``)
 -  ``created_at`` (``datetime``)
 
 
@@ -174,6 +176,7 @@ Project
 -  ``uuid`` (``str``)
 -  ``name`` (``str``)
 -  ``description`` (``Optional[str]``)
+-  ``language`` (``Optional[str]``)
 -  ``version`` (``Optional[``\ :ref:`odc-project-version`\ ``]``)
 -  ``versions`` (``list[``\ :ref:`odc-project-version`\ ``]``)
 -  ``phase`` (``Optional[``\ :ref:`odc-phase`\ ``]``)
@@ -369,7 +372,7 @@ Aliases:
 -  ``a`` (``dict[str,str]``) - same as ``annotations``
 
 
-Notes: 
+Notes:
 
 -  Equality of all KM entities is being done using the ``uuid`` comparison under the hood.
 -  All KM entities that have ``annotations`` have also the ``a`` alias.
@@ -507,7 +510,7 @@ FileQuestion
 ''''''''''''
 
 -  ``max_size`` (``Optional[int]``) - maximum file size (in bytes) allowed
--  ``file_types`` (``Optional[str]``) - comma-separated file type specifications 
+-  ``file_types`` (``Optional[str]``) - comma-separated file type specifications
 
 
 .. _odc-answer:

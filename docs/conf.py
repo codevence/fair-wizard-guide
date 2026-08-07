@@ -21,19 +21,12 @@ project = 'FAIR Wizard'
 copyright = '2020 - 2026, FAIR Wizard Team'
 author = 'FAIR Wizard Team'
 
-project_name = 'FAIR Wizard'
-project_name_full = 'FAIR Wizard'
-registry_name = 'FAIR Wizard Registry'
-
 # The full version, including alpha/beta/rc tags
-version = release = '4.32'
+version = release = '4.33'
 
 rst_prolog = f"""
 
 .. |compose_ver| replace:: {release}
-.. |project_name| replace:: {project_name}
-.. |project_name_full| replace:: {project_name_full}
-.. |registry_name| replace:: {registry_name}
 
 """
 

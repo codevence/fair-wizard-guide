@@ -8,6 +8,6 @@ If there are any :ref:`submission-service` configured and require additional use
 If there is no submission service that requires additional properties, there is a note that no settings are available.
 
 .. NOTE::
-    
+
     The admin should notify users about the required properties for the submission service.
 

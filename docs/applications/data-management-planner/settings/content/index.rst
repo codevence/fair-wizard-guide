@@ -6,7 +6,7 @@ This part of settings allows us to configure various content-related things such
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

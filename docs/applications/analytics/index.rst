@@ -3,7 +3,9 @@
 Analytics
 *********
 
-Analytics is an application that gathers data from other applications and is used to view that data in comfortable and customizable way. The data is gathered from :ref:`Knowledge Models<knowledge-models>`, :ref:`Document Templates<document-templates>`, :ref:`projects<projects>`, :ref:`users<user-list>` and :ref:`user groups<user-groups>`.
+Analytics is an application that gathers data from other applications and is used to view that data in a comfortable and customizable way. The data is gathered from :ref:`Knowledge Models<knowledge-models>`, :ref:`Document Templates<document-templates>`, :ref:`projects<projects>`, :ref:`users<user-list>` and :ref:`user groups<user-groups>`.
+
+Users need the :ref:`Use Analytics<roles>` role permission to access Analytics, configure analytics views, and view analytics data.
 
 To get latest data, click on :guilabel:`Synchronize Data` button. This will synchronize the data from the other apps and store it in the analytics database. Once the data has been updated, the page will automatically refresh.
 
@@ -26,11 +28,11 @@ Watch this video to learn more about analytics:
     :width: 100%
     :align: center
 
-    
+
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -44,4 +46,3 @@ Watch this video to learn more about analytics:
     User Groups<user-groups>
     Settings<settings>
     Profile<profile/index>
-    

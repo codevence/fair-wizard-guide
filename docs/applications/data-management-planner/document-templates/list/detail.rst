@@ -11,5 +11,5 @@ If we are not seeing the latest version of the template, a warning message is sh
 
 
 .. figure:: detail/detail.png
-    
+
     Detail of a document template.

@@ -11,7 +11,7 @@ Based on SAML, FAIR Wizard supports authentication using `Shibboleth <https://ww
 
 .. figure:: saml/saml.png
     :width: 700
-    
+
     Example configuration of SAML service.
 
 
@@ -19,7 +19,7 @@ We can use the **Create automation** button to add some extra steps after users 
 
 .. figure:: saml/saml-detail.png
     :width: 700
-    
+
     Configured SAML service (with hidden details).
 
 

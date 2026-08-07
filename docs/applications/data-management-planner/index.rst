@@ -3,12 +3,12 @@
 Data Management Planner
 ***********************
 
-Data Management Planner is an application for collaborative and effective creation of Data Management Plans. This application is mainly used for creating Data Management Plans by **researchers**, but it also includes creation and editing of Knowledge Models and creation and editing of :guilabel:`Document Templates` done by **data stewards**.
+Data Management Planner is an application for collaborative and effective creation of Data Management Plans. It is mainly used by researchers to create Data Management Plans, but it also includes knowledge model and document template management for users with the appropriate role permissions.
 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -20,4 +20,3 @@ Data Management Planner is an application for collaborative and effective creati
     Projects<projects/index>
     Settings<settings/index>
     Profile<profile/index>
-    

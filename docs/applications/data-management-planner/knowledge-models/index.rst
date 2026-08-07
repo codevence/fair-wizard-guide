@@ -9,7 +9,7 @@ This section covers how to manage existing :ref:`knowledge models<knowledge-mode
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -19,4 +19,3 @@ This section covers how to manage existing :ref:`knowledge models<knowledge-mode
     List<list/index>
     Editors<editors/index>
     Secrets<secrets>
-    

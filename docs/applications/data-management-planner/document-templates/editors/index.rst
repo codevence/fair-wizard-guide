@@ -3,7 +3,7 @@
 Document Template Editors
 *************************
 
-On this page, we can see a list of all document template editors. Everyone with the data steward role assigned can see all the document template editors and use them.
+Users with the :ref:`Use Document Template Editor<roles>` role permission can see all document template editors and use them.
 
 We can use the search field to search for a specific document template editor. The editors are sorted by when they were last updated but we can change that.
 
@@ -16,12 +16,12 @@ By clicking the triple dots on each of the item in the list we can access some a
 
 
 .. figure:: index/list.png
-    
+
     List of document template editors with actions.
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

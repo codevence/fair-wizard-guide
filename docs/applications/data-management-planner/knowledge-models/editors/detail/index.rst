@@ -7,12 +7,12 @@ Knowledge model editor is where we build knowledge models. In this section, we w
 
 
 .. figure:: index/km-editor.png
-    
+
     Knowledge model editor.
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 

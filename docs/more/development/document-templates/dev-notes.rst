@@ -32,7 +32,7 @@ It is not recommended to add fonts as part of the document template for performa
 Misplaced Content in PDF
 ========================
 
-**Issue**: It may happen that content is placed over header/footer or incorrectly split between pages. 
+**Issue**: It may happen that content is placed over header/footer or incorrectly split between pages.
 
 **Recommendations**: First, avoid incorrect HTML structures such as empty list items, nested paragraphs, tables without ``tbody`` etc. Then also make sure that the page, footer and header sizes are correctly set via CSS. Similarly, you can prevent page break using CSS. In case of issues, also refer to the :ref:`WeasyPrint step <document-template-step-weasyprint>` or directly the `WeasyPrint documentation <https://doc.courtbouillon.org/weasyprint/>`_.
 

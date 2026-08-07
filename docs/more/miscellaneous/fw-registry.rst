@@ -3,10 +3,10 @@
 FAIR Wizard Registry
 ********************
 
-`FAIR Wizard Registry <https://registry.fair-wizard.com/>`_ is a place where we publish knowledge models, document templates and locales. It is very easy to get those into a |project_name| and use.
+`FAIR Wizard Registry <https://registry.fair-wizard.com/>`_ is a place where we publish knowledge models and document templates. It is very easy to get those into a FAIR Wizard instance and use them.
 
 .. figure:: fw-registry/fw-registry.png
-    
+
     FAIR Wizard Registry with a list of knowledge models.
 
 

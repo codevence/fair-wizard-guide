@@ -1,6 +1,8 @@
 furo
 Sphinx
+sphinx-notfound-page
+sphinx-prompt
+sphinx-toolbox
 sphinx-reredirects
 Sphinx-Substitution-Extensions
 sphinxcontrib-youtube
-sphinx-notfound-page

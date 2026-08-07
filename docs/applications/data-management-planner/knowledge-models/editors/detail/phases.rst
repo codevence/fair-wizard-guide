@@ -8,5 +8,5 @@ If there are any :ref:`project phases<phase>` set up in the knowledge model, we 
 We can simply click to the checkbox in the corresponding phase - question table cell to assign/unassign the phase to that particular question. We can also click on the question name to open the question editor and change the question details.
 
 .. figure:: phases/phases-editor.png
-    
+
     Phases editor where we can assign questions to phases.

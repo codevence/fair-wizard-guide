@@ -18,7 +18,7 @@ Creating a Project Migration
 We can start a project migration either from the :ref:`project list<project-list>`, or from the :ref:`project settings<project-settings>`. Sometimes, when there is a newer version of the knowledge model available, we can see a yellow :guilabel:`update available` badge next to the project name. We can click on the badge to start the migration as well.
 
 .. figure:: migration/create.png
-    
+
     Choosing a new knowledge model for the project when creating a project migration.
 
 
@@ -29,10 +29,10 @@ Note that the original project will remain unchanged until the migration is fini
 Project Migration
 =================
 
-The next screen is the project migration itself. We can go through all the changes between the original and the new knowledge model that affects our answers. During this process, we can also add :ref:`todos<todos>` if we want to come back to a specific question later, after the migration. 
+The next screen is the project migration itself. We can go through all the changes between the original and the new knowledge model that affects our answers. During this process, we can also add :ref:`todos<todos>` if we want to come back to a specific question later, after the migration.
 
 .. figure:: migration/migration.png
-    
+
     Reviewing changes during the project migration.
 
 
