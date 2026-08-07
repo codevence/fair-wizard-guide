@@ -1,9 +1,9 @@
 Introduction
 ************
 
-This section will cover the essentials of the |project_name_full|, including its key components and how they operate together to facilitate effective data management for researchers and data stewards.
+This section will cover the essentials of the FAIR Wizard, including its key components and how they operate together to facilitate effective data management for researchers and data stewards.
 
-Watch this video to see the basic researcher workflow in |project_name_full|:
+Watch this video to see the basic researcher workflow in FAIR Wizard:
 
 .. youtube:: mUMpntpuTJY
     :width: 100%
@@ -13,7 +13,7 @@ Watch this video to see the basic researcher workflow in |project_name_full|:
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

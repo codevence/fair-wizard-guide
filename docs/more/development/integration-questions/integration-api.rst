@@ -3,27 +3,27 @@
 Integration Question - API
 **************************
 
-:ref:`Integration question<integration-question>` can be connected to an external resource using its API. We can then search for the results from the external service using the |project_name| questionnaire interface. When we select an answer it is not only the text (such as a name of the database), but also a link to the external service to the selected item. The whole flow is denoted in the following diagram.
+:ref:`Integration question<integration-question>` can be connected to an external resource using its API. We can then search for the results from the external service using the FAIR Wizard questionnaire interface. When we select an answer it is not only the text (such as a name of the database), but also a link to the external service to the selected item. The whole flow is denoted in the following diagram.
 
 We can use `Jinja2 templating language <https://jinja.palletsprojects.com/en/stable/>`_ to construct everything in integrations. We also have this :ref:`cheatsheet<jinja-cheatsheet>` available.
 
 .. figure:: integration-api/api-integration.png
-    
+
     How integration question connected to, for example, FAIRsharing API works.
 
 
 External Service Requirements
 =============================
 
-If we want to connect an external service using the API there are certain requirements for it to make the connection to |project_name| possible.
+If we want to connect an external service using the API there are certain requirements for it to make the connection to FAIR Wizard possible.
 
 - **Allows search using free text**
-  
+
   - There must be a way to send a search phrase to the API so that it can filter the results based on it
 
 - **Returns a JSON response with a list of results**
 
-  - The response must be JSON so |project_name| can parse it
+  - The response must be JSON so FAIR Wizard can parse it
   - There needs to be a JSON list where all the items matching the search query are
 
 .. _integration-api-configuration:
@@ -46,7 +46,7 @@ Advanced Integration Configuration
 Additional integration configuration can be used when we want to force the integration reply, or when adding and editing **Variables** and **Secrets**.
 
 - **Allow Custom Reply** - The custom reply is turned on by default. We can turn it off if we want to force the integration reply. In that case, users will have to select one of the results from the external service, otherwise their reply will not be saved. This can be mentioned in the question description for the researchers.
-- **Variables** - We can use variables to parametrize the integration for each question. To define the variables, whose value can be filled on the questions using this integration. The variables can then be used in the request configuration. For example, if you define a variable named type, you can use it as ``{{ variables.type }}``, such as ``ht​tps://example.com/{{ type }}``.
+- **Variables** - We can use variables to parametrize the integration for each question. Variables can be filled on questions that use this integration and then used in the request configuration. For example, if you define a variable named ``type``, you can use it as ``{{ variables.type }}``, such as ``https://example.com/{{ variables.type }}``.
 - **Secrets** - Secrets can be used to store sensitive information, such as API keys or access tokens. We can reference these secrets as ``{{ secrets.secret_name }}`` anywhere in the request configuration, but their values will not be exposed in the question or answer templates. The additional knowledge model secrets documentation can be found :ref:`here<knowledge-model-secrets>`.
 
 Request Configuration
@@ -88,7 +88,7 @@ Response Configuration
 .. WARNING::
 
     We need to run a valid test request before we can configure the response.
-    
+
 
 In the **Response** section, we configure how to process the JSON response from the external service. For that, we need to configure the following:
 

@@ -15,7 +15,7 @@ AI Assistant is FAIR Wizard wide feature that allows you to interact with the AI
 
 .. figure:: features/ai-assistant.png
     :width: 300
-    
+
     AI Assistant.
 
 

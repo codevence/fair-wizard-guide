@@ -1,6 +1,8 @@
 Settings
 ********
 
+Users need the :ref:`Manage Settings<roles>` role permission to configure Analytics settings.
+
 Regular Synchronization
 -----------------------
 
@@ -9,4 +11,3 @@ Under system settings we can set up regular synchronization. We can select the t
 .. figure:: settings/form.png
 
     Regular synchronization settings.
-

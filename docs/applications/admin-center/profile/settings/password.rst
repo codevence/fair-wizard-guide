@@ -8,5 +8,5 @@ The password be can changed after navigating using :guilabel:`Password` from the
 
 .. figure:: password/form.png
     :width: 800
-    
+
     Form for changing password.

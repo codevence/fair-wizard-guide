@@ -7,15 +7,15 @@ We can create a new project by navigating to :guilabel:`Projects` in the main me
 
 .. NOTE::
 
-    If we have **Researcher** role we also have a **Create Project** widget on our dashboard right after logging in. We can click on :guilabel:`Create` button there, too.
+    Depending on our :ref:`role<roles>` and dashboard settings, we may also have a **Create Project** widget on our dashboard right after logging in. We can click on :guilabel:`Create` button there, too.
 
 
-Based on our configuration, we can create the new project from a project template, custom, or both.
+Based on our instance configuration, we can create the new project from a project template, custom, or both.
 
 
 .. figure:: create/project-create.png
     :width: 500
-    
+
     Different options how to create a project.
 
 
@@ -24,9 +24,9 @@ Based on our configuration, we can create the new project from a project templat
 From Project Template
 =====================
 
-There are many options how to create and configure a project, such as what :ref:`knowledge model<knowledge-model>` or :ref:`document template<document-template>` to use. :ref:`Project templates<project-templates>` are prepared projects by data stewards with possibly pre-selected knowledge models and document templates, they can have some pre-filled answers, comments and TODOs as well.
+There are many options how to create and configure a project, such as what :ref:`knowledge model<knowledge-model>` or :ref:`document template<document-template>` to use. :ref:`Project templates<project-templates>` are prepared projects with possibly pre-selected knowledge models and document templates, they can have some pre-filled answers, comments and TODOs as well.
 
-So creating such templates can be used by our researchers to have a smoother start of project. We just need to give our project a **name** and choose the **project template** from offered options.
+So if there are any project templates created in our instance, we can use them to have a smoother start of our project. We just need to give our project a **name** and choose the **project template** from offered options.
 
 
 .. _create-project-custom:
@@ -38,9 +38,11 @@ If there are no project templates available or we don't want to use them, we can
 
 If the knowledge model has :ref:`question tags<question-tag>`, we can either choose to create questionnaire with all available questions or filter them by the question tags.
 
+If the knowledge model has :ref:`locales<knowledge-model-locales>`, we can choose the **Project Language**. The source language of the knowledge model is selected by default. The language selection is shown only when there is at least one locale available for the selected knowledge model.
+
 .. figure:: create/project-create-custom.png
     :width: 528
-    
+
     Creating custom project with question tag selection.
 
 

@@ -25,7 +25,7 @@ Options are used as a dictionary for rewrites with the following syntax:
 -  Keys can be prefixed with:
 
    -  ``rewrite:`` and followed by path of file to be rewritten
-   -  *(currently there are no other prefixes then ``rewrite``)*
+   -  *(currently there are no other prefixes than ``rewrite``)*
 
 -  Values can be prefixed with:
 
@@ -57,4 +57,3 @@ Example
 
 .. |badge-status| image:: https://img.shields.io/badge/status-stable-green
 .. |badge-metamodel| image:: https://img.shields.io/badge/metamodel%20version-%E2%89%A5%2011-blue
-

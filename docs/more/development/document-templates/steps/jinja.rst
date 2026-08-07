@@ -126,7 +126,7 @@ Value Conversion
 We provide several filters that can be used for conversion of values:
 
 - ``datetime_format`` = *Formats timestamp*
-  
+
   - Example: ``x.created_at|datetime_format("%d/%m/%y")``
   - Arguments:
 
@@ -157,7 +157,7 @@ We provide several filters that can be used for conversion of values:
     -  ``md_text`` - string containing Markdown syntax
 
 - ``dot`` = *Ends sentence if not already ended*
-  
+
   - Example: ``"This sentence has no end"|dot``
   - Arguments:
 
@@ -168,7 +168,7 @@ We provide several filters that can be used for conversion of values:
 
   - Example: ``entities.questions|extract([uuid1, uuid2, uuid3])``
   - Arguments:
-    
+
     -  ``obj`` - object for getting values (typically ``dict``)
     -  ``keys`` - list of keys to retrieve
 
@@ -179,7 +179,7 @@ Reply Helpers
 These filters are handy when you need to work with ``repliesMap`` from the plain JSON-like context.
 
 - ``reply_path`` = *Joins list of UUIDs into a path*
- 
+
   - Example: ``[uuid1, uuid2, uuid3]|reply_path``
   - Arguments:
 
@@ -213,7 +213,7 @@ These filters are handy when you need to work with ``repliesMap`` from the plain
   - Returns zero if not possible to extract it from the reply. Suitable for ``StringReply`` with numeric value type.
   - Example: ``reply|reply_float_value``
   - Arguments:
-    
+
     -  ``reply`` - object that might be a reply
 
 - ``reply_items`` = *Extracts list of strings from a reply if possible*
@@ -271,7 +271,7 @@ Replies Extraction
 ------------------
 
 .. warning::
-  
+
     This is experimental feature introduced in 4.20 release and might change in the future.
 
 You can use the following Jinja filter to extract replies easily while using KM annotations.

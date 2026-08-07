@@ -12,7 +12,7 @@ We can see projects name, label :guilabel:`Template` if the project is a templat
 - **Globe icon** - anyone with a link can access the project
 
 .. figure:: index/project-list.png
-    
+
     Project list with filters.
 
 
@@ -25,7 +25,7 @@ We can search for specific projects using the search field or filter them using 
 
 .. NOTE::
 
-    Note that some of the filters can be disabled based on the |project_name| settings or user role.
+    Note that some of the filters can be disabled based on the FAIR Wizard settings or user role.
 
 
 We can :ref:`create a new project<create-project>` by clicking the :guilabel:`Create` button.
@@ -44,7 +44,7 @@ If there is an ongoing :ref:`project migration<project-migration>`, there are di
 - **Cancel migration** - to cancel the ongoing project migration
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

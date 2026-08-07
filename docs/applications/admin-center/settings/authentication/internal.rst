@@ -7,5 +7,5 @@ We can also enable or disable Two-Factor Authentication (2FA) for users. If enab
 
 .. figure:: internal/internal.png
     :width: 700
-    
+
     Internal Settings.
