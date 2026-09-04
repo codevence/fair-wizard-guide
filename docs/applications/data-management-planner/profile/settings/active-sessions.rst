@@ -7,5 +7,5 @@ Here we can see list of active sessions that are logged into our account. In cas
 
 .. figure:: active-sessions/form.png
     :width: 800
-    
+
     List of active sessions.

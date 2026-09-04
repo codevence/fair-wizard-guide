@@ -1,13 +1,13 @@
 Miscellaneous
 *************
 
-Additional information related to |project_name| that might be useful.
+Additional information related to FAIR Wizard that might be useful.
 
 ----
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::
@@ -17,4 +17,3 @@ Additional information related to |project_name| that might be useful.
     jinja-cheatsheet
     keyboard-shortcuts
     markdown-cheatsheet
-    

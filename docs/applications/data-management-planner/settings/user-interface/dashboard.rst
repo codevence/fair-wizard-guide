@@ -1,7 +1,7 @@
 Dashboard
 *********
 
-The dashboard settings allows us to adjust what users will see after they log in, i.e. on the application initial page called the dashboard. 
+The dashboard settings allows us to adjust what users will see after they log in, i.e. on the application initial page called the dashboard.
 
 Dashboard Style
 ===============
@@ -18,13 +18,13 @@ We can select the **Dashboard Style** whether the user should see a standard **w
 
   * **Create KM / Project Template Widgets** let the user to quickly start a new knowledge model editor or project template.
 
-  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the |registry_name| connection is configured.
+  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the FAIR Wizard Registry connection is configured.
 
-  * **Import KM / Document Template Widgets** allow to proceed easily to import of a knowledge model or a document template in case the |registry_name| connection is configured.
+  * **Import KM / Document Template Widgets** allow to proceed easily to import of a knowledge model or a document template in case the FAIR Wizard Registry connection is configured.
 
 * **Admin**
 
-  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the |registry_name| connection is configured.
+  * **Outdated KM / Document Templates Widgets** allow to quickly see outdated packages and document templates in case the FAIR Wizard Registry connection is configured.
 
   * **Usage Widget** summarizes the usage just as is also possible to see in the :doc:`../info/usage`.
 

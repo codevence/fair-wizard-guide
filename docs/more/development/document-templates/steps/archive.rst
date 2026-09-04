@@ -25,7 +25,7 @@ Options
 -  (optional) ``type`` = whether to produce ``zip`` or ``tar`` (defaults to ``zip``)
 -  (optional) ``compression`` = compression method to be used (``none``, ``gzip``, ``bzip2``, ``lzma``; defaults to ``none``)
 -  (optional) ``compressionLevel`` = value specifying level of compression (``0`` to ``9``; defaults to ``9``)
--  (optional) ``format`` = only for ``tar`` it allows to specify format (``ustar``, ``gnu``, ``pax``; defaults to ``pax``)
+-  (optional) ``format`` = only for ``tar``, it allows us to specify format (``ustar``, ``gnu``, ``pax``; defaults to ``pax``)
 
 Notes
 =====

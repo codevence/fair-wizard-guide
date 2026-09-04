@@ -20,7 +20,7 @@ We can import a knowledge model from the `FAIR Wizard Registry <https://registry
 
 .. figure:: import/registry.png
     :width: 500
-    
+
     Input for importing a knowledge model from FAIR Wizard Registry.
 
 
@@ -32,5 +32,5 @@ We can import a knowledge model as a KM file. Such a file can be exported from F
 
 .. figure:: import/file.png
     :width: 500
-    
+
     Input for importing a knowledge model using a KM package.

@@ -3,7 +3,7 @@
 Overview
 ********
 
-Different components in the |project_name_full| are connected to create a data management plan and help with data management in general. Different components are typically made and used by different user roles. Data stewards work on preparing content (such as **knowledge models** or **document templates**) for researchers that they can use to work on their data management plans while filling in the **questionnaires** and exporting **documents**.
+Different components in the FAIR Wizard are connected to create a data management plan and help with data management in general. Different components are typically made and used by different user roles. Data stewards work on preparing content (such as **knowledge models** or **document templates**) for researchers that they can use to work on their data management plans while filling in the **questionnaires** and exporting **documents**.
 
 Data Management Planner
 =======================
@@ -13,7 +13,7 @@ Data Management Planner is the core of the FAIR Wizard. It enables creation of D
 .. figure:: overview/overview.png
    :align: center
 
-   Different components of the |project_name_full| and roles interacting with them.
+   Different components of the FAIR Wizard and roles interacting with them.
 
 
 Knowledge Model
@@ -47,7 +47,7 @@ Documents are produced from the questionnaire answers and a document template. T
 Admin Center
 ============
 
-The Admin Center is an application in which can admins manage the FAIR Wizard application. This includes management of users, their roles and user groups and various imports. It also includes the management of the application itself. User groups can also be managed by data stewards.
+The Admin Center is an application where users with the appropriate role permissions can manage the FAIR Wizard application. This includes management of users, their roles and user groups, various imports, and the application itself. User groups can also be managed by their owners.
 
 Users
 -----
@@ -85,4 +85,4 @@ Value Integrations are used to create integrations from data stored in CSV forma
 Analytics
 =========
 
-Analytics is an application showing FAIR Wizard data in a form of table. This data can serve to analyze contents of FAIR Wizard. Analytics gathers data about Projects, Users and User Groups.
+Analytics is an application that shows FAIR Wizard data in a table. This data can be used to analyze the contents of FAIR Wizard. Analytics gathers data about Projects, Users, and User Groups.

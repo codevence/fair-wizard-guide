@@ -13,5 +13,5 @@ If we make some changes in a file, the asterisk (or star) symbol will appear by 
 
 
 .. figure:: files/files.png
-    
+
     Files editor with tabs and split view.

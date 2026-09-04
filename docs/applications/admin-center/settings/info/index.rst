@@ -1,13 +1,13 @@
 Info
 ****
 
-The info section of settings simply serves to let us check various information and statistics about the |project_name| instance.
+The info section of settings simply serves to let us check various information and statistics about the FAIR Wizard instance.
 
 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::
@@ -15,4 +15,3 @@ The info section of settings simply serves to let us check various information a
 
     Plans<plans>
     Usage<usage>
-    

@@ -12,7 +12,7 @@ On the left side of the editor, there is a navigation tree reflecting the struct
 
 .. figure:: knowledge-model/navigation.png
     :width: 278
-    
+
     Knowledge model editor navigation.
 
 
@@ -28,14 +28,14 @@ The main area of the :guilabel:`Knowledge Model` tab is the actual editor. The f
 
 .. figure:: knowledge-model/editor-action-buttons.png
     :width: 296
-    
+
     Editor action buttons.
 
 
 - **Copy UUID** - every entity has a generated UUID, we can use this button to copy it. We usually need it for :ref:`document template development<document-template-development>`.
 
 - **Move** - we can move entities around the knowledge model. However, not every entity can be put under everything. We can open the move modal window and see where the current entity could be move to.
-  
+
 - **Delete** - delete is simply used for deleting the entities. This action cannot be undone, so we need to be careful what we delete.
 
 There are different entities we can edit in the knowledge model, the editor shows different fields based on what we edit:
@@ -54,7 +54,7 @@ There are different entities we can edit in the knowledge model, the editor show
 - :ref:`Resource Collection<resource-collection>`
 
 .. figure:: knowledge-model/editor-form.png
-    
+
     Example of question editor form.
 
 
@@ -67,7 +67,7 @@ If we have at least one :ref:`URL Reference<url-reference>` in the knowledge mod
 
 .. figure:: knowledge-model/url-checker.png
     :width: 317
-    
+
     Checked URLs with issue description.
 
 
@@ -78,7 +78,7 @@ The editor checks for some possible problems, such as empty title for a chapter 
 
 .. figure:: knowledge-model/warnings.png
     :width: 317
-    
+
     Warnings in the knowledge model editor.
 
 

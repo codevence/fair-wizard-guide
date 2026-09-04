@@ -3,11 +3,11 @@
 Document Templates
 ******************
 
-As an admin, we can view analytics of document templates. We can create and edit views by selecting from many different fields and see how our document templates are doing. The view can be modified and save to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of document templates. We can create and edit views by selecting from many different fields and see how our document templates are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
 
 .. figure:: document-templates/overview.png
     :width: 700
-    
+
     Document Templates overview.
 
 
@@ -15,7 +15,7 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 .. figure:: document-templates/settings.png
     :width: 400
-    
+
     Form for editing analytics view.
 
 
@@ -48,4 +48,3 @@ Lastly we can click on the :guilabel:`Open in Data Management Planner` button to
 .. figure:: document-templates/detail.png
 
     Detail of a document template.
-

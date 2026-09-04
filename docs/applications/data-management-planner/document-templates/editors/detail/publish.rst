@@ -8,5 +8,5 @@ If we confirm the publishing of the document template by clicking :guilabel:`Pub
 
 .. figure:: publish/modal.png
     :width: 528
-    
+
     Confirmation of document template publishing.

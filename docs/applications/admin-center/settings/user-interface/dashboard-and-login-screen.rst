@@ -6,11 +6,11 @@ Dashboard and Login Screen
 Login Info
 ==========
 
-It is possible to write a message that users will see before logging in the |project_name|, using HTML or Markdown. The Login info is placed in the center of the login screen. We can use it to explain users in what cases they can/should use our |project_name|, how they should log in (e.g. if we have more :ref:`authentication services<auth-services>` configured), or if there is any news regarding our |project_name|.
+It is possible to write a message that users will see before logging in the FAIR Wizard, using HTML or Markdown. The Login info is placed in the center of the login screen. We can use it to explain users in what cases they can/should use our FAIR Wizard, how they should log in (e.g. if we have more :ref:`authentication services<auth-services>` configured), or if there is any news regarding our FAIR Wizard.
 
 .. WARNING::
 
-  Defining HTML classes in the login info can overwrite |project_name| application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
+  Defining HTML classes in the login info can overwrite FAIR Wizard application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
 
 
 .. _sidebar-login-info:
@@ -22,11 +22,11 @@ It is also possible to write another message that users will see on the login sc
 
 .. WARNING::
 
-  Defining HTML classes in the login info can overwrite |project_name| application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
+  Defining HTML classes in the login info can overwrite FAIR Wizard application classes. It is recommended to use prefixes for classes, if they are used, to avoid conflicts.
 
 .. figure:: dashboard-and-login/dashboard-and-login.png
   :width: 700
-    
+
   Privacy and Support settings.
 
 
@@ -43,5 +43,5 @@ The content of the Announcement can be edited using Markdown. There are also two
 
 .. figure:: dashboard-and-login/announcements.png
   :width: 700
-    
+
   Announcements settings.

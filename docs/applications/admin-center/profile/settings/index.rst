@@ -6,7 +6,7 @@ User Settings
 After navigating to :guilabel:`User settings` from the :doc:`../index` menu, we open the User Settings. We can edit our **Email** address, **First name**, **Last name**, and **Affiliation**. We need to submit the changes by clicking :guilabel:`Save` button.
 
 .. figure:: index/form.png
-    
+
     Form for editing profile.
 
 
@@ -15,7 +15,7 @@ If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from 
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -30,4 +30,3 @@ If we want to :doc:`./password`, we need to switch to :guilabel:`Password` from 
     Active Sessions<active-sessions>
     Submission Settings<submission-settings>
     Connected AIs<connected-ais>
-    

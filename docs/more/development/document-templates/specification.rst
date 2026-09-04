@@ -3,7 +3,7 @@
 Document Template Specification
 *******************************
 
-Each document template in |project_name| has metadata stored. If developing locally with :doc:`./tdk`, you can find and manage them  in ``template.json`` file. In case of using :doc:`../../../applications/data-management-planner/document-templates/editors/index`, you can manage them on **Settings** tab.
+Each document template in FAIR Wizard has metadata stored. If developing locally with :doc:`./tdk`, you can find and manage them  in ``template.json`` file. In case of using :doc:`../../../applications/data-management-planner/document-templates/editors/index`, you can manage them on **Settings** tab.
 
 
 Specification Structure
@@ -17,10 +17,10 @@ Specification Structure
 * ``description`` = short description of the template
 * ``license`` = name of the used license
 * ``readme`` = longer description usually containing changelog
-* ``metamodelVersion`` = supported version of template metamodel, it affects with which |project_name| version is can be used
+* ``metamodelVersion`` = supported version of template metamodel; it affects which FAIR Wizard version can use the template
 * ``allowedPackages`` = list of package filters (see :ref:`document-template-package-filter`) to specify supported packages
 * ``formats`` = list of available formats (see below :ref:`document-template-format`) with specified steps for generation
-* ``_tdk`` = TDK configuration for local development (not stored in |project_name|, see :ref:`tdk-config`)
+* ``_tdk`` = TDK configuration for local development (not stored in FAIR Wizard, see :ref:`tdk-config`)
 
 
 .. NOTE::
@@ -79,7 +79,7 @@ Each step of template produces output based on its (optional) input and options.
 TDK Config
 ----------
 
-Those are local-only metadata used for development of the template. You can use them in versioned ``template.json`` but those are never stored directly in |project_name|.
+Those are local-only metadata used for development of the template. You can use them in versioned ``template.json`` but those are never stored directly in FAIR Wizard.
 
 * ``version``: metadata version for needs of migrations
 * ``readmeFile``: files used to get content for ``readme`` of the template, usually ``README.md``
@@ -92,6 +92,13 @@ Document Template Metamodel Versions
 ====================================
 
 Here are described the changes in metamodel for template specification as well as :doc:`document context<document-context>` so developers can easily update their templates to a newer metamodel version when needed. It is also possible to check JSON schemas in higher detail, see :doc:`../metamodel-schemas`.
+
+Version 18.2 (since 4.33.0)
+---------------------------
+
+* Added:
+
+  * ``language`` = new field on Knowledge Model Package and Project objects in document context (see :ref:`document-context`)
 
 Version 18.1 (since 4.31.0)
 ---------------------------
@@ -148,7 +155,7 @@ Version 14 (since 4.10.0)
 * Added resource collections and pages, incl. change in resource page references.
 
 .. NOTE::
-  
+
   Here are necessary updates done to DSW open-source templates, this can be used as a reference for your own templates:
 
     * `Questionnaire report <https://github.com/ds-wizard/questionnaire-report-template/commit/b79bcfcec850cf3e983a8c2f675ba37a13f62bbc>`_
@@ -223,4 +230,4 @@ Version 2 (since 2.6.0)
 Version 1 (since 2.5.0)
 -----------------------
 
-* Initial version of metamodel, introduced in |project_name| 2.5.0 as start of versioning.
+* Initial version of metamodel, introduced in FAIR Wizard 2.5.0 as start of versioning.

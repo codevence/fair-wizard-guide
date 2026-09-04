@@ -2,14 +2,14 @@
 Metamodel Schemas
 *****************
 
-As Data Stewardship Wizard evolves, the internal structures may change during the time. To support migration under the hood, we use metamodel versioning for KM and templates.
+As FAIR Wizard evolves, the internal structures may change over time. To support migration under the hood, we use metamodel versioning for knowledge models and templates.
 
 ----
 
 KM Package (.km file)
 =====================
 
-File for import and export of Knowledge Models is a JSON file that contains all KM packages (lists of change events with additional metadata). The structure of events is versioned using the KM metamodel version number and migrations in |project_name| automatically update the KMs when needed. As said, files according to this schema can be exported from :doc:`../../applications/data-management-planner/knowledge-models/list/index` or :doc:`../../applications/data-management-planner/knowledge-models/list/detail` and then used for :doc:`../../applications/data-management-planner/knowledge-models/list/import`.
+A file for import and export of knowledge models is a JSON file that contains all KM packages (lists of change events with additional metadata). The structure of events is versioned using the KM metamodel version number and migrations in FAIR Wizard automatically update the KMs when needed. Files according to this schema can be exported from :doc:`../../applications/data-management-planner/knowledge-models/list/index` or :doc:`../../applications/data-management-planner/knowledge-models/list/detail` and then used for :doc:`../../applications/data-management-planner/knowledge-models/list/import`.
 
 +-------------------+---------------------------------------------------------------------------------------------------------------+------------------------------------------------------+-----------+
 | Metamodel Version | Schema file                                                                                                   | Changes (brief)                                      | Since     |
@@ -58,11 +58,13 @@ File for import and export of Knowledge Models is a JSON file that contains all 
 Document Context
 ================
 
-Document Context is provided to the document templates by document worker. It contains all relevant data about project/questionnaire with replies, related knowledge model, author, and more. As KM evolves, the context may evolve as well. It is versioned using the Template metamodel version number. A document template must support the metamodel that is in the current |project_name| instance. It is needed to know how the document context looks like especially for :doc:`./document-templates/index`.
+Document Context is provided to the document templates by document worker. It contains all relevant data about project/questionnaire with replies, related knowledge model, author, and more. As the knowledge model evolves, the context may evolve as well. It is versioned using the Template metamodel version number. A document template must support the metamodel that is in the current FAIR Wizard instance. It is needed to know how the document context looks like especially for :doc:`./document-templates/index`.
 
 +-------------------+--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------+--------+
 | Metamodel Version | Schema file                                                                                                              | Changes (brief)                                         | Since  |
 +===================+==========================================================================================================================+=========================================================+========+
+| 18.2              | *(not published in dsw-schemas)*                                                                                         | Language field added                                    | 4.33.0 |
++-------------------+--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------+--------+
 | 18.1              | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v18-1.json>`__ | Python datetime and zoneinfo support                    | 4.31.0 |
 +-------------------+--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------+--------+
 | 18.0              | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/doc-context/doc_context_schema_v18-0.json>`__ | Renaming project and KM package, PluginIntegration      | 4.29.0 |
@@ -107,11 +109,13 @@ Document Context is provided to the document templates by document worker. It co
 Template (.json file)
 =====================
 
-Each template has its descriptor file ``template.json`` which contains all the information about the template, its format(s) and steps how to produce the document(s). It is also versioned by the Template metamodel version number. This file also contains the actual number of the supported version... With local :doc:`./document-templates/index`, we will need to manage the file according to the schema; however, when :doc:`../../applications/data-management-planner/document-templates/editors/index` are used, we will define it using forms directly in |project_name|.
+Each template has its descriptor file ``template.json`` which contains all the information about the template, its format(s) and steps how to produce the document(s). It is also versioned by the Template metamodel version number. This file also contains the actual number of the supported version... With local :doc:`./document-templates/index`, we will need to manage the file according to the schema; however, when :doc:`../../applications/data-management-planner/document-templates/editors/index` are used, we will define it using forms directly in FAIR Wizard.
 
 +-------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+--------+
 | Metamodel Version | Schema file                                                                                                                  | Changes (brief)                                             | Since  |
 +===================+==============================================================================================================================+=============================================================+========+
+| 18.2              | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v18-2.json>`__ | Language field added                                        | 4.33.0 |
++-------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+--------+
 | 18.1              | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v18-1.json>`__ | Python datetime and zoneinfo support                        | 4.31.0 |
 +-------------------+------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------+--------+
 | 18.0              | `JSON Schema <https://github.com/ds-wizard/dsw-schemas/blob/master/schemas/template-json/template_json_schema_v18-0.json>`__ | Renaming project and KM package, PluginIntegration          | 4.29.0 |

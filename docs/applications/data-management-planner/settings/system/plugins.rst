@@ -10,7 +10,6 @@ Plugins allows us to toggle and configure plugins. Available plugins are:
 - **Integration Hub:** Plugin for connecting Integration Hub to Data Management Planner.
 
 .. figure:: plugins/plugins.png
-    
+
     Plugins configuration.
 
-    

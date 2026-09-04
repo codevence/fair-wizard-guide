@@ -7,7 +7,7 @@ This section is about :ref:`projects<project>` -- how to create them, how to wor
 
 ----
 
-Projects are mainly used by the researchers. Watch this video to see the basic researcher workflow in |project_name_full|:
+Projects are mainly used by the researchers. Watch this video to see the basic researcher workflow in FAIR Wizard:
 
 .. youtube:: mUMpntpuTJY
     :width: 100%
@@ -15,7 +15,7 @@ Projects are mainly used by the researchers. Watch this video to see the basic r
 
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 .. toctree::

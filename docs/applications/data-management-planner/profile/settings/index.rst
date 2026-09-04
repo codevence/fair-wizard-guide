@@ -10,7 +10,7 @@ We can also see Active Sessions and revoke them if needed.
 In case of configured submission services, there might be additional inputs under **Submission Settings** such as API tokens or other information used for the document submission.
 
 .. figure:: index/form.png
-    
+
     Form for editing profile with example submission settings.
 
 
@@ -22,7 +22,7 @@ In case of configured submission services, there might be additional inputs unde
 ----
 
 .. raw:: html
-    
+
     <h2>Table of Contents</h2>
 
 
@@ -33,4 +33,3 @@ In case of configured submission services, there might be additional inputs unde
     App Keys<app-keys>
     Active Sessions<active-sessions>
     Submission Settings<submission-settings>
-    

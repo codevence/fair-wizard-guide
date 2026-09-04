@@ -6,11 +6,11 @@ We can create a new document template editor by navigating to :menuselection:`Do
 
 .. figure:: create/create-document-template.png
     :width: 528
-    
+
     Form for creating a new document template editor.
 
 
-Every document template needs to have a **Name**, a **Document Template ID** and **version**. The name should be something descriptive to help users understand what the document template is about. The Document Template ID is used for the identification together with the :ref:`organization ID<organization-settings>` and document template version that we have to fill as a **New Version**. So the identifier of the document template is: 
+Every document template needs to have a **Name**, a **Document Template ID** and **version**. The name should be something descriptive to help users understand what the document template is about. The Document Template ID is used for the identification together with the :ref:`organization ID<organization-settings>` and document template version that we have to fill as a **New Version**. So the identifier of the document template is:
 
 .. code::
 

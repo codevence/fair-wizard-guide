@@ -30,10 +30,10 @@ If this button is not present, check if templates are published by FAIR Wizard. 
 
 If you are using your own templates, you need to update them yourself according to :ref:`Document Template Specifications<document-template-metamodel-versions>`.
 
-Researchers don’t see Knowledge Model/Document Template
--------------------------------------------------------
+Researchers don’t see Knowledge Model or Document Template
+----------------------------------------------------------
 
-Knowledge Models and Document Templates must be published to be visible to Researchers. You can publish them in their respected editors.
+Knowledge models and document templates must be published to be visible to researchers. You can publish them from their respective editors.
 
 Researchers don’t see Project Template
 --------------------------------------

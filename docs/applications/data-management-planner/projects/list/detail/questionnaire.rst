@@ -15,14 +15,14 @@ If the :ref:`knowledge model<knowledge-model>` we use for the :ref:`project<proj
 
 .. figure:: questionnaire/phase-selection.png
     :width: 299
-    
+
     Phase selection widget.
 
 By clicking the phase selection we open the modal window where we can choose the current phase.
 
 .. figure:: questionnaire/phase-selection-modal.png
     :width: 800
-    
+
     Phase selection modal window.
 
 We can see the desirability of questions based on the phase we are currently in. We can also see the number of questions that still need to be answered in this phase for each chapter in the chapter list.
@@ -47,7 +47,7 @@ For the opened chapter, we can see a navigation tree for the chapter structure, 
 
 .. figure:: questionnaire/chapter-list.png
     :width: 299
-    
+
     Chapter list showing the also the questions for the opened chapter.
 
 
@@ -90,7 +90,7 @@ Options question has a list of pre-set answers and we can choose one from those.
 If there are some metrics set for the answers, we can see labels with the metrics by the answer as well. The color of the label indicates how good or bad the answer is (red means bad, green good, yellow something in between).
 
 .. figure:: questionnaire/options-question.png
-    
+
     Options question with a closed set of answers.
 
 
@@ -107,7 +107,7 @@ The first question in the list of items question is used as a label for the item
 
 
 .. figure:: questionnaire/list-of-items-question.png
-    
+
     List of items question with a multiple items.
 
 
@@ -119,7 +119,7 @@ Value question contains an input field for our answer. This can be a simple text
 All of value question types (except for color) can have validations set on them. We can still type in an invalid answer, but it will display a warning and also show it in the list of :ref:`warnings<warnings>`.
 
 .. figure:: questionnaire/value-question.png
-    
+
     Value question with a simple text input.
 
 
@@ -131,7 +131,7 @@ Integration question is connected to an external resource where it searches for 
 When we pick an answer from the list, we not only have the answer but also **a link to the selected item in the external service**. If the answer we searched for is not there, we can simply keep what we have written in the input field. We just won't have the link with this answer.
 
 .. figure:: questionnaire/integration-question.png
-    
+
     Integration question with a response from FAIRsharing containing also a link.
 
 
@@ -141,7 +141,7 @@ Multi-Choice Question
 Multi-choice question is similar to the options question, however we can choose more there one answer and there are no follow-up questions.
 
 .. figure:: questionnaire/multi-choice-question.png
-    
+
     Multi-choice question with many choices.
 
 
@@ -158,9 +158,9 @@ The item selection question is used together with the list of items question. Wh
 File Question
 -------------
 File question is used when we need to upload a file as an answer. We can simply click on the :guilabel:`Upload File` button and select the file from our computer. We can also drag and drop the file into the input field.
-    
+
 .. figure:: questionnaire/file-question.png
-    
+
     File select question with a list of items as possible answers.
 
 
@@ -177,14 +177,14 @@ In the questionnaire tab, there is a menu bar with various options. The first on
 
 .. figure:: questionnaire/view-options.png
     :width: 170
-    
+
     Different view options accessible form the questionnaire toolbar.
 
 
 .. NOTE::
 
     If at least one of the options is turned off, a red dot will be displayed next to the :guilabel:`View` button.
-    
+
 
 Import answers
 ==============
@@ -203,7 +203,7 @@ All of value question types (except for color) can have validations set on them.
 
 .. figure:: questionnaire/warnings.png
     :width: 600
-    
+
     Warnings referring to questions with invalid values.
 
 .. _todos:
@@ -217,7 +217,7 @@ We can then open the :guilabel:`TODOs` tab from the questionnaire menu to see th
 
 .. figure:: questionnaire/todos.png
     :width: 600
-    
+
     List of TODOs.
 
 
@@ -228,7 +228,7 @@ We sometimes want to leave comments to discuss things with our team or just remi
 
 .. figure:: questionnaire/comments.png
     :width: 600
-    
+
     Example of a comment.
 
 
@@ -259,7 +259,7 @@ When a comments is assigned to a user, they are notified by an email. Comments a
 Comment Threads
 ---------------
 
-Comments are organized into comment threads for better clarity. We can either start a new thread or reply in an existing thread if our comment is on the same topic. 
+Comments are organized into comment threads for better clarity. We can either start a new thread or reply in an existing thread if our comment is on the same topic.
 
 When the thread is resolved, we can click on the ✔ icon in order to resolve it. Resolved threads can be later viewed by selecting :guilabel:`View resolved comments`. They can also be reopened if needed.
 
@@ -287,7 +287,7 @@ When we open the :guilabel:`Version history` tab from the questionnaire menu bar
 
 .. figure:: questionnaire/version-history.png
     :width: 600
-    
+
     Version history shows all events changing the project.
 
 
@@ -321,7 +321,7 @@ Revert to an Older Version
 We can also revert a questionnaire to an older version. We can simply find the desired version in the version history and choose :guilabel:`Revert to this version` from the event menu.
 
 .. WARNING::
-    
+
     Reverting to an older version cannot be undone. It is therefore recommended to create a copy of the project before reverting.
 
 
@@ -334,6 +334,6 @@ We can click on any of the search results to quickly navigate to that question i
 
 .. figure:: questionnaire/search.png
     :width: 600
-    
+
     Search panel shows all matching questions, answers and other content in real-time.
-    
+
