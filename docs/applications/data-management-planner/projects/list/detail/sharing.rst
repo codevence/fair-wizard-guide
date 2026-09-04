@@ -24,9 +24,9 @@ If we want to only see how sharing is set up or copy the project link, we can us
     Fast project sharing.
 
 
-.. NOTE::
+Changes made in the sharing modal are saved after clicking :guilabel:`Save`. We can close the modal without saving by clicking :guilabel:`Cancel`.
 
-    When sharing settings are changed, the changes are saved automatically.
+When we search for users to add to project sharing, FAIR Wizard also shows user affiliation when it is available.
 
 
 There are different project sharing roles that grant access to different project features:
