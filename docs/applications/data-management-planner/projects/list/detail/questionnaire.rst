@@ -226,6 +226,10 @@ Comments
 
 We sometimes want to leave comments to discuss things with our team or just reminders for ourselves. We can write comments to each question in the questionnaire. The comments can be browsed using the navigation buttons.
 
+Total number of comments in the questionnaire is visible in the :guilabel:`Comments` tab in the questionnaire menu bar. If a comment detail is opened, the number `x/y` indicates the current comment's position within the total number of comments.
+
+The number of comments per question is indicated by the comments icon next to the question.
+
 .. figure:: questionnaire/comments.png
     :width: 600
 
