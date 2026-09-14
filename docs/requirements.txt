@@ -1,6 +1,6 @@
 accessible-pygments==0.0.5
 alabaster==1.0.0
-anyio==4.15.0
+anyio==4.15.1
 babel==2.18.0
 beartype==0.22.9
 beautifulsoup4==4.15.0
