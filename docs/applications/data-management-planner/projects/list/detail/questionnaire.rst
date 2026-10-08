@@ -194,6 +194,14 @@ Questionnaire answers can be imported for various sources using :ref:`plugins<pl
 If there are some project importer plugins available for the project, there is the :guilabel:`Import answers` button in the questionnaire menu bar. We can choose one of the available importer plugins there and then follow the instructions in the importer plugin window.
 
 
+.. _unanswered-questions:
+
+Unanswered questions
+====================
+
+The :guilabel:`Unanswered` button in the questionnaire menu bar shows how many visible questions that are desirable in the current phase still need an answer. Open it to see those questions grouped by chapter. Click a question to jump to it in the questionnaire. Questions that are hidden by earlier answers or belong to a later phase are not listed.
+
+
 .. _warnings:
 
 Warnings

@@ -21,6 +21,8 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 Various fields have filters that can be used to narrow down the data.
 
+Use the :guilabel:`User Groups` field filter to show users by group membership. Date fields such as :guilabel:`Created At` can be filtered by a date range.
+
 We can resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.

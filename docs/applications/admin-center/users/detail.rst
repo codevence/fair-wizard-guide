@@ -5,6 +5,8 @@ User Detail
 
 Users with the :ref:`Manage Users<roles>` role permission can edit existing users manually on the detail (selected user from the :ref:`users list<user-list>`). It is possible to change all properties of the user, including whether the user account is active or inactive.
 
+The detail also shows when the user account was created and when the user was last online. :guilabel:`Last online` shows :guilabel:`Never` if no visit has been recorded.
+
 .. figure:: detail/profile.png
     :width: 528
 
