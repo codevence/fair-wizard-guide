@@ -3,7 +3,12 @@
 Users Import
 ************
 
-Users with the :ref:`Manage Users<roles>` role permission can import users using provided template. The template has five columns: email, firstName, lastName, affiliation and role. Once it is filled with data, we can import it back to the FAIR Wizard to populate it with users.
+Users with the :ref:`Manage Users<roles>` role permission can import users using provided template. The template has five columns: email, firstName, lastName, affiliation and roleUuid. Once it is filled with data, we can import it back to the FAIR Wizard to populate it with users.
+
+.. NOTE::
+
+    We can find the roleUuid for each role in the :ref:`Roles<roles>` section of the FAIR Wizard. Open Role detail and copy the UUID from the URL. For example, if the URL is `https://fair-wizard.com/roles/123e4567-e89b-12d3-a456-426614174000`, then the roleUuid is `123e4567-e89b-12d3-a456-426614174000`.
+    
 
 .. figure:: users/users.png
     :width: 528

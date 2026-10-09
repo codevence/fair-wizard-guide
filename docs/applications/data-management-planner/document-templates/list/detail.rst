@@ -1,3 +1,5 @@
+.. _dt-detail:
+
 Document Template Detail
 ************************
 
