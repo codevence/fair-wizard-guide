@@ -17,4 +17,4 @@ After we click on Done button, the new API Key is hidden and the information abo
 
 .. NOTE::
 
-    Data Management Planner has its own API Key. The other apps share common API Key, that can be set up in the :ref:`api-keys-admin` settings in the Admin Center.
+    API Keys are shared across FAIR Wizard applications. To replace a key created before version 4.35, create a new API Key in :ref:`Admin Center<api-keys-admin>` and update the applications and scripts that use it.
