@@ -34,7 +34,7 @@ So if there are any project templates created in our instance, we can use them t
 Custom
 ======
 
-If there are no project templates available or we don't want to use them, we can choose to create a custom project. We need to give our project a **name** again, but this time we choose a :ref:`knowledge model<knowledge-model>` from offered options.
+If there are no project templates available or we don't want to use them, we can choose to create a custom project. We need to give our project a **name** again, but this time we choose a :ref:`knowledge model<knowledge-model>` from offered options. The knowledge model selector shows the full knowledge model ID to help distinguish similarly named knowledge models.
 
 If the knowledge model has :ref:`question tags<question-tag>`, we can either choose to create questionnaire with all available questions or filter them by the question tags.
 

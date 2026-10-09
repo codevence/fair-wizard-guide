@@ -22,7 +22,11 @@ Next, we have **Project Tags**. These can be used for providing some metadata or
 Default Document Template
 =========================
 
-We can set a **default document template** and a **default document format**. These are then used in the :ref:`preview<preview>` tab and also pre-selected when creating a :ref:`new document<new-document>`.
+We can set a **default document template** and a **default document format**. These are then used in the :ref:`preview<preview>` tab and also pre-selected when creating a :ref:`new document<new-document>`. The document template selector shows the full document template ID to help distinguish similarly named templates.
+
+If a newer version of the selected document template is available, FAIR Wizard shows a warning in this section. If the selected template or format is no longer compatible with the project's knowledge model, choose a compatible template and format before saving the settings.
+
+:guilabel:`Unsupported metamodel` badge can appear when the document template is not compatible with the version of FAIR Wizard. Users should contact the person responsible for document templates or instance administration in this case.
 
 
 Project Template
@@ -35,8 +39,6 @@ We can use the project as a :ref:`project template<project-templates>`. If we en
     Project template options are visible only for users with the :ref:`Manage Project Templates<roles>` role permission.
 
 
-:guilabel:`Unsupported metamodel` badge can appear, when the document template is not compatible with the version of FAIR Wizard. Users should contact the person responsible for document templates or instance administration in this case.
-
 Questionnaire Language
 ======================
 
@@ -47,7 +49,7 @@ Changing the questionnaire language changes the knowledge model texts shown in t
 Knowledge Model
 ===============
 
-We can see the :ref:`knowledge model<knowledge-model>` and its tags used for creating the project. If we want to change that, we can simply create a :ref:`project migration<project-migration>`.
+We can see the :ref:`knowledge model<knowledge-model>` and its tags used for creating the project. If a newer version of the knowledge model is available, FAIR Wizard shows a warning in this section. If we want to change the knowledge model, its version, or the selected tags, we can use :ref:`project migration<project-migration>`.
 
 
 Danger Zone

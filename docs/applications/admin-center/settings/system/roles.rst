@@ -77,6 +77,9 @@ The role create/edit form includes these permissions:
    * - **Use Integration Hub**
      - Access the Integration Hub and create Value Integrations.
      - None.
+   * - **Connect MCP Servers**
+     - Connect AI assistants using MCP servers to the user's account.
+     - None.
    * - **Use Audit Log**
      - View the Audit Log.
      - None.
