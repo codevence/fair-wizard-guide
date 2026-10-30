@@ -1,0 +1,13 @@
+:orphan:
+
+Page not found
+**************
+
+.. image:: _static/illustrations/not-found.png
+   :alt: FAIR Wizard penguin looking at a map beside a signpost.
+   :width: 240
+   :align: center
+
+We couldn’t find this page. It may have moved, or the address may be incorrect.
+
+:doc:`Return to the guide <index>` or `search for a topic <search.html>`_.

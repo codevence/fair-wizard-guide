@@ -17,12 +17,13 @@
 
 # -- Project information -----------------------------------------------------
 
+# FAIR Wizard 5.0 preparation on develop; publish through preview, then production.
 project = 'FAIR Wizard'
 copyright = '2020 - 2026, FAIR Wizard Team'
 author = 'FAIR Wizard Team'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.34'
+version = release = '5.0'
 
 rst_prolog = f"""
 
@@ -46,7 +47,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = []
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -70,13 +71,17 @@ html_theme_options = {
     'light_logo': 'logo/logo-light-mode.svg',
     'dark_logo': 'logo/logo-dark-mode.svg',
     'light_css_variables': {
-        'color-brand-primary': '#019AD6',
-        'color-brand-content': '#019AD6',
+        'font-stack': 'ui-sans-serif, -apple-system, "system-ui", "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji"',
+        'font-stack--headings': 'Nunito, ui-sans-serif, sans-serif',
+        'guide-subtle': '#e1f3ff',
+        'color-brand-primary': '#0074a3',
+        'color-brand-content': '#006e9a',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'dark_css_variables': {
-        'color-brand-primary': '#019AD6',
-        'color-brand-content': '#019AD6',
+        'guide-subtle': '#0d3347',
+        'color-brand-primary': '#4dc2ff',
+        'color-brand-content': '#4dc2ff',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,

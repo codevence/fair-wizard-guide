@@ -1,83 +1,34 @@
 # FAIR Wizard Guide
 
-[![License](https://img.shields.io/github/license/ds-wizard/guide)](LICENSE)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/4975/badge)](https://bestpractices.coreinfrastructure.org/projects/4975)
+The FAIR Wizard user, administrator and developer guide, written in reStructuredText and built with Sphinx/Furo.
 
-## Usage
+## Local build
 
-### Install Requirements
+Use Python 3.12, matching GitHub and Read the Docs:
 
-```
-pip install -r docs/requirements.txt
-```
-
-Extra requirements only for development:
-
-```
-pip install -r docs/requirements.dev.txt
+```sh
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r docs/requirements.txt
+sphinx-build -b html -W --keep-going -n -D notfound_urls_prefix=/ docs docs/_build/html
 ```
 
-### Generate Guide
+Serve `docs/_build/html` locally to review it. The command overrides the 404 prefix only for the local root URL; Read the Docs uses its versioned canonical URL.
 
-```
-cd docs
-make help
-make html
-```
+For automatic rebuilds, install `docs/requirements.dev.txt` and run `make watch` in `docs`. To validate print sources:
 
-### Develop Guide
-
-```
-make watch
+```sh
+sphinx-build -b latex -W --keep-going -n docs docs/_build/latex
 ```
 
-Use [Python Developer’s Guide](https://devguide.python.org/documentation/markup/) as a reference for writing RST, specific rules are listed in the [CONTRIBUTING](CONTRIBUTING.md) file.
+A complete PDF build also needs a TeX installation (`make latexpdf` in `docs`); LaTeX source generation alone does not validate the rendered PDF.
 
-### Refresh Dependencies
+See [CONTRIBUTING.md](CONTRIBUTING.md) for simple RST conventions, [RELEASING.md](RELEASING.md) for the develop → preview → production cycle and [WORKLOG.md](WORKLOG.md) for the current 5.0 work and remaining acceptance.
 
-```
-rm -r env
-python -m venv env
-source env/bin/activate
+## Dependencies
 
-pip install -r docs/requirements.direct.txt
-pip freeze > docs/requirements.txt
-```
-
-## References
-
-* [Sphinx Documentation](https://www.sphinx-doc.org/en/master/)
-* [reStructuredText Markup Specification](https://docutils.sourceforge.io/docs/ref/rst/restructuredtext.html)
-* [RST Cheatsheet](https://github.com/ralsina/rst-cheatsheet)
-* [Git Basics](https://www.atlassian.com/git)
-* [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
+`docs/requirements.direct.txt` lists direct dependencies; `docs/requirements.txt` pins the tested environment. Update in an isolated Python 3.12 environment, regenerate the lock file and run both strict builds. Do not upgrade Docutils independently beyond the version supported by Sphinx.
 
 ## License
 
-This project is licensed under the  Creative Commons Attribution-ShareAlike (CC BY-SA) - see the
-[LICENSE](LICENSE) file for more details.
-
-## reStructuredText Conventions
-
-### Headings
-
-Headings should use the following syntax for specific levels:
-
-```rst
-Chapter (page)
-**************
-
-Section
-=======
-
-Subsection
-----------
-
-Subsubsection
-^^^^^^^^^^^^^
-
-Paragraph
-"""""""""
-```
-
-Always the number of characters should match length of the text.
+Guide content is licensed under [CC BY-SA](LICENSE). Bundled Nunito fonts retain their OFL license in `docs/_static/fonts`.
