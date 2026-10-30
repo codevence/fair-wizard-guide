@@ -1,0 +1,44 @@
+.. _project-list:
+
+Project List
+************
+
+In the project list, we can see a list of all projects we have access to. Those are the projects where we were assigned to with any role or that are visible by all other logged-in users in the :ref:`project sharing settings<sharing>`. The projects are filtered to those we are explicitly assigned to by default.
+
+We can see project names, label :guilabel:`Template` if the project is a template, update badges, and icons indicating sharing settings:
+
+- **Outdated KM** - the project uses a knowledge model with a newer version available
+- **Outdated DT** - the project uses a document template with a newer version available
+
+- **Lock icon** - the project can be only accessed by you
+- **People icon** - the project is shared with other users, hovering on the icon provides additional information
+- **Globe icon** - anyone with a link can access the project
+
+.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/index/project-list.png
+    :alt: Project list with filters.
+
+    **Outdated screenshot (4.x).** Project list with filters.
+
+
+We can search for specific projects using the search field or filter them using additional filters:
+
+- **Project Template** - if we want to see only :ref:`project templates<project-templates>` or regular projects
+- **Project Tags** - show only the projects that has specific tags assigned
+- **Knowledge Models** - show only the projects created from a specific knowledge model
+- **Users** - filter only the projects with specific users assigned to them
+- **User Groups** - show only the projects shared with specific user groups
+
+.. NOTE::
+
+    Note that some of the filters can be disabled based on the FAIR Wizard settings or user role.
+
+
+We can :ref:`create a new project<create-project>` by clicking the :guilabel:`Create` button.
+
+By clicking the triple dots on each of the item in the list we can access some actions:
+
+- **Open project** - will simply open the project
+- **Create project from this template** - will create a new project from the selected project template (this is only available if the project is also a project template)
+- **Clone** - will create the exact copy of the project
+- **Migrate** - will start a :ref:`project migration<project-migration>`
+- **Delete** - will delete the project (this action cannot be undone)

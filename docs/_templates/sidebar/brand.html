@@ -1,0 +1,4 @@
+{% extends "!sidebar/brand.html" %}
+{% block brand_content %}
+{{ super() | replace('alt="Logo"', 'alt="FAIR Wizard"') | replace('alt="Light Logo"', 'alt="FAIR Wizard"') | replace('alt="Dark Logo"', 'alt="FAIR Wizard"') }}
+{% endblock %}

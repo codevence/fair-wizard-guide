@@ -1,0 +1,12 @@
+{
+  "source_pages": 134,
+  "checked_local_references": 22411,
+  "outdated_screenshot_placements": 137,
+  "earlier_videos": 5,
+  "errors": [],
+  "scope": "Generated guide pages; three unchanged legacy redirect pages deferred separately. External URLs are not live-link tested.",
+  "toctree_duplicate_parents": 0,
+  "strict_html": "Passed",
+  "strict_latex_source": "Passed",
+  "python": "3.12"
+}
