@@ -311,3 +311,11 @@ Verification: strict HTML and LaTeX-source builds passed for both guides. The sc
 - Include the reviewed 5.0 guide content, screenshot themes and final proofreading fixes in PR #317 before merging to develop
 - Check open dependency updates separately; preserve the preview and production branches
 - Dependency blockers found in CI: substitution extension requires beartype >=0.23.0rc2; docutils 0.23 conflicts with pinned Sphinx 9.1.0 (<0.23)
+
+## Dependency compatibility — 2026-11-05
+
+- Guide PR #317 and dependency PRs #316, #314 and #313 merged into develop after passing CI
+- Update beartype to 0.23.1, satisfying sphinx-substitution-extensions 2026.10.9; the combined dependency set passes strict local HTML and LaTeX-source builds
+- Update certifi to the first patched version 2026.10.18 for the reported bundled-root certificate alert
+- Keep docutils 0.22.4: Sphinx 9.1.0 requires docutils <0.23, so PR #273 remains incompatible; no unrelated Sphinx upgrade attempted
+- Preview and production branches remain unchanged
