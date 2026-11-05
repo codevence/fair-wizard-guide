@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-02",
+  "strict_html": "passed",
+  "new_images": 135,
+  "new_figure_placements": 139,
+  "legacy_marked_placements": 26,
+  "checked_local_references": 27998,
+  "errors": [],
+  "scope": "Generated HTML; existing redirect targets remain deferred; 404 /en/latest prefix normalized to the local root for validation; external destinations not live-tested"
+}

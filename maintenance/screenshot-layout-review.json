@@ -1,0 +1,380 @@
+{
+  "date": "2026-11-02",
+  "reviewed_light_images": 143,
+  "recaptured": [
+    {
+      "image": "/_static/screenshots/5.0/projects/create-template.png",
+      "scene": "create-template",
+      "batch": "projects",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 575
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 1150
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/projects/create-custom.png",
+      "scene": "create-custom",
+      "batch": "projects",
+      "crop": {
+        "x": 462,
+        "y": 12,
+        "width": 596,
+        "height": 775
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 1550
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/projects/questionnaire.png",
+      "scene": "questionnaire",
+      "batch": "projects",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/projects/summary.png",
+      "scene": "summary",
+      "batch": "projects",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/projects/preview-no-template.png",
+      "scene": "preview-no-template",
+      "batch": "projects",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/questionnaire-view.png",
+      "scene": "questionnaire-view",
+      "batch": "guide",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/questionnaire-search.png",
+      "scene": "questionnaire-search",
+      "batch": "guide",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/questionnaire-todos.png",
+      "scene": "questionnaire-todos",
+      "batch": "guide",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 800
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 2560,
+        "height": 1600
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/data-source-create.png",
+      "scene": "data-source-create",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 260
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 520
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/group-create.png",
+      "scene": "group-create",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 416
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 832
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/dt-import-file.png",
+      "scene": "dt-import-file",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 324
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 648
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/dt-import-registry.png",
+      "scene": "dt-import-registry",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 316
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 632
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/km-import-file.png",
+      "scene": "km-import-file",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 324
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 648
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/km-import-registry.png",
+      "scene": "km-import-registry",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 316
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 632
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/user-import.png",
+      "scene": "user-import",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 358
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 716
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/user-import-preview.png",
+      "scene": "user-import-preview",
+      "batch": "guide",
+      "crop": {
+        "x": 262,
+        "y": 22,
+        "width": 996,
+        "height": 465
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1992,
+        "height": 930
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    },
+    {
+      "image": "/_static/screenshots/5.0/guide/user-invite.png",
+      "scene": "user-invite",
+      "batch": "guide",
+      "crop": {
+        "x": 462,
+        "y": 22,
+        "width": 596,
+        "height": 680
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "pixels": {
+        "width": 1192,
+        "height": 1360
+      },
+      "origin": "https://mediakit.staging.fair-wizard.com"
+    }
+  ],
+  "changed_images": [
+    "_static/screenshots/5.0/guide/data-source-create.png",
+    "_static/screenshots/5.0/guide/dt-import-file.png",
+    "_static/screenshots/5.0/guide/dt-import-registry.png",
+    "_static/screenshots/5.0/guide/group-create.png",
+    "_static/screenshots/5.0/guide/km-import-file.png",
+    "_static/screenshots/5.0/guide/km-import-registry.png",
+    "_static/screenshots/5.0/guide/questionnaire-search.png",
+    "_static/screenshots/5.0/guide/questionnaire-todos.png",
+    "_static/screenshots/5.0/guide/questionnaire-view.png",
+    "_static/screenshots/5.0/guide/user-import-preview.png",
+    "_static/screenshots/5.0/guide/user-import.png",
+    "_static/screenshots/5.0/guide/user-invite.png",
+    "_static/screenshots/5.0/projects/create-template.png",
+    "_static/screenshots/5.0/projects/preview-no-template.png",
+    "_static/screenshots/5.0/projects/questionnaire.png",
+    "_static/screenshots/5.0/projects/summary.png"
+  ],
+  "unchanged_light_images": 127,
+  "unexpected_changes": [],
+  "removed_value_example_placements": 8,
+  "remaining_value_examples": 1,
+  "settings_display_width": 600,
+  "additional_findings_fixed": [
+    "Nine whitespace-heavy create/import forms",
+    "Undersized user-import preview table",
+    "Import figures positioned after both source sections, moved beside their matching instructions"
+  ],
+  "deferred_candidates_not_recaptured": [
+    "Long blank tails in Comments and Version History panel captures",
+    "Global navigation in some Knowledge Model/Document Template editor detail views",
+    "Large surrounding space on Connected AI consent screen"
+  ],
+  "scope": "Targeted recapture only; list screenshots and unrelated PNGs retained. No application writes allowed during Cypress captures; no dark-mode batch, Analytics or Enterprise run."
+}

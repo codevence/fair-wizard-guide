@@ -1,0 +1,22 @@
+[
+  {
+    "scene": "settings-dashboard-and-menu",
+    "theme": "light",
+    "sha256": "b0537f7fafd0ef17726be34c5a803e8482315df70916e39840447ef6205b09c9"
+  },
+  {
+    "scene": "settings-login-screen",
+    "theme": "light",
+    "sha256": "f7a9a1db81f39cc60144c9181a9fd385c9754dde39ed9cc4fbd3c433867db5e0"
+  },
+  {
+    "scene": "settings-dashboard-and-menu",
+    "theme": "dark",
+    "sha256": "e4ac31120ca4bbb209a6721ed855efdc3c8308549e49e87371b922b03deec2f1"
+  },
+  {
+    "scene": "settings-login-screen",
+    "theme": "dark",
+    "sha256": "79956112241263cc6ad5195ef230f703f735dc764587c72571f2fc0567da6fe7"
+  }
+]

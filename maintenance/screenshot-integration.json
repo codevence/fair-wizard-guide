@@ -1,0 +1,1494 @@
+{
+  "date": "2026-11-01",
+  "scope": "Professional, QA captures; rerun on dedicated environment before final publication",
+  "captures": [
+    {
+      "batch": "projects",
+      "scene": "list",
+      "image": "/_static/screenshots/5.0/projects/list.png",
+      "pages": [
+        "projects/list.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "create-template",
+      "image": "/_static/screenshots/5.0/projects/create-template.png",
+      "pages": [
+        "projects/create.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 575
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "projects",
+      "scene": "create-custom",
+      "image": "/_static/screenshots/5.0/projects/create-custom.png",
+      "pages": [
+        "projects/create.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 12,
+          "width": 596,
+          "height": 775
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "projects",
+      "scene": "questionnaire",
+      "image": "/_static/screenshots/5.0/projects/questionnaire.png",
+      "pages": [
+        "projects/detail/index.rst",
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "projects",
+      "scene": "multi-choice",
+      "image": "/_static/screenshots/5.0/projects/multi-choice.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "dataset-list",
+      "image": "/_static/screenshots/5.0/projects/dataset-list.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "value",
+      "image": "/_static/screenshots/5.0/projects/value.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "options",
+      "image": "/_static/screenshots/5.0/projects/options.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "item-select",
+      "image": "/_static/screenshots/5.0/projects/item-select.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "file-question",
+      "image": "/_static/screenshots/5.0/projects/file-question.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "sharing",
+      "image": "/_static/screenshots/5.0/projects/sharing.png",
+      "pages": [
+        "projects/detail/sharing.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "documents",
+      "image": "/_static/screenshots/5.0/projects/documents.png",
+      "pages": [
+        "projects/detail/documents.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "new-document",
+      "image": "/_static/screenshots/5.0/projects/new-document.png",
+      "pages": [
+        "projects/detail/documents.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "files",
+      "image": "/_static/screenshots/5.0/projects/files.png",
+      "pages": [
+        "projects/detail/files.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "settings",
+      "image": "/_static/screenshots/5.0/projects/settings.png",
+      "pages": [
+        "projects/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "summary",
+      "image": "/_static/screenshots/5.0/projects/summary.png",
+      "pages": [
+        "projects/detail/metrics.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "projects",
+      "scene": "phases",
+      "image": "/_static/screenshots/5.0/projects/phases.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "history",
+      "image": "/_static/screenshots/5.0/projects/history.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "comments",
+      "image": "/_static/screenshots/5.0/projects/comments.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "settings-template",
+      "image": "/_static/screenshots/5.0/projects/settings-template.png",
+      "pages": [
+        "projects/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "projects",
+      "scene": "preview-no-template",
+      "image": "/_static/screenshots/5.0/projects/preview-no-template.png",
+      "pages": [
+        "projects/detail/preview.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "projects",
+      "scene": "submission",
+      "image": "/_static/screenshots/5.0/projects/submission.png",
+      "pages": [
+        "projects/detail/documents.rst"
+      ],
+      "partial": {
+        "E129": "This output has no compatible submission service in QA. The availability dialog is captured; positive service selection still requires a compatible configuration. No external submission sent."
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "dashboard",
+      "image": "/_static/screenshots/5.0/guide/dashboard.png",
+      "pages": [
+        "getting-started/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-authentication",
+      "image": "/_static/screenshots/5.0/guide/settings-authentication.png",
+      "pages": [
+        "settings/authentication/internal.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-users",
+      "image": "/_static/screenshots/5.0/guide/settings-users.png",
+      "pages": [
+        "settings/users.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-features",
+      "image": "/_static/screenshots/5.0/guide/settings-features.png",
+      "pages": [
+        "settings/features.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-support",
+      "image": "/_static/screenshots/5.0/guide/settings-support.png",
+      "pages": [
+        "settings/support.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-usage",
+      "image": "/_static/screenshots/5.0/guide/settings-usage.png",
+      "pages": [
+        "settings/usage.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-plans",
+      "image": "/_static/screenshots/5.0/guide/settings-plans.png",
+      "pages": [
+        "settings/plans.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-analytics",
+      "image": "/_static/screenshots/5.0/guide/settings-analytics.png",
+      "pages": [
+        "settings/analytics.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-look-and-feel",
+      "image": "/_static/screenshots/5.0/guide/settings-look-and-feel.png",
+      "pages": [
+        "settings/look-and-feel.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-login-screen",
+      "image": "/_static/screenshots/5.0/guide/settings-login-screen.png",
+      "pages": [
+        "settings/login-screen.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-dashboard-and-menu",
+      "image": "/_static/screenshots/5.0/guide/settings-dashboard-and-menu.png",
+      "pages": [
+        "settings/dashboard-menu.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-projects",
+      "image": "/_static/screenshots/5.0/guide/settings-projects.png",
+      "pages": [
+        "settings/projects.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-submission",
+      "image": "/_static/screenshots/5.0/guide/settings-submission.png",
+      "pages": [
+        "settings/submission.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-roles",
+      "image": "/_static/screenshots/5.0/guide/settings-roles.png",
+      "pages": [
+        "administration/roles.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-open-id",
+      "image": "/_static/screenshots/5.0/guide/settings-open-id.png",
+      "pages": [
+        "settings/authentication/openid.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-saml",
+      "image": "/_static/screenshots/5.0/guide/settings-saml.png",
+      "pages": [
+        "settings/authentication/saml.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-locales",
+      "image": "/_static/screenshots/5.0/guide/settings-locales.png",
+      "pages": [
+        "settings/translations/index.rst"
+      ],
+      "partial": {
+        "E137": "Built-in English and the empty installed-translations state; enable/default controls need a populated PO fixture on the dedicated instance."
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "settings-mail-template-locales",
+      "image": "/_static/screenshots/5.0/guide/settings-mail-template-locales.png",
+      "pages": [
+        "settings/translations/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "upload-locales",
+      "image": "/_static/screenshots/5.0/guide/upload-locales.png",
+      "pages": [
+        "settings/translations/upload.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "upload-mail-template-locales",
+      "image": "/_static/screenshots/5.0/guide/upload-mail-template-locales.png",
+      "pages": [
+        "settings/translations/upload.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "create-open-id",
+      "image": "/_static/screenshots/5.0/guide/create-open-id.png",
+      "pages": [
+        "settings/authentication/openid.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "create-saml",
+      "image": "/_static/screenshots/5.0/guide/create-saml.png",
+      "pages": [
+        "settings/authentication/saml.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "role-create",
+      "image": "/_static/screenshots/5.0/guide/role-create.png",
+      "pages": [
+        "administration/roles.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-profile",
+      "image": "/_static/screenshots/5.0/guide/account-profile.png",
+      "pages": [
+        "account/profile.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-password",
+      "image": "/_static/screenshots/5.0/guide/account-password.png",
+      "pages": [
+        "account/password.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-language",
+      "image": "/_static/screenshots/5.0/guide/account-language.png",
+      "pages": [
+        "account/language.rst"
+      ],
+      "partial": {
+        "E038": "Current selector contains built-in English only; rerun with installed example translations on the dedicated instance."
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "account-active-sessions",
+      "image": "/_static/screenshots/5.0/guide/account-active-sessions.png",
+      "pages": [
+        "account/active-sessions.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-connected-accounts",
+      "image": "/_static/screenshots/5.0/guide/account-connected-accounts.png",
+      "pages": [
+        "account/connected-accounts.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-tours",
+      "image": "/_static/screenshots/5.0/guide/account-tours.png",
+      "pages": [
+        "account/tours.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "account-api-keys",
+      "image": "/_static/screenshots/5.0/guide/account-api-keys.png",
+      "pages": [
+        "account/api-keys.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "api-key-create",
+      "image": "/_static/screenshots/5.0/guide/api-key-create.png",
+      "pages": [
+        "account/api-keys.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "users",
+      "image": "/_static/screenshots/5.0/guide/users.png",
+      "pages": [
+        "administration/users/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "user-invite",
+      "image": "/_static/screenshots/5.0/guide/user-invite.png",
+      "pages": [
+        "administration/users/invite.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 680
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "user-import",
+      "image": "/_static/screenshots/5.0/guide/user-import.png",
+      "pages": [
+        "administration/users/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 358
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "user-import-preview",
+      "image": "/_static/screenshots/5.0/guide/user-import-preview.png",
+      "pages": [
+        "administration/users/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 262,
+          "y": 22,
+          "width": 996,
+          "height": 465
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "user-profile",
+      "image": "/_static/screenshots/5.0/guide/user-profile.png",
+      "pages": [
+        "administration/users/detail.rst"
+      ],
+      "partial": {
+        "N19": "Dummy user has no connected identity. Profile controls are captured; populated identities require a controlled SSO fixture."
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "audit-log",
+      "image": "/_static/screenshots/5.0/guide/audit-log.png",
+      "pages": [
+        "administration/audit-log.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "audit-detail",
+      "image": "/_static/screenshots/5.0/guide/audit-detail.png",
+      "pages": [
+        "administration/audit-log.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "automations",
+      "image": "/_static/screenshots/5.0/guide/automations.png",
+      "pages": [
+        "administration/automations.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "group-list",
+      "image": "/_static/screenshots/5.0/guide/group-list.png",
+      "pages": [
+        "user-groups/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "group-create",
+      "image": "/_static/screenshots/5.0/guide/group-create.png",
+      "pages": [
+        "user-groups/create.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 416
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "group-info",
+      "image": "/_static/screenshots/5.0/guide/group-info.png",
+      "pages": [
+        "user-groups/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "group-members",
+      "image": "/_static/screenshots/5.0/guide/group-members.png",
+      "pages": [
+        "user-groups/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "group-member-add",
+      "image": "/_static/screenshots/5.0/guide/group-member-add.png",
+      "pages": [
+        "user-groups/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-list",
+      "image": "/_static/screenshots/5.0/guide/km-list.png",
+      "pages": [
+        "knowledge-models/library/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-detail",
+      "image": "/_static/screenshots/5.0/guide/km-detail.png",
+      "pages": [
+        "knowledge-models/library/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-delete",
+      "image": "/_static/screenshots/5.0/guide/km-delete.png",
+      "pages": [
+        "knowledge-models/library/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-import-registry",
+      "image": "/_static/screenshots/5.0/guide/km-import-registry.png",
+      "pages": [
+        "knowledge-models/library/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 316
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "km-import-file",
+      "image": "/_static/screenshots/5.0/guide/km-import-file.png",
+      "pages": [
+        "knowledge-models/library/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 324
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "km-editor-list",
+      "image": "/_static/screenshots/5.0/guide/km-editor-list.png",
+      "pages": [
+        "knowledge-models/editors/index.rst",
+        "knowledge-models/editors/migration.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-editor-create",
+      "image": "/_static/screenshots/5.0/guide/km-editor-create.png",
+      "pages": [
+        "knowledge-models/editors/create.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-editor",
+      "image": "/_static/screenshots/5.0/guide/km-editor.png",
+      "pages": [
+        "knowledge-models/editors/detail/index.rst",
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-editor-preview",
+      "image": "/_static/screenshots/5.0/guide/km-editor-preview.png",
+      "pages": [
+        "knowledge-models/editors/detail/preview.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-publish",
+      "image": "/_static/screenshots/5.0/guide/km-publish.png",
+      "pages": [
+        "knowledge-models/editors/detail/publish.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-list",
+      "image": "/_static/screenshots/5.0/guide/dt-list.png",
+      "pages": [
+        "document-templates/library/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-detail",
+      "image": "/_static/screenshots/5.0/guide/dt-detail.png",
+      "pages": [
+        "getting-started/document-template.rst",
+        "document-templates/library/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-delete",
+      "image": "/_static/screenshots/5.0/guide/dt-delete.png",
+      "pages": [
+        "document-templates/library/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-import-registry",
+      "image": "/_static/screenshots/5.0/guide/dt-import-registry.png",
+      "pages": [
+        "document-templates/library/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 316
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-import-file",
+      "image": "/_static/screenshots/5.0/guide/dt-import-file.png",
+      "pages": [
+        "document-templates/library/import.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 324
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-editor-list",
+      "image": "/_static/screenshots/5.0/guide/dt-editor-list.png",
+      "pages": [
+        "document-templates/editors/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-editor-create",
+      "image": "/_static/screenshots/5.0/guide/dt-editor-create.png",
+      "pages": [
+        "document-templates/editors/create.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-editor",
+      "image": "/_static/screenshots/5.0/guide/dt-editor.png",
+      "pages": [
+        "document-templates/editors/detail/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-publish",
+      "image": "/_static/screenshots/5.0/guide/dt-publish.png",
+      "pages": [
+        "document-templates/editors/detail/publish.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-settings",
+      "image": "/_static/screenshots/5.0/guide/km-settings.png",
+      "pages": [
+        "knowledge-models/editors/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-phases",
+      "image": "/_static/screenshots/5.0/guide/km-phases.png",
+      "pages": [
+        "knowledge-models/editors/detail/phases.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-tags",
+      "image": "/_static/screenshots/5.0/guide/km-tags.png",
+      "pages": [
+        "knowledge-models/editors/detail/question-tags.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-question",
+      "image": "/_static/screenshots/5.0/guide/km-question.png",
+      "pages": [
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-integration",
+      "image": "/_static/screenshots/5.0/guide/km-integration.png",
+      "pages": [
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-preview",
+      "image": "/_static/screenshots/5.0/guide/km-preview.png",
+      "pages": [
+        "knowledge-models/library/preview.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-compare",
+      "image": "/_static/screenshots/5.0/guide/km-compare.png",
+      "pages": [
+        "knowledge-models/library/compare.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-secrets",
+      "image": "/_static/screenshots/5.0/guide/km-secrets.png",
+      "pages": [
+        "knowledge-models/secrets.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-settings",
+      "image": "/_static/screenshots/5.0/guide/dt-settings.png",
+      "pages": [
+        "document-templates/editors/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-formats",
+      "image": "/_static/screenshots/5.0/guide/dt-formats.png",
+      "pages": [
+        "document-templates/editors/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-allowed",
+      "image": "/_static/screenshots/5.0/guide/dt-allowed.png",
+      "pages": [
+        "document-templates/editors/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-files",
+      "image": "/_static/screenshots/5.0/guide/dt-files.png",
+      "pages": [
+        "document-templates/editors/detail/files.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-list",
+      "image": "/_static/screenshots/5.0/guide/data-source-list.png",
+      "pages": [
+        "knowledge-models/data-sources/index.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-create",
+      "image": "/_static/screenshots/5.0/guide/data-source-create.png",
+      "pages": [
+        "knowledge-models/data-sources/create.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 462,
+          "y": 22,
+          "width": 596,
+          "height": 260
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-info",
+      "image": "/_static/screenshots/5.0/guide/data-source-info.png",
+      "pages": [
+        "knowledge-models/data-sources/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-values",
+      "image": "/_static/screenshots/5.0/guide/data-source-values.png",
+      "pages": [
+        "knowledge-models/data-sources/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-search-fields",
+      "image": "/_static/screenshots/5.0/guide/data-source-search-fields.png",
+      "pages": [
+        "knowledge-models/data-sources/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "data-source-import",
+      "image": "/_static/screenshots/5.0/guide/data-source-import.png",
+      "pages": [
+        "knowledge-models/data-sources/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "projects-import",
+      "image": "/_static/screenshots/5.0/guide/projects-import.png",
+      "pages": [
+        "projects/import.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "projects-documents",
+      "image": "/_static/screenshots/5.0/guide/projects-documents.png",
+      "pages": [
+        "projects/documents.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "projects-files",
+      "image": "/_static/screenshots/5.0/guide/projects-files.png",
+      "pages": [
+        "projects/files.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "project-clone",
+      "image": "/_static/screenshots/5.0/guide/project-clone.png",
+      "pages": [
+        "projects/list.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "project-template",
+      "image": "/_static/screenshots/5.0/guide/project-template.png",
+      "pages": [
+        "projects/templates.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "questionnaire-view",
+      "image": "/_static/screenshots/5.0/guide/questionnaire-view.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "questionnaire-search",
+      "image": "/_static/screenshots/5.0/guide/questionnaire-search.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "questionnaire-todos",
+      "image": "/_static/screenshots/5.0/guide/questionnaire-todos.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {},
+      "capture_update": {
+        "date": "2026-11-02",
+        "origin": "https://mediakit.staging.fair-wizard.com",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "reason": "Targeted layout correction: tighter form crop or collapsed project-detail sidebar"
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "connected-ais",
+      "image": "/_static/screenshots/5.0/guide/connected-ais.png",
+      "pages": [
+        "account/connected-ais.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "assigned-comments",
+      "image": "/_static/screenshots/5.0/guide/assigned-comments.png",
+      "pages": [
+        "account/assigned-comments.rst"
+      ],
+      "partial": {
+        "E034": "Assigned-comment page is captured as an empty state; populated assignment remains a fixture follow-up."
+      }
+    },
+    {
+      "batch": "guide",
+      "scene": "plugins",
+      "image": "/_static/screenshots/5.0/guide/plugins.png",
+      "pages": [
+        "settings/plugins.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "user-password",
+      "image": "/_static/screenshots/5.0/guide/user-password.png",
+      "pages": [
+        "administration/users/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "about",
+      "image": "/_static/screenshots/5.0/guide/about.png",
+      "pages": [
+        "account/about.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-update-modal",
+      "image": "/_static/screenshots/5.0/guide/km-update-modal.png",
+      "pages": [
+        "knowledge-models/editors/migration.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-migration",
+      "image": "/_static/screenshots/5.0/guide/km-migration.png",
+      "pages": [
+        "knowledge-models/editors/migration.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "project-migration",
+      "image": "/_static/screenshots/5.0/guide/project-migration.png",
+      "pages": [
+        "projects/migration.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-datasource",
+      "image": "/_static/screenshots/5.0/guide/km-datasource.png",
+      "pages": [
+        "knowledge-models/data-sources/detail.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "integration-question",
+      "image": "/_static/screenshots/5.0/guide/integration-question.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "validation-error",
+      "image": "/_static/screenshots/5.0/guide/validation-error.png",
+      "pages": [
+        "projects/detail/questionnaire.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "question-number",
+      "image": "/_static/screenshots/5.0/guide/question-number.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-date",
+      "image": "/_static/screenshots/5.0/guide/question-date.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-datetime",
+      "image": "/_static/screenshots/5.0/guide/question-datetime.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-time",
+      "image": "/_static/screenshots/5.0/guide/question-time.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-email",
+      "image": "/_static/screenshots/5.0/guide/question-email.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-color",
+      "image": "/_static/screenshots/5.0/guide/question-color.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "question-textarea",
+      "image": "/_static/screenshots/5.0/guide/question-textarea.png",
+      "pages": [],
+      "partial": {},
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    },
+    {
+      "batch": "guide",
+      "scene": "login-announcement",
+      "image": "/_static/screenshots/5.0/guide/login-announcement.png",
+      "pages": [
+        "settings/login-screen.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dashboard-menu-link",
+      "image": "/_static/screenshots/5.0/guide/dashboard-menu-link.png",
+      "pages": [
+        "settings/dashboard-menu.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "project-default-creation",
+      "image": "/_static/screenshots/5.0/guide/project-default-creation.png",
+      "pages": [
+        "settings/projects.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "project-default-tags",
+      "image": "/_static/screenshots/5.0/guide/project-default-tags.png",
+      "pages": [
+        "settings/projects.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-warnings",
+      "image": "/_static/screenshots/5.0/guide/km-warnings.png",
+      "pages": [
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-url-checker",
+      "image": "/_static/screenshots/5.0/guide/km-url-checker.png",
+      "pages": [
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "mcp-authorization",
+      "image": "/_static/screenshots/5.0/guide/mcp-authorization.png",
+      "pages": [
+        "account/connected-ais.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "automation-openid",
+      "image": "/_static/screenshots/5.0/guide/automation-openid.png",
+      "pages": [
+        "administration/automations.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "automation-openid-logs",
+      "image": "/_static/screenshots/5.0/guide/automation-openid-logs.png",
+      "pages": [
+        "administration/automations.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "automation-saml",
+      "image": "/_static/screenshots/5.0/guide/automation-saml.png",
+      "pages": [
+        "administration/automations.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "automation-saml-logs",
+      "image": "/_static/screenshots/5.0/guide/automation-saml-logs.png",
+      "pages": [
+        "administration/automations.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "km-validation",
+      "image": "/_static/screenshots/5.0/guide/km-validation.png",
+      "pages": [
+        "knowledge-models/editors/detail/knowledge-model.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "dt-format-steps",
+      "image": "/_static/screenshots/5.0/guide/dt-format-steps.png",
+      "pages": [
+        "document-templates/editors/detail/settings.rst"
+      ],
+      "partial": {}
+    },
+    {
+      "batch": "guide",
+      "scene": "question-url",
+      "image": "/_static/screenshots/5.0/guide/question-url.png",
+      "pages": [],
+      "partial": {
+        "N31": "All value input families are illustrated; the URL field is intentionally unanswered due to the code-backed VAL-01 domain-validation bug."
+      },
+      "display_note": "Retained source capture; omitted from pages to keep one Value Question example"
+    }
+  ],
+  "deferred": "Analytics reporting, Enterprise differences and blocked captures remain in fw-screenshots/ISSUES.md and batches/guide/multi-workspace-missing.md",
+  "dark_variants": [
+    "guide/settings-support",
+    "guide/km-list",
+    "projects/sharing"
+  ]
+}

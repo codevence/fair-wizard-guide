@@ -1,0 +1,138 @@
+page,image,alt,status
+account/about.rst,/_static/earlier-interface/applications/admin-center/profile/about/modal.png,Modal window with versions of the tool's components.,Replace with 5.0 capture
+account/active-sessions.rst,/_static/earlier-interface/applications/admin-center/profile/settings/active-sessions/form.png,List of active sessions.,Replace with 5.0 capture
+account/api-keys.rst,/_static/earlier-interface/applications/admin-center/profile/settings/api-keys/form.png,Form for creating an API Key.,Replace with 5.0 capture
+account/assigned-comments.rst,/_static/earlier-interface/applications/data-management-planner/profile/assigned-comments/list.png,List of comments assigned to a user.,Replace with 5.0 capture
+account/language.rst,/_static/earlier-interface/applications/admin-center/profile/settings/language/form.png,Language selection in the user settings.,Replace with 5.0 capture
+account/news.rst,/_static/earlier-interface/applications/data-management-planner/profile/news/modal.png,News modal.,Replace with 5.0 capture
+account/password.rst,/_static/earlier-interface/applications/admin-center/profile/settings/password/form.png,Form for changing password.,Replace with 5.0 capture
+account/profile.rst,/_static/earlier-interface/applications/admin-center/profile/settings/index/form.png,Form for editing profile.,Replace with 5.0 capture
+account/tours.rst,/_static/earlier-interface/applications/admin-center/profile/settings/tours/reset.png,Tours can be reset in the user settings.,Replace with 5.0 capture
+administration/audit-log.rst,/_static/earlier-interface/applications/admin-center/audit-log/index/list.png,Audit log.,Replace with 5.0 capture
+administration/audit-log.rst,/_static/earlier-interface/applications/admin-center/audit-log/index/detail.png,Audit log detail.,Replace with 5.0 capture
+administration/automations.rst,/_static/earlier-interface/applications/admin-center/automations/automations/list.png,List of Automations with possible actions.,Replace with 5.0 capture
+administration/automations.rst,/_static/earlier-interface/applications/admin-center/automations/automations/openid-configuration.png,Example of OpenID Automation configuration.,Replace with 5.0 capture
+administration/automations.rst,/_static/earlier-interface/applications/admin-center/automations/automations/openid-logs.png,Each run of an Automation is logged.,Replace with 5.0 capture
+administration/automations.rst,/_static/earlier-interface/applications/admin-center/automations/automations/saml-configuration.png,Example of SAML Automation configuration.,Replace with 5.0 capture
+administration/automations.rst,/_static/earlier-interface/applications/admin-center/automations/automations/saml-logs.png,Each run of an Automation is logged.,Replace with 5.0 capture
+administration/users/detail.rst,/_static/earlier-interface/applications/admin-center/users/detail/profile.png,Detail of a user profile.,Replace with 5.0 capture
+administration/users/detail.rst,/_static/earlier-interface/applications/admin-center/users/detail/password.png,Form for changing password of a user.,Replace with 5.0 capture
+administration/users/import.rst,/_static/earlier-interface/applications/admin-center/import/users/users.png,Import users.,Replace with 5.0 capture
+administration/users/import.rst,/_static/earlier-interface/applications/admin-center/import/users/users-confirmation.png,Import users confirmation with switch to send invitation email.,Replace with 5.0 capture
+administration/users/index.rst,/_static/earlier-interface/applications/admin-center/import/index/index.png,Import options.,Replace with 5.0 capture
+administration/users/invite.rst,/_static/earlier-interface/applications/admin-center/users/invite/form.png,Invite user form.,Replace with 5.0 capture
+analytics/document-templates.rst,/_static/earlier-interface/applications/analytics/document-templates/overview.png,Document Templates overview.,Replace with 5.0 capture
+analytics/document-templates.rst,/_static/earlier-interface/applications/analytics/document-templates/settings.png,Form for editing analytics view.,Replace with 5.0 capture
+analytics/document-templates.rst,/_static/earlier-interface/applications/analytics/document-templates/detail.png,Detail of a document template.,Replace with 5.0 capture
+analytics/index.rst,/_static/earlier-interface/applications/analytics/index/index.png,Regular Synchronization settings.,Replace with 5.0 capture
+analytics/knowledge-models.rst,/_static/earlier-interface/applications/analytics/knowledge-models/overview.png,Knowledge models overview.,Replace with 5.0 capture
+analytics/knowledge-models.rst,/_static/earlier-interface/applications/analytics/knowledge-models/settings.png,Form for editing analytics view.,Replace with 5.0 capture
+analytics/knowledge-models.rst,/_static/earlier-interface/applications/analytics/knowledge-models/km-editors.png,Knowledge model editors created using this knowledge model.,Replace with 5.0 capture
+analytics/knowledge-models.rst,/_static/earlier-interface/applications/analytics/knowledge-models/insights.png,Insights to usage of this knowledge model in projects.,Replace with 5.0 capture
+analytics/projects.rst,/_static/earlier-interface/applications/analytics/projects/overview.png,Projects overview.,Replace with 5.0 capture
+analytics/projects.rst,/_static/earlier-interface/applications/analytics/projects/settings.png,Form for editing analytics view.,Replace with 5.0 capture
+analytics/projects.rst,/_static/earlier-interface/applications/analytics/projects/detail.png,Projects detail.,Replace with 5.0 capture
+analytics/user-groups.rst,/_static/earlier-interface/applications/analytics/user-groups/overview.png,User groups overview.,Replace with 5.0 capture
+analytics/user-groups.rst,/_static/earlier-interface/applications/analytics/user-groups/settings.png,Form for editing analytics view.,Replace with 5.0 capture
+analytics/user-groups.rst,/_static/earlier-interface/applications/analytics/user-groups/detail.png,User group detail.,Replace with 5.0 capture
+analytics/users.rst,/_static/earlier-interface/applications/analytics/users/overview.png,Users overview.,Replace with 5.0 capture
+analytics/users.rst,/_static/earlier-interface/applications/analytics/users/settings.png,Form for editing analytics view.,Replace with 5.0 capture
+analytics/users.rst,/_static/earlier-interface/applications/analytics/users/detail.png,User detail.,Replace with 5.0 capture
+document-templates/editors/create.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/create/create-document-template.png,Form for creating a new document template editor.,Replace with 5.0 capture
+document-templates/editors/detail/files.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/files/files.png,Files editor with tabs and split view.,Replace with 5.0 capture
+document-templates/editors/detail/index.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/index/editor.png,Document template editor.,Replace with 5.0 capture
+document-templates/editors/detail/preview.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/preview/preview.png,Preview in a document template editor using project.,Replace with 5.0 capture
+document-templates/editors/detail/publish.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/publish/modal.png,Confirmation of document template publishing.,Replace with 5.0 capture
+document-templates/editors/detail/settings.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/template/allowed-kms.png,Allowed knowledge models specification for a document template.,Replace with 5.0 capture
+document-templates/editors/detail/settings.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/template/formats.png,Markdown format specification with jinja step.,Replace with 5.0 capture
+document-templates/editors/index.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/editors/index/list.png,List of document template editors with actions.,Replace with 5.0 capture
+document-templates/library/detail.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/list/detail/detail.png,Detail of a document template.,Replace with 5.0 capture
+document-templates/library/import.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/list/import/registry.png,Input for importing a document template from FAIR Wizard Registry.,Replace with 5.0 capture
+document-templates/library/import.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/list/import/file.png,Input for importing a document template using a ZIP package.,Replace with 5.0 capture
+document-templates/library/index.rst,/_static/earlier-interface/applications/data-management-planner/document-templates/list/index/list.png,List of all document templates with actions.,Replace with 5.0 capture
+getting-started/document-template.rst,/_static/earlier-interface/about/introduction/document-templates/document-templates.png,"Document templates can transform the answers from questionnaires to different formats, such as human-readable PDF or machine-actionable JSON.",Replace with 5.0 capture
+getting-started/overview.rst,/_static/earlier-interface/about/introduction/overview/overview.png,Different components of the FAIR Wizard and roles interacting with them.,Replace with 5.0 capture
+knowledge-models/data-sources/create.rst,/_static/earlier-interface/applications/integration-hub/value-integrations/create/create.png,Create value integration.,Replace with 5.0 capture
+knowledge-models/data-sources/detail.rst,/_static/earlier-interface/applications/integration-hub/value-integrations/detail/info.png,Value integration detail info.,Replace with 5.0 capture
+knowledge-models/data-sources/detail.rst,/_static/earlier-interface/applications/integration-hub/value-integrations/detail/values.png,Value integration detail values.,Replace with 5.0 capture
+knowledge-models/data-sources/detail.rst,/_static/earlier-interface/applications/integration-hub/value-integrations/detail/import-modal.png,Value integration import.,Replace with 5.0 capture
+knowledge-models/editors/create.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/create/create-knowledge-model.png,Form for creating a new knowledge model.,Replace with 5.0 capture
+knowledge-models/editors/detail/index.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/index/km-editor.png,Knowledge model editor.,Replace with 5.0 capture
+knowledge-models/editors/detail/knowledge-model.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/knowledge-model/navigation.png,Knowledge model editor navigation.,Replace with 5.0 capture
+knowledge-models/editors/detail/knowledge-model.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/knowledge-model/editor-action-buttons.png,Editor action buttons.,Replace with 5.0 capture
+knowledge-models/editors/detail/knowledge-model.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/knowledge-model/editor-form.png,Example of question editor form.,Replace with 5.0 capture
+knowledge-models/editors/detail/knowledge-model.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/knowledge-model/url-checker.png,Checked URLs with issue description.,Replace with 5.0 capture
+knowledge-models/editors/detail/knowledge-model.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/knowledge-model/warnings.png,Warnings in the knowledge model editor.,Replace with 5.0 capture
+knowledge-models/editors/detail/phases.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/phases/phases-editor.png,Phases editor where we can assign questions to phases.,Replace with 5.0 capture
+knowledge-models/editors/detail/preview.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/preview/preview.png,Preview of the resulting questionnaire in the knowledge model editor.,Replace with 5.0 capture
+knowledge-models/editors/detail/publish.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/publish/publish-modal.png,Publish dialog where we can confirm or cancel publishing of the knowledge model.,Replace with 5.0 capture
+knowledge-models/editors/detail/question-tags.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/question-tags/question-tag-editor.png,Question tag editor where we can assign question tags to questions.,Replace with 5.0 capture
+knowledge-models/editors/detail/settings.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/settings/settings-form.png,Knowledge model settings.,Replace with 5.0 capture
+knowledge-models/editors/index.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/index/knowledge-model-editors-list.png,List of knowledge model editors.,Replace with 5.0 capture
+knowledge-models/editors/migration.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/migration/km-migration.png,Schematic representation of KM migration.,Replace with 5.0 capture
+knowledge-models/editors/migration.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/migration/update-available.png,Badge indicating that there is a newer version of the Parent KM.,Replace with 5.0 capture
+knowledge-models/editors/migration.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/migration/create-migration-modal.png,Modal window to create a new knowledge model migration.,Replace with 5.0 capture
+knowledge-models/editors/migration.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/migration/migration.png,During the migration we can apply or reject the changes form the Parent KM.,Replace with 5.0 capture
+knowledge-models/library/detail.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/list/detail/detail.png,Detail of a knowledge model.,Replace with 5.0 capture
+knowledge-models/library/import.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/list/import/registry.png,Input for importing a knowledge model from FAIR Wizard Registry.,Replace with 5.0 capture
+knowledge-models/library/import.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/list/import/file.png,Input for importing a knowledge model using a KM package.,Replace with 5.0 capture
+knowledge-models/library/index.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/list/index/list.png,List of all knowledge models with actions.,Replace with 5.0 capture
+knowledge-models/secrets.rst,/_static/earlier-interface/applications/data-management-planner/knowledge-models/secrets/secrets.png,List of knowledge model secrets.,Replace with 5.0 capture
+projects/create.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/create/project-create.png,Different options how to create a project.,Replace with 5.0 capture
+projects/create.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/create/project-create-custom.png,Creating custom project with question tag selection.,Replace with 5.0 capture
+projects/detail/documents.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/documents/list.png,List of the documents on the project.,Replace with 5.0 capture
+projects/detail/documents.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/documents/new.png,We can choose any compatible document template and format when creating a new document on the project.,Replace with 5.0 capture
+projects/detail/documents.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/documents/submission.png,Submission service selection for a document.,Replace with 5.0 capture
+projects/detail/files.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/files/files.png,List of files in the project detail.,Replace with 5.0 capture
+projects/detail/index.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/index/questionnaire.png,Project detail opened on the questionnaire page.,Replace with 5.0 capture
+projects/detail/metrics.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/metrics/metrics.png,Summary report of project metrics.,Replace with 5.0 capture
+projects/detail/preview.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/preview/preview-html.png,Document preview in the project detail.,Replace with 5.0 capture
+projects/detail/preview.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/preview/document-template-not-set.png,Preview only works when the default document template is set.,Replace with 5.0 capture
+projects/detail/preview.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/preview/download.png,Some formats cannot be displayed in the web browser.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/phase-selection.png,Phase selection widget.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/phase-selection-modal.png,Phase selection modal window.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/chapter-list.png,Chapter list showing the also the questions for the opened chapter.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/options-question.png,Options question with a closed set of answers.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/list-of-items-question.png,List of items question with a multiple items.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/value-question.png,Value question with a simple text input.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/integration-question.png,Integration question with a response from FAIRsharing containing also a link.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/multi-choice-question.png,Multi-choice question with many choices.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/item-select-question.png,Item select question with a list of items as possible answers.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/file-question.png,"File question showing an uploaded image, its size and a delete button.",Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/view-options.png,Different view options accessible form the questionnaire toolbar.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/warnings.png,Warnings referring to questions with invalid values.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/todos.png,List of TODOs.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/comments.png,Example of a comment.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/version-history.png,Version history shows all events changing the project.,Replace with 5.0 capture
+projects/detail/questionnaire.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/search.png,"Search panel shows all matching questions, answers and other content in real-time.",Replace with 5.0 capture
+projects/detail/settings.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/settings/settings.png,Project settings.,Replace with 5.0 capture
+projects/detail/sharing.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/sharing/share-modal.png,Project sharing settings.,Replace with 5.0 capture
+projects/detail/sharing.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/detail/sharing/share-dropdown.png,Fast project sharing.,Replace with 5.0 capture
+projects/documents.rst,/_static/earlier-interface/applications/data-management-planner/projects/documents/documents.png,List of all documents across projects.,Replace with 5.0 capture
+projects/files.rst,/_static/earlier-interface/applications/data-management-planner/projects/files/files.png,List of all files across projects.,Replace with 5.0 capture
+projects/import.rst,/_static/earlier-interface/applications/admin-center/import/projects/projects.png,Import projects.,Replace with 5.0 capture
+projects/list.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/index/project-list.png,Project list with filters.,Replace with 5.0 capture
+projects/migration.rst,/_static/earlier-interface/applications/data-management-planner/projects/list/migration/create.png,Choosing a new knowledge model for the project.,Replace with 5.0 capture
+reference/fw-registry.rst,/_static/earlier-interface/more/miscellaneous/fw-registry/fw-registry.png,FAIR Wizard Registry with a list of knowledge models.,Replace with 5.0 capture
+settings/analytics.rst,/_static/earlier-interface/applications/analytics/settings/form.png,Regular synchronization settings.,Replace with 5.0 capture
+settings/authentication/internal.rst,/_static/earlier-interface/applications/admin-center/settings/authentication/internal/internal.png,Internal Settings.,Replace with 5.0 capture
+settings/authentication/openid.rst,/_static/earlier-interface/applications/admin-center/settings/authentication/openid/openid.png,Example configuration of OpenID Microsoft Azure service.,Replace with 5.0 capture
+settings/authentication/saml.rst,/_static/earlier-interface/applications/admin-center/settings/authentication/saml/saml.png,Example configuration of SAML service.,Replace with 5.0 capture
+settings/authentication/saml.rst,/_static/earlier-interface/applications/admin-center/settings/authentication/saml/saml-detail.png,Configured SAML service (with hidden details).,Replace with 5.0 capture
+settings/features.rst,/_static/earlier-interface/applications/admin-center/settings/system/features/features.png,Switchable features.,Replace with 5.0 capture
+settings/features.rst,/_static/earlier-interface/applications/admin-center/settings/system/features/ai-assistant.png,AI Assistant.,Replace with 5.0 capture
+settings/login-screen.rst,/_static/earlier-interface/applications/admin-center/settings/user-interface/dashboard-and-login/dashboard-and-login.png,Login screen settings with editors for login information and sidebar information.,Replace with 5.0 capture
+settings/login-screen.rst,/_static/earlier-interface/applications/admin-center/settings/user-interface/dashboard-and-login/announcements.png,Announcements settings.,Replace with 5.0 capture
+settings/look-and-feel.rst,/_static/earlier-interface/applications/admin-center/settings/system/organization/organization.png,Organization settings.,Replace with 5.0 capture
+settings/plans.rst,/_static/earlier-interface/applications/admin-center/settings/info/plans/list.png,Plans.,Replace with 5.0 capture
+settings/plugins.rst,/_static/earlier-interface/applications/data-management-planner/settings/system/plugins/plugins.png,Plugins configuration.,Replace with 5.0 capture
+settings/support.rst,/_static/earlier-interface/applications/admin-center/settings/system/support/support.png,Support settings.,Replace with 5.0 capture
+settings/translations/index.rst,/_static/earlier-interface/applications/admin-center/settings/system/locales/list.png,List of all locales.,Replace with 5.0 capture
+settings/translations/registry.rst,/_static/earlier-interface/applications/admin-center/settings/system/locales/import/file.png,Input for importing a locale using a ZIP package (exported from some other FAIR Wizard instance).,Replace with 5.0 capture
+settings/translations/upload.rst,/_static/earlier-interface/applications/admin-center/settings/system/locales/create/form.png,Form for creating a new locale. Input for different locale files is at the bottom of the form.,Replace with 5.0 capture
+settings/usage.rst,/_static/earlier-interface/applications/admin-center/settings/info/usage/table.png,Usage statistics.,Replace with 5.0 capture
+settings/users.rst,/_static/earlier-interface/applications/admin-center/settings/system/users/users.png,Users settings.,Replace with 5.0 capture
+user-groups/create.rst,/_static/earlier-interface/applications/admin-center/user-groups/create/create.png,Create user group.,Replace with 5.0 capture
+user-groups/detail.rst,/_static/earlier-interface/applications/admin-center/user-groups/detail/info.png,User group detail.,Replace with 5.0 capture
+user-groups/detail.rst,/_static/earlier-interface/applications/admin-center/user-groups/detail/members.png,User group members.,Replace with 5.0 capture
+user-groups/index.rst,/_static/earlier-interface/applications/admin-center/user-groups/index/list.png,User groups.,Replace with 5.0 capture
