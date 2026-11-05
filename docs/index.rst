@@ -1,119 +1,112 @@
-FAIR Wizard User Guide
-*************************
+FAIR Wizard Guide
+*****************
 
-The FAIR Wizard is an enterprise-ready and user-friendly application for creating Data Management Plans. It provides the tools researchers and data stewards need to create data management plans (DMPs) easily, efficiently, and in a FAIR manner, and it offers a suite of tools for incorporating the Data Management Planning process into institutional workflows.
+.. only:: html
 
-Data stewards can easily capture the knowledge, including required project data and decisions in knowledge models that are then turned into per-project questionnaires to be filled by researchers. The questionnaires guide researchers through the process using recommendations, FAIR metrics indications, and only showing relevant questions based on previous answers.
+   .. container:: guide-home-intro
 
-Once the questionnaire is completed, a DMP can be easily generated using a selected template and output format. The document is then stored in FAIR Wizard for easy access and future reference. This is especially helpful because many funding agencies now require a DMP for their application process.
+      .. image:: /_static/illustrations/success.png
+         :alt: FAIR Wizard penguin holding a check mark.
+         :width: 150
+         :align: right
 
-But the benefits of using FAIR Wizard go beyond just creating a DMP. Institutions can use FAIR Wizard to manage their Data Management Planning processes, using powerful tools provided within the FAIR Wizard. This includes advanced user management, custom integrations with data and more.
+      Learn how to work on projects, create knowledge models and document templates, and manage FAIR Wizard.
 
-You are welcome to join the `DSW Discord community <https://discord.gg/MW3H9tdMcT>`__ where you can ask questions, share your experience, and get help from other users and administrators.
+   .. container:: guide-home-start
 
-.. youtube:: dRiWyimAQMA
-    :width: 100%
-    :align: center
+      :doc:`Get started → <getting-started/index>`
 
+   .. rubric:: Explore the guide
 
-Structure of the Guide
-======================
+   .. container:: guide-home-cards
 
-The guide sections are organized into three categories:
+      .. container:: guide-home-card
 
-- **About** contains an introduction to the FAIR Wizard and its content to gain quick insight into how it works at a high level.
-- **Applications** is structured the same way as FAIR Wizard's applications menu, so it is easy to quickly find the relevant sections about how to use a specific part of the application:
+         :doc:`Projects <projects/index>`
 
-  - Data Management Planner
-  - Admin Center
-  - Integration Hub
-  - Analytics
+         Fill in questionnaires, share projects with :doc:`user groups <user-groups/index>` and generate documents.
 
-- **More** contains all additional information related to FAIR Wizard, such as changelog or development of various extensions.
+      .. container:: guide-home-card
 
-Here are some recommended sections where to start based on the role:
+         :doc:`Knowledge models <knowledge-models/index>`
 
-.. list-table::
-    :widths: 33 33 33
-    :header-rows: 1
+         Find a model, edit questions and manage the content used in projects.
 
-    * - Researcher
-      - Data Steward
-      - Admin
-    * - Introduction
-      - Introduction
-      - Introduction
-    * - :ref:`overview`
-      - :ref:`overview`
-      - :ref:`overview`
-    * - :ref:`project`
-      - :ref:`knowledge-model`
-      -
-    * -
-      - :ref:`document-template`
-      -
-    * - Applications
-      - Applications
-      - Applications
-    * - :ref:`data-management-planner`
-      - :ref:`data-management-planner`
-      - :ref:`admin-center`
-    * -
-      - :ref:`integration-hub`
-      - :ref:`analytics`
-    * - Features
-      - Features
-      - Features
-    * - :ref:`projects`
-      - :ref:`knowledge-models`
-      - :ref:`user-list`
-    * -
-      - :ref:`document-templates`
-      - :ref:`user-groups`
-    * -
-      - :ref:`user-groups`
-      - :ref:`settings`
-    * -
-      - :ref:`project-templates`
-      - :ref:`settings`
-    * -
-      - :ref:`value-integrations`
-      - :ref:`audit-log`
-    * -
-      - More
-      - More
-    * -
-      - :ref:`document-template-development`
-      - :ref:`submission-service`
-    * -
-      - :ref:`integration-questions`
-      - `Changelog <https://fair-wizard.com/changelog>`__
+      .. container:: guide-home-card
 
-.. raw:: html
+         :doc:`Document templates <document-templates/index>`
 
-    <h2>Full Table of Contents</h2>
+         Choose and develop templates for the documents your projects need.
 
+      .. container:: guide-home-card
+
+         :doc:`Administration <administration/index>`
+
+         Manage users, roles and access. Configure the application in :doc:`Settings <settings/index>`.
+
+      .. container:: guide-home-card
+
+         :doc:`Analytics <analytics/index>`
+
+         Explore projects and content with saved views, filters and exports.
+
+      .. container:: guide-home-card
+
+         :doc:`Development <development/index>`
+
+         Work with the API, integrations and document-template development tools.
+
+   .. container:: guide-home-links
+
+      :doc:`Your account <account/index>` · :doc:`Upgrading to 5.0 <upgrade/index>` · :doc:`Troubleshooting <reference/faq>`
+
+   This guide covers single and multiple workspaces. Differences are explained where needed; available features depend on your permissions and instance settings.
+
+   .. container:: guide-home-website
+
+      Looking for product information? Visit the `FAIR Wizard website <https://fair-wizard.com/>`_.
+
+      Join the `DSW community on Discord <https://discord.gg/MW3H9tdMcT>`_ to ask questions and share experience with other users.
+
+.. only:: latex
+
+   This guide explains how to work on projects, create knowledge models and document templates, and administer FAIR Wizard 5.0. It also includes references for developers working on templates and integrations.
+
+   It covers single and multiple workspaces. Differences are explained on the relevant pages; available features depend on our permissions and instance settings. Use the contents or PDF bookmarks to navigate the guide.
+
+.. note::
+
+   Images marked **Outdated** show an earlier interface or example configuration. They are retained temporarily while replacement screenshots are prepared.
 
 .. toctree::
-    :maxdepth: 2
-    :caption: About
+   :hidden:
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Using FAIR Wizard
 
-    about/introduction/index
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Applications
-
-    applications/data-management-planner/index
-    applications/admin-center/index
-    applications/integration-hub/index
-    applications/analytics/index
+   getting-started/index
+   projects/index
+   knowledge-models/index
+   document-templates/index
+   user-groups/index
+   account/index
 
 .. toctree::
-    :maxdepth: 2
-    :caption: More
+   :hidden:
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Administration and reporting
 
-    Changelog <https://fair-wizard.com/changelog>
-    more/development/index
-    more/miscellaneous/index
-    more/faq
+   administration/index
+   settings/index
+   analytics/index
+
+.. toctree::
+   :hidden:
+   :maxdepth: 1
+   :titlesonly:
+   :caption: Development and reference
+
+   development/index
+   upgrade/index
+   reference/index

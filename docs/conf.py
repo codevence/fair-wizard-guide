@@ -15,14 +15,19 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / '_ext'))
+
 # -- Project information -----------------------------------------------------
 
+# FAIR Wizard 5.0 preparation on develop; publish through preview, then production.
 project = 'FAIR Wizard'
 copyright = '2020 - 2026, FAIR Wizard Team'
 author = 'FAIR Wizard Team'
 
 # The full version, including alpha/beta/rc tags
-version = release = '4.34'
+version = release = '5.0'
 
 rst_prolog = f"""
 
@@ -36,6 +41,7 @@ rst_prolog = f"""
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'screenshot_themes',
     'sphinx-prompt',
     'sphinx_substitution_extensions',
     'sphinx_reredirects',
@@ -45,8 +51,11 @@ extensions = [
     'notfound.extension',
 ]
 
+# Keep screenshot follow-up notes in source only.
+todo_include_todos = False
+
 # Add any paths that contain templates here, relative to this directory.
-templates_path = []
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -70,13 +79,17 @@ html_theme_options = {
     'light_logo': 'logo/logo-light-mode.svg',
     'dark_logo': 'logo/logo-dark-mode.svg',
     'light_css_variables': {
-        'color-brand-primary': '#019AD6',
-        'color-brand-content': '#019AD6',
+        'font-stack': 'ui-sans-serif, -apple-system, "system-ui", "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji"',
+        'font-stack--headings': 'Nunito, ui-sans-serif, sans-serif',
+        'guide-subtle': '#e1f3ff',
+        'color-brand-primary': '#0074a3',
+        'color-brand-content': '#006e9a',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'dark_css_variables': {
-        'color-brand-primary': '#019AD6',
-        'color-brand-content': '#019AD6',
+        'guide-subtle': '#0d3347',
+        'color-brand-primary': '#4dc2ff',
+        'color-brand-content': '#4dc2ff',
         'sidebar-item-spacing-horizontal': '.75rem',
     },
     'sidebar_hide_name': True,
@@ -102,3 +115,25 @@ redirects = {
     'application/document-templates/editors/create': '/en/production/applications/data-management-planner/document-templates/editors/create.html',
     'application/projects/list/detail/questionnaire': '/en/production/applications/data-management-planner/projects/list/detail/questionnaire.html#integration-question'
  }
+
+# Downloadable guide: Unicode text, A4 pages and a navigable print contents.
+latex_engine = 'xelatex'
+latex_documents = [('index', 'fairwizard.tex', 'FAIR Wizard Guide', author, 'manual')]
+latex_additional_files = ['_static/fonts/Nunito-Regular.ttf', '_static/fonts/Nunito-Bold.ttf']
+latex_elements = {
+    'fontpkg': r'''
+\setmainfont{FreeSans}[
+    Extension=.otf, UprightFont=*, ItalicFont=*Oblique,
+    BoldFont=*Bold, BoldItalicFont=*BoldOblique]
+\setsansfont{Nunito-Regular.ttf}[
+    BoldFont=Nunito-Bold.ttf, ItalicFont=Nunito-Regular.ttf,
+    BoldItalicFont=Nunito-Bold.ttf]
+\setmonofont{FreeMono}[Scale=0.9,
+    Extension=.otf, UprightFont=*, ItalicFont=*Oblique,
+    BoldFont=*Bold, BoldItalicFont=*BoldOblique]
+''',
+    'papersize': 'a4paper',
+    'fncychap': '',
+    'extraclassoptions': 'oneside,openany',
+    'tableofcontents': r'\makeatletter\renewcommand{\@pnumwidth}{2.4em}\renewcommand{\@tocrmarg}{3.4em}\makeatother\renewcommand{\contentsname}{Contents}\setcounter{tocdepth}{1}\sphinxtableofcontents',
+}

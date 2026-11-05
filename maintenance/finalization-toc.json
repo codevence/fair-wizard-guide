@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-03",
+  "pages_with_sidebars": 142,
+  "explicit_toc_aliases": 39,
+  "rendered_label_checks": 5538,
+  "errors": [],
+  "method": "Clean full HTML build; compare every rendered sidebar alias with its source toctree. Descriptive article titles remain unchanged."
+}

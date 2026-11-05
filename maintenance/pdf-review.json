@@ -1,0 +1,57 @@
+{
+  "outside_page": [],
+  "near_edge": [],
+  "empty_pages": [],
+  "sparse_pages": [
+    {
+      "page": 1,
+      "words": 12,
+      "images": 0,
+      "heading": [
+        "FAIR W izard Guide",
+        "Release 5.0",
+        "FAIR Wizard Team"
+      ]
+    },
+    {
+      "page": 186,
+      "words": 41,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "In multi-workspace mode, requests use the effective submission configuration for the project\u2019s workspace.",
+        "Test organization defaults and local overrides separately, including user properties, authentication failures"
+      ]
+    }
+  ],
+  "replacement_glyph_pages": [],
+  "bookmarks": 817,
+  "a4": true,
+  "page_count": 192,
+  "missing_glyph_warnings": 0,
+  "overfull_widths_pt": {},
+  "undefined_references": false,
+  "date": "2026-11-01",
+  "scope": "Locally rendered Sphinx LaTeX PDF; not a test of hosted Read the Docs publication",
+  "visual_review": "All 192 pages reviewed as contact sheets; higher-resolution checks of contents, project sharing modal/matrix, roles table and template font/code example",
+  "known_limitations": [
+    "Temporary QA and labeled 4.x screenshots remain pending the dedicated environment",
+    "Some image-only pages and short chapter continuation pages retain whitespace; no forced blank pages",
+    "Decorative FontAwesome ToUnicode warnings remain; no missing-glyph warnings; PDF is not tagged and PDF/UA conformance has not been tested"
+  ],
+  "html_verification": {
+    "strict_build": "passed",
+    "local_references": 28040,
+    "errors": 0,
+    "source_pages": 135,
+    "navigation": "No unintended orphan, missing toctree target, duplicate parent or cycle"
+  },
+  "fixes": [
+    "Explicit XeLaTeX configuration matches the local Tectonic engine; initial missing punctuation was a local engine mismatch, not evidence of a hosted-PDF defect",
+    "Nunito static heading fonts from existing licensed font; FreeSans body and FreeMono code",
+    "A4, one-sided chapters without forced blank pages",
+    "Correct Contents label and wider page-number boxes",
+    "Web-only home cards excluded, short print preface retained",
+    "Long font-loading code example shortened and wrapped; Search label replaces unsupported emoji"
+  ]
+}

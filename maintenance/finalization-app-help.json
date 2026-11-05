@@ -1,0 +1,271 @@
+{
+  "frontend_revision": "c99dce8d020ee692afca387d4342fea914a283d8",
+  "links": [
+    {
+      "key": "documentTemplates",
+      "target": "more/development/document-templates/index.html",
+      "page_exists": true
+    },
+    {
+      "key": "documentTemplatesCreate",
+      "target": "applications/data-management-planner/document-templates/editors/create.html",
+      "page_exists": true
+    },
+    {
+      "key": "documentTemplatesImport",
+      "target": "applications/data-management-planner/document-templates/list/import.html",
+      "page_exists": true
+    },
+    {
+      "key": "documentTemplatesPublish",
+      "target": "applications/data-management-planner/document-templates/editors/detail/publish.html",
+      "page_exists": true
+    },
+    {
+      "key": "documentTemplatesSettings",
+      "target": "applications/data-management-planner/document-templates/editors/detail/settings.html",
+      "page_exists": true
+    },
+    {
+      "key": "documentTemplatesUnsupportedMetamodel",
+      "target": "more/faq.html#document-templates-show-unsupported-metamodel",
+      "page_exists": true
+    },
+    {
+      "key": "jinjaCheatsheet",
+      "target": "more/miscellaneous/jinja-cheatsheet.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmEditorCreate",
+      "target": "applications/data-management-planner/knowledge-models/editors/create.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmEditorIntegrationQuestion",
+      "target": "more/development/integration-questions/index.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmEditorMigration",
+      "target": "applications/data-management-planner/knowledge-models/editors/migration.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmEditorPublish",
+      "target": "applications/data-management-planner/knowledge-models/editors/detail/publish.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmEditorSettings",
+      "target": "applications/data-management-planner/knowledge-models/editors/detail/settings.html",
+      "page_exists": true
+    },
+    {
+      "key": "kmImport",
+      "target": "applications/data-management-planner/knowledge-models/list/import.html",
+      "page_exists": true
+    },
+    {
+      "key": "markdownCheatsheet",
+      "target": "more/miscellaneous/markdown-cheatsheet.html",
+      "page_exists": true
+    },
+    {
+      "key": "profileActiveSessions",
+      "target": "applications/admin-center/profile/settings/active-sessions.html",
+      "page_exists": true
+    },
+    {
+      "key": "profileApiKeys",
+      "target": "applications/admin-center/profile/settings/api-keys.html",
+      "page_exists": true
+    },
+    {
+      "key": "profileLanguage",
+      "target": "applications/admin-center/profile/settings/language.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsCreate",
+      "target": "applications/data-management-planner/projects/list/create.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsDocumentSubmission",
+      "target": "applications/data-management-planner/projects/list/detail/documents.html#document-submission",
+      "page_exists": true
+    },
+    {
+      "key": "projectsDocuments",
+      "target": "applications/data-management-planner/projects/documents.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsFiles",
+      "target": "applications/data-management-planner/projects/files.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsMigration",
+      "target": "applications/data-management-planner/projects/list/migration.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsNewDocument",
+      "target": "applications/data-management-planner/projects/list/detail/documents.html#new-document",
+      "page_exists": true
+    },
+    {
+      "key": "projectsSettings",
+      "target": "applications/data-management-planner/projects/list/detail/settings.html",
+      "page_exists": true
+    },
+    {
+      "key": "projectsSharing",
+      "target": "applications/data-management-planner/projects/list/detail/sharing.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsAuthentication",
+      "target": "applications/admin-center/settings/authentication/internal.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsDashboardAndLoginScreen",
+      "target": "applications/admin-center/settings/user-interface/dashboard-and-login-screen.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsDocumentSubmission",
+      "target": "applications/data-management-planner/settings/content/document-submission.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsFeatures",
+      "target": "applications/admin-center/settings/system/features.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsLookAndFeel",
+      "target": "applications/admin-center/settings/user-interface/look-and-feel.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsOpenId",
+      "target": "applications/admin-center/settings/authentication/openid.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsPlugins",
+      "target": "index.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsPrivacyAndSupport",
+      "target": "applications/admin-center/settings/system/support.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsProjects",
+      "target": "applications/data-management-planner/settings/content/projects.html",
+      "page_exists": true
+    },
+    {
+      "key": "settingsRegistry",
+      "target": "index.html",
+      "page_exists": true
+    },
+    {
+      "key": "usersCreate",
+      "target": "applications/admin-center/users/invite.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminAutomations",
+      "target": "applications/admin-center/automations/index.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminProfileConnectedAIs",
+      "target": "applications/admin-center/profile/settings/connected-ais.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminProjectsImport",
+      "target": "applications/admin-center/import/projects.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminSettingsPlans",
+      "target": "applications/admin-center/settings/info/plans.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminSettingsSaml",
+      "target": "applications/admin-center/settings/authentication/saml.html",
+      "page_exists": true
+    },
+    {
+      "key": "userGroupsCreate",
+      "target": "applications/admin-center/user-groups/create.html",
+      "page_exists": true
+    },
+    {
+      "key": "userGroupsDetail",
+      "target": "applications/admin-center/user-groups/detail.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminUsersImport",
+      "target": "applications/admin-center/import/users.html",
+      "page_exists": true
+    },
+    {
+      "key": "adminUsersInvite",
+      "target": "applications/admin-center/users/invite.html",
+      "page_exists": true
+    },
+    {
+      "key": "analyticsDocumentTemplates",
+      "target": "applications/analytics/document-templates.html",
+      "page_exists": true
+    },
+    {
+      "key": "analyticsKnowledgeModels",
+      "target": "applications/analytics/knowledge-models.html",
+      "page_exists": true
+    },
+    {
+      "key": "analyticsProjects",
+      "target": "applications/analytics/projects.html",
+      "page_exists": true
+    },
+    {
+      "key": "analyticsUserGroups",
+      "target": "applications/analytics/user-groups.html",
+      "page_exists": true
+    },
+    {
+      "key": "analyticsUsers",
+      "target": "applications/analytics/users.html",
+      "page_exists": true
+    },
+    {
+      "key": "index",
+      "target": "index.html",
+      "page_exists": true
+    },
+    {
+      "key": "dataSourcesCreate",
+      "target": "applications/integration-hub/value-integrations/create.html",
+      "page_exists": true
+    },
+    {
+      "key": "dataSourcesDetail",
+      "target": "applications/integration-hub/value-integrations/detail.html",
+      "page_exists": true
+    }
+  ],
+  "scope": "Read-only check of current frontend help destinations against rebuilt guide. Frontend URL updates are expected as part of the release; redirects were explicitly deferred by the user."
+}
