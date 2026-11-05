@@ -17,6 +17,5 @@ After we click on Done button, the new API Key is hidden and the information abo
 
 .. NOTE::
 
-    There is only one common API Key for Admin Center, Integration Hub and Analytics. It needs to be set up in this section and then it is used for all three apps. Data Management Planner has its own :ref:`api-keys` that can be set up there.
-
+    An API Key created in Admin Center can be used across all FAIR Wizard applications, including Data Management Planner. Keys created before the 4.35 unification must be replaced with a new API Key.
 

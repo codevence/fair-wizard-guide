@@ -3,7 +3,7 @@ User Settings
 
 After navigating to :guilabel:`User settings` from the :doc:`../index` menu, we open the User Settings. We can view our **Email** address, **First name**, **Last name**, and **Affiliation**. To edit those values, we must first switch to the :ref:`Admin App <edit-profile-admin>` and continue there.
 
-We can see API Keys we have generated and App Keys used to connect to different apps.
+We can see API Keys we have generated for access to FAIR Wizard APIs.
 
 We can also see Active Sessions and revoke them if needed.
 
@@ -30,6 +30,5 @@ In case of configured submission services, there might be additional inputs unde
     :maxdepth: 2
 
     API Keys<api-keys>
-    App Keys<app-keys>
     Active Sessions<active-sessions>
     Submission Settings<submission-settings>

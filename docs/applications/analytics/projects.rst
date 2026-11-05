@@ -21,6 +21,8 @@ New view can be created by clicking on the dropdown menu in the top right corner
 
 Various fields have filters that can be used to narrow down the data.
 
+To compare answers across projects, add a :guilabel:`Question answer` field while editing a view and select a knowledge model question by title or UUID. The new column displays each project's reply and can be filtered by answer or reply status. We can also add :guilabel:`Knowledge Model Version` and :guilabel:`Document Template Version` fields and filter by specific versions. :guilabel:`Created At` and :guilabel:`Updated At` offer date range filters.
+
 We can also resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 .. NOTE::
