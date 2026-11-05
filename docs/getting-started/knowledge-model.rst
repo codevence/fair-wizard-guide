@@ -3,7 +3,7 @@
 Knowledge Model
 ***************
 
-The knowledge model is a tree-like structure of chapters, questions, answers, and other entities that servers as a template for the questionnaire. All the different questions, their possible answers and follow-up questions, metrics and more is defined there.
+The knowledge model is a tree-like structure of chapters, questions, answers, and other entities that serves as a template for the questionnaire. All the different questions, their possible answers and follow-up questions, metrics and more are defined there.
 
 While all the possibilities are defined in the knowledge model, when researchers use it to create their project, they don't see everything, but only the top-level questions and more detailed questions are only asked if relevant to their use case.
 
@@ -14,9 +14,9 @@ Each knowledge model also has a source language. A published knowledge model ver
 Knowledge Model Structure
 =========================
 
-Knowledge model consists of several entities connected together. You can see how they are connected in the following diagram and read more details about them below.
+A knowledge model consists of several connected entities. The following sections describe them and how they relate to each other.
 
-.. figure:: /_static/earlier-interface/about/introduction/knowledge-model/knowledge-model-schema.png
+.. figure:: /_static/diagrams/knowledge-model-schema.png
    :alt: The diagram showing the knowledge model schema
    :align: center
 
@@ -82,7 +82,7 @@ The value question asks for a single value that users type in. There are many di
 
 The input field differs based on the value type (simple input for string, date picker for date, etc.). Some of these have a check whether the entered value is valid (such as valid email or URL) and displays a warning if not.
 
-Value Question also can have validations. Validations differ based on the value type. For example, we can set a minimum and maximum value for a number, or a minimum and maximum length for a string. For text based types (text, email, URL), we can set also use a regular expression to create validations.
+Value Question also can have validations. Validations differ based on the value type. For example, we can set a minimum and maximum value for a number, or a minimum and maximum length for a string. For text based types (text, email, URL), we can also use a regular expression to create validations.
 
 .. _integration-question:
 
@@ -91,9 +91,10 @@ Integration Question
 
 The integration question is connected to an external resource where the users can pick the answer from. We need to select an :ref:`integration<integration>` that the question uses and sometimes additional properties, based on the integration configuration.
 
-Users can then search the external resource through the questionnaire and choose the answer. The advantage is that the answer is not only the text but also a link or PID of the selected item making it more FAIR.
+Users search the external resource through the questionnaire and choose a result. The integration defines how that result is displayed, including any link or persistent identifier.
 
-If the desired answer is not present in the external resource, users can still fill in a text answer themselves.
+A user can enter a text answer instead only when the integration allows custom replies.
+
 
 
 .. _multi-choice-question:
@@ -192,7 +193,7 @@ Metric
 
 We can define metrics for each knowledge model based on our needs. Each metric has a **title**, an **abbreviation**, and a **description**. Once the metric is defined, we can configure which :ref:`answers<answer>` affect it and how.
 
-This can be use, for example, to define the FAIR metrics:
+This can be used, for example, to define the FAIR metrics:
 
 - **F** - Findability
 - **A** - Accessibility
@@ -209,7 +210,7 @@ Phase
 
 We can create phases to reflect the workflow. Such as: *Before submitting the proposal*, *Before submitting the DMP*, etc. Each phase has a **title** and a **description**.
 
-Once we have phases defined, we can assign them to :ref:`questions<question>` to indicate where each question become desirable. The phases implicitly follow the order in which they are in the knowledge model and the question is considered desirable from the defined phase and on. So for example, if a question is desirable in *Phase 2*, it is implicitly desirable in *Phase 3*, *Phase 4*, etc.
+Once we have phases defined, we can assign them to :ref:`questions<question>` to indicate where each question becomes desirable. The phases implicitly follow the order in which they are in the knowledge model and the question is considered desirable from the defined phase and on. So for example, if a question is desirable in *Phase 2*, it is implicitly desirable in *Phase 3*, *Phase 4*, etc.
 
 
 .. _question-tag:
@@ -219,7 +220,7 @@ Question Tag
 
 We can define question tags on the knowledge model and then assign them to different :ref:`questions<question>`. This can be used to group together questions on the same topic or for the same purpose.
 
-When researchers create a new project from the knowledge model, they can only choose the question groups they are interested in for their research. Selection of question tags is done in :ref:`custom project creation<create-project-custom>` So we can use this to create a very rich knowledge model but researchers will be able to use only the parts relevant to them.
+When researchers create a new project from the knowledge model, they can only choose the question groups they are interested in for their research. Question tags are selected during :ref:`custom project creation<create-project-custom>`. This lets researchers use the parts of a knowledge model relevant to their project.
 
 
 .. _integration:

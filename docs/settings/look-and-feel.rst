@@ -11,12 +11,9 @@ The application title is also used where earlier versions had a separate short t
 Knowledge-model and document-template identifiers are managed on the content itself; there is no organization ID setting used to build three-part content identifiers in 5.0.
 For navigation links and dashboard content, use :doc:`/settings/dashboard-menu`.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/settings-look-and-feel.png
+    :figclass: guide-screenshot
+    :alt: Look and Feel settings in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/settings/system/organization/organization.png
-    :alt: Organization settings.
-
-    **Outdated screenshot (4.x).** Organization settings.
+    Look and Feel settings.

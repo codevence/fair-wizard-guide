@@ -14,16 +14,17 @@ We can see project names, label :guilabel:`Template` if the project is a templat
 - **People icon** - the project is shared with other users, hovering on the icon provides additional information
 - **Globe icon** - anyone with a link can access the project
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/index/project-list.png
-    :alt: Project list with filters.
+.. figure:: /_static/screenshots/5.0/guide/projects-list-overview.png
+    :figclass: guide-screenshot
+    :alt: Project list with the example projects in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Project list with filters.
-
+    Project list.
 
 We can search for specific projects using the search field or filter them using additional filters:
 
 - **Project Template** - if we want to see only :ref:`project templates<project-templates>` or regular projects
-- **Project Tags** - show only the projects that has specific tags assigned
+- **Project Tags** - show only the projects that have specific tags assigned
 - **Knowledge Models** - show only the projects created from a specific knowledge model
 - **Users** - filter only the projects with specific users assigned to them
 - **User Groups** - show only the projects shared with specific user groups
@@ -35,10 +36,24 @@ We can search for specific projects using the search field or filter them using 
 
 We can :ref:`create a new project<create-project>` by clicking the :guilabel:`Create` button.
 
-By clicking the triple dots on each of the item in the list we can access some actions:
+.. figure:: /_static/screenshots/5.0/projects/list.png
+    :figclass: guide-screenshot
+    :alt: Project list and actions in the Coastal Biodiversity Survey example
+    :width: 800
+
+    Project list and actions.
+
+By clicking the triple dots on each item in the list we can access some actions:
 
 - **Open project** - will simply open the project
 - **Create project from this template** - will create a new project from the selected project template (this is only available if the project is also a project template)
-- **Clone** - will create the exact copy of the project
+- **Clone** - creates a project with the source questionnaire, files, comments and named versions. Other explicit collaborators and the source sharing settings are retained. Generated documents are not copied
 - **Migrate** - will start a :ref:`project migration<project-migration>`
 - **Delete** - will delete the project (this action cannot be undone)
+
+.. figure:: /_static/screenshots/5.0/guide/project-clone.png
+    :figclass: guide-screenshot
+    :alt: Clone a project in FAIR Wizard 5.0
+    :width: 350
+
+    Clone a project.

@@ -2,7 +2,7 @@ Manage workspaces
 *****************
 
 This page applies when an Enterprise organization uses multiple workspaces. Professional uses a single workspace; Enterprise can also operate in single-workspace mode.
-Existing content initially stays together during the 5.0 migration. Organizing that content into multiple workspaces is a separate, planned step with the FAIR Wizard team.
+For the initial migration from an earlier release, see :doc:`/upgrade/index`.
 
 Create and configure a workspace
 ================================

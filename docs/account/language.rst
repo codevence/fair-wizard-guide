@@ -1,13 +1,17 @@
 Language
 ********
 
-A user can explicitly select a desired language after clicking :guilabel:`Change language` from the :doc:`/account/profile` menu. In case the language becomes unavailable later after the selection, FAIR Wizard will use language marked as **default**.
+Open :guilabel:`User settings` → :guilabel:`Language` to choose an available interface language. If that language later becomes unavailable, FAIR Wizard uses the default language.
 
 The preferred language is determined in the following order: the user's profile settings, then browser settings, and finally the default system language if the previous options are not set.
 
 This setting does not automatically translate questionnaire content from a knowledge model. If the project uses a knowledge model with :ref:`locales<knowledge-model-locales>`, the questionnaire language is selected when creating the project or in the project settings.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/profile/settings/language/form.png
-    :alt: Language selection in the user settings.
+.. figure:: /_static/screenshots/5.0/guide/account-language.png
+    :figclass: guide-screenshot
+    :alt: Language preferences in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Language selection in the user settings.
+    Language preferences.
+
+Select a language and click :guilabel:`Save` to apply the preference.

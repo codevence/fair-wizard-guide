@@ -5,12 +5,9 @@ We can open :guilabel:`User settings` from the profile menu. Here we can change 
 
 The settings menu also provides password, connected accounts, language, API keys, active sessions, submission settings, tours and connected AIs. Some options depend on the instance configuration.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/account-profile.png
+    :figclass: guide-screenshot
+    :alt: User profile in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/profile/settings/index/form.png
-    :alt: Form for editing profile.
-
-    **Outdated screenshot (4.x).** Form for editing profile.
+    User profile.

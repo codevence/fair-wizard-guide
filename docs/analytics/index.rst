@@ -11,16 +11,12 @@ Analytics shows data from the last successful synchronization. See :doc:`/settin
 
    We can filter the results by workspace. The Use Analytics permission gives access to Analytics for the whole organization, including data from other workspaces.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/analytics-overview.png
+    :figclass: guide-screenshot
+    :alt: Analytics overview in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/analytics/index/index.png
-    :alt: Regular Synchronization settings.
-    :width: 700
-
-    **Outdated screenshot (4.x).** Regular Synchronization settings.
+    Analytics overview.
 
 .. toctree::
    :maxdepth: 1

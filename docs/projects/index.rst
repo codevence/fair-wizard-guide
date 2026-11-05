@@ -10,11 +10,11 @@ A project contains a questionnaire, answers, version history, collaborators, upl
 .. toctree::
    :maxdepth: 1
 
-   list
-   create
-   detail/index
-   migration
-   templates
+   List <list>
+   Create <create>
+   Detail <detail/index>
+   Migration <migration>
+   Templates <templates>
    files
    documents
-   import
+   Import <import>

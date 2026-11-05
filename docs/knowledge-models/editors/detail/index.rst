@@ -6,10 +6,12 @@ Knowledge Model Editor
 Knowledge model editor is where we build knowledge models. In this section, we will see what entities we can add there, how they are connected, how to work with the editor and how to publish the knowledge model.
 
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/index/km-editor.png
-    :alt: Knowledge model editor.
+.. figure:: /_static/screenshots/5.0/guide/km-editor.png
+    :figclass: guide-screenshot
+    :alt: Knowledge Model Editor in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Knowledge model editor.
+    Knowledge Model Editor.
 
 .. toctree::
    :maxdepth: 1
@@ -19,4 +21,4 @@ Knowledge model editor is where we build knowledge models. In this section, we w
    preview
    publish
    question-tags
-   settings
+   Settings <settings>

@@ -17,19 +17,12 @@ Supported workspace sections include projects, dashboard and menu, support, docu
 Authentication, login screen, organization-wide appearance, features, translations and plugin enablement are managed at organization level.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :titlesonly:
 
-   authentication/index
-   users
-   projects
-   submission
-   look-and-feel
-   dashboard-menu
-   login-screen
-   support
-   features
-   plugins
-   translations/index
-   analytics
-   usage
-   plans
+   sections/users-and-access
+   sections/projects
+   sections/appearance
+   sections/features-and-integrations
+   Translations <translations/index>
+   sections/plan-and-usage

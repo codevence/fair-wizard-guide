@@ -6,13 +6,9 @@ Professional uses a single workspace. Enterprise supports multiple workspaces, b
 
 For current usage, see :doc:`/settings/usage`. For planning multiple workspaces, see :doc:`/administration/workspaces`.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/settings-plans.png
+    :figclass: guide-screenshot
+    :alt: Current plan and limits in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/settings/info/plans/list.png
-    :alt: Plans.
-    :width: 700
-
-    **Outdated screenshot (4.x).** Plans.
+    Current plan and limits.

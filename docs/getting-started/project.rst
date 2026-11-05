@@ -11,7 +11,7 @@ Projects are fully collaborative, so we can share them with other researchers an
 Questionnaire
 =============
 
-The questionnaire is part of the project where we fill in our answers. It is generated based on the selected knowledge model. It shows only the questions that are relevant based on our previous answers. There are many more features to provide guidance and embrace collaboration, such as FAIR metrics, comments, TODOs, or version history.
+The questionnaire is part of the project where we fill in our answers. It is generated based on the selected knowledge model. It shows only the questions that are relevant based on our previous answers. Other features include FAIR metrics, comments, TODOs, or version history.
 
 
 :ref:`Learn how to work with the questionnaire →<project-questionnaire>`
@@ -19,7 +19,7 @@ The questionnaire is part of the project where we fill in our answers. It is gen
 Documents
 =========
 
-The outcome of our endeavors in FAIR Wizard should be the data management plan, the document. Once we have enough answers to the questionnaire, we can generate a document using a document template. These documents are saved within the project. We can create as many as we wish with different document templates and formats. We can also set up a default document template for the project and quickly see a preview of the document.
+Once we have enough answers to the questionnaire, we can generate a document using a document template. These documents are saved within the project. We can create as many as we wish with different document templates and formats. We can also set up a default document template for the project and quickly see a preview of the document.
 
 
 :ref:`Learn how to work with the documents →<project-documents>`

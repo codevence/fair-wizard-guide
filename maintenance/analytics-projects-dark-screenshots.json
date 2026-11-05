@@ -1,0 +1,12 @@
+[
+  {
+    "scene": "analytics-projects-question-values",
+    "theme": "dark",
+    "sha256": "2e46e1f49bf06be401229098678ced2b1d9eb526c8b9914b6b40509fff763e96"
+  },
+  {
+    "scene": "analytics-projects-sensitive-data",
+    "theme": "dark",
+    "sha256": "e84c15a081d90865fbf9d61c158ae3f38da40f7f3f49adcb6b8600ab6014f6d1"
+  }
+]

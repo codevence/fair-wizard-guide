@@ -3,50 +3,54 @@ Users
 
 Users with the :ref:`Use Analytics<roles>` role permission can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
 
-.. figure:: /_static/earlier-interface/applications/analytics/users/overview.png
-    :alt: Users overview.
-    :width: 700
+.. figure:: /_static/screenshots/5.0/guide/analytics-users-list.png
+    :figclass: guide-screenshot
+    :alt: Analytics: Users in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Users overview.
+    Analytics: Users.
 
+To configure the first view, open :guilabel:`View settings`, enter a name and choose the fields. Save the settings and use :guilabel:`Save changes` in the toolbar to keep the view.
 
-New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
+To create another view while a saved view is selected, open the :guilabel:`View` menu and choose :guilabel:`Create new view`. We can return to saved views from the same menu.
 
-.. figure:: /_static/earlier-interface/applications/analytics/users/settings.png
-    :alt: Form for editing analytics view.
-    :width: 400
+.. figure:: /_static/screenshots/5.0/guide/analytics-users-settings.png
+    :figclass: guide-screenshot
+    :alt: Analytics: Users view settings in FAIR Wizard 5.0
+    :width: 520
 
-    **Outdated screenshot (4.x).** Form for editing analytics view.
-
+    Analytics: Users view settings.
 
 Various fields have filters that can be used to narrow down the data.
 
 Use the :guilabel:`User Groups` field filter to show users by group membership. Date fields such as :guilabel:`Created At` can be filtered by a date range.
 
-We can resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
+We can resize all rows by clicking on the double arrow in the top left corner. If we want to change individual column widths or row heights, we can do it using drag-and-drop on the borders. We can choose how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
 
 .. NOTE::
 
-    Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
+    Click :guilabel:`Save changes` in the toolbar to keep changes to the view.
 
 
 User details
 ------------
 
-By clicking on the first or last name of a user, we can open that user detail. The user detail has two tabs and details. The tabs are as follows:
+By clicking on the first or last name of a user, we can open that user detail. The user detail has two tabs:
 
 - Projects
 - User Groups
 
 The :guilabel:`Projects` and :guilabel:`User Groups` tabs show the number of respective items. In the :guilabel:`Projects` tab, we can see the list of projects this user is part of and their role in the project. In the :guilabel:`User Groups` tab, we can see the list of user groups where this user is a member or owner and the group visibility.
 
-The user details on the right side shows additional user metadata, such as role, email, or affiliation.
+The user details on the right side show additional user metadata, such as role, email, or affiliation.
 
-Lastly we can click on the the link to the item in FAIR Wizard button to open the actual user.
+Click :guilabel:`Go to user` to open the user profile.
 
-.. figure:: /_static/earlier-interface/applications/analytics/users/detail.png
-    :alt: User detail.
+.. figure:: /_static/screenshots/5.0/guide/analytics-users-detail.png
+    :figclass: guide-screenshot
+    :alt: Analytics: User details in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** User detail.
+    Analytics: User details.

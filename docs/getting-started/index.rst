@@ -1,7 +1,14 @@
 Getting started
 ***************
 
-FAIR Wizard combines projects, knowledge models, document templates, administration and Analytics in one application. The following pages explain these features. We can start by :doc:`creating a project </projects/create>`.
+The following pages explain how to work with projects, knowledge models and document templates. We can start by :doc:`creating a project </projects/create>`.
+
+.. figure:: /_static/screenshots/5.0/guide/dashboard.png
+    :figclass: guide-screenshot
+    :alt: Dashboard and application navigation in FAIR Wizard 5.0
+    :width: 800
+
+    Dashboard and application navigation.
 
 .. toctree::
    :maxdepth: 1
@@ -11,3 +18,4 @@ FAIR Wizard combines projects, knowledge models, document templates, administrat
    project
    knowledge-model
    document-template
+   support

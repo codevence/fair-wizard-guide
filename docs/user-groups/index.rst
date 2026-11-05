@@ -12,18 +12,15 @@ Creating a group requires :guilabel:`Create User Groups`. :guilabel:`Manage User
 
 See :doc:`/projects/detail/sharing` to grant a group access to a project.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/group-list.png
+    :figclass: guide-screenshot
+    :alt: User Groups in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/user-groups/index/list.png
-    :alt: User groups.
-
-    **Outdated screenshot (4.x).** User groups.
+    User Groups.
 
 .. toctree::
    :maxdepth: 1
 
-   create
-   detail
+   Create <create>
+   Detail <detail>

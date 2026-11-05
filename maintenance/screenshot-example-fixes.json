@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "files": [
+    "docs/_static/screenshots/5.0/guide/km-secrets.png",
+    "docs/_static/screenshots/5.0/guide/account-api-keys.png",
+    "docs/_static/screenshots/5.0/guide/account-language.png",
+    "docs/_static/screenshots/5.0/guide/settings-locales.png",
+    "docs/_static/screenshots/5.0/guide/settings-mail-template-locales.png",
+    "docs/_static/screenshots/5.0/guide/dt-editor-preview.png",
+    "docs/_static/screenshots/5.0/dark/guide/km-secrets.png",
+    "docs/_static/screenshots/5.0/dark/guide/account-api-keys.png",
+    "docs/_static/screenshots/5.0/dark/guide/account-language.png",
+    "docs/_static/screenshots/5.0/dark/guide/settings-locales.png",
+    "docs/_static/screenshots/5.0/dark/guide/settings-mail-template-locales.png",
+    "docs/_static/screenshots/5.0/dark/guide/dt-editor-preview.png"
+  ],
+  "checks": "Focused Cypress captures and visual inspection",
+  "api_keys": "Temporary keys revoked after capture; no token value in screenshots",
+  "translations": "Czech demo catalogues rebased on the installed FW UI/mail POT; English remains default"
+}

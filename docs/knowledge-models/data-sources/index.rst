@@ -1,8 +1,8 @@
 Data Sources
 ************
 
-Data Sources hold searchable tabular data for integration questions. In earlier versions they were called Value Integrations and were managed in Integration Hub.
-They are now available under :guilabel:`Knowledge Models` → :guilabel:`Data Sources`. Managing them requires :guilabel:`Manage Knowledge Models`.
+Data Sources hold searchable tabular data for integration questions.
+They are available under :guilabel:`Knowledge Models` → :guilabel:`Data Sources`. Managing them requires :guilabel:`Manage Knowledge Models`.
 
 Create a source, define its columns and rows, and configure how a selected result is displayed. A knowledge model's integration question can then use the built-in :guilabel:`Data source` integration.
 
@@ -12,8 +12,15 @@ Create a source, define its columns and rows, and configure how a selected resul
 
 To set up a dataset, see :doc:`create`; to connect it to a question, see :doc:`/development/integration-questions/index`.
 
+.. figure:: /_static/screenshots/5.0/guide/data-source-list.png
+    :figclass: guide-screenshot
+    :alt: Data Sources in FAIR Wizard 5.0
+    :width: 800
+
+    Data Sources.
+
 .. toctree::
    :maxdepth: 1
 
-   create
-   detail
+   Create <create>
+   Detail <detail>

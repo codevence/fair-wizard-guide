@@ -42,3 +42,12 @@ Important 5.0 contracts
 * KM secret responses contain metadata, not their existing value. Supply a replacement when updating a secret.
 
 Use :doc:`/development/document-templates/document-context` for context endpoints and :doc:`/account/connected-ais` for MCP connections.
+
+Sign-in tokens and API keys
+===========================
+
+API keys are suitable for scripts and integrations. Interactive sign-in can obtain a token through ``POST /tokens`` with email and password; additional authentication checks apply when enabled. Use the instance's API documentation for the exact request and response fields, including token expiration.
+
+OpenID sign-in uses the configured provider's browser redirect flow. Do not replace that flow with a password request for an external identity. Public endpoints may permit unauthenticated access; other endpoints check the token, the account's role and access to the requested project or resource.
+
+The API reference is interactive: it lists operations, request fields and response examples and can submit requests to the instance. Check the operation and target data before trying a request that changes content.

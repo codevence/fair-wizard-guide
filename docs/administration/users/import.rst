@@ -9,18 +9,16 @@ Choose whether to send invitation emails, then import the users. Resolve any rep
 
 Save CSV files as UTF-8. With multiple workspaces, assign the required workspace memberships separately; see :doc:`/administration/workspaces`.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/user-import.png
+    :figclass: guide-screenshot
+    :alt: Import users from CSV in FAIR Wizard 5.0
+    :width: 520
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Import users from CSV.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/import/users/users.png
-    :alt: Import users.
-    :width: 528
+.. figure:: /_static/screenshots/5.0/guide/user-import-preview.png
+    :figclass: guide-screenshot
+    :alt: Review users before importing in FAIR Wizard 5.0
+    :width: 720
 
-    **Outdated screenshot (4.x).** Import users.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/import/users/users-confirmation.png
-    :alt: Import users confirmation with switch to send invitation email.
-
-    **Outdated screenshot (4.x).** Import users confirmation with switch to send invitation email.
+    Review users before importing.

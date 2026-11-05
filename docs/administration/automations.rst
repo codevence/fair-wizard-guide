@@ -4,6 +4,16 @@ Login automations
 A login automation can use OpenID or SAML identity information to decide whether a user may sign in and to assign profile details, roles, workspace membership and user groups.
 Manage it through the configured identity provider with :guilabel:`Manage Automations` and the required settings permissions.
 
+Set up a login automation
+=========================
+
+#. Open the saved OpenID or SAML provider in :doc:`authentication settings </settings/authentication/index>`.
+#. In its :guilabel:`Automation` section, choose :guilabel:`Create automation` or open the linked automation with :guilabel:`View automation`.
+#. In :guilabel:`Configuration`, enter the name and Python code, choose whether it is enabled, and save the changes.
+#. Test sign-in with a dedicated account. Open the automation's :guilabel:`Logs` tab to inspect its request, response and log output.
+
+The :guilabel:`Automations` list provides access to existing automations. New login automations are created from the provider they belong to.
+
 Assignments in 5.0
 ==================
 
@@ -23,7 +33,7 @@ The assignment part of a response has this structure (the UUIDs below are illust
      ]
    }
 
-Use the complete response contract and event model of the compatible Integration SDK; this fragment shows the assignment fields, not the complete login response.
+Use the complete response contract and event model in the `Integration SDK documentation <https://integration-sdk.fair-wizard.com/en/develop/>`_; this fragment shows the assignment fields, not the complete login response.
 An empty array is valid when no membership should be added. A single-workspace instance still uses the array form.
 
 How access is updated
@@ -39,32 +49,31 @@ Groups must belong to the workspace under which they are listed. Duplicate works
 
 Review failures in the automation's invocation log. For identity-provider configuration, see :doc:`/settings/authentication/index`.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/automations.png
+    :figclass: guide-screenshot
+    :alt: Login automations in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Login automations.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/automations/automations/list.png
-    :alt: List of Automations with possible actions.
+.. figure:: /_static/screenshots/5.0/guide/automation-openid.png
+    :figclass: guide-screenshot
+    :alt: OPENID login automation configuration in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** List of Automations with possible actions.
+    **Outdated example configuration.** OpenID automation layout; use the current response contract above rather than copying the pictured script.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/automations/automations/openid-configuration.png
-    :alt: Example of OpenID Automation configuration.
+.. TODO::
 
-    **Outdated screenshot (4.x).** Example of OpenID Automation configuration.
+    Screenshot pending: OPENID automation invocation log with a controlled example; deferred by request.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/automations/automations/openid-logs.png
-    :alt: Each run of an Automation is logged.
+.. figure:: /_static/screenshots/5.0/guide/automation-saml.png
+    :figclass: guide-screenshot
+    :alt: SAML login automation configuration in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Each run of an Automation is logged.
+    **Outdated example configuration.** SAML automation layout; use the current response contract above rather than copying the pictured script.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/automations/automations/saml-configuration.png
-    :alt: Example of SAML Automation configuration.
+.. TODO::
 
-    **Outdated screenshot (4.x).** Example of SAML Automation configuration.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/automations/automations/saml-logs.png
-    :alt: Each run of an Automation is logged.
-
-    **Outdated screenshot (4.x).** Each run of an Automation is logged.
+    Screenshot pending: SAML automation invocation log with a controlled example; deferred by request.

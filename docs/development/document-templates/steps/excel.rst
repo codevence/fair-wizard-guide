@@ -1,7 +1,9 @@
+.. _document-template-step-excel:
+
 Step: ``excel``
 ***************
 
-|badge-status| |badge-metamodel|
+
 
 Step producing Excel spreadsheets from JSON file with instructions.
 
@@ -13,7 +15,7 @@ JSON file containing instructions how to construct the desired Excel spreadsheet
 Properties
 ----------
 
-It allows to set both `basic <https://xlsxwriter.readthedocs.io/workbook.html#set_properties>`__ and `custom <https://xlsxwriter.readthedocs.io/workbook.html#set_custom_property>`__ properties of the workbook / spreadsheet.
+We can set both `basic <https://xlsxwriter.readthedocs.io/workbook.html#set_properties>`__ and `custom <https://xlsxwriter.readthedocs.io/workbook.html#set_custom_property>`__ properties of the workbook / spreadsheet.
 
 .. code:: json
 
@@ -32,7 +34,13 @@ It allows to set both `basic <https://xlsxwriter.readthedocs.io/workbook.html#se
        },
        "custom": [
          {
-           "projectUuid": "..."
+           "name": "projectUuid",
+           "value": "..."
+         },
+         {
+           "name": "exportedAt",
+           "value": "2018-01-01",
+           "type": "date"
          }
        ]
      }
@@ -77,7 +85,7 @@ Notes:
 Definitions
 -----------
 
-It allows to define a name to be then used as a variable (see `define_name <https://xlsxwriter.readthedocs.io/workbook.html#define_name>`__).
+We can define a name to use as a variable (see `define_name <https://xlsxwriter.readthedocs.io/workbook.html#define_name>`__).
 
 .. code:: json
 
@@ -172,10 +180,10 @@ The possible ``options`` are:
    `select <https://xlsxwriter.readthedocs.io/worksheet.html#select>`__,
    `hide <https://xlsxwriter.readthedocs.io/worksheet.html#hide>`__
 -  Print: ``orientation``
-   (`landspace <https://xlsxwriter.readthedocs.io/page_setup.html#set-landscape>`__
+   (`landscape <https://xlsxwriter.readthedocs.io/page_setup.html#set-landscape>`__
    or
    `portrait <https://xlsxwriter.readthedocs.io/page_setup.html#set-portrait>`__),
-   `paper <https://xlsxwriter.readthedocs.io/page-setup.html#set-paper>`__,
+   `paper <https://xlsxwriter.readthedocs.io/page_setup.html#set_paper>`__,
    `margins <https://xlsxwriter.readthedocs.io/page_setup.html#set-margins>`__,
    `header <https://xlsxwriter.readthedocs.io/page_setup.html#set-header>`__,
    `footer <https://xlsxwriter.readthedocs.io/page_setup.html#set-footer>`__,
@@ -209,10 +217,10 @@ The possible ``options`` are:
    `select <https://xlsxwriter.readthedocs.io/worksheet.html#select>`__,
    `hide <https://xlsxwriter.readthedocs.io/worksheet.html#hide>`__
 -  Print (common): ``orientation``
-   (`landspace <https://xlsxwriter.readthedocs.io/page_setup.html#set-landscape>`__
+   (`landscape <https://xlsxwriter.readthedocs.io/page_setup.html#set-landscape>`__
    or
    `portrait <https://xlsxwriter.readthedocs.io/page_setup.html#set-portrait>`__),
-   `paper <https://xlsxwriter.readthedocs.io/page-setup.html#set-paper>`__,
+   `paper <https://xlsxwriter.readthedocs.io/page_setup.html#set_paper>`__,
    `margins <https://xlsxwriter.readthedocs.io/page_setup.html#set-margins>`__,
    `header <https://xlsxwriter.readthedocs.io/page_setup.html#set-header>`__,
    `footer <https://xlsxwriter.readthedocs.io/page_setup.html#set-footer>`__,
@@ -247,12 +255,12 @@ The possible ``options`` are:
    `v_pagebreaks <https://xlsxwriter.readthedocs.io/page_setup.html#set_v_pagebreaks>`__,
    `outline_settings <https://xlsxwriter.readthedocs.io/worksheet.html#outline_settings>`__
 -  Panes:
-   `split_panes <https://xlsxwriter.readthedocs.io/worksheet.html#split_panes>`__,
-   `freeze_panes <https://xlsxwriter.readthedocs.io/worksheet.html#freeze_panes>`__
+   `split_panes <https://xlsxwriter.readthedocs.io/worksheet.html#split_panes>`__ with ``x``, ``y``, ``top_row``, ``left_col`` attributes,
+   `freeze_panes <https://xlsxwriter.readthedocs.io/worksheet.html#freeze_panes>`__ with a cell directly or ``row``, ``col``, ``top_row``, ``left_col`` attributes
 -  Filters: `filter_column_lists <https://xlsxwriter.readthedocs.io/worksheet.html#filter_column_list>`__ each with ``col`` and ``filters``, `filter_columns <https://xlsxwriter.readthedocs.io/worksheet.html#filter_column>`__ each with ``col`` and ``criteria``, `autofilter <https://xlsxwriter.readthedocs.io/worksheet.html#worksheet-autofilter>`__ with range directly or ``first_row``, ``first_col``, ``last_row``, ``last_col`` attributes (see `docs <https://xlsxwriter.readthedocs.io/working_with_autofilters.html>`__)
 -  Merge ranges: `merge_ranges <https://xlsxwriter.readthedocs.io/worksheet.html#merge_range>`__ list can be used to merge cells (``range`` or combination of ``first_row``, ``first_col``, ``last_row``, ``last_col`` attributes) together and apply a format (via ``format`` reference attribute), also contents can be set via ``data`` attribute
 -  Data validations: `data_validations <https://xlsxwriter.readthedocs.io/worksheet.html#data_validation>`__ list can be used to validate data in cell ranges (see `docs <https://xlsxwriter.readthedocs.io/working_with_data_validation.html>`__)
--  Conditional formats: `conditional_formats <https://xlsxwriter.readthedocs.io/worksheet.html#worksheet-conditional-format>`__ list can be used to define conditional formats on cell ranges (see `docs <https://xlsxwriter.readthedocs.io/example_conditional_format.html#ex-cond-format>`__)
+-  Conditional formats: `conditional_formats <https://xlsxwriter.readthedocs.io/worksheet.html#worksheet-conditional-format>`__ list can be used to define conditional formats on cell ranges, with ``format`` in ``options`` referring to a defined format by its name (see `docs <https://xlsxwriter.readthedocs.io/example_conditional_format.html#ex-cond-format>`__)
 -  Tables: `tables <https://xlsxwriter.readthedocs.io/worksheet.html#add_table>`__ list can be used to define formatted tables (see `docs <https://xlsxwriter.readthedocs.io/working_with_tables.html>`__)
 -  Sparklines: `sparklines <https://xlsxwriter.readthedocs.io/worksheet.html#add_sparkline>`__ list (see `docs <https://xlsxwriter.readthedocs.io/working_with_sparklines.html>`__)
 -  Row/col sizing: `columns <https://xlsxwriter.readthedocs.io/worksheet.html?highlight=column_pixels#set_column>`__, `column_pixels <https://xlsxwriter.readthedocs.io/worksheet.html#set_column_pixels>`__, `rows <https://xlsxwriter.readthedocs.io/worksheet.html?highlight=column_pixels#set_row>`__, and `row_pixels <https://xlsxwriter.readthedocs.io/worksheet.html#set_row_pixels>`__ lists can be used to adjust cell sizing (unfortunately automatic sizing is not possible)
@@ -321,7 +329,7 @@ All options above may specify ``format`` (refer to defined format via its ``name
 Inserting other elements
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Aside from data in cell, there is also possibility to insert other elements to the worksheet (``type`` vales):
+Aside from data in cell, there is also possibility to insert other elements to the worksheet (``type`` values):
 
 -  ``button`` with `options <https://xlsxwriter.readthedocs.io/worksheet.html#insert_button>`__ such as ``macro`` or ``caption``
 -  ``textbox`` with ``text`` and `options <https://xlsxwriter.readthedocs.io/worksheet.html#insert_textbox>`__ such as styling or offset in pixels
@@ -409,18 +417,18 @@ Desired Excel spreadsheet based on instructions from input JSON, it can be one t
 -  ``application/vnd.ms-excel.sheet.macroEnabled.12`` (extension ``.xlsm``)
 
 Options
-=======
+========
 
 *No options, everything comes from the input JSON file*
 
 Notes
 =====
 
--  `XlxsWriter <https://xlsxwriter.readthedocs.io/>`__ library is used to construct Excel spreadsheet.
+-  `XlsxWriter <https://xlsxwriter.readthedocs.io/>`__ library is used to construct Excel spreadsheet.
 -  Most likely this step will follow ``jinja`` step that constructs the JSON file.
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -428,6 +436,3 @@ Example
      "name": "excel",
      "options": {}
    }
-
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0

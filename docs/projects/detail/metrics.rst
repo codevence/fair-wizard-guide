@@ -3,11 +3,12 @@ Metrics
 
 In the :guilabel:`Metrics` tab in the project detail we can see a **Summary Report** for the whole questionnaire and then the same details for each individual chapter.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/metrics/metrics.png
-    :alt: Summary report of project metrics.
+.. figure:: /_static/screenshots/5.0/projects/summary.png
+    :figclass: guide-screenshot
+    :alt: Project summary report in the Coastal Biodiversity Survey example
+    :width: 800
 
-    **Outdated screenshot (4.x).** Summary report of project metrics.
-
+    Project summary report.
 
 The **Summary Report** shows how many questions are answered and unanswered in each chapter. It can either count all questions in the knowledge model or only the questions required for the project's current phase. Questions from later phases are ignored in the phase-based view. If a parent question is unanswered, its child questions are not counted separately. Chapter results are combined into the total **Summary Report**.
 

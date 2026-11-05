@@ -1,8 +1,25 @@
 Knowledge Model Preview
 ***********************
 
-The preview feature for knowledge models allows us to check the content, i.e. how the questionnaire looks like. It can be used to navigate just through the top-level questions. However, with a know UUID of the question, we can create a direct link to a certain question:
+Choose :guilabel:`Preview` from a published knowledge model's actions to inspect its questionnaire. This preview is read-only. Use the :doc:`editor preview </knowledge-models/editors/detail/preview>` when testing answers while developing a model.
 
-For a nested question, all needed question above in the tree will be automatically prefilled. The KM preview may be also available to non-logged-in users, if configured by admins.
+Link to a question
+==================
 
-A user can directly create a new project from the KM preview. Again, this can be available also for non-logged-in users if anonymous projects are enabled by administrations in :doc:`/settings/projects`.
+To open a particular question, append ``?questionUuid=QUESTION_UUID`` to the model's preview URL. Replace ``QUESTION_UUID`` with the question's UUID, available from the knowledge model editor.
+
+The preview fills in the parent answers needed to reach a nested question and opens that question. These are preview values, not answers saved in an existing project.
+
+Create a project
+================
+
+When :guilabel:`Create project` is available, we can use it to start a project from the preview. Availability depends on our permissions and the instance's project-creation settings. Public models can also offer anonymous project creation when that feature is enabled.
+
+A project created this way keeps any answers generated for the preview. Review its answers and :doc:`sharing settings </projects/detail/sharing>` before using it for real work.
+
+.. figure:: /_static/screenshots/5.0/guide/km-preview.png
+    :figclass: guide-screenshot
+    :alt: Published Knowledge Model preview in FAIR Wizard 5.0
+    :width: 800
+
+    Published Knowledge Model preview.

@@ -5,15 +5,16 @@ Publish
 
 Before the knowledge model can be used by researchers in their projects, we need to publish it. We can do that by clicking the :guilabel:`Publish` button in the top right corner of the :ref:`Knowledge Model Editor<knowledge-model-editor>`.
 
-If we click the button, we are prompted with the metadata details to check them before publishing. We cannot change anything here, so if we want to change it, we have to click the link to :guilabel:`Settings` or press :guilabel:`Cancel` and edit the details on the :guilabel:`Settings` tab of the :ref:`Knowledge Model Editor<knowledge-model-editor>`.
+The publish dialog lets us review the metadata and edit the new version, license, description and README. To change other metadata, return to the :guilabel:`Settings` tab before publishing.
 
 If there are :ref:`locales<knowledge-model-locales>` available for the previous version or parent knowledge model, the publish dialog can offer to copy them to the new version. We should copy only locales that still match the updated knowledge model content. If the questionnaire text changed significantly, it is safer to update the locales after publishing.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/detail/publish/publish-modal.png
-    :alt: Publish dialog where we can confirm or cancel publishing of the knowledge model.
-    :width: 528
+.. figure:: /_static/screenshots/5.0/guide/km-publish.png
+    :figclass: guide-screenshot
+    :alt: Publish a Knowledge Model in FAIR Wizard 5.0
+    :width: 350
 
-    **Outdated screenshot (4.x).** Publish dialog where we can confirm or cancel publishing of the knowledge model.
+    Publish a Knowledge Model.
 
 If we confirm the publishing of the knowledge model by clicking :guilabel:`Publish` in the modal window, the knowledge model becomes available in its library scope and is accessible in :ref:`Knowledge Model List<knowledge-model-list>`.
 

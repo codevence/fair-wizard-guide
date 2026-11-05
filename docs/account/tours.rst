@@ -1,11 +1,13 @@
 Tours
 *****
 
-Tours showcase features and workflows. Every tour is displayed to the user once, when they open a page with tour implemented.
+Tours showcase features and workflows. Every tour is displayed to the user once, when they open a page that has a tour.
 
 We can reset the tours here, so we can see them again.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/profile/settings/tours/reset.png
-    :alt: Tours can be reset in the user settings.
+.. figure:: /_static/screenshots/5.0/guide/account-tours.png
+    :figclass: guide-screenshot
+    :alt: Guided tours in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Tours can be reset in the user settings.
+    Guided tours.

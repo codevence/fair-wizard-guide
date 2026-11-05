@@ -1,7 +1,7 @@
 Upgrading to FAIR Wizard 5.0
 ****************************
 
-FAIR Wizard 5.0 combines the former applications into one interface and updates administration, integrations, document templates and translations.
+FAIR Wizard 5.0 updates administration, integrations, document templates and translations.
 The preview release is scheduled for 6 November 2026 and production for 4 December 2026.
 
 Before the upgrade
@@ -16,9 +16,10 @@ Before the upgrade
 When the instance is upgraded
 =============================
 
-* For OpenID, update the callback URL at the identity provider after the corresponding instance has been upgraded, using the URL shown by its OpenID settings.
+* For OpenID, update the callback and logout URLs at the identity provider after the corresponding instance has been upgraded, using the URLs shown by its OpenID settings.
 * Coordinate SAML/Shibboleth changes with the FAIR Wizard team and your identity administrator; federation approval can take time.
 * Update API paths and payloads, login-automation responses and custom integrations. See :doc:`/development/api`.
+* Replace older application-specific API keys and update their calls. Existing unified keys from 4.35 retain their validity and permissions.
 * Reconnect clients using the previous MCP service and review their permissions.
 * Check interface and document languages, custom translations, plugins and document-submission workflows.
 

@@ -3,7 +3,7 @@
 Step: ``pandoc``
 ****************
 
-|badge-status| |badge-metamodel|
+
 
 Transformation step that converts Pandoc-compatible document formats.
 
@@ -20,7 +20,7 @@ Output
 Results in a document in desired format specified using ``to`` option.
 
 Options
-=======
+========
 
 -  ``from`` = specification of the input format (passed to Pandoc via ``--from``, see `docs <https://pandoc.org/MANUAL.html#general-options>`__)
 -  ``to`` = specification of the output format (passed to Pandoc via ``--to``, see `docs <https://pandoc.org/MANUAL.html#general-options>`__)
@@ -29,7 +29,7 @@ Options
 -  (optional, experimental) ``template`` = `Pandoc template <https://pandoc.org/MANUAL.html#general-options>`__ to be used, need to be located under ``/pandoc/templates`` directory (or other set by ``PANDOC_TEMPLATES`` environment variable)
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -43,7 +43,7 @@ Example
     }
   }
 
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0
 
 The shared renderer bundles ``docx-landscape.lua``, ``docx-pagebreak.lua`` and ``docx-toc.lua``. For additional filters, check that the same files are installed in local testing and on the worker.
+
+The ``pandoc-docx-pagebreakpy`` filter will be removed with the next template metamodel version. Move templates that pass it via ``args`` to the ``filters`` option with ``docx-pagebreak.lua``.

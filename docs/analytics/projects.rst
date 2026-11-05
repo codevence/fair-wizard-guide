@@ -3,31 +3,56 @@ Projects
 
 Users with the :ref:`Use Analytics<roles>` role permission can view analytics of projects. We can create and edit views by selecting from many different fields and see how our projects are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
 
-.. figure:: /_static/earlier-interface/applications/analytics/projects/overview.png
-    :alt: Projects overview.
-    :width: 700
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-list.png
+    :figclass: guide-screenshot
+    :alt: Analytics: Projects in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Projects overview.
+    Analytics: Projects.
 
+To configure the first view, open :guilabel:`View settings`, enter a name and choose the fields. Save the settings and use :guilabel:`Save changes` in the toolbar to keep the view.
 
-New view can be created by clicking on the dropdown menu in the top right corner. Then by clicking on :guilabel:`+ Create a new view` we open the view settings. We can give our view a name and select which fields we want to have in there. The view can be saved by clicking on :guilabel:`Save`. We can also delete the view by clicking on :guilabel:`Delete`.
+To create another view while a saved view is selected, open the :guilabel:`View` menu and choose :guilabel:`Create new view`. We can return to saved views from the same menu.
 
-.. figure:: /_static/earlier-interface/applications/analytics/projects/settings.png
-    :alt: Form for editing analytics view.
-    :width: 400
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-settings.png
+    :figclass: guide-screenshot
+    :alt: Analytics: Projects view settings in FAIR Wizard 5.0
+    :width: 520
 
-    **Outdated screenshot (4.x).** Form for editing analytics view.
-
-
-Various fields have filters that can be used to narrow down the data.
+    Analytics: Projects view settings.
 
 To compare answers across projects, add a :guilabel:`Question answer` field while editing a view and select a knowledge model question by title or UUID. The new column displays each project's reply and can be filtered by answer or reply status. We can also add :guilabel:`Knowledge Model Version` and :guilabel:`Document Template Version` fields and filter by specific versions. :guilabel:`Created At` and :guilabel:`Updated At` offer date range filters.
 
-We can also resize all rows height by clicking on the double arrow in the top left corner. If we want to edit width or height of individual cells, we can do it using drag-and-drop on the borders. Lastly we can edit how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-question-values.png
+    :figclass: guide-screenshot
+    :alt: Projects Analytics with research-output answers and no filter menu open
+    :width: 800
+
+    Question answers shown as a column.
+
+A Yes/No question can be used in the same way.
+
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-sensitive-data.png
+    :figclass: guide-screenshot
+    :alt: Projects Analytics with seven Yes and two No answers about sensitive data, sorted by Answered
+    :width: 800
+
+    Answers about sensitive data.
+
+Various fields have filters that can be used to narrow down the data.
+
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-question-filter.png
+    :figclass: guide-screenshot
+    :alt: Projects Analytics filtered to research outputs that include Dataset, with the answer filter open
+    :width: 800
+
+    Filtering projects by a question answer.
+
+We can also resize all rows by clicking on the double arrow in the top left corner. If we want to change individual column widths or row heights, we can do it using drag-and-drop on the borders. We can choose how many rows are on the page by clicking on the :guilabel:`Items per page` dropdown menu.
 
 .. NOTE::
 
-    Don't forget to click on :guilabel:`Save` icon after you are done with editing the view.
+    Click :guilabel:`Save changes` in the toolbar to keep changes to the view.
 
 
 The data of a view can be exported to a CSV file by clicking on :guilabel:`Export CSV`.
@@ -35,7 +60,7 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 Project details
 ---------------
 
-By clicking on the project name, we can open that project detail. The project detail has four tabs and details. The tabs are as follows:
+By clicking on the project name, we can open that project detail. The project detail has four tabs:
 
 - Metrics
 - Users
@@ -46,9 +71,11 @@ The :guilabel:`Metrics` tab shows all metrics that are used in the selected proj
 
 The project details on the right side show additional project metadata, such as description, phase, sharing options, numbers of comments and TODOs, project tags, knowledge model, and question tags.
 
-Lastly we can click on the the link to the item in FAIR Wizard button to open the actual project.
+Click :guilabel:`Go to project` to open the project.
 
-.. figure:: /_static/earlier-interface/applications/analytics/projects/detail.png
-    :alt: Projects detail.
+.. figure:: /_static/screenshots/5.0/guide/analytics-projects-detail.png
+    :figclass: guide-screenshot
+    :alt: Analytics: Project details in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Projects detail.
+    Analytics: Project details.

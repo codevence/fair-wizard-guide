@@ -12,13 +12,9 @@ Other users in the same workspace can see a public group. A private group is vis
 
 Continue with :doc:`detail` to add members and owners.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/group-create.png
+    :figclass: guide-screenshot
+    :alt: Create a User Group in FAIR Wizard 5.0
+    :width: 500
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/user-groups/create/create.png
-    :alt: Create user group.
-    :width: 450
-
-    **Outdated screenshot (4.x).** Create user group.
+    Create a User Group.

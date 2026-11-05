@@ -1,14 +1,15 @@
 About
 *****
 
-By selecting the :guilabel:`About` option from the :doc:`/account/index` menu, users are directed to the About page. This page offers detailed information about the current versions and build timestamps of the tool's components. It also includes information about metamodels. This level of transparency helps ensure that both users and developers are fully informed about the specific versions and build statuses of the components they are working with.
+Open :guilabel:`About` from the profile menu to see component versions, build timestamps and supported metamodel versions.
 
-The :guilabel:`API URL` link provides access to the server's API endpoints, which can be used for integrating FAIR Wizard with other systems and automating tasks.
+The :guilabel:`API URL` shows the server's API address. Where enabled, :guilabel:`API Docs` opens the API reference. See :doc:`/development/api` for integration details.
 
-The :guilabel:`API Docs` link directs to the API documentation presented in Swagger UI that provides detailed descriptions of available operations and parameters.
+.. figure:: /_static/screenshots/5.0/guide/about.png
+    :figclass: guide-screenshot
+    :alt: About FAIR Wizard in FAIR Wizard 5.0
+    :width: 350
 
-.. figure:: /_static/earlier-interface/applications/admin-center/profile/about/modal.png
-    :alt: Modal window with versions of the tool's components.
-    :width: 500
+    About FAIR Wizard.
 
-    **Outdated screenshot (4.x).** Modal window with versions of the tool's components.
+About also identifies installed plugins, helping administrators reproduce issues with the same component and plugin versions.

@@ -12,11 +12,12 @@ Next, we have **Project Tags**. These can be used for providing some metadata or
     Project tags might be disabled in some FAIR Wizard instances.
 
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/settings/settings.png
-    :alt: Project settings.
+.. figure:: /_static/screenshots/5.0/projects/settings.png
+    :figclass: guide-screenshot
+    :alt: Project settings in the Coastal Biodiversity Survey example
+    :width: 600
 
-    **Outdated screenshot (4.x).** Project settings.
-
+    Project settings.
 
 .. _default-document-template:
 
@@ -31,6 +32,12 @@ When the selected template has :ref:`locales<document-template-locales>`, we can
 
 :guilabel:`Unsupported metamodel` badge can appear when the document template is not compatible with the version of FAIR Wizard. Users should contact the person responsible for document templates or instance administration in this case.
 
+.. figure:: /_static/screenshots/5.0/projects/settings-template.png
+    :figclass: guide-screenshot
+    :alt: Project settings showing the selected Questionnaire Report template and document format choices
+    :width: 600
+
+    Default document template and format.
 
 Project Template
 ================

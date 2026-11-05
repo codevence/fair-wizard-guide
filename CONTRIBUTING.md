@@ -22,3 +22,9 @@ Subsection
 ```
 
 Build before review (see README.md). Warnings and unresolved references fail the checks. Review both light and dark HTML and the print output. A successful build does not verify permissions, customer-specific integrations or screenshot accuracy.
+
+### Screenshot themes
+
+Keep the normal `figure` reference to a light capture under `docs/_static/screenshots/5.0/`. A dark capture uses the same relative filename under `docs/_static/screenshots/5.0/dark/`. The shared screenshot extension pairs available variants automatically; do not duplicate figures or captions in RST. Screenshots without a dark counterpart remain unchanged.
+
+After adding variants, perform a clean Sphinx build (`sphinx-build -E -b html docs OUTPUT_DIRECTORY`) so existing pages are read again. HTML follows the guide's theme selection; PDF/other outputs retain the light capture.

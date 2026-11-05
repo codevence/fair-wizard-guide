@@ -12,10 +12,16 @@ Knowledge model identifiers and versions are separate values. A new version can 
 
 Use :doc:`/knowledge-models/data-sources/index` for datasets used by integration questions, and :doc:`/knowledge-models/secrets` for credentials used by integrations.
 
+Make content available across workspaces
+========================================
+
+Publish the knowledge model, then export its released version. In the organization area, open the library and :doc:`import the KM bundle <library/import>`. This requires :guilabel:`Manage Library`.
+Other workspaces can then use it from the organization library. If a workspace already has the same model ID and version locally, its local version takes precedence.
+
 .. toctree::
    :maxdepth: 1
 
-   library/index
-   editors/index
-   secrets
-   data-sources/index
+   List <library/index>
+   Editors <editors/index>
+   Secrets <secrets>
+   Data Sources <data-sources/index>

@@ -5,7 +5,7 @@ We can visit a knowledge model detail by clicking on a desired KM in the :doc:`/
 
 The main part of the detail is the README of the KM that should contain basic information and changelog. In the right panel under the basic information, we can navigate to other versions of the KM or navigate to the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__ (if the KM is present there).
 
-In the top bar, we can :guilabel:`Export` the knowledge model as a KM file or :guilabel:`Delete` this version of the knowledge model .
+In the top bar, we can :guilabel:`Export` the knowledge model as a KM file or :guilabel:`Delete` this version of the knowledge model.
 
 .. _knowledge-model-locales:
 
@@ -31,19 +31,31 @@ In the top pane, we can see the options based on our permissions:
 - :guilabel:`Create project` is a shortcut to :doc:`/projects/create` with this KM.
 - :guilabel:`Set deprecated` or :guilabel:`Restore` for setting a KM deprecated when we no longer want users to use it for new projects.
 - :guilabel:`Set public` or :guilabel:`Set private` for changing the visibility of the KM. Public KM can be viewed by non-logged in users.
-- :guilabel:`Delete` the specific version of the KM .
+- :guilabel:`Delete` the specific version of the KM.
 
 If we are not seeing the latest version of the KM, a warning message is shown in the top. Similarly, we will see a notification that update is available if there is a newer version in the `FAIR Wizard Registry <https://registry.fair-wizard.com/>`__ (if configured).
 
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/knowledge-models/list/detail/detail.png
-    :alt: Detail of a knowledge model.
+.. figure:: /_static/screenshots/5.0/guide/km-detail.png
+    :figclass: guide-screenshot
+    :alt: Knowledge Model details in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** Detail of a knowledge model.
-
+    Knowledge Model details.
 
 Deleting a knowledge model
 ==========================
 
 Review the dependent content shown by the deletion dialog. Deleting a model can remove dependent editors, projects, files and generated documents. The action cannot proceed if the acting user cannot view every affected dependency.
 In single-workspace mode, the relevant permission is Manage Knowledge Models. With multiple workspaces, organization-library content requires Manage Library; local content uses the knowledge-model permission.
+
+.. figure:: /_static/screenshots/5.0/guide/km-delete.png
+    :figclass: guide-screenshot
+    :alt: Delete Knowledge Model with dependent projects in FAIR Wizard 5.0
+    :width: 350
+
+    Delete Knowledge Model with dependent projects.
+
+.. TODO::
+
+    Screenshot pending: Knowledge Model locales list and import dialog; deferred by request.

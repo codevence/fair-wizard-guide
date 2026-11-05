@@ -1,15 +1,15 @@
 Invite User
 ***********
 
-Users with the :ref:`Manage Users<roles>` role permission can create new users manually by clicking :guilabel:`Invite` on the :ref:`users list<user-list>` and submitting the form. Each user must have a unique email address, first name and last name and assigned :ref:`role<user-roles>`. Optionally, a user can have affiliation specified.
+Users with the :ref:`Manage Users<roles>` role permission can create new users manually by clicking :guilabel:`Invite` on the :ref:`users list<user-list>` and submitting the form. Enter a unique email address, a first name and a last name, and select an organization :ref:`role<user-roles>`. Affiliation is optional.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/users/invite/form.png
-    :alt: Invite user form.
-    :width: 400
+.. figure:: /_static/screenshots/5.0/guide/user-invite.png
+    :figclass: guide-screenshot
+    :alt: Invite a user in FAIR Wizard 5.0
+    :width: 500
 
-    **Outdated screenshot (4.x).** Invite user form.
-
+    Invite a user.
 
 .. NOTE::
 
-    If the user is invited by admin, the user is activated by default. We can select if we want to send an invitation email or not by :guilabel:`Send invitation email` switch.
+    A user invited by an administrator is active by default. Use the :guilabel:`Send invitation email` switch to choose whether to send an invitation.

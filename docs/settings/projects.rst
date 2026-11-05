@@ -1,6 +1,13 @@
 Projects
 ********
 
+.. figure:: /_static/screenshots/5.0/guide/settings-projects.png
+    :figclass: guide-screenshot
+    :alt: Project defaults in FAIR Wizard 5.0
+    :width: 800
+
+    Project defaults.
+
 Project Visibility
 ==================
 
@@ -33,7 +40,9 @@ If we want to let users select sharing options for their projects within the FAI
 Anonymous Projects
 ==================
 
-If we have set a knowledge model as public, we can also allow anonymous users to create projects where they will be able to fill questionnaires by enabling **Anonymous Projects**. These anonymous projects then work as any other projects with public link set to edit permissions. However, if a logged-in user accesses such a project, then they may claim the ownership by clicking the :guilabel:`Add to my projects` button. Anonymous users cannot create new documents; for that, they must register and open the project as a logged-in user.
+If we have set a knowledge model as public, we can also allow anonymous users to create projects where they will be able to fill questionnaires by enabling **Anonymous Projects**.
+
+These anonymous projects then work as any other projects with public link set to edit permissions. However, if a logged-in user accesses such a project, then they may claim the ownership by clicking the :guilabel:`Add to my projects` button. Anonymous users cannot create new documents; for that, they must register and open the project as a logged-in user.
 
 
 Project Creation
@@ -43,6 +52,12 @@ Project Creation
 * **Templates Only** = users can create projects only from project templates.
 * **Custom Only** = users can create only custom projects, they have to select a knowledge model and everything else by themselves.
 
+.. figure:: /_static/screenshots/5.0/guide/project-default-creation.png
+    :figclass: guide-screenshot
+    :alt: Project creation defaults in FAIR Wizard 5.0
+    :width: 350
+
+    Project creation defaults.
 
 Summary Report
 ==============
@@ -56,6 +71,13 @@ Project Tagging
 ===============
 
 If enabled, users will be able to tag their projects (using so-called **Project Tags**) and then use those tags to filter the :ref:`projects list<project-list>`. The users will always be able to write their own tags, but we can provide a list of pre-defined **Default Project Tags** (one per line).
+
+.. figure:: /_static/screenshots/5.0/guide/project-default-tags.png
+    :figclass: guide-screenshot
+    :alt: Default project tags in FAIR Wizard 5.0
+    :width: 350
+
+    Default project tags.
 
 Multiple workspaces
 ===================

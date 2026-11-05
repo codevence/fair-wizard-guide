@@ -3,6 +3,7 @@ Keyboard Shortcuts
 
 Use :kbd:`Tab` and :kbd:`Shift+Tab` to move between controls. The available action depends on the focused control.
 
+* :kbd:`Ctrl+K` (:kbd:`Cmd+K` on macOS) opens the command palette.
 * In a questionnaire, :kbd:`Ctrl+F` (:kbd:`Cmd+F` on macOS) opens questionnaire search.
 * :kbd:`Esc` closes a modal dialog.
 * :kbd:`Ctrl+Enter` (:kbd:`Cmd+Enter` on macOS) submits supported forms and form dialogs.

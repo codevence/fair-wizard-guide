@@ -1,20 +1,15 @@
 User Settings
 *************
 
-Choose the default role for newly registered users. Use a role with only the permissions those users need; role names other than Admin can be customized.
-Review :doc:`/administration/roles` before changing this default.
-
 Enter suggested affiliations, one per line. These suggestions are offered when users register or edit their profiles.
+
+The default role for newly registered users is configured in :doc:`Roles </administration/roles>`, using :guilabel:`Set as default`.
 
 With multiple workspaces, an organization role does not replace a workspace membership or workspace role. See :doc:`/administration/workspaces` for assigning those.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/settings-users.png
+    :figclass: guide-screenshot
+    :alt: User settings in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/settings/system/users/users.png
-    :alt: Users settings.
-    :width: 700
-
-    **Outdated screenshot (4.x).** Users settings.
+    User settings.

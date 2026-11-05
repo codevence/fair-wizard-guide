@@ -10,13 +10,9 @@ Limits are applied to the organization as a whole.
 
 Check usage before a large import or bulk document-generation task. If a limit is reached, review the affected resources or contact the FAIR Wizard team about the plan.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/settings-usage.png
+    :figclass: guide-screenshot
+    :alt: Usage and limits in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/settings/info/usage/table.png
-    :alt: Usage statistics.
-    :width: 700
-
-    **Outdated screenshot (4.x).** Usage statistics.
+    Usage and limits.

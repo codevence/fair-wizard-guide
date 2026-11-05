@@ -1,5 +1,5 @@
-Publish a Document Template
-***************************
+Publish
+*******
 
 Choose :guilabel:`Publish` in the editor and review its metadata. Return to :guilabel:`Settings` if anything needs correcting, then confirm publication.
 
@@ -7,13 +7,9 @@ After publishing, the template is available in the library where it belongs and 
 
 Before publishing, we should test each format with example projects and translations to check the generated documents. See :doc:`/development/document-templates/tdk` for local checks.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/dt-publish.png
+    :figclass: guide-screenshot
+    :alt: Publish a Document Template in FAIR Wizard 5.0
+    :width: 350
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/data-management-planner/document-templates/editors/detail/publish/modal.png
-    :alt: Confirmation of document template publishing.
-    :width: 528
-
-    **Outdated screenshot (4.x).** Confirmation of document template publishing.
+    Publish a Document Template.

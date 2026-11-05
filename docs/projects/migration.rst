@@ -10,11 +10,12 @@ Migrating a Project
 
 We can start a project migration either from the :ref:`project list<project-list>` or from the :ref:`project settings<project-settings>`. When a newer version of the knowledge model is available, we can see an :guilabel:`Outdated KM` badge next to the project name in the project list.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/migration/create.png
-    :alt: Choosing a new knowledge model for the project.
+.. figure:: /_static/screenshots/5.0/guide/project-migration.png
+    :figclass: guide-screenshot
+    :alt: Migrate a project to a newer Knowledge Model in FAIR Wizard 5.0
+    :width: 350
 
-    **Outdated screenshot (4.x).** Choosing a new knowledge model for the project.
-
+    Migrate a project to a newer Knowledge Model.
 
 We can see the **original knowledge model**, its **version**, and selected **question tags** on the left side. On the right side, we can choose new values for all of these. We can use :guilabel:`Compare` to check the changes between the original and selected knowledge model.
 

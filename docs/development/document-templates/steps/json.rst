@@ -1,7 +1,9 @@
+.. _document-template-step-json:
+
 Step: ``json``
 **************
 
-|badge-status| |badge-metamodel|
+
 
 Trivial step that dumps document context to JSON file.
 
@@ -16,12 +18,12 @@ Output
 Always results in a JSON file (``application/json``) with file extension ``.json``.
 
 Options
-=======
+========
 
 *No options*
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -29,6 +31,3 @@ Example
      "name" : "json",
      "options" : {}
    }
-
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0

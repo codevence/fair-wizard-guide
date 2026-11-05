@@ -18,13 +18,16 @@ Organization roles can grant access across workspaces, including to administrato
 
 Analytics shows data for the whole organization. We can filter the results by workspace, but the Use Analytics permission gives access to the organization's Analytics data.
 
-Earlier interface
-=================
+Dashboard
+=========
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+The dashboard brings together the actions available to our account:
 
-.. figure:: /_static/earlier-interface/about/introduction/overview/overview.png
-   :alt: Different components of the FAIR Wizard and roles interacting with them.
-   :align: center
+* Recent projects provide quick access to work we have opened recently.
+* Create-project actions start a new project when the account and project settings permit it.
+* Content actions provide shortcuts to create or import knowledge models and document templates.
+* Update widgets show newer knowledge models or document templates from the connected Registry.
+* The usage widget summarizes instance usage for accounts allowed to view it.
+* Setup shortcuts can lead to appearance, Registry connection and OpenID configuration when further setup is needed.
 
-   **Outdated screenshot (4.x).** Different components of the FAIR Wizard and roles interacting with them.
+The visible widgets depend on permissions, enabled features and the current setup. Dashboard announcements appear above them.

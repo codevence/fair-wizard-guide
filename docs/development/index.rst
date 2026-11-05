@@ -1,7 +1,7 @@
 Development
 ***********
 
-FAIR Wizard can be extended in many ways and new components and ways of integrations can be developed to support our needs. Besides the API available for everything that can be done in FAIR Wizard, new :ref:`integration questions<integration-questions>` or new :ref:`document templates<document-template-development>` and :ref:`submission services<submission-service>` can be created to get the data outside of FAIR Wizard in the desired form.
+We can use the API to connect FAIR Wizard to other systems and automate tasks. We can also develop :ref:`integration questions<integration-questions>`, :ref:`document templates<document-template-development>` and :ref:`submission services<submission-service>` to search external resources and produce or send documents.
 
 This section provides information on how to develop custom content for FAIR Wizard to fully tailor the tool to our specific requirements.
 

@@ -1,0 +1,14 @@
+[
+  {
+    "theme": "light",
+    "source": "/Users/krystofkomanec/Documents/repositories/fw-screenshots/output/mediakit/pilot/guide/single/images/guide/assigned-comments.png",
+    "destination": "/Users/krystofkomanec/Documents/repositories/fw-guide/docs/_static/screenshots/5.0/guide/assigned-comments.png",
+    "sha256": "5b8b475d6307abb4fc1b8f1f048ea35de9b8f5ad768e66655e0f0ed92b7af52b"
+  },
+  {
+    "theme": "dark",
+    "source": "/Users/krystofkomanec/Documents/repositories/fw-screenshots/output/mediakit/pilot/guide/single/dark/images/guide/assigned-comments.png",
+    "destination": "/Users/krystofkomanec/Documents/repositories/fw-guide/docs/_static/screenshots/5.0/dark/guide/assigned-comments.png",
+    "sha256": "8dd2530446db8297d80de79f4bb542d1fb5dee12cac94a204cf991693ec7553f"
+  }
+]

@@ -21,7 +21,15 @@ For automatic rebuilds, install `docs/requirements.dev.txt` and run `make watch`
 sphinx-build -b latex -W --keep-going -n docs docs/_build/latex
 ```
 
-A complete PDF build also needs a TeX installation (`make latexpdf` in `docs`); LaTeX source generation alone does not validate the rendered PDF.
+A complete PDF build needs XeLaTeX and the FreeSans/FreeMono fonts (`make latexpdf` in `docs`). The Nunito heading fonts are bundled. LaTeX source generation alone does not validate the rendered PDF.
+
+For a local build with Tectonic, generate the LaTeX sources as above, then run from the output directory:
+
+```sh
+tectonic --untrusted --keep-logs fairwizard.tex
+```
+
+Render the resulting PDF to page images and inspect tables, screenshots, code blocks and page breaks before release. Read the Docs still builds the PDF through its normal Sphinx/LaTeX workflow.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for simple RST conventions, [RELEASING.md](RELEASING.md) for the develop → preview → production cycle and [WORKLOG.md](WORKLOG.md) for the current 5.0 work and remaining acceptance.
 
@@ -32,3 +40,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for simple RST conventions, [RELEASING.md
 ## License
 
 Guide content is licensed under [CC BY-SA](LICENSE). Bundled Nunito fonts retain their OFL license in `docs/_static/fonts`.
+
+When changing toctree labels or navigation order, use `sphinx-build -E -a -b html docs docs/_build/html` to refresh the sidebar on every page.

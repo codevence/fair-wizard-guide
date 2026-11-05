@@ -36,13 +36,11 @@ Imported projects use the target area's default visibility and sharing settings.
 
 If owner addresses are left empty, no explicit project owner is assigned by the import. We need to assign owners afterward if the projects should have explicit owners.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/projects-import.png
+    :figclass: guide-screenshot
+    :alt: Import projects in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Import projects.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/import/projects/projects.png
-    :alt: Import projects.
-    :width: 528
-
-    **Outdated screenshot (4.x).** Import projects.
+If a spreadsheet editor changes the CSV encoding or delimiters, check the exported file before importing it. If Microsoft Excel produces an unreadable file, use another CSV editor and try again.

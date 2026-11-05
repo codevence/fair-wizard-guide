@@ -21,17 +21,16 @@ Earlier audit history
 
 The 5.0 audit view contains records created after the upgrade. A readable export of legacy records is available from the FAIR Wizard team on request.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/audit-log.png
+    :figclass: guide-screenshot
+    :alt: Audit Log in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Audit Log.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/audit-log/index/list.png
-    :alt: Audit log.
+.. figure:: /_static/screenshots/5.0/guide/audit-detail.png
+    :figclass: guide-screenshot
+    :alt: Audit event details in FAIR Wizard 5.0
+    :width: 350
 
-    **Outdated screenshot (4.x).** Audit log.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/audit-log/index/detail.png
-    :alt: Audit log detail.
-
-    **Outdated screenshot (4.x).** Audit log detail.
+    Audit event details.

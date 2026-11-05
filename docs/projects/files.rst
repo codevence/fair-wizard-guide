@@ -10,9 +10,11 @@ Each file has a name, size, a link to the project it was uploaded to and user wh
     It is not recommended to delete files from the list without informing the project team, as it can lead to confusion among researchers. Admins should always communicate with the project team before deleting files.
 
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/files/files.png
-    :alt: List of all files across projects.
+.. figure:: /_static/screenshots/5.0/guide/projects-files.png
+    :figclass: guide-screenshot
+    :alt: Files across projects in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** List of all files across projects.
+    Files across projects.
 
 With multiple workspaces, select the workspace whose project files or documents you want to browse. Organization-wide permissions may grant access to more than one workspace.

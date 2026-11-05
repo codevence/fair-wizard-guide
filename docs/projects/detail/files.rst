@@ -3,11 +3,12 @@ Files
 
 We can see the list of files uploaded to the project in the :guilabel:`Files` tab.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/files/files.png
-    :alt: List of files in the project detail.
+.. figure:: /_static/screenshots/5.0/projects/files.png
+    :figclass: guide-screenshot
+    :alt: Project files in the Coastal Biodiversity Survey example
+    :width: 800
 
-    **Outdated screenshot (4.x).** List of files in the project detail.
-
+    Project files.
 
 Files can be downloaded or deleted.
 

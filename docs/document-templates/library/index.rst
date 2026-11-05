@@ -19,18 +19,15 @@ A template marked :guilabel:`unsupported metamodel` needs a compatible version. 
 
 An :guilabel:`update available` badge shows that a newer version is available in the Registry. We can import that version to update the installed template.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/dt-list.png
+    :figclass: guide-screenshot
+    :alt: Document Template library in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/data-management-planner/document-templates/list/index/list.png
-    :alt: List of all document templates with actions.
-
-    **Outdated screenshot (4.x).** List of all document templates with actions.
+    Document Template library.
 
 .. toctree::
    :maxdepth: 1
 
-   detail
-   import
+   Detail <detail>
+   Import <import>

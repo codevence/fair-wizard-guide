@@ -1,14 +1,14 @@
 Integration Question - API
 **************************
 
-:ref:`Integration question<integration-question>` can be connected to an external resource using its API. We can then search for the results from the external service using the FAIR Wizard questionnaire interface. When we select an answer it is not only the text (such as a name of the database), but also a link to the external service to the selected item. The whole flow is denoted in the following diagram.
+:ref:`Integration question<integration-question>` can be connected to an external resource using its API. We can then search for the results from the external service using the FAIR Wizard questionnaire interface. The integration defines how selected results are displayed, including any link to the external service. The whole flow is denoted in the following diagram.
 
 We can use `Jinja2 templating language <https://jinja.palletsprojects.com/en/stable/>`_ to construct everything in integrations. We also have this :ref:`cheatsheet<jinja-cheatsheet>` available.
 
 .. figure:: /_static/earlier-interface/more/development/integration-questions/integration-api/api-integration.png
     :alt: How integration question connected to, for example, FAIRsharing API works.
 
-    How an API integration searches an external service.
+    **Outdated screenshot (4.x).** How an API integration searches an external service.
 
 
 External Service Requirements
@@ -72,7 +72,7 @@ The advanced request configuration defines how the API request is constructed. T
 
 - **Request HTTP Headers** - some headers might be needed, such as ``Accept: application/json`` to have a correct response type
 - **Request HTTP Body** - if we need to send some HTTP body
-- **Allow Empty Search** - some APIs don't work if we try to search with an empty string, turn this of in such case
+- **Allow Empty Search** - some APIs don't work if we try to search with an empty string, turn this off in that case
 
 We can use ``{{ q }}`` for the search term, ``{{ variables.name }}`` for referencing variables and ``{{ secrets.name }}`` for secrets within those fields.
 
@@ -98,11 +98,11 @@ In the **Response** section, we configure how to process the JSON response from 
 
 .. NOTE::
 
-    We can also set the **Response Item Template** and/or **Response Item Template for Selection** to setup logo for the integration if we can access it.
+    We can also set the **Response Item Template** and/or **Response Item Template for Selection** to set up a logo for the integration if we can access it.
 
 The integration will show suggestions for **Response List Field** and **Response Item Template** based on the response structure. We can click the suggestions to insert them in the fields in the Jinja2 notation.
 
-Advance Response Configuration
-------------------------------
+Advanced Response Configuration
+-------------------------------
 
-The Advance response configuration allows to set **Response Item Template for Selection** which can be used to define how the selection of items from the integration will be presented before selection.
+The advanced response configuration lets us set **Response Item Template for Selection** which can be used to define how the selection of items from the integration will be presented before selection.

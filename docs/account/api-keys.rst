@@ -1,3 +1,5 @@
+.. _api-keys:
+
 API keys
 ********
 
@@ -7,16 +9,18 @@ When creating a key, we enter a name and choose when it expires. We need to save
 A key does not bypass role permissions. With multiple workspaces, API calls still need the correct scope for the operation.
 Revoke a key when its integration is retired or its value may have been exposed.
 
-Existing unified keys from 4.35 continue to follow their validity and permissions. Integrations using the older application-specific keys need to replace those keys and update their calls.
-Use :doc:`/development/api` for the 5.0 base URL and workspace-scoping rules.
+Use :doc:`/development/api` for API addresses and workspace-scoping rules. For changes to existing integrations, see :doc:`/upgrade/index`.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/api-key-create.png
+    :figclass: guide-screenshot
+    :alt: Create an API key in FAIR Wizard 5.0
+    :width: 350
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Create an API key.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/profile/settings/api-keys/form.png
-    :alt: Form for creating an API Key.
+.. figure:: /_static/screenshots/5.0/guide/account-api-keys.png
+    :figclass: guide-screenshot
+    :alt: API keys in FAIR Wizard 5.0
     :width: 800
 
-    **Outdated screenshot (4.x).** Form for creating an API Key.
+    API keys.

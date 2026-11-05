@@ -18,12 +18,16 @@ FAIR Wizard does not return existing secret values to the browser. To change a v
 
 Refer to :doc:`/development/integration-questions/integration-api` when configuring how an integration uses a secret.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/km-secrets.png
+    :figclass: guide-screenshot
+    :alt: Knowledge Model secrets in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Knowledge Model secrets.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/knowledge-models/secrets/secrets.png
-    :alt: List of knowledge model secrets.
+Use a secret in an integration
+==============================
 
-    **Outdated screenshot (4.x).** List of knowledge model secrets.
+We can also open the secrets list through :guilabel:`Configure secrets` in the integration editor. Give the secret a name, for example ``apiUrl``, enter its value and save it.
+
+Back in the integration configuration, use the copy button next to a secret's name. It copies a Jinja reference such as ``{{ secrets.apiUrl }}`` for use in a request URL or headers. Variables have their own copy buttons and use ``{{ variables.name }}``. This keeps the stored value out of the knowledge model itself.

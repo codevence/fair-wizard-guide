@@ -9,19 +9,23 @@ Choose a member's group role to make them an owner or an ordinary member. Save y
 
    Add people who are already members of the group's workspace. Groups cannot span workspaces. Removing someone from a workspace also removes their membership in its local groups.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/group-member-add.png
+    :figclass: guide-screenshot
+    :alt: Add a User Group member in FAIR Wizard 5.0
+    :width: 350
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Add a User Group member.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/user-groups/detail/info.png
-    :alt: User group detail.
-    :width: 528
+.. figure:: /_static/screenshots/5.0/guide/group-info.png
+    :figclass: guide-screenshot
+    :alt: User Group information in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** User group detail.
+    User Group information.
 
-.. figure:: /_static/earlier-interface/applications/admin-center/user-groups/detail/members.png
-    :alt: User group members.
-    :width: 528
+.. figure:: /_static/screenshots/5.0/guide/group-members.png
+    :figclass: guide-screenshot
+    :alt: User Group members in FAIR Wizard 5.0
+    :width: 800
 
-    **Outdated screenshot (4.x).** User group members.
+    User Group members.

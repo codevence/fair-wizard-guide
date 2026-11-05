@@ -1,0 +1,2375 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "words": 12,
+      "images": 0,
+      "heading": [
+        "FAIR W izard Guide",
+        "Release 5.0",
+        "FAIR Wizard Team"
+      ]
+    },
+    {
+      "page": 2,
+      "words": 1581,
+      "images": 0,
+      "heading": [
+        "Contents",
+        "1 Getting started 2",
+        "1.1 Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2"
+      ]
+    },
+    {
+      "page": 3,
+      "words": 837,
+      "images": 0,
+      "heading": [
+        "8 Settings 115",
+        "8.1 Organization defaults and workspace overrides . . . . . . . . . . . . . . . . . . . . . . . . 115",
+        "9 Analytics 148"
+      ]
+    },
+    {
+      "page": 4,
+      "words": 94,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "This guide explains how to work on projects, create knowledge models and document templates, and ad-",
+        "minister FAIR Wizard 5.0. It also includes references for developers working on templates and integrations."
+      ]
+    },
+    {
+      "page": 5,
+      "words": 84,
+      "images": 1,
+      "heading": [
+        "Chapter 1",
+        "Getting started",
+        "FAIR Wizard combines projects, knowledge models, document templates, administration and Analytics in"
+      ]
+    },
+    {
+      "page": 6,
+      "words": 247,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "1.1.1 Workspace modes",
+        "Professional uses a single workspace. Enterprise can also operate with a single workspace or use multiple"
+      ]
+    },
+    {
+      "page": 7,
+      "words": 468,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Setup shortcuts can lead to appearance, Registry connection and OpenID configuration when further",
+        "setup is needed."
+      ]
+    },
+    {
+      "page": 8,
+      "words": 209,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "1.4.1 Knowledge Model Structure",
+        "Knowledge model consists of several entities connected together. You can see how they are connected in"
+      ]
+    },
+    {
+      "page": 9,
+      "words": 417,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "List of Items Question",
+        "The list of items question is used when there are multiple answers and we want to ask more details about"
+      ]
+    },
+    {
+      "page": 10,
+      "words": 423,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "File Question",
+        "The file question is used to upload files. We can configure the file types that are allowed to be uploaded"
+      ]
+    },
+    {
+      "page": 11,
+      "words": 430,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Cross Reference",
+        "A cross reference is a link to another question within the same knowledge model. It has question which is"
+      ]
+    },
+    {
+      "page": 12,
+      "words": 212,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "API Integration",
+        "API integration connects to an external service API to search for the answers. We need to provide some"
+      ]
+    },
+    {
+      "page": 13,
+      "words": 398,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "1.5.1 Document Template Structure",
+        "A document template brings together:"
+      ]
+    },
+    {
+      "page": 14,
+      "words": 366,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "1.5.2 Using and Creating Templates",
+        "We can import existing templates from the FAIR Wizard Registry or a ZIP file into the document template"
+      ]
+    },
+    {
+      "page": 15,
+      "words": 302,
+      "images": 0,
+      "heading": [
+        "Chapter 2",
+        "Projects",
+        "A project contains a questionnaire, answers, version history, collaborators, uploaded files and generated"
+      ]
+    },
+    {
+      "page": 16,
+      "words": 155,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 1: Project list and actions.",
+        "(cid:174) Note"
+      ]
+    },
+    {
+      "page": 17,
+      "words": 291,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "2.2 Create a project",
+        "We can create a new project by opening Projects in the main menu and clicking Create. This requires the"
+      ]
+    },
+    {
+      "page": 18,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 4: Create a project from a knowledge model.",
+        "2.2. Create a project 15"
+      ]
+    },
+    {
+      "page": 19,
+      "words": 205,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "2.3 Project Detail",
+        "Project detail is where we work on our data management plan. In this section, we explore different features"
+      ]
+    },
+    {
+      "page": 20,
+      "words": 261,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 speeding up the first draft of questionnaire answers.",
+        "The prefill is meant to help you get started. After it finishes, review the suggested answers and adjust them"
+      ]
+    },
+    {
+      "page": 21,
+      "words": 248,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Good to Know",
+        "AI Prefill helps with finding likely matches between your uploaded materials and questionnaire questions,"
+      ]
+    },
+    {
+      "page": 22,
+      "words": 160,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Once we click Create, we are taken back to the document list and we\u2019ll see the new document there (it",
+        "might take a while before it is generated though)."
+      ]
+    },
+    {
+      "page": 23,
+      "words": 222,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "2.3.3 Files",
+        "We can see the list of files uploaded to the project in the Files tab."
+      ]
+    },
+    {
+      "page": 24,
+      "words": 239,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 10: Project summary report.",
+        "2.3.5 Preview"
+      ]
+    },
+    {
+      "page": 25,
+      "words": 21,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 11: Document preview.",
+        "Fig. 12: Preview without a default Document Template."
+      ]
+    },
+    {
+      "page": 26,
+      "words": 27,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 13: Outdated screenshot (4.x). Some formats cannot be displayed in the web browser.",
+        "Fig. 14: Project questionnaire."
+      ]
+    },
+    {
+      "page": 27,
+      "words": 329,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 15: Select a project phase.",
+        "\u2022 red, with a pen icon - this question must be answered in the current phase"
+      ]
+    },
+    {
+      "page": 28,
+      "words": 376,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Based on our role in the project and specific settings, there are some additional actions besides answering",
+        "the question:"
+      ]
+    },
+    {
+      "page": 29,
+      "words": 240,
+      "images": 3,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 17: List of datasets.",
+        "Value Question"
+      ]
+    },
+    {
+      "page": 30,
+      "words": 211,
+      "images": 3,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 20: Multiple-choice question.",
+        "Item Select Question"
+      ]
+    },
+    {
+      "page": 31,
+      "words": 220,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 23: Questionnaire view options.",
+        "(cid:174) Note"
+      ]
+    },
+    {
+      "page": 32,
+      "words": 248,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 24: Question validation error.",
+        "Fig. 25: Outdated screenshot (4.x). Warnings referring to questions with invalid values."
+      ]
+    },
+    {
+      "page": 33,
+      "words": 256,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 26: Questionnaire TODOs.",
+        "View Comments"
+      ]
+    },
+    {
+      "page": 34,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 27: Questionnaire comments.",
+        "2.3. Project Detail 31"
+      ]
+    },
+    {
+      "page": 35,
+      "words": 443,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Resolved Comments",
+        "When we resolve a comment, it is not deleted but only hidden. We can see all resolved comments by"
+      ]
+    },
+    {
+      "page": 36,
+      "words": 14,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 28: Questionnaire version history.",
+        "2.3. Project Detail 33"
+      ]
+    },
+    {
+      "page": 37,
+      "words": 224,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:193) Warning",
+        "Reverting to an older version cannot be undone. It is therefore recommended to create a copy of the"
+      ]
+    },
+    {
+      "page": 38,
+      "words": 320,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 30: Project settings.",
+        "Default Document Template"
+      ]
+    },
+    {
+      "page": 39,
+      "words": 221,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 31: Default document template and format.",
+        "users have typed into the project."
+      ]
+    },
+    {
+      "page": 40,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 32: Project sharing.",
+        "2.3. Project Detail 37"
+      ]
+    },
+    {
+      "page": 41,
+      "words": 386,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "There are different project sharing roles that grant access to different project features:",
+        "(cid:174) Note"
+      ]
+    },
+    {
+      "page": 42,
+      "words": 379,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Public link",
+        "We can enable the Public link toggle to grant access to the project to anyone who has the link. We can"
+      ]
+    },
+    {
+      "page": 43,
+      "words": 392,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Replies associated with questions that are not included in the new project may not be carried over. This",
+        "can happen when questions or answers were removed in the new knowledge model version or when"
+      ]
+    },
+    {
+      "page": 44,
+      "words": 279,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 34: Use a project as a template.",
+        "2.6 Files"
+      ]
+    },
+    {
+      "page": 45,
+      "words": 184,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 35: Files across projects.",
+        "the project and document details."
+      ]
+    },
+    {
+      "page": 46,
+      "words": 150,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 36: Documents across projects.",
+        "Use Download template in the import screen, complete the rows, then select the CSV file and submit the"
+      ]
+    },
+    {
+      "page": 47,
+      "words": 15,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 37: Import projects.",
+        "2.8. Import projects from CSV 44"
+      ]
+    },
+    {
+      "page": 48,
+      "words": 313,
+      "images": 0,
+      "heading": [
+        "Chapter 3",
+        "Knowledge Models",
+        "A knowledge model defines the chapters, questions, guidance, integrations and other content used by a"
+      ]
+    },
+    {
+      "page": 49,
+      "words": 271,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Create project opens the creation form with this model selected.",
+        "\u2022 Set deprecated and Restore affect the selected version. Other versions remain separate."
+      ]
+    },
+    {
+      "page": 50,
+      "words": 328,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 2: Compare Knowledge Models.",
+        "Knowledge Model Detail"
+      ]
+    },
+    {
+      "page": 51,
+      "words": 275,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Export for exporting the current version of the KM as a file.",
+        "\u2022 Export .pot file for exporting the translation template for the current version of the KM."
+      ]
+    },
+    {
+      "page": 52,
+      "words": 20,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 4: Delete Knowledge Model with dependent projects.",
+        "3.1. Make content available across workspaces 49"
+      ]
+    },
+    {
+      "page": 53,
+      "words": 128,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Import a Knowledge Model",
+        "Open the knowledge model library and choose Import. You need the management permission for the target"
+      ]
+    },
+    {
+      "page": 54,
+      "words": 180,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Multiple workspaces",
+        "Import into the intended organization or workspace library. Local content with the same ID and version"
+      ]
+    },
+    {
+      "page": 55,
+      "words": 273,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:193) Warning",
+        "Deleting a knowledge model can also delete its versions, dependent editors and projects, including the"
+      ]
+    },
+    {
+      "page": 56,
+      "words": 393,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Delete - to delete the knowledge model editor (cannot be undone)",
+        "If there is an ongoing knowledge model migration, there are different actions:"
+      ]
+    },
+    {
+      "page": 57,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 9: Create a Knowledge Model Editor.",
+        "3.1. Make content available across workspaces 54"
+      ]
+    },
+    {
+      "page": 58,
+      "words": 282,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 10: Knowledge Model Editor.",
+        "On the left side of the editor, there is a navigation tree reflecting the structure of the knowledge model. We"
+      ]
+    },
+    {
+      "page": 59,
+      "words": 162,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 11: Knowledge Model Editor.",
+        "\u2022 Question"
+      ]
+    },
+    {
+      "page": 60,
+      "words": 22,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 12: Value question configuration.",
+        "Fig. 13: API integration configuration."
+      ]
+    },
+    {
+      "page": 61,
+      "words": 24,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 14: Value question validation rules.",
+        "Fig. 15: Knowledge Model URL checker."
+      ]
+    },
+    {
+      "page": 62,
+      "words": 239,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 16: Knowledge Model warnings.",
+        "Development with Document Template Editor"
+      ]
+    },
+    {
+      "page": 63,
+      "words": 23,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 17: Knowledge Model phases.",
+        "Fig. 18: Knowledge Model Editor preview."
+      ]
+    },
+    {
+      "page": 64,
+      "words": 354,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Publish",
+        "Before the knowledge model can be used by researchers in their projects, we need to publish it. We can"
+      ]
+    },
+    {
+      "page": 65,
+      "words": 206,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 20: Knowledge Model question tags.",
+        "Metadata fields"
+      ]
+    },
+    {
+      "page": 66,
+      "words": 215,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 21: Knowledge Model Editor settings.",
+        "Knowledge Model Migration"
+      ]
+    },
+    {
+      "page": 67,
+      "words": 27,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 22: Outdated screenshot (4.x). Schematic representation of KM migration.",
+        "Fig. 23: Knowledge Model Editors."
+      ]
+    },
+    {
+      "page": 68,
+      "words": 144,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 24: Update a Knowledge Model Editor.",
+        "(cid:193) Warning"
+      ]
+    },
+    {
+      "page": 69,
+      "words": 475,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Cancelling a Knowledge Model Migration",
+        "We can cancel the knowledge model migration at any point before we publish the new version of the child"
+      ]
+    },
+    {
+      "page": 70,
+      "words": 266,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 26: Knowledge Model secrets.",
+        "Use a secret in an integration"
+      ]
+    },
+    {
+      "page": 71,
+      "words": 22,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 27: Data Sources.",
+        "Fig. 28: Create a Data Source."
+      ]
+    },
+    {
+      "page": 72,
+      "words": 225,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Edit a data source",
+        "A data source needs values, a response item template and at least one search field before it can return"
+      ]
+    },
+    {
+      "page": 73,
+      "words": 30,
+      "images": 3,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 30: Import Data Source values.",
+        "Fig. 31: Data Source response templates."
+      ]
+    },
+    {
+      "page": 74,
+      "words": 73,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Connect the dataset",
+        "1. In the knowledge model editor, add or open an integration and choose the built-in Data source inte-"
+      ]
+    },
+    {
+      "page": 75,
+      "words": 319,
+      "images": 0,
+      "heading": [
+        "Chapter 4",
+        "Document Templates",
+        "Document templates turn questionnaire answers into documents such as PDF, Word, HTML or machine-"
+      ]
+    },
+    {
+      "page": 76,
+      "words": 306,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Multiple workspaces",
+        "The organization library provides shared templates. Workspace libraries provide local templates. If"
+      ]
+    },
+    {
+      "page": 77,
+      "words": 266,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Document Template Locales",
+        "A document template has a source language and can have locales for additional languages. The Locales"
+      ]
+    },
+    {
+      "page": 78,
+      "words": 28,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 3: Delete Document Template with dependent projects.",
+        "Fig. 4: Import a Document Template from registry."
+      ]
+    },
+    {
+      "page": 79,
+      "words": 297,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "From a file",
+        "Select From file and choose a ZIP bundle exported from FAIR Wizard or produced by compatible tools."
+      ]
+    },
+    {
+      "page": 80,
+      "words": 309,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 6: Document Template Editors.",
+        "The editor contains files and metadata. See Document template settings for formats and compatibility, or"
+      ]
+    },
+    {
+      "page": 81,
+      "words": 24,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 7: Create a Document Template Editor.",
+        "Fig. 8: Document Template Editor."
+      ]
+    },
+    {
+      "page": 82,
+      "words": 433,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "If we select a text file in the file tree, it is opened in the built-in text editor. We can also open multiple files",
+        "(the editor supports tabs). Moreover, if we have more files opened, we can see a split view icon on the top"
+      ]
+    },
+    {
+      "page": 83,
+      "words": 205,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 10: Document Template Editor preview.",
+        "(cid:174) Note"
+      ]
+    },
+    {
+      "page": 84,
+      "words": 300,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 11: Publish a Document Template.",
+        "\u2022 Language: source language of translatable template text. Add output translations to the published"
+      ]
+    },
+    {
+      "page": 85,
+      "words": 27,
+      "images": 3,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 12: Document Template settings.",
+        "Fig. 13: Allowed Knowledge Models."
+      ]
+    },
+    {
+      "page": 86,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 15: Document format steps and options.",
+        "4.1. Make content available across workspaces 83"
+      ]
+    },
+    {
+      "page": 87,
+      "words": 126,
+      "images": 1,
+      "heading": [
+        "Chapter 5",
+        "User Groups",
+        "We can use user groups to share projects with several people at once, without adding each person sep-"
+      ]
+    },
+    {
+      "page": 88,
+      "words": 232,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "5.1 Create a User Group",
+        "Open User Groups and choose Create. You need Create User Groups. Enter a name and, optionally, a"
+      ]
+    },
+    {
+      "page": 89,
+      "words": 23,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 3: Add a User Group member.",
+        "Fig. 4: User Group information."
+      ]
+    },
+    {
+      "page": 90,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 5: User Group members.",
+        "5.2. Manage a User Group 87"
+      ]
+    },
+    {
+      "page": 91,
+      "words": 257,
+      "images": 0,
+      "heading": [
+        "Chapter 6",
+        "Profile",
+        "In the profile menu, we can manage our profile, password, connected accounts, language, API keys and"
+      ]
+    },
+    {
+      "page": 92,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 1: User profile.",
+        "6.3. Connected Accounts 89"
+      ]
+    },
+    {
+      "page": 93,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 2: Change password.",
+        "6.3. Connected Accounts 90"
+      ]
+    },
+    {
+      "page": 94,
+      "words": 204,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "6.3.2 Disconnect an account",
+        "Choose Disconnect beside the connection and confirm. We can no longer use that connection to sign in to"
+      ]
+    },
+    {
+      "page": 95,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 4: Language preferences.",
+        "6.5. API keys 92"
+      ]
+    },
+    {
+      "page": 96,
+      "words": 282,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "A key does not bypass role permissions. With multiple workspaces, API calls still need the correct scope",
+        "for the operation. Revoke a key when its integration is retired or its value may have been exposed."
+      ]
+    },
+    {
+      "page": 97,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 6: API keys.",
+        "6.8. Connected AIs 94"
+      ]
+    },
+    {
+      "page": 98,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 7: Active sessions.",
+        "6.8. Connected AIs 95"
+      ]
+    },
+    {
+      "page": 99,
+      "words": 191,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "6.8.1 Connect a client",
+        "1. Open your account settings and Connected AIs."
+      ]
+    },
+    {
+      "page": 100,
+      "words": 186,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 9: Connect AI authorization.",
+        "In a managed Claude organization, an owner may need to add the connector first. Follow the official Claude"
+      ]
+    },
+    {
+      "page": 101,
+      "words": 191,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "[mcp_servers.fair_wizard]",
+        "enabled = true"
+      ]
+    },
+    {
+      "page": 102,
+      "words": 326,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Tips for Better Results",
+        "For the best answers:"
+      ]
+    },
+    {
+      "page": 103,
+      "words": 179,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "6.8.6 Disconnect a client",
+        "Review the connected clients in account settings and revoke connections you no longer use. See API keys"
+      ]
+    },
+    {
+      "page": 104,
+      "words": 20,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 11: Assigned comments.",
+        "Fig. 12: Outdated screenshot (4.x). News modal."
+      ]
+    },
+    {
+      "page": 105,
+      "words": 71,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "6.12 About",
+        "Open About from the profile menu to see component versions, build timestamps and supported metamodel"
+      ]
+    },
+    {
+      "page": 106,
+      "words": 284,
+      "images": 0,
+      "heading": [
+        "Chapter 7",
+        "Administration",
+        "In Administration, we can manage users, roles, the audit log and login automations. The available op-"
+      ]
+    },
+    {
+      "page": 107,
+      "words": 249,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "7.1.4 Delete a workspace",
+        "Review its content and members before deleting a workspace. Deletion removes its workspace-owned"
+      ]
+    },
+    {
+      "page": 108,
+      "words": 108,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) With multiple workspaces",
+        "The organization role is separate from membership and roles in individual workspaces. Use the"
+      ]
+    },
+    {
+      "page": 109,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 3: Administrator password setting.",
+        "7.2. Users 106"
+      ]
+    },
+    {
+      "page": 110,
+      "words": 13,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 4: Invite a user.",
+        "7.2. Users 107"
+      ]
+    },
+    {
+      "page": 111,
+      "words": 301,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Note",
+        "If the user is invited by admin, the user is activated by default. We can select if we want to send an"
+      ]
+    },
+    {
+      "page": 112,
+      "words": 215,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 6: Review users before importing.",
+        "(cid:174) With multiple workspaces"
+      ]
+    },
+    {
+      "page": 113,
+      "words": 200,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 7: Audit Log.",
+        "7.4.2 Assignments in 5.0"
+      ]
+    },
+    {
+      "page": 114,
+      "words": 14,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 8: Audit event details.",
+        "7.4. Login automations 111"
+      ]
+    },
+    {
+      "page": 115,
+      "words": 56,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:193) Warning",
+        "An automation can overwrite an organization role on login, including an administrator\u2019s role. Test with a"
+      ]
+    },
+    {
+      "page": 116,
+      "words": 21,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 10: OPENID login automation configuration.",
+        "Fig. 11: OPENID login automation logs."
+      ]
+    },
+    {
+      "page": 117,
+      "words": 21,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 12: SAML login automation configuration.",
+        "Fig. 13: SAML login automation logs."
+      ]
+    },
+    {
+      "page": 118,
+      "words": 249,
+      "images": 0,
+      "heading": [
+        "Chapter 8",
+        "Settings",
+        "Settings are divided into Users & Access, Projects, Appearance, Features & Integrations, Translations,"
+      ]
+    },
+    {
+      "page": 119,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 1: Authentication settings.",
+        "8.1. Organization defaults and workspace overrides 116"
+      ]
+    },
+    {
+      "page": 120,
+      "words": 208,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Expiration and default role",
+        "Session expiration and user email-link expiration are specified in hours. The emailed two-factor code has"
+      ]
+    },
+    {
+      "page": 121,
+      "words": 318,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Microsoft Azure Setup",
+        "1. Go to https://portal.azure.com/."
+      ]
+    },
+    {
+      "page": 122,
+      "words": 168,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "34. Test your OpenID configuration in FAIR Wizard. You might need to refresh the login page for the",
+        "login button to appear."
+      ]
+    },
+    {
+      "page": 123,
+      "words": 382,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "9. Go to https://orcid.org/signin and sign in to ORCID.",
+        "10. Open Developer Tools from the account menu."
+      ]
+    },
+    {
+      "page": 124,
+      "words": 413,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "6. In the OpenID provider, configure redirect URLs:",
+        "\u2022 Use FAIR Wizard Callback URL as the provider redirect URI, callback URL, reply URL, or"
+      ]
+    },
+    {
+      "page": 125,
+      "words": 162,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Note",
+        "There can be only one automation per login configuration. However, multiple actions can be set up"
+      ]
+    },
+    {
+      "page": 126,
+      "words": 202,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "5. Set the sign-in button\u2019s Icon, Background Color and Text Color, check Button Preview, then",
+        "click Create."
+      ]
+    },
+    {
+      "page": 127,
+      "words": 417,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Register FAIR Wizard with the institution",
+        "Open the saved configuration. It shows the addresses to register with the identity provider or federation:"
+      ]
+    },
+    {
+      "page": 128,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 6: Organization roles and default role.",
+        "8.1. Organization defaults and workspace overrides 125"
+      ]
+    },
+    {
+      "page": 129,
+      "words": 226,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Table 1: Main permission groups",
+        "Group Examples and effect"
+      ]
+    },
+    {
+      "page": 130,
+      "words": 455,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Default role",
+        "In the organization\u2019s Roles list, choose Set as default beside the role to use for newly registered users."
+      ]
+    },
+    {
+      "page": 131,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 8: User settings.",
+        "8.1. Organization defaults and workspace overrides 128"
+      ]
+    },
+    {
+      "page": 132,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 9: Project defaults.",
+        "8.1. Organization defaults and workspace overrides 129"
+      ]
+    },
+    {
+      "page": 133,
+      "words": 363,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Note",
+        "Project visibility controls access granted through the project itself. Users with global project permissions"
+      ]
+    },
+    {
+      "page": 134,
+      "words": 351,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Summary Report",
+        "We can turn Summary Report on or off. It is a feature that allows users to generate and see a Summary"
+      ]
+    },
+    {
+      "page": 135,
+      "words": 164,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Note",
+        "In case we will update the document template used in Supported Formats, we should verify that it is"
+      ]
+    },
+    {
+      "page": 136,
+      "words": 193,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Knowledge-model and document-template identifiers are managed on the content itself; there is no orga-",
+        "nization ID setting used to build three-part content identifiers in 5.0. For navigation links and dashboard"
+      ]
+    },
+    {
+      "page": 137,
+      "words": 24,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 14: Dashboard and Menu settings.",
+        "Fig. 15: Custom menu link settings."
+      ]
+    },
+    {
+      "page": 138,
+      "words": 203,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Announcements in Dashboard & Menu appear above the dashboard content after sign-in. Configure an",
+        "announcement separately in Login Screen if it should also be shown before sign-in. Changes to one section"
+      ]
+    },
+    {
+      "page": 139,
+      "words": 301,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 17: Login screen announcement settings.",
+        "Support"
+      ]
+    },
+    {
+      "page": 140,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 18: Support settings.",
+        "8.1. Organization defaults and workspace overrides 137"
+      ]
+    },
+    {
+      "page": 141,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 19: Tours and AI Assistant settings.",
+        "8.1. Organization defaults and workspace overrides 138"
+      ]
+    },
+    {
+      "page": 142,
+      "words": 192,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Plugins",
+        "Organization administrators enable available plugins and configure their default settings in Settings \u2192"
+      ]
+    },
+    {
+      "page": 143,
+      "words": 17,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 21: Analytics synchronization settings.",
+        "8.1. Organization defaults and workspace overrides 140"
+      ]
+    },
+    {
+      "page": 144,
+      "words": 225,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "8.1.5 Application and email translations",
+        "FAIR Wizard manages application text and email text separately under Settings \u2192 Translations. Choose"
+      ]
+    },
+    {
+      "page": 145,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 23: Email translations.",
+        "8.1. Organization defaults and workspace overrides 142"
+      ]
+    },
+    {
+      "page": 146,
+      "words": 240,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "5. Upload the PO file and enable the language.",
+        "Email greetings and footers can be shared by several email types. Changing a shared message affects"
+      ]
+    },
+    {
+      "page": 147,
+      "words": 140,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Upload a translation",
+        "1. In Settings \u2192 Translations, choose Application or Emails."
+      ]
+    },
+    {
+      "page": 148,
+      "words": 17,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 26: Upload interface translation.",
+        "8.1. Organization defaults and workspace overrides 145"
+      ]
+    },
+    {
+      "page": 149,
+      "words": 120,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) With multiple workspaces",
+        "Plan limits are shared by all workspaces. Creating another workspace does not increase the available"
+      ]
+    },
+    {
+      "page": 150,
+      "words": 15,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 28: Plans.",
+        "8.1. Organization defaults and workspace overrides 147"
+      ]
+    },
+    {
+      "page": 151,
+      "words": 104,
+      "images": 1,
+      "heading": [
+        "Chapter 9",
+        "Analytics",
+        "Analytics reports on projects, knowledge models, document templates, users and user groups across the"
+      ]
+    },
+    {
+      "page": 152,
+      "words": 258,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "9.1 Document Templates",
+        "Users with the Use Analytics role permission can view analytics of document templates. We can create"
+      ]
+    },
+    {
+      "page": 153,
+      "words": 16,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 3: Analytics: Document Templates view settings.",
+        "9.1. Document Templates 150"
+      ]
+    },
+    {
+      "page": 154,
+      "words": 294,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Documents",
+        "The Readme tab shows readme file of the selected document template. The Projects tab shows all projects"
+      ]
+    },
+    {
+      "page": 155,
+      "words": 21,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 5: Analytics: Knowledge Models.",
+        "Fig. 6: Analytics: Knowledge Models view settings."
+      ]
+    },
+    {
+      "page": 156,
+      "words": 251,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) Note",
+        "Click Save changes in the toolbar to keep changes to the view."
+      ]
+    },
+    {
+      "page": 157,
+      "words": 302,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Click Go to knowledge model to open the knowledge model.",
+        "Fig. 8: Knowledge Model insights."
+      ]
+    },
+    {
+      "page": 158,
+      "words": 18,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 9: Analytics: Projects.",
+        "Fig. 10: Analytics: Projects view settings."
+      ]
+    },
+    {
+      "page": 159,
+      "words": 286,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "9.3.1 Project details",
+        "By clicking on the project name, we can open that project detail. The project detail has four tabs:"
+      ]
+    },
+    {
+      "page": 160,
+      "words": 21,
+      "images": 2,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 12: Analytics: User Groups.",
+        "Fig. 13: Analytics: User Groups view settings."
+      ]
+    },
+    {
+      "page": 161,
+      "words": 222,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Various fields have filters that can be used to narrow down the data.",
+        "We can also resize all rows by clicking on the double arrow in the top left corner. If we want to change"
+      ]
+    },
+    {
+      "page": 162,
+      "words": 271,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "9.5 Users",
+        "Users with the Use Analytics role permission can view analytics of users. We can select from many different"
+      ]
+    },
+    {
+      "page": 163,
+      "words": 14,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 16: Analytics: Users view settings.",
+        "9.5. Users 160"
+      ]
+    },
+    {
+      "page": 164,
+      "words": 101,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 User Groups",
+        "The Projects and User Groups tabs show the number of respective items. In the Projects tab, we can see"
+      ]
+    },
+    {
+      "page": 165,
+      "words": 236,
+      "images": 0,
+      "heading": [
+        "Chapter 10",
+        "Development",
+        "We can use the API to connect FAIR Wizard to other systems and automate tasks. We can also develop"
+      ]
+    },
+    {
+      "page": 166,
+      "words": 387,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "10.1.3 Important 5.0 contracts",
+        "\u2022 Knowledge models and document templates use separate id and version fields; UUID fields still"
+      ]
+    },
+    {
+      "page": 167,
+      "words": 264,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Metamodel Ver- Schema file Changes (brief) Since",
+        "sion"
+      ]
+    },
+    {
+      "page": 168,
+      "words": 296,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Metamodel Schema file Changes (brief) Since",
+        "Version"
+      ]
+    },
+    {
+      "page": 169,
+      "words": 325,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Metamodel Schema file Changes (brief) Since",
+        "Version"
+      ]
+    },
+    {
+      "page": 170,
+      "words": 405,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Document Context",
+        "(cid:174) Note"
+      ]
+    },
+    {
+      "page": 171,
+      "words": 337,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 knowledgeModelEditor = object representing the knowledge model editor, null for a",
+        "project"
+      ]
+    },
+    {
+      "page": 172,
+      "words": 311,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2013 report = object that contains report with computed information about number of answered",
+        "questions as well as metric values"
+      ]
+    },
+    {
+      "page": 173,
+      "words": 1348,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "DocumentDocumentTemplate",
+        "document_template1 u id u : i d st : r str"
+      ]
+    },
+    {
+      "page": 174,
+      "words": 263,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "CrossReference",
+        "target_uuid: str"
+      ]
+    },
+    {
+      "page": 175,
+      "words": 18,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Questions",
+        "Question types with their answers and choices."
+      ]
+    },
+    {
+      "page": 176,
+      "words": 137,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "ValueQuestion",
+        "is_string"
+      ]
+    },
+    {
+      "page": 177,
+      "words": 88,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Replies",
+        "Reply types and what they link to."
+      ]
+    },
+    {
+      "page": 178,
+      "words": 252,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Entities",
+        "Here is an interlinked description of each entity and its attributes and links. There are also aliases that are"
+      ]
+    },
+    {
+      "page": 179,
+      "words": 155,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Document",
+        "\u2022 uuid (str)"
+      ]
+    },
+    {
+      "page": 180,
+      "words": 157,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Use dc.km_package.id ~ ':' ~ dc.km_package.version for the full reference.",
+        "Project"
+      ]
+    },
+    {
+      "page": 181,
+      "words": 159,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Questionnaire",
+        "Content of the project, or of the preview questionnaire of a KM editor."
+      ]
+    },
+    {
+      "page": 182,
+      "words": 120,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 updated_at (datetime)",
+        "UserGroup"
+      ]
+    },
+    {
+      "page": 183,
+      "words": 174,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 is_commenter (bool)",
+        "\u2022 is_editor (bool)"
+      ]
+    },
+    {
+      "page": 184,
+      "words": 209,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 a (dict[str,str]) - same as annotations",
+        "Notes:"
+      ]
+    },
+    {
+      "page": 185,
+      "words": 132,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 references (list[Reference])",
+        "\u2022 tags (list[Tag])"
+      ]
+    },
+    {
+      "page": 186,
+      "words": 126,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "MultiChoiceQuestion",
+        "\u2022 choices (list[Choice])"
+      ]
+    },
+    {
+      "page": 187,
+      "words": 107,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Reference",
+        "As for the Question class, Reference is also a superclass and you will always get an object of its subclass."
+      ]
+    },
+    {
+      "page": 188,
+      "words": 124,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Phase",
+        "\u2022 uuid (str)"
+      ]
+    },
+    {
+      "page": 189,
+      "words": 212,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "RepliesContainer",
+        "Wrapper around a path-key dictionary of replies."
+      ]
+    },
+    {
+      "page": 190,
+      "words": 196,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "StringReply",
+        "\u2022 value (str)"
+      ]
+    },
+    {
+      "page": 191,
+      "words": 349,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 is_plain (bool) - entered by user ignoring the integration",
+        "\u2022 is_integration (bool) - selected by user using the integration"
+      ]
+    },
+    {
+      "page": 192,
+      "words": 372,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "The all extra adds the optional dependencies of the weasyprint, excel and rdflib-convert steps, the",
+        "requests template global and the pandoc-docx-pagebreakpy filter. WeasyPrint also needs Pango, and"
+      ]
+    },
+    {
+      "page": 193,
+      "words": 450,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "DSW_WORKSPACE supplies the same default. Omitting both creates the new draft in the organization library.",
+        "An existing draft keeps its current scope. See Document Template Editors for library scope and permis-"
+      ]
+    },
+    {
+      "page": 194,
+      "words": 387,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Option Use",
+        "--po, --language Render with a PO file and set the document language."
+      ]
+    },
+    {
+      "page": 195,
+      "words": 324,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 language = language of the source strings of the template (defaults to en)",
+        "\u2022 allowedPackages = list of package filters (see Package Filters) to specify supported packages"
+      ]
+    },
+    {
+      "page": 196,
+      "words": 242,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Output",
+        "ZIP or TAR archive (based on options) containing the file from the previous step."
+      ]
+    },
+    {
+      "page": 197,
+      "words": 306,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2013 (currently there are no other prefixes than ``rewrite``)",
+        "\u2022 Values can be prefixed with:"
+      ]
+    },
+    {
+      "page": 198,
+      "words": 125,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(continued from previous page)",
+        "\"category\": \"\","
+      ]
+    },
+    {
+      "page": 199,
+      "words": 177,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Definitions",
+        "We can define a name to use as a variable (see define_name)."
+      ]
+    },
+    {
+      "page": 200,
+      "words": 349,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "sheets",
+        "It is the main part specifying a list of sheets in the workbook, where each sheet has name (optional), type"
+      ]
+    },
+    {
+      "page": 201,
+      "words": 325,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 Tables: tables list can be used to define formatted tables (see docs)",
+        "\u2022 Sparklines: sparklines list (see docs)"
+      ]
+    },
+    {
+      "page": 202,
+      "words": 201,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(continued from previous page)",
+        "\"format\": \"myBoldFormat\""
+      ]
+    },
+    {
+      "page": 203,
+      "words": 132,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(continued from previous page)",
+        "}"
+      ]
+    },
+    {
+      "page": 204,
+      "words": 297,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Step: jinja",
+        "Renders requested Jinja2 template with document context and optionally other data."
+      ]
+    },
+    {
+      "page": 205,
+      "words": 345,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "assets",
+        "The assets(file) function serves to retrieve Asset object from either a static file in a document template"
+      ]
+    },
+    {
+      "page": 206,
+      "words": 282,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 data_url - data URL (convenient for use in <img> tags)",
+        "\u2022 is_image - boolean flag indicating if the asset is an image"
+      ]
+    },
+    {
+      "page": 207,
+      "words": 312,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2013 Arguments:",
+        "\u2217 text"
+      ]
+    },
+    {
+      "page": 208,
+      "words": 289,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Special",
+        "These filters are more complex and add various support to template development."
+      ]
+    },
+    {
+      "page": 209,
+      "words": 333,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "{%- set dc = ctx|to_context_obj -%}",
+        "{%- set object = dc|extract_replies({'version': '2'}) -%}"
+      ]
+    },
+    {
+      "page": 210,
+      "words": 457,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2022 An unanswered question is None (lists and multi-choice questions are []) and the follow-ups of uns-",
+        "elected answers are absent, so a path through an unanswered question fails."
+      ]
+    },
+    {
+      "page": 211,
+      "words": 221,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(continued from previous page)",
+        "\"content-type\" : \"text/html\","
+      ]
+    },
+    {
+      "page": 212,
+      "words": 273,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Step: pandoc",
+        "Transformation step that converts Pandoc-compatible document formats."
+      ]
+    },
+    {
+      "page": 213,
+      "words": 234,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Output",
+        "Results in an RDF document of one of the following formats: rdf (XML), nt, n3, ttl, trig, or json-ld"
+      ]
+    },
+    {
+      "page": 214,
+      "words": 431,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Example",
+        "{"
+      ]
+    },
+    {
+      "page": 215,
+      "words": 234,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2013 project, knowledgeModelPackage, and document may be null;",
+        "\u2013 document has documentTemplate, format, preview, and eventUuid;"
+      ]
+    },
+    {
+      "page": 216,
+      "words": 416,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Version 18.0 (since 4.29.0)",
+        "\u2022 Renamed questionnaire to project"
+      ]
+    },
+    {
+      "page": 217,
+      "words": 301,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "\u2013 there are new lists users and groups containing the information about sharing and permissions",
+        "of the project (i.e. what users have access to the project and with what permissions)."
+      ]
+    },
+    {
+      "page": 218,
+      "words": 280,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Version 4 (since 3.2.0)",
+        "\u2022 Levels are renamed into phases and are using UUIDs. Phases are as part of the KM in"
+      ]
+    },
+    {
+      "page": 219,
+      "words": 376,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "The renderer discovers installed packages through that entry point. Migrate older plugins from the removed",
+        "dsw.document_worker imports and dsw_document_worker_plugins entry point."
+      ]
+    },
+    {
+      "page": 220,
+      "words": 427,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(continued from previous page)",
+        "<meta charset=\"utf-8\">"
+      ]
+    },
+    {
+      "page": 221,
+      "words": 432,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "10.4 Integration Questions",
+        "FAIR Wizard can be integrated with other services using so-called integration question. The answer to that"
+      ]
+    },
+    {
+      "page": 222,
+      "words": 19,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 1: How an API integration searches an external service.",
+        "10.4. Integration Questions 219"
+      ]
+    },
+    {
+      "page": 223,
+      "words": 512,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Advanced Integration Configuration",
+        "Additional integration configuration can be used when we want to force the integration reply, or when adding"
+      ]
+    },
+    {
+      "page": 224,
+      "words": 439,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Response Configuration",
+        "(cid:193) Warning"
+      ]
+    },
+    {
+      "page": 225,
+      "words": 301,
+      "images": 0,
+      "heading": [
+        "Chapter 11",
+        "Upgrading to FAIR Wizard 5.0",
+        "FAIR Wizard 5.0 combines the former applications into one interface and updates administration, integra-"
+      ]
+    },
+    {
+      "page": 226,
+      "words": 55,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "(cid:174) With multiple workspaces",
+        "The initial migration keeps existing content together in single-workspace mode. Mapping users and"
+      ]
+    },
+    {
+      "page": 227,
+      "words": 293,
+      "images": 0,
+      "heading": [
+        "Chapter 12",
+        "Reference",
+        "Additional information related to FAIR Wizard that might be useful."
+      ]
+    },
+    {
+      "page": 228,
+      "words": 406,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "12.1.6 An integration question cannot load suggestions",
+        "The external service may be unavailable, or the integration may need correcting. Contact the person re-"
+      ]
+    },
+    {
+      "page": 229,
+      "words": 137,
+      "images": 1,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Fig. 1: Outdated screenshot (4.x). FAIR Wizard Registry with a list of knowledge models.",
+        "\u2022 Ctrl+Enter (Cmd+Enter on macOS) submits supported forms and form dialogs."
+      ]
+    },
+    {
+      "page": 230,
+      "words": 192,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "12.4.1 Basic Syntax",
+        "Formatting Markdown syntax"
+      ]
+    },
+    {
+      "page": 231,
+      "words": 292,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "12.5 Jinja Cheatsheet",
+        "We can use Jinja templating language in Response Item Template and in Response Item Template for"
+      ]
+    },
+    {
+      "page": 232,
+      "words": 21,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "{% for item in items -%}",
+        "{{ item }}"
+      ]
+    }
+  ],
+  "outside_page": [],
+  "near_edge": [],
+  "empty_pages": [],
+  "sparse_pages": [
+    {
+      "page": 1,
+      "words": 12,
+      "images": 0,
+      "heading": [
+        "FAIR W izard Guide",
+        "Release 5.0",
+        "FAIR Wizard Team"
+      ]
+    },
+    {
+      "page": 175,
+      "words": 18,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "Questions",
+        "Question types with their answers and choices."
+      ]
+    },
+    {
+      "page": 232,
+      "words": 21,
+      "images": 0,
+      "heading": [
+        "FAIR Wizard Guide, Release 5.0",
+        "{% for item in items -%}",
+        "{{ item }}"
+      ]
+    }
+  ],
+  "replacement_glyph_pages": [],
+  "bookmarks": 1093,
+  "a4": true,
+  "page_count": 232,
+  "missing_glyph_warnings": 0,
+  "overfull_widths_pt": {
+    "0.90654": 132,
+    "2.05412": 24,
+    "5.29413": 312
+  },
+  "undefined_references": false,
+  "date": "2026-11-03",
+  "visual_review": "All 232 pages as contact sheets; selected schema table and Analytics pages at 100 dpi. No clipped/off-page content observed. Some image-only and short continuation pages retain pagination whitespace.",
+  "compiler_warnings": "Small overfull table boxes up to 5.3pt; table remains inside page margins. No final-pass undefined references or missing glyphs.",
+  "scope": "Local Sphinx/Tectonic render; hosted Read the Docs PDF acceptance remains a release check.",
+  "os_fix_parity_refresh": "3 November: rebuilt 232-page PDF after shared corrections; confirmed corrected text and visually inspected history warning and file-editor instructions on pages 37 and 82"
+}

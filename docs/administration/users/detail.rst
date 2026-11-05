@@ -6,8 +6,9 @@ Edit a user
 Open :guilabel:`Administration` → :guilabel:`Users` and select the user. :guilabel:`Manage Users` is required to edit another account.
 Review the profile details, active state and organization role. Changes to a role affect the permissions the user receives; see :doc:`/administration/roles` before assigning broad access.
 
-The detail also shows creation and last-online information. A user with no recorded visit can show :guilabel:`Never`.
-If internal authentication is enabled, we can also change the user's password.
+The detail also shows when the account was created and updated, when the user was last online and when consent was accepted. Missing visits and consent are shown as :guilabel:`Never` and :guilabel:`Not accepted`. Connected external accounts are listed with their provider. Users manage their own connections in :doc:`/account/connected-accounts`.
+
+If internal authentication is enabled, an Admin can also change the user's password.
 
 .. admonition:: With multiple workspaces
 
@@ -15,19 +16,9 @@ If internal authentication is enabled, we can also change the user's password.
 
 Active users can receive a notification when another person changes their organization role. Self-changes, unchanged roles and login-automation assignments are not notified.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/user-profile.png
+    :figclass: guide-screenshot
+    :alt: Administrator view of a user in FAIR Wizard 5.0
+    :width: 800
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/users/detail/profile.png
-    :alt: Detail of a user profile.
-    :width: 528
-
-    **Outdated screenshot (4.x).** Detail of a user profile.
-
-.. figure:: /_static/earlier-interface/applications/admin-center/users/detail/password.png
-    :alt: Form for changing password of a user.
-    :width: 528
-
-    **Outdated screenshot (4.x).** Form for changing password of a user.
+    Administrator view of a user.

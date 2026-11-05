@@ -16,13 +16,16 @@ The content detail also provides the corresponding create-editor or fork shortcu
 
 Continue with :doc:`detail/knowledge-model` to edit the model's structure and guidance.
 
-Earlier interface
-=================
+.. figure:: /_static/screenshots/5.0/guide/km-editor-create.png
+    :figclass: guide-screenshot
+    :alt: Create a Knowledge Model Editor in FAIR Wizard 5.0
+    :width: 350
 
-These screenshots show the 4.x interface. They will be replaced with 5.0 screenshots.
+    Create a Knowledge Model Editor.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/create/create-knowledge-model.png
-    :alt: Form for creating a new knowledge model.
-    :width: 528
+Starting from an existing model
+===============================
 
-    **Outdated screenshot (4.x).** Form for creating a new knowledge model.
+:guilabel:`Based on` copies the selected model's content into the editor. We can then add, remove or modify its chapters, questions and other entities. Its source language is used by default.
+
+Use :guilabel:`Fork KM` on a released model to start a separate model, or :guilabel:`Create KM editor` to prepare another version. These shortcuts prefill the creation form. After deleting an editor, we can create another from the released model to continue development; deleted unpublished changes are not restored.

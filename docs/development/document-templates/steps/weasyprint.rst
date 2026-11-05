@@ -3,11 +3,11 @@
 Step: ``weasyprint``
 ********************
 
-|badge-status| |badge-metamodel|
+
 
 Transformation step that converts HTML file from previous step to PDF using `WeasyPrint <https://weasyprint.org/>`_.
 
-Use the WeasyPrint version supplied by the compatible worker or local environment. Check the `WeasyPrint documentation <https://doc.courtbouillon.org/weasyprint/>`_ for that version.
+Use the WeasyPrint version supplied by the compatible worker or local environment. Check the `WeasyPrint documentation <https://doc.courtbouillon.org/weasyprint/stable/>`_ for that version.
 
 Input
 =====
@@ -20,7 +20,7 @@ Output
 Always results in a PDF file (``application/pdf``) with file extension ``.pdf``.
 
 Options
-=======
+========
 
 -  (optional) ``render.presentational_hints`` = whether HTML presentational hints are followed (default: ``False``)
 -  (optional) ``render.optimize_size`` = specify what should be optimized (``''``, ``'fonts'``, ``'images'``, ``'fonts,images'``, default: ``'fonts'``)
@@ -36,7 +36,7 @@ Notes
 -  Check the official `WeasyPrint <https://weasyprint.org/>`__ documentation and examples for more information.
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -49,8 +49,6 @@ Example
      }
    }
 
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0
 
 External resources
 ==================

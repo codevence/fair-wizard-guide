@@ -11,7 +11,6 @@ In Administration, we can manage users, roles, the audit log and login automatio
    :maxdepth: 1
 
    workspaces
-   roles
    users/index
    audit-log
    automations

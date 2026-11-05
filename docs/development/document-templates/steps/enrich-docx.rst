@@ -1,7 +1,9 @@
+.. _document-template-step-enrich-docx:
+
 Step: ``enrich-docx``
 *********************
 
-|badge-status| |badge-metamodel|
+
 
 Enrichment step for MS Word (``docx``) documents.
 
@@ -13,10 +15,10 @@ Gets a ``docx`` document as input.
 Output
 ======
 
-Results in a ``docx`` document as input.
+Produces a ``docx`` document as output.
 
 Options
-=======
+========
 
 Options are used as a dictionary for rewrites with the following syntax:
 
@@ -41,7 +43,7 @@ Notes
 -  The document context is provided in ``ctx`` variable, other variables, filters, and tests are documented in other documents (same as for ``jinja`` step).
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -52,6 +54,3 @@ Example
        "rewrite:word/header1.xml": "render:src/docx/header1.xml.j2"
      }
    }
-
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0

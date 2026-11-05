@@ -1,7 +1,9 @@
+.. _document-template-step-archive:
+
 Step: ``archive``
 *****************
 
-|badge-status| |badge-metamodel|
+
 
 Step that puts file from previous step to an archive file (ZIP or TAR).
 
@@ -17,7 +19,7 @@ ZIP or TAR archive (based on ``options``) containing the file from the
 previous step.
 
 Options
-=======
+========
 
 -  ``inputFileDst`` = destination of the file inside the archive (POSIX-like path including filename)
 -  (optional) ``type`` = whether to produce ``zip`` or ``tar`` (defaults to ``zip``)
@@ -35,7 +37,7 @@ Notes
 -  For ``bzip2``, if ``compressionLevel`` is set to ``0``, it is automatically fixed to value ``1``.
 
 Example
-=======
+========
 
 .. code:: json
 
@@ -49,6 +51,3 @@ Example
        "inputFileDst": "example/file.html"
      }
    }
-
-.. |badge-status| replace:: Supported rendering step
-.. |badge-metamodel| replace:: Context 19.0

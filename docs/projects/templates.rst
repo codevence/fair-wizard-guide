@@ -5,11 +5,13 @@ Project Templates
 
 .. NOTE::
 
-    Project templates can be created by users with the :ref:`Manage Project Templates<roles>` role permission.
+    Project owners with :ref:`Manage Project Templates <roles>` can mark a project as a template. Starting a new project also requires :guilabel:`Create Projects`.
 
 When creating a new project, we need to choose a knowledge model and optionally select some question tags. After the project is created, we should also choose a :ref:`default document template<default-document-template>` and format to enable :ref:`preview<preview>`. It can be overwhelming for new researchers to set up everything when they are new to all this.
 
-Project templates are a special type of project where we can set up everything -- choose a knowledge model and question tags, set up a default document template, pre-fill some answers, add TODOs, comments or editor notes. Users can then pick from these project templates when :ref:`creating a new project<create-project>`. The new project will be an exact copy of the project template, so they don't have to set those things themselves and they have an easier start to their data management planning.
+Project templates are a special type of project where we can set up everything -- choose a knowledge model and question tags, set up a default document template, pre-fill some answers, add TODOs, comments or editor notes. Users can then pick from these project templates when :ref:`creating a new project<create-project>`. The new project uses the template's questionnaire content, files, comments and named versions. It has a new owner and uses the workspace's default visibility and sharing settings. Generated documents are not copied.
+
+Unlike :doc:`cloning a project </projects/list>`, creating from a template does not retain the template's collaborators. Review the new project's :doc:`sharing settings </projects/detail/sharing>` before inviting others.
 
 When we want to turn a project into a project template, we need to go to the :ref:`project settings<project-settings>` and check the :guilabel:`Project Template` checkbox.
 
@@ -21,6 +23,12 @@ Watch this video to learn more about project templates:
     :width: 100%
     :align: center
 
+.. figure:: /_static/screenshots/5.0/guide/project-template.png
+    :figclass: guide-screenshot
+    :alt: Use a project as a template in FAIR Wizard 5.0
+    :width: 800
+
+    Use a project as a template.
 
 Sharing the Project Templates
 =============================

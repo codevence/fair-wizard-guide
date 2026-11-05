@@ -3,10 +3,12 @@ Project Detail
 
 Project detail is where we work on our data management plan. In this section, we explore different features from filling in the answers to collaborating with other people or generating documents.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/index/questionnaire.png
-    :alt: Project detail opened on the questionnaire page.
+.. figure:: /_static/screenshots/5.0/projects/questionnaire.png
+    :figclass: guide-screenshot
+    :alt: Project questionnaire in the Coastal Biodiversity Survey example
+    :width: 800
 
-    **Outdated screenshot (4.x).** Project detail opened on the questionnaire page.
+    Project questionnaire.
 
 .. toctree::
    :maxdepth: 1

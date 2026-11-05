@@ -3,28 +3,21 @@
 Sharing
 *******
 
-We can share a project with other FAIR Wizard users or external collaborators. We can access all sharing options by clicking the :guilabel:`Share` button in the top right.
+Project owners can share a project with other FAIR Wizard users or external collaborators. Open :guilabel:`Share` in the project header to change access.
 
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/sharing/share-modal.png
-    :alt: Project sharing settings.
-    :width: 540
+.. figure:: /_static/screenshots/5.0/projects/sharing.png
+    :figclass: guide-screenshot
+    :alt: Project sharing in the Coastal Biodiversity Survey example
+    :width: 350
 
-    **Outdated screenshot (4.x).** Project sharing settings.
-
+    Project sharing.
 
 .. NOTE::
 
-    It is not possible to remove the last project owner. To change the project owner, we need to add another user as an owner first.
+    Keep at least one owner with access to the project. Before removing yourself as an owner, give another collaborator Owner access.
 
 
 If we want to only see how sharing is set up or copy the project link, we can use the arrow button which is a part of the :guilabel:`Share` button.
-
-.. figure:: /_static/earlier-interface/applications/data-management-planner/projects/list/detail/sharing/share-dropdown.png
-    :alt: Fast project sharing.
-    :width: 300
-
-    **Outdated screenshot (4.x).** Fast project sharing.
-
 
 Changes made in the sharing modal are saved after clicking :guilabel:`Save`. We can close the modal without saving by clicking :guilabel:`Cancel`.
 
@@ -96,6 +89,16 @@ There are different project sharing roles that grant access to different project
      - —
      - ✔
      - ✔
+   * - Name, rename or delete a named version
+     - —
+     - —
+     - —
+     - ✔
+   * - Revert to an earlier version
+     - —
+     - —
+     - —
+     - ✔
    * - Sharing settings
      - —
      - —
@@ -123,13 +126,13 @@ The following video tutorial explains and showcases sharing options and tools th
 Users
 =====
 
-We can choose specific users from the FAIR Wizard and their project sharing role to grant them access to project features based on the table above. This is a good way to add other collaborators that work together with us on the project. Also, this is the only way to add other project owners.
+We can choose specific users from the FAIR Wizard and their project sharing role to grant them access to project features based on the table above. This is a good way to add other collaborators that work together with us on the project. A user group can also be given Owner access; owning the group and having Owner access to a project are separate roles.
 
 
 Visible by all other logged-in users
 ====================================
 
-We can enable the :guilabel:`Visible by other logged-in users` toggle to grant access to the project for all other users without the need to explicitly list them. Then, we can also choose what the users can do -- **view**, **comment**, or **edit** the project. We cannot grant **owner** access this way though.
+We can enable the :guilabel:`Visible by other logged-in users` toggle to grant access without listing each user. In single-workspace mode, this applies to other signed-in users. With multiple workspaces, it applies to users who can access the project's workspace. Then, we can also choose what the users can do -- **view**, **comment**, or **edit** the project. We cannot grant **owner** access this way though.
 
 This can be useful, when we want to have an example project accessible by everybody. We can simply enable this and choose that other users can **view** the project. We also want to set this up when we create a :ref:`project template<project-templates>`.
 

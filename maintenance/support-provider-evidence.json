@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-01",
+  "frontendRevision": "8b6d4f125b449662ad8cf5ccbd2985103f5c58b7",
+  "backendRevision": "303ffd8222930608fa7519d7ca5467413f832854",
+  "claims": [
+    {
+      "topic": "Report issue entry and profile-menu placement",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Pages/Layout.elm:userMenu",
+        "FE: packages/elm-common/elm/Common/Components/AppFrame.elm:viewUser"
+      ]
+    },
+    {
+      "topic": "Contact dialog links, new-tab website, mailto email and OK close",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Components/ReportIssueModal.elm:view",
+        "FE: apps/fw/elm/Fw.elm:overlays"
+      ]
+    },
+    {
+      "topic": "Support fields, default fallbacks and workspace override permissions",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Pages/Settings/Support.elm:formView",
+        "FE: packages/elm-common/elm/Common/Api/Models/Settings/SupportSettings.elm",
+        "BE: src/Shared/Service/Settings/SettingsService.hs:checkSettingsPermission",
+        "BE: src/Shared/Service/Settings/WorkspaceSettingsService.hs:supportSection"
+      ]
+    },
+    {
+      "topic": "OpenID Microsoft and Custom fields, scopes and button styling",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Pages/Settings/Components/OpenIdClientFields.elm",
+        "FE: packages/elm-common/elm/Common/Data/Forms/OpenIdClientForm.elm:toOpenIdClientDetail",
+        "FE: packages/elm-common/elm/Common/Pages/Settings/Components/AuthButtonFormGroup.elm"
+      ]
+    },
+    {
+      "topic": "Callback/logout labels and exact address construction",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Pages/Settings/OpenIdDetail.elm:viewOpenId",
+        "BE: src/FairWizard/Service/OpenId/Client/Flow/OpenIdClientFlowService.hs:createOpenIDClient"
+      ]
+    },
+    {
+      "topic": "Callback-first placeholder setup and ORCID example",
+      "sources": [
+        "Guide ad78d767433031bb26d882c3b6ac14a9f5d95688: docs/applications/admin-center/settings/authentication/openid.rst:ORCID Setup and Custom Setup",
+        "FE: packages/elm-common/elm/Common/Data/Forms/OpenIdClientForm.elm:validation",
+        "BE: src/FairWizard/Service/OpenId/Client/Definition/OpenIdClientDefinitionService.hs:createOpenIdClientDefinitionWithUuid"
+      ],
+      "scope": "Existing guide sequence retained with 5.0 labels/paths. Current FW definition creation stores the configuration without contacting the provider. Provider portal screens are not described or represented as live-tested."
+    },
+    {
+      "topic": "ID-token profile fields and registration completion",
+      "sources": [
+        "BE: src/Shared/Service/OpenId/Client/Flow/OpenIdClientFlowUtil.hs:parseIdToken",
+        "BE: src/FairWizard/Service/OpenId/Client/Flow/OpenIdClientFlowService.hs:buildScopes and findOrCreateOpenIdUser",
+        "FE: packages/elm-common/elm/Common/Pages/Public/OpenIdCallback.elm"
+      ]
+    },
+    {
+      "topic": "SAML single/federation modes, fields and allowed providers",
+      "sources": [
+        "FE: apps/fw/elm/Fw/Pages/Settings/Components/SamlFields.elm",
+        "FE: apps/fw/elm/Fw/Data/Forms/SamlServiceProviderForm.elm:toSamlServiceProviderDetail",
+        "BE: src/FairWizard/Service/Saml/Flow/SamlSpFlowService.hs:redirectToDiscoveryUrlOrDefaultIdp and redirectToIdp"
+      ]
+    },
+    {
+      "topic": "SAML discovery placeholders, entityID return and XML metadata addresses",
+      "sources": [
+        "BE: src/FairWizard/Service/Saml/Flow/SamlSpFlowService.hs:redirectToDiscoveryUrlOrDefaultIdp and getEntityDescriptor",
+        "BE: src/FairWizard/Api/Handler/SamlServiceProvider/Detail_Request_GET.hs",
+        "BE: src/FairWizard/Api/Handler/SamlServiceProvider/Detail_Metadata_GET.hs",
+        "FE: apps/fw/elm/Fw/Pages/Settings/SamlDetail.elm:viewSaml"
+      ]
+    },
+    {
+      "topic": "User identity connect/disconnect procedure",
+      "sources": [
+        "FE: packages/elm-common/elm/Common/Pages/Users/Edit/ConnectedAccounts.elm:viewExternalLoginButtons and viewDisconnectModal",
+        "BE: src/FairWizard/Service/OpenId/Client/Flow/OpenIdClientFlowService.hs:linkOpenIdIdentity"
+      ]
+    }
+  ],
+  "verification": "Strict HTML build and local links/anchors/images/alt checks pass. Navigation graph: 135 source pages; 134 navigable plus intentional 404, no graph errors. Rendered support walkthrough reviewed. No identity-provider or federation configuration changed; live sign-in/logout acceptance requires the configured environment."
+}
