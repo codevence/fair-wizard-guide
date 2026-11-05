@@ -1,0 +1,1578 @@
+{
+  "environment": "mediakit.staging.fair-wizard.com",
+  "scope": "Professional single workspace",
+  "date": "2026-11-03",
+  "copied": [
+    {
+      "scene": "dashboard",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dashboard.png"
+    },
+    {
+      "scene": "settings-authentication",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-authentication.png"
+    },
+    {
+      "scene": "settings-users",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-users.png"
+    },
+    {
+      "scene": "settings-features",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-features.png"
+    },
+    {
+      "scene": "settings-support",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-support.png"
+    },
+    {
+      "scene": "settings-usage",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-usage.png"
+    },
+    {
+      "scene": "settings-plans",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-plans.png"
+    },
+    {
+      "scene": "settings-analytics",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-analytics.png"
+    },
+    {
+      "scene": "settings-look-and-feel",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-look-and-feel.png"
+    },
+    {
+      "scene": "settings-login-screen",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-login-screen.png"
+    },
+    {
+      "scene": "settings-dashboard-and-menu",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-dashboard-and-menu.png"
+    },
+    {
+      "scene": "settings-projects",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-projects.png"
+    },
+    {
+      "scene": "settings-submission",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-submission.png"
+    },
+    {
+      "scene": "settings-roles",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-roles.png"
+    },
+    {
+      "scene": "settings-open-id",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-open-id.png"
+    },
+    {
+      "scene": "settings-locales",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-locales.png"
+    },
+    {
+      "scene": "settings-mail-template-locales",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-mail-template-locales.png"
+    },
+    {
+      "scene": "upload-locales",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/upload-locales.png"
+    },
+    {
+      "scene": "upload-mail-template-locales",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/upload-mail-template-locales.png"
+    },
+    {
+      "scene": "create-open-id",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/create-open-id.png"
+    },
+    {
+      "scene": "create-saml",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/create-saml.png"
+    },
+    {
+      "scene": "role-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/role-create.png"
+    },
+    {
+      "scene": "account-profile",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-profile.png"
+    },
+    {
+      "scene": "account-password",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-password.png"
+    },
+    {
+      "scene": "account-language",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-language.png"
+    },
+    {
+      "scene": "account-active-sessions",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-active-sessions.png"
+    },
+    {
+      "scene": "account-connected-accounts",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-connected-accounts.png"
+    },
+    {
+      "scene": "account-tours",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-tours.png"
+    },
+    {
+      "scene": "account-api-keys",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/account-api-keys.png"
+    },
+    {
+      "scene": "api-key-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/api-key-create.png"
+    },
+    {
+      "scene": "users",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/users.png"
+    },
+    {
+      "scene": "user-invite",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/user-invite.png"
+    },
+    {
+      "scene": "user-import",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/user-import.png"
+    },
+    {
+      "scene": "user-import-preview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/user-import-preview.png"
+    },
+    {
+      "scene": "user-profile",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/user-profile.png"
+    },
+    {
+      "scene": "audit-log",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/audit-log.png"
+    },
+    {
+      "scene": "audit-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/audit-detail.png"
+    },
+    {
+      "scene": "automations",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/automations.png"
+    },
+    {
+      "scene": "group-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/group-list.png"
+    },
+    {
+      "scene": "group-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/group-create.png"
+    },
+    {
+      "scene": "group-info",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/group-info.png"
+    },
+    {
+      "scene": "group-members",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/group-members.png"
+    },
+    {
+      "scene": "group-member-add",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/group-member-add.png"
+    },
+    {
+      "scene": "km-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-list.png"
+    },
+    {
+      "scene": "km-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-detail.png"
+    },
+    {
+      "scene": "km-delete",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-delete.png"
+    },
+    {
+      "scene": "km-import-registry",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-import-registry.png"
+    },
+    {
+      "scene": "km-import-file",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-import-file.png"
+    },
+    {
+      "scene": "km-editor-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-editor-list.png"
+    },
+    {
+      "scene": "km-editor-preview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-editor-preview.png"
+    },
+    {
+      "scene": "km-publish",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-publish.png"
+    },
+    {
+      "scene": "dt-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-list.png"
+    },
+    {
+      "scene": "dt-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-detail.png"
+    },
+    {
+      "scene": "dt-delete",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-delete.png"
+    },
+    {
+      "scene": "dt-import-registry",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-import-registry.png"
+    },
+    {
+      "scene": "dt-import-file",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-import-file.png"
+    },
+    {
+      "scene": "dt-editor-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-editor-list.png"
+    },
+    {
+      "scene": "dt-editor-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-editor-create.png"
+    },
+    {
+      "scene": "dt-editor",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-editor.png"
+    },
+    {
+      "scene": "dt-publish",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-publish.png"
+    },
+    {
+      "scene": "km-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-settings.png"
+    },
+    {
+      "scene": "km-phases",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-phases.png"
+    },
+    {
+      "scene": "km-tags",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-tags.png"
+    },
+    {
+      "scene": "km-question",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-question.png"
+    },
+    {
+      "scene": "km-preview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-preview.png"
+    },
+    {
+      "scene": "km-compare",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-compare.png"
+    },
+    {
+      "scene": "km-secrets",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-secrets.png"
+    },
+    {
+      "scene": "dt-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-settings.png"
+    },
+    {
+      "scene": "dt-formats",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-formats.png"
+    },
+    {
+      "scene": "dt-allowed",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-allowed.png"
+    },
+    {
+      "scene": "dt-files",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-files.png"
+    },
+    {
+      "scene": "data-source-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-list.png"
+    },
+    {
+      "scene": "data-source-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-create.png"
+    },
+    {
+      "scene": "data-source-info",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-info.png"
+    },
+    {
+      "scene": "data-source-values",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-values.png"
+    },
+    {
+      "scene": "data-source-search-fields",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-search-fields.png"
+    },
+    {
+      "scene": "data-source-import",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/data-source-import.png"
+    },
+    {
+      "scene": "projects-import",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/projects-import.png"
+    },
+    {
+      "scene": "projects-documents",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/projects-documents.png"
+    },
+    {
+      "scene": "projects-files",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/projects-files.png"
+    },
+    {
+      "scene": "project-clone",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/project-clone.png"
+    },
+    {
+      "scene": "project-template",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/project-template.png"
+    },
+    {
+      "scene": "questionnaire-view",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/questionnaire-view.png"
+    },
+    {
+      "scene": "questionnaire-search",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/questionnaire-search.png"
+    },
+    {
+      "scene": "questionnaire-todos",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/questionnaire-todos.png"
+    },
+    {
+      "scene": "analytics-projects-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-projects-settings.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-knowledge-models-list.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-knowledge-models-settings.png"
+    },
+    {
+      "scene": "analytics-document-templates-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-document-templates-list.png"
+    },
+    {
+      "scene": "analytics-document-templates-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-document-templates-settings.png"
+    },
+    {
+      "scene": "analytics-users-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-users-list.png"
+    },
+    {
+      "scene": "analytics-users-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-users-settings.png"
+    },
+    {
+      "scene": "analytics-user-groups-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-user-groups-list.png"
+    },
+    {
+      "scene": "analytics-user-groups-settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-user-groups-settings.png"
+    },
+    {
+      "scene": "analytics-overview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-overview.png"
+    },
+    {
+      "scene": "connected-ais",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/connected-ais.png"
+    },
+    {
+      "scene": "assigned-comments",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/assigned-comments.png"
+    },
+    {
+      "scene": "plugins",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/plugins.png"
+    },
+    {
+      "scene": "user-password",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/user-password.png"
+    },
+    {
+      "scene": "about",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/about.png"
+    },
+    {
+      "scene": "km-update-modal",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-update-modal.png"
+    },
+    {
+      "scene": "km-migration",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-migration.png"
+    },
+    {
+      "scene": "project-migration",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/project-migration.png"
+    },
+    {
+      "scene": "integration-question",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/integration-question.png"
+    },
+    {
+      "scene": "validation-error",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/validation-error.png"
+    },
+    {
+      "scene": "question-number",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-number.png"
+    },
+    {
+      "scene": "question-date",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-date.png"
+    },
+    {
+      "scene": "question-datetime",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-datetime.png"
+    },
+    {
+      "scene": "question-time",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-time.png"
+    },
+    {
+      "scene": "question-email",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-email.png"
+    },
+    {
+      "scene": "question-color",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-color.png"
+    },
+    {
+      "scene": "question-textarea",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-textarea.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-knowledge-models-detail.png"
+    },
+    {
+      "scene": "analytics-insights",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-insights.png"
+    },
+    {
+      "scene": "login-announcement",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/login-announcement.png"
+    },
+    {
+      "scene": "dashboard-menu-link",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dashboard-menu-link.png"
+    },
+    {
+      "scene": "project-default-creation",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/project-default-creation.png"
+    },
+    {
+      "scene": "mcp-authorization",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/mcp-authorization.png"
+    },
+    {
+      "scene": "km-validation",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-validation.png"
+    },
+    {
+      "scene": "dt-format-steps",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-format-steps.png"
+    },
+    {
+      "scene": "question-url",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/question-url.png"
+    },
+    {
+      "scene": "settings-saml",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/settings-saml.png"
+    },
+    {
+      "scene": "km-editor-create",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-editor-create.png"
+    },
+    {
+      "scene": "km-editor",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-editor.png"
+    },
+    {
+      "scene": "km-integration",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-integration.png"
+    },
+    {
+      "scene": "km-datasource",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-datasource.png"
+    },
+    {
+      "scene": "km-warnings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-warnings.png"
+    },
+    {
+      "scene": "km-url-checker",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/km-url-checker.png"
+    },
+    {
+      "scene": "analytics-projects-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-projects-list.png"
+    },
+    {
+      "scene": "analytics-projects-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-projects-detail.png"
+    },
+    {
+      "scene": "analytics-document-templates-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-document-templates-detail.png"
+    },
+    {
+      "scene": "analytics-users-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-users-detail.png"
+    },
+    {
+      "scene": "analytics-user-groups-detail",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/analytics-user-groups-detail.png"
+    },
+    {
+      "scene": "project-default-tags",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/project-default-tags.png"
+    },
+    {
+      "scene": "dt-editor-preview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/guide/dt-editor-preview.png"
+    },
+    {
+      "scene": "dashboard",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dashboard.png"
+    },
+    {
+      "scene": "settings-authentication",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-authentication.png"
+    },
+    {
+      "scene": "settings-users",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-users.png"
+    },
+    {
+      "scene": "settings-features",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-features.png"
+    },
+    {
+      "scene": "settings-support",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-support.png"
+    },
+    {
+      "scene": "settings-usage",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-usage.png"
+    },
+    {
+      "scene": "settings-plans",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-plans.png"
+    },
+    {
+      "scene": "settings-analytics",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-analytics.png"
+    },
+    {
+      "scene": "settings-look-and-feel",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-look-and-feel.png"
+    },
+    {
+      "scene": "settings-login-screen",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-login-screen.png"
+    },
+    {
+      "scene": "settings-dashboard-and-menu",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-dashboard-and-menu.png"
+    },
+    {
+      "scene": "settings-projects",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-projects.png"
+    },
+    {
+      "scene": "settings-submission",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-submission.png"
+    },
+    {
+      "scene": "settings-roles",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-roles.png"
+    },
+    {
+      "scene": "settings-open-id",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-open-id.png"
+    },
+    {
+      "scene": "settings-locales",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-locales.png"
+    },
+    {
+      "scene": "settings-mail-template-locales",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-mail-template-locales.png"
+    },
+    {
+      "scene": "upload-locales",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/upload-locales.png"
+    },
+    {
+      "scene": "upload-mail-template-locales",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/upload-mail-template-locales.png"
+    },
+    {
+      "scene": "create-open-id",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/create-open-id.png"
+    },
+    {
+      "scene": "create-saml",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/create-saml.png"
+    },
+    {
+      "scene": "role-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/role-create.png"
+    },
+    {
+      "scene": "account-profile",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-profile.png"
+    },
+    {
+      "scene": "account-password",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-password.png"
+    },
+    {
+      "scene": "account-language",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-language.png"
+    },
+    {
+      "scene": "account-active-sessions",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-active-sessions.png"
+    },
+    {
+      "scene": "account-connected-accounts",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-connected-accounts.png"
+    },
+    {
+      "scene": "account-tours",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-tours.png"
+    },
+    {
+      "scene": "account-api-keys",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/account-api-keys.png"
+    },
+    {
+      "scene": "api-key-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/api-key-create.png"
+    },
+    {
+      "scene": "users",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/users.png"
+    },
+    {
+      "scene": "user-invite",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/user-invite.png"
+    },
+    {
+      "scene": "user-import",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/user-import.png"
+    },
+    {
+      "scene": "user-import-preview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/user-import-preview.png"
+    },
+    {
+      "scene": "user-profile",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/user-profile.png"
+    },
+    {
+      "scene": "audit-log",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/audit-log.png"
+    },
+    {
+      "scene": "audit-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/audit-detail.png"
+    },
+    {
+      "scene": "automations",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/automations.png"
+    },
+    {
+      "scene": "group-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/group-list.png"
+    },
+    {
+      "scene": "group-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/group-create.png"
+    },
+    {
+      "scene": "group-info",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/group-info.png"
+    },
+    {
+      "scene": "group-members",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/group-members.png"
+    },
+    {
+      "scene": "group-member-add",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/group-member-add.png"
+    },
+    {
+      "scene": "km-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-list.png"
+    },
+    {
+      "scene": "km-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-detail.png"
+    },
+    {
+      "scene": "km-delete",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-delete.png"
+    },
+    {
+      "scene": "km-import-registry",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-import-registry.png"
+    },
+    {
+      "scene": "km-import-file",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-import-file.png"
+    },
+    {
+      "scene": "km-editor-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-editor-list.png"
+    },
+    {
+      "scene": "km-editor-preview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-editor-preview.png"
+    },
+    {
+      "scene": "km-publish",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-publish.png"
+    },
+    {
+      "scene": "dt-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-list.png"
+    },
+    {
+      "scene": "dt-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-detail.png"
+    },
+    {
+      "scene": "dt-delete",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-delete.png"
+    },
+    {
+      "scene": "dt-import-registry",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-import-registry.png"
+    },
+    {
+      "scene": "dt-import-file",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-import-file.png"
+    },
+    {
+      "scene": "dt-editor-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-editor-list.png"
+    },
+    {
+      "scene": "dt-editor-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-editor-create.png"
+    },
+    {
+      "scene": "dt-editor",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-editor.png"
+    },
+    {
+      "scene": "dt-publish",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-publish.png"
+    },
+    {
+      "scene": "km-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-settings.png"
+    },
+    {
+      "scene": "km-phases",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-phases.png"
+    },
+    {
+      "scene": "km-tags",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-tags.png"
+    },
+    {
+      "scene": "km-question",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-question.png"
+    },
+    {
+      "scene": "km-preview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-preview.png"
+    },
+    {
+      "scene": "km-compare",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-compare.png"
+    },
+    {
+      "scene": "km-secrets",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-secrets.png"
+    },
+    {
+      "scene": "dt-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-settings.png"
+    },
+    {
+      "scene": "dt-formats",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-formats.png"
+    },
+    {
+      "scene": "dt-allowed",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-allowed.png"
+    },
+    {
+      "scene": "dt-files",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-files.png"
+    },
+    {
+      "scene": "data-source-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-list.png"
+    },
+    {
+      "scene": "data-source-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-create.png"
+    },
+    {
+      "scene": "data-source-info",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-info.png"
+    },
+    {
+      "scene": "data-source-values",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-values.png"
+    },
+    {
+      "scene": "data-source-search-fields",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-search-fields.png"
+    },
+    {
+      "scene": "data-source-import",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/data-source-import.png"
+    },
+    {
+      "scene": "projects-import",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/projects-import.png"
+    },
+    {
+      "scene": "projects-documents",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/projects-documents.png"
+    },
+    {
+      "scene": "projects-files",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/projects-files.png"
+    },
+    {
+      "scene": "project-clone",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/project-clone.png"
+    },
+    {
+      "scene": "project-template",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/project-template.png"
+    },
+    {
+      "scene": "questionnaire-view",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/questionnaire-view.png"
+    },
+    {
+      "scene": "questionnaire-search",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/questionnaire-search.png"
+    },
+    {
+      "scene": "questionnaire-todos",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/questionnaire-todos.png"
+    },
+    {
+      "scene": "analytics-projects-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-projects-settings.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-knowledge-models-list.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-knowledge-models-settings.png"
+    },
+    {
+      "scene": "analytics-document-templates-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-document-templates-list.png"
+    },
+    {
+      "scene": "analytics-document-templates-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-document-templates-settings.png"
+    },
+    {
+      "scene": "analytics-users-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-users-list.png"
+    },
+    {
+      "scene": "analytics-users-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-users-settings.png"
+    },
+    {
+      "scene": "analytics-user-groups-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-user-groups-list.png"
+    },
+    {
+      "scene": "analytics-user-groups-settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-user-groups-settings.png"
+    },
+    {
+      "scene": "analytics-overview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-overview.png"
+    },
+    {
+      "scene": "connected-ais",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/connected-ais.png"
+    },
+    {
+      "scene": "assigned-comments",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/assigned-comments.png"
+    },
+    {
+      "scene": "plugins",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/plugins.png"
+    },
+    {
+      "scene": "user-password",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/user-password.png"
+    },
+    {
+      "scene": "about",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/about.png"
+    },
+    {
+      "scene": "km-update-modal",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-update-modal.png"
+    },
+    {
+      "scene": "km-migration",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-migration.png"
+    },
+    {
+      "scene": "project-migration",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/project-migration.png"
+    },
+    {
+      "scene": "integration-question",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/integration-question.png"
+    },
+    {
+      "scene": "validation-error",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/validation-error.png"
+    },
+    {
+      "scene": "question-number",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-number.png"
+    },
+    {
+      "scene": "question-date",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-date.png"
+    },
+    {
+      "scene": "question-datetime",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-datetime.png"
+    },
+    {
+      "scene": "question-time",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-time.png"
+    },
+    {
+      "scene": "question-email",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-email.png"
+    },
+    {
+      "scene": "question-color",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-color.png"
+    },
+    {
+      "scene": "question-textarea",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-textarea.png"
+    },
+    {
+      "scene": "analytics-knowledge-models-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-knowledge-models-detail.png"
+    },
+    {
+      "scene": "analytics-insights",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-insights.png"
+    },
+    {
+      "scene": "login-announcement",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/login-announcement.png"
+    },
+    {
+      "scene": "dashboard-menu-link",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dashboard-menu-link.png"
+    },
+    {
+      "scene": "project-default-creation",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/project-default-creation.png"
+    },
+    {
+      "scene": "mcp-authorization",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/mcp-authorization.png"
+    },
+    {
+      "scene": "km-validation",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-validation.png"
+    },
+    {
+      "scene": "dt-format-steps",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-format-steps.png"
+    },
+    {
+      "scene": "question-url",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/question-url.png"
+    },
+    {
+      "scene": "settings-saml",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/settings-saml.png"
+    },
+    {
+      "scene": "km-editor-create",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-editor-create.png"
+    },
+    {
+      "scene": "km-editor",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-editor.png"
+    },
+    {
+      "scene": "km-integration",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-integration.png"
+    },
+    {
+      "scene": "km-datasource",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-datasource.png"
+    },
+    {
+      "scene": "km-warnings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-warnings.png"
+    },
+    {
+      "scene": "km-url-checker",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/km-url-checker.png"
+    },
+    {
+      "scene": "analytics-projects-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-projects-list.png"
+    },
+    {
+      "scene": "analytics-projects-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-projects-detail.png"
+    },
+    {
+      "scene": "analytics-document-templates-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-document-templates-detail.png"
+    },
+    {
+      "scene": "analytics-users-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-users-detail.png"
+    },
+    {
+      "scene": "analytics-user-groups-detail",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/analytics-user-groups-detail.png"
+    },
+    {
+      "scene": "project-default-tags",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/project-default-tags.png"
+    },
+    {
+      "scene": "dt-editor-preview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/guide/dt-editor-preview.png"
+    },
+    {
+      "scene": "list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/list.png"
+    },
+    {
+      "scene": "create-template",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/create-template.png"
+    },
+    {
+      "scene": "create-custom",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/create-custom.png"
+    },
+    {
+      "scene": "questionnaire",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/questionnaire.png"
+    },
+    {
+      "scene": "multi-choice",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/multi-choice.png"
+    },
+    {
+      "scene": "dataset-list",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/dataset-list.png"
+    },
+    {
+      "scene": "value",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/value.png"
+    },
+    {
+      "scene": "options",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/options.png"
+    },
+    {
+      "scene": "item-select",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/item-select.png"
+    },
+    {
+      "scene": "file-question",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/file-question.png"
+    },
+    {
+      "scene": "sharing",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/sharing.png"
+    },
+    {
+      "scene": "preview",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/preview.png"
+    },
+    {
+      "scene": "documents",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/documents.png"
+    },
+    {
+      "scene": "new-document",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/new-document.png"
+    },
+    {
+      "scene": "files",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/files.png"
+    },
+    {
+      "scene": "settings",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/settings.png"
+    },
+    {
+      "scene": "summary",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/summary.png"
+    },
+    {
+      "scene": "phases",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/phases.png"
+    },
+    {
+      "scene": "history",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/history.png"
+    },
+    {
+      "scene": "comments",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/comments.png"
+    },
+    {
+      "scene": "settings-template",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/settings-template.png"
+    },
+    {
+      "scene": "preview-no-template",
+      "theme": "light",
+      "file": "docs/_static/screenshots/5.0/projects/preview-no-template.png"
+    },
+    {
+      "scene": "list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/list.png"
+    },
+    {
+      "scene": "create-template",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/create-template.png"
+    },
+    {
+      "scene": "create-custom",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/create-custom.png"
+    },
+    {
+      "scene": "questionnaire",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/questionnaire.png"
+    },
+    {
+      "scene": "multi-choice",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/multi-choice.png"
+    },
+    {
+      "scene": "dataset-list",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/dataset-list.png"
+    },
+    {
+      "scene": "value",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/value.png"
+    },
+    {
+      "scene": "options",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/options.png"
+    },
+    {
+      "scene": "item-select",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/item-select.png"
+    },
+    {
+      "scene": "file-question",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/file-question.png"
+    },
+    {
+      "scene": "sharing",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/sharing.png"
+    },
+    {
+      "scene": "preview",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/preview.png"
+    },
+    {
+      "scene": "documents",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/documents.png"
+    },
+    {
+      "scene": "new-document",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/new-document.png"
+    },
+    {
+      "scene": "files",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/files.png"
+    },
+    {
+      "scene": "settings",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/settings.png"
+    },
+    {
+      "scene": "summary",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/summary.png"
+    },
+    {
+      "scene": "phases",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/phases.png"
+    },
+    {
+      "scene": "history",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/history.png"
+    },
+    {
+      "scene": "comments",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/comments.png"
+    },
+    {
+      "scene": "settings-template",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/settings-template.png"
+    },
+    {
+      "scene": "preview-no-template",
+      "theme": "dark",
+      "file": "docs/_static/screenshots/5.0/dark/projects/preview-no-template.png"
+    }
+  ],
+  "pages_replaced": []
+}

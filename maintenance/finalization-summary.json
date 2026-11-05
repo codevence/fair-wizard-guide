@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-03",
+  "content": "Shared DSW reference/FAQ/navigation fixes ported while preserving FW-only features and original OpenID instructions. Current FW frontend main c99dce8 and backend main f9f7fe5 used for checks.",
+  "screenshots": {
+    "environment": "mediakit.staging.fair-wizard.com",
+    "workspace_mode": "single",
+    "guide_scenes": 135,
+    "project_scenes": 22,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "unique_project_names": 13
+  },
+  "verification": {
+    "strict_html": true,
+    "strict_latex_source": true,
+    "local_reference_count": 31550,
+    "source_pages": 140,
+    "unintended_orphans": 0,
+    "duplicate_toc_parents": 0,
+    "rendered_alias_checks": 5538,
+    "screenshot_scaffolding_tests_passed": 14,
+    "pdf_pages": 232
+  },
+  "remaining": [
+    "Enterprise-only screenshots deferred by explicit request",
+    "Submission service/user-property screenshots require enabled submission and a compatible configured service; no external submission performed",
+    "Translation Registry import shows Not Allowed",
+    "Questionnaire example does not render a Warnings control",
+    "Controlled OpenID/SAML automation examples and invocation logs absent in mediakit fixture",
+    "News needs current approved release content; marked legacy capture retained",
+    "Download-only preview requires an unsupported browser format; marked legacy capture retained",
+    "Stored HTML and PDF document download endpoints return HTTP 500 (DOC-02)",
+    "Earlier conceptual diagrams and external Registry image retained; older interface illustrations remain individually marked"
+  ],
+  "limitations": [
+    "Provider portal steps preserved, not retested against external live portals",
+    "Hosted Read the Docs channels and PDF deployment not changed",
+    "No exhaustive browser testing of Enterprise permissions or destructive flows",
+    "No commit, push or release publication in this task"
+  ],
+  "os_fix_parity": {
+    "date": "2026-11-03",
+    "corrected_pages": [
+      "projects/detail/questionnaire",
+      "projects/detail/sharing",
+      "projects/templates",
+      "knowledge-models/library/preview",
+      "document-templates/editors/detail/files",
+      "getting-started/knowledge-model",
+      "development/integration-questions/integration-api"
+    ],
+    "already_shared": [
+      "sidebar position and active branches",
+      "actual content crops",
+      "Chrome viewport sizing",
+      "saved screenshot dimension checks",
+      "renderer/context/TDK reference fixes"
+    ],
+    "application_code_patches": "None made in the OS guide work; existing application issues remain open"
+  }
+}

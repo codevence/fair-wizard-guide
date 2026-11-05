@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-01",
+  "scenario": "Questionnaire sidebar, scrolled down, then click Settings",
+  "before_fix": {
+    "before": {
+      "scroll": 377,
+      "max": 377,
+      "linkTop": 580.390625
+    },
+    "after": {
+      "scroll": 0,
+      "max": 329,
+      "linkTop": 445.390625
+    }
+  },
+  "after_fix": {
+    "before": {
+      "scroll": 377,
+      "max": 377,
+      "linkTop": 580.390625
+    },
+    "after": {
+      "scroll": 377,
+      "max": 841,
+      "linkTop": 580.390625
+    }
+  },
+  "assertions": "After navigation, scrollTop and clicked link screen top stay within 1 CSS pixel of their pre-click values",
+  "scope": "Local Chromium navigation check; no FW instance changes",
+  "flicker_followup": {
+    "date": "2026-11-02",
+    "cause": "The parser-blocking external sidebar script could arrive after an initial paint, displaying the default collapsed tree and scrollTop=0 before restoring the saved state",
+    "reproduction": "Chrome/Cypress: force an uncached sidebar script URL and delay its response 700ms; sample sidebar positions with requestAnimationFrame during navigation",
+    "before_fix": {
+      "test": "failed",
+      "scroll_range_px": 377,
+      "evidence": "Cypress assertion: scroll variation during rendering was 377px; allowed <2px"
+    },
+    "fix": "Include the same single restoration script inline from a Jinja template immediately after the navigation tree; no external sidebar script request or duplicate implementation",
+    "after_fix": {
+      "tests_passed": 2,
+      "sampled_frames": 63,
+      "scroll_top_min": 377,
+      "scroll_top_max": 377,
+      "clicked_row_top_min": 580.390625,
+      "clicked_row_top_max": 580.390625
+    },
+    "scope": "Local Chrome rendering and final-position regression. This is narrower than a claim covering every browser/navigation path"
+  },
+  "search_logo_followup": {
+    "date": "2026-11-02",
+    "reproduction": "Chrome/Cypress, uncached light/dark SVG logo URLs delayed 900ms; search-container position sampled on animation frames",
+    "before": {
+      "frames": 117,
+      "searchTopMin": 40,
+      "searchTopMax": 74.34375,
+      "logoHeights": [
+        0,
+        34.34375
+      ]
+    },
+    "cause": "Logo images had no intrinsic width/height attributes; their container was initially zero height and expanded once the SVG loaded",
+    "fix": "Set width=1000 height=159 from both logo SVG viewBoxes; responsive CSS width:100%, height:auto preserves their aspect ratio before load",
+    "after": {
+      "light": {
+        "frames": 119,
+        "searchTopMin": 74.34375,
+        "searchTopMax": 74.34375,
+        "logoHeights": [
+          34.34375
+        ]
+      },
+      "dark": {
+        "frames": 67,
+        "searchTopMin": 74.34375,
+        "searchTopMax": 74.34375,
+        "logoHeights": [
+          34.34375
+        ]
+      }
+    },
+    "verification": "Strict HTML build and four Chrome regressions passed (light/dark delayed logo, menu transient frames, final menu position)",
+    "scope": "Local guide at port 8769, Chrome 156. No claim of testing every browser"
+  }
+}

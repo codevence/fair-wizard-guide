@@ -1,0 +1,99 @@
+{
+  "source_pages": 140,
+  "reachable_pages": 139,
+  "local_links_checked": 31550,
+  "orphans": [],
+  "duplicate_parents": {},
+  "cycles": [],
+  "legacy_screenshots": [
+    {
+      "page": "account/news",
+      "image": "/_static/earlier-interface/applications/data-management-planner/profile/news/modal.png"
+    },
+    {
+      "page": "development/integration-questions/integration-api",
+      "image": "/_static/earlier-interface/more/development/integration-questions/integration-api/api-integration.png"
+    },
+    {
+      "page": "getting-started/knowledge-model",
+      "image": "/_static/earlier-interface/about/introduction/knowledge-model/knowledge-model-schema.png"
+    },
+    {
+      "page": "getting-started/overview",
+      "image": "/_static/earlier-interface/about/introduction/overview/overview.png"
+    },
+    {
+      "page": "knowledge-models/editors/migration",
+      "image": "/_static/earlier-interface/applications/data-management-planner/knowledge-models/editors/migration/km-migration.png"
+    },
+    {
+      "page": "projects/detail/preview",
+      "image": "/_static/earlier-interface/applications/data-management-planner/projects/list/detail/preview/download.png"
+    },
+    {
+      "page": "projects/detail/questionnaire",
+      "image": "/_static/earlier-interface/applications/data-management-planner/projects/list/detail/questionnaire/warnings.png"
+    },
+    {
+      "page": "reference/fw-registry",
+      "image": "/_static/earlier-interface/more/miscellaneous/fw-registry/fw-registry.png"
+    },
+    {
+      "page": "settings/translations/registry",
+      "image": "/_static/earlier-interface/applications/admin-center/settings/system/locales/import/file.png"
+    }
+  ],
+  "long_paragraphs": [
+    {
+      "page": "development/document-templates/document-context",
+      "words": 676,
+      "start": "* ``config`` = object with FAIR Wizard configuration related to documents\n   * `"
+    },
+    {
+      "page": "development/document-templates/specification",
+      "words": 143,
+      "start": "* ``id`` = identifier of the template without the version (letters, numbers, per"
+    },
+    {
+      "page": "development/document-templates/steps/enrich-docx",
+      "words": 144,
+      "start": "-  Internally, the step unpacks the provided ``docx`` file, makes adjustments on"
+    },
+    {
+      "page": "development/document-templates/steps/excel",
+      "words": 300,
+      "start": "-  Basic (common):\n   `first_sheet <https://xlsxwriter.readthedocs.io/worksheet."
+    },
+    {
+      "page": "development/document-templates/steps/excel",
+      "words": 140,
+      "start": "-  (unspecified) tries to directly all `write <https://xlsxwriter.readthedocs.io"
+    },
+    {
+      "page": "development/integration-questions/integration-api",
+      "words": 168,
+      "start": "- **Allow Custom Reply** - The custom reply is turned on by default. We can turn"
+    },
+    {
+      "page": "knowledge-models/library/detail",
+      "words": 158,
+      "start": "- :guilabel:`Preview` can be used to check the content of the KM via the :doc:`/"
+    },
+    {
+      "page": "settings/authentication/openid",
+      "words": 339,
+      "start": "1. Go to OpenID in FAIR Wizard: ``Settings`` \u2192 ``OpenID`` \u2192 ``Create``.\n2. Fill "
+    },
+    {
+      "page": "settings/authentication/openid",
+      "words": 145,
+      "start": "- **Registration enabled** - if enabled, users will be able to register a new FA"
+    },
+    {
+      "page": "settings/projects",
+      "words": 165,
+      "start": "* **Private** = the project is visible only to the users with explicit access to"
+    }
+  ],
+  "errors": []
+}
