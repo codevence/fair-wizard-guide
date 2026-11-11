@@ -319,3 +319,14 @@ Verification: strict HTML and LaTeX-source builds passed for both guides. The sc
 - Update certifi to the first patched version 2026.10.18 for the reported bundled-root certificate alert
 - Keep docutils 0.22.4: Sphinx 9.1.0 requires docutils <0.23, so PR #273 remains incompatible; no unrelated Sphinx upgrade attempted
 - Preview and production branches remain unchanged
+
+
+## 2026-11-11 — Guide proofreading
+
+- Base: `origin/preview` at `f2767595ee64fcd6fa7d86eb80b573d4eb6c8d39`; isolated branch `codex/guide-proofread`.
+- Reviewed guide prose for grammar, unclear instructions, internal contradictions and repetitive AI-style wording. Shared prose was checked across DSW and FAIR Wizard while retaining product-specific scope and features.
+- Edited 53 RST source files. Corrected import guidance, ORCID save instructions, rendering-reference wording, and language in knowledge-model and project workflows. Corrected the private-project icon description, shortened MCP examples and AI Prefill instructions, and clarified Analytics prose.
+- Checked OpenID editing and user-group save behavior against the local shared frontend source at `4a4c858c`; rendering options and worker configuration against engine-tools `origin/main` at `bea50b8`.
+- Verification: strict Sphinx HTML and LaTeX source builds passed with warnings treated as errors; `git diff --check` passed. All 43 code blocks in the edited RST files are unchanged.
+- Limits: no live application or third-party sign-in test, external link audit, full implementation audit, or rendered PDF check. Release dates, the Analytics Insights count wording and Word image-compression advice still need confirmation. Third-party AI-client screens were preserved and were not tested live.
+- Original working copies and existing unfinished edits were left intact.

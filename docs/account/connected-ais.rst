@@ -75,96 +75,18 @@ Complete the OAuth sign-in in the browser. Alternatively, add the server to your
 Use ``codex mcp login fair_wizard`` to authorize a configured server, then start a new session. The `official Codex MCP reference <https://learn.chatgpt.com/docs/extend/mcp>`_ describes configuration and troubleshooting.
 
 
-What You Can Ask
-----------------
+Example requests
+================
 
-The FAIR Wizard MCP server is best used for short, direct questions. Good examples include:
+We can ask a connected AI client to find and summarize content or make changes permitted by our role. For example:
 
-Projects
-~~~~~~~~
+* List my FAIR Wizard projects.
+* Show the completion and FAIR metrics for project ``<project-uuid>``.
+* List the documents generated for project ``<project-uuid>``.
+* Which projects use knowledge model ``<knowledge-model-uuid>``?
+* Who has access to project ``<project-uuid>``?
 
-* ``List my FAIR Wizard projects.``
-* ``Which projects need the most attention right now?``
-* ``Show projects with low completion or weak FAIR metrics.``
-* ``Which projects look stale or inactive?``
-* ``Summarize project <project-uuid>.``
-
-Metrics
-~~~~~~~
-
-* ``Show FAIR metrics for project <project-uuid>.``
-* ``Which projects are doing worst on FAIR metrics?``
-* ``Compare FAIR metrics across projects.``
-
-Documents
-~~~~~~~~~
-
-* ``List generated documents for project <project-uuid>.``
-* ``Which projects have generated documents?``
-* ``Which templates produce the most documents?``
-
-Knowledge Models
-~~~~~~~~~~~~~~~~
-
-* ``Which projects use knowledge model <knowledge-model-uuid>?``
-* ``Show me projects using this knowledge model: <knowledge-model-uuid>.``
-
-Document Templates
-~~~~~~~~~~~~~~~~~~
-
-* ``Which projects use document template <document-template-uuid>?``
-* ``Show usage of document template <document-template-uuid>.``
-
-Project Access
-~~~~~~~~~~~~~~
-
-* ``Who has access to project <project-uuid>?``
-* ``List user groups assigned to project <project-uuid>.``
-
-Tips for Better Results
------------------------
-
-For the best answers:
-
-* ask one question at a time,
-* be specific about what you want to compare or list,
-* use a project UUID when you want detail for one exact project,
-* use a knowledge model or document template UUID when asking about their usage,
-* start broad, then narrow down with follow-up questions.
-
-Example workflow:
-
-1. ``List my FAIR Wizard projects.``
-2. ``Which of these projects need the most attention?``
-3. ``Show FAIR metrics for project <project-uuid>.``
-4. ``Who has access to that project?``
-
-Common Analytics Questions
---------------------------
-
-These prompts work well for dashboards, reporting, and quick reviews:
-
-* ``Which projects are incomplete?``
-* ``Which projects have the lowest FAIR scores?``
-* ``Which projects seem stale?``
-* ``Which document templates are used most often?``
-* ``Which knowledge models are used across the most projects?``
-* ``Which projects have generated the most documents?``
-* ``Which projects have many users or groups assigned?``
-
-When to Use FAIR Wizard MCP
----------------------------
-
-Use FAIR Wizard MCP when you want to:
-
-* explore your FAIR Wizard instance conversationally,
-* get quick answers without opening multiple screens,
-* identify projects that need review,
-* compare usage across projects, templates, or knowledge models,
-* support reporting or operational monitoring.
-
-If you already know exactly which project, knowledge model, or document template you want to inspect, include its UUID in your prompt for the fastest result.
-
+Include the resource's UUID when asking about a specific project, knowledge model or document template. For comparisons, specify the projects and criteria to use. We can follow up on a list of projects by asking for metrics, documents or access details for one of them.
 
 Permissions and confirmation
 ============================

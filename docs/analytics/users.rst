@@ -1,7 +1,7 @@
 Users
 *****
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of users. We can select from many different fields and see how our users are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of users. Choose fields and filters to create a view of users. Save the view to return to it later, or export its data as CSV.
 
 .. figure:: /_static/screenshots/5.0/guide/analytics-users-list.png
     :figclass: guide-screenshot
@@ -37,7 +37,7 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 User details
 ------------
 
-By clicking on the first or last name of a user, we can open that user detail. The user detail has two tabs:
+By clicking on the first or last name of a user, we can open that user's details. The user detail has two tabs:
 
 - Projects
 - User Groups
