@@ -3,7 +3,7 @@
 Questionnaire
 *************
 
-The :guilabel:`Questionnaire` tab is where we answer questions about our project.
+The :guilabel:`Questionnaire` tab is the first tab in the project detail. This is where we answer questions about our project.
 
 
 Current Phase
@@ -134,7 +134,7 @@ An integration question searches an external resource for answers. The input fie
 
 Choose a result from the list to save the selected answer. Its displayed text and any link are defined by the knowledge model's integration configuration.
 
-If the integration allows custom replies, we can enter our own text when the desired result is missing. FAIR Wizard marks it as a custom answer.
+If the integration allows custom replies, we can keep the text entered in the search field when the desired result is missing. FAIR Wizard saves it as a custom text answer rather than a selected service result, without a link to a selected item.
 
 .. figure:: /_static/screenshots/5.0/guide/integration-question.png
     :figclass: guide-screenshot

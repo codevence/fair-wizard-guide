@@ -22,4 +22,4 @@ Review the answers
 
 Return to the questionnaire, check the prefilled answers against the source documents and correct them where needed. Complete any unanswered questions and confirm that the questionnaire accurately describes the project.
 
-Documents with detailed project information give the prefill more material to match to the questionnaire. Use a DMP when available.
+Use clear, well-structured documents with detailed project information, preferably a DMP. The more closely the documents cover the information requested in the questionnaire, the more material the prefill has to match. Review the suggested wording as well as the facts, and complete any gaps manually.

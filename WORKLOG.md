@@ -330,3 +330,12 @@ Verification: strict HTML and LaTeX-source builds passed for both guides. The sc
 - Verification: strict Sphinx HTML and LaTeX source builds passed with warnings treated as errors; `git diff --check` passed. All 43 code blocks in the edited RST files are unchanged.
 - Limits: no live application or third-party sign-in test, external link audit, full implementation audit, or rendered PDF check. Release dates, the Analytics Insights count wording and Word image-compression advice still need confirmation. Third-party AI-client screens were preserved and were not tested live.
 - Original working copies and existing unfinished edits were left intact.
+
+
+### Information-preservation recheck
+
+- Rechecked the proofreading diff against its original base after the user asked about factual changes and accidental loss.
+- The first pass did include intentional factual corrections and abridgement, rather than language-only edits. Restored the empty-secret distinction, preview/project workflow tip and first-tab detail. Corrected a sentence introduced in the metamodel overview.
+- Restored the MCP prompt examples and associated guidance that had been removed. Restored the clear, well-structured source-document advice in AI Prefill and clarified the retained custom-reply workflow.
+- Retained explicit, documented factual corrections to contradictory instructions. Code examples and screenshots remain unchanged against the original base.
+- Recheck verification: strict HTML and LaTeX source builds and diff whitespace checks passed. 43 code blocks and 94 image references, plus all 24 original MCP example requests were compared with the original base and retained. This does not establish the truth of every factual statement in the guide.
