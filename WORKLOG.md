@@ -347,3 +347,9 @@ Verification: strict HTML and LaTeX-source builds passed for both guides. The sc
 - In all five original-image output cases, embedded PNG/JPEG bytes, SHA-256 hashes and dimensions matched the source files. The doNotAutoCompressPictures flag was copied; defaultImageDpi and discardImageEditingData were not. Independently resizing the two source images before generation reduced the embedded media and output size.
 - Checked the result against Pandoc's 3.9.0.2 DOCX writer and Microsoft's OOXML/image-compression documentation. The guide now recommends optimizing source images or using Word's compression on the generated document, instead of promising compression through reference.docx.
 - Scope: local Pandoc generation, not the deployed worker binary or a Microsoft Word open/save test. The shared worker source delegates conversion to Pandoc. The low-DPI output was rendered with bundled LibreOffice and its single page inspected.
+
+### Analytics Insights terminology
+
+- Clarified the displayed count using the user's product explanation: a question is available when preceding answers reach its questionnaire branch. Unreached follow-up branches are excluded; the measure is not a screen-view count.
+- Removed this terminology question from the PR's unresolved review points. This clarification is based on the user's explanation, not a new implementation audit.
+- Verification: strict Sphinx HTML build and diff whitespace checks passed.

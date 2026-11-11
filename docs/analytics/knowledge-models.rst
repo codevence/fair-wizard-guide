@@ -51,7 +51,7 @@ The :guilabel:`Readme` tab shows the exact information that we can see in the kn
 
     Analytics: KM Editors using a Knowledge Model.
 
-The :guilabel:`Insights` tab shows detailed information for each question and answer, such as the number of times a certain question was displayed to users and how these questions were answered. If we are viewing details of a value question, we can search for a specific value.
+The :guilabel:`Insights` tab shows detailed statistics for each question and answer. A question counts as **displayed** when the preceding answers make it available in the questionnaire. For example, a follow-up question under an unselected answer is not counted as displayed. This describes availability through questionnaire branching, not the number of screen views. If we are viewing details of a value question, we can search for a specific value.
 
 The knowledge model details on the right side show additional knowledge model metadata, such as ID, description, license and version.
 
