@@ -6,8 +6,7 @@ Open the knowledge model library and choose :guilabel:`Import`. You need the man
 From the Registry
 =================
 
-Where a Registry connection is available, select :guilabel:`From registry` and enter the desired reference in ``id:version`` form, for example ``example.research-model:1.0.0``. This is an illustrative identifier, not a bundled item.
-Use the Registry to find an available item and version, then import it.
+Where a Registry connection is available, select :guilabel:`From registry` and enter the desired reference in ``id:version`` form, for example ``example.research-model:1.0.0``. Replace the example with the identifier and version of an item available in the Registry, then import it.
 
 .. figure:: /_static/screenshots/5.0/guide/km-import-registry.png
     :figclass: guide-screenshot
@@ -32,4 +31,4 @@ Select :guilabel:`From file` and choose a KM bundle exported from FAIR Wizard or
 
    Import into the intended organization or workspace library. Local content with the same ID and version takes precedence over organization content.
 
-Importing a new version does not update the model or template selected in existing projects. Review project settings and use :doc:`/projects/migration` when changing a project's knowledge model.
+Importing a new version does not change the knowledge model used by existing projects. Review project settings and use :doc:`/projects/migration` when changing a project's knowledge model.

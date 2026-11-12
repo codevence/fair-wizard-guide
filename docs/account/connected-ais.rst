@@ -78,7 +78,7 @@ Use ``codex mcp login fair_wizard`` to authorize a configured server, then start
 What You Can Ask
 ----------------
 
-The FAIR Wizard MCP server is best used for short, direct questions. Good examples include:
+The following requests show how to explore projects, metrics, documents and access:
 
 Projects
 ~~~~~~~~
@@ -124,7 +124,7 @@ Project Access
 Tips for Better Results
 -----------------------
 
-For the best answers:
+When writing a request:
 
 * ask one question at a time,
 * be specific about what you want to compare or list,
@@ -142,7 +142,7 @@ Example workflow:
 Common Analytics Questions
 --------------------------
 
-These prompts work well for dashboards, reporting, and quick reviews:
+For dashboards and reports, we can ask:
 
 * ``Which projects are incomplete?``
 * ``Which projects have the lowest FAIR scores?``
@@ -163,7 +163,7 @@ Use FAIR Wizard MCP when you want to:
 * compare usage across projects, templates, or knowledge models,
 * support reporting or operational monitoring.
 
-If you already know exactly which project, knowledge model, or document template you want to inspect, include its UUID in your prompt for the fastest result.
+If you already know exactly which project, knowledge model, or document template you want to inspect, include its UUID in your prompt so the client can identify it.
 
 
 Permissions and confirmation

@@ -7,7 +7,7 @@ Document Context
 
     This page describes the document context of metamodel version **19.0**, used since FAIR Wizard 5.0. For changes from earlier versions, see :ref:`document-template-metamodel-versions`.
 
-Document context is an object that carries all information needed to produce a document. It comes either from a project or from a knowledge model editor (for its preview), so exactly one of ``project`` and ``knowledgeModelEditor`` is set. The content, such as replies, is in ``questionnaire`` in both cases. To investigate it, it is the best to use *Questionnaire Report* template with ``JSON`` format. The core fields are:
+Document context is an object that carries all information needed to produce a document. It comes either from a project or from a knowledge model editor (for its preview), so exactly one of ``project`` and ``knowledgeModelEditor`` is set. The content, such as replies, is in ``questionnaire`` in both cases. To inspect the context, use the *Questionnaire Report* template with its ``JSON`` format. The core fields are:
 
 * ``config`` = object with FAIR Wizard configuration related to documents
    * ``appTitle`` = optional title of the application
@@ -76,7 +76,7 @@ Document context is an object that carries all information needed to produce a d
    * ``versions`` = ordered list of versions (objects with details)
 * ``workspace`` = technical metadata about the workspace of the content (``uuid``, ``name``, and ``description``)
 
-This structure is provided to a Jinja template in :doc:`/development/document-templates/steps/jinja` and outputted from :doc:`/development/document-templates/steps/json`. We can use the JSON step to observe the actual content of the document context (structure as well as the values). We can also check :doc:`/development/metamodel-schemas`.
+This structure is provided to a Jinja template in :doc:`/development/document-templates/steps/jinja` and output by :doc:`/development/document-templates/steps/json`. We can use the JSON step to observe the actual content of the document context (structure as well as the values). We can also check :doc:`/development/metamodel-schemas`.
 
 We can fetch a real context using ``GET /projects/{uuid}/document-context`` (optionally with ``eventUuid``) and ``GET /knowledge-model-editors/{uuid}/document-context``, or with the ``get-context`` command of the :doc:`/development/document-templates/tdk`. The document worker accepts only contexts of major version 19.
 
@@ -85,7 +85,7 @@ We can fetch a real context using ``GET /projects/{uuid}/document-context`` (opt
 Objectified Document Context
 ============================
 
-It is possible to easily turn the JSON-like / tree-structured document context into objects with additional helper relations, attributes, methods, and many more to ease up the template development:
+We can convert the JSON-like document context into Python objects with helper attributes, methods and relationships to simplify template development:
 
 .. code:: jinja
 

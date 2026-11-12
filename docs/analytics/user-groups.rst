@@ -1,7 +1,7 @@
 User Groups
 ***********
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of user groups. We can create and edit views by selecting from many different fields and see how our user groups are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of user groups. Choose fields and filters to create a view of user groups. Save the view to return to it later, or export its data as CSV.
 
 .. figure:: /_static/screenshots/5.0/guide/analytics-user-groups-list.png
     :figclass: guide-screenshot

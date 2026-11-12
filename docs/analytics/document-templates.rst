@@ -1,7 +1,7 @@
 Document Templates
 ******************
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of document templates. We can create and edit views by selecting from many different fields and see how our document templates are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of document templates. Choose fields and filters to create a view of document templates. Save the view to return to it later, or export its data as CSV.
 
 .. figure:: /_static/screenshots/5.0/guide/analytics-document-templates-list.png
     :figclass: guide-screenshot
@@ -35,13 +35,13 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 Document template details
 --------------------------
 
-By clicking on the document template name, we can open that document template detail. The document template detail has three tabs:
+By clicking on the document template name, we can open that template's details. The document template detail has three tabs:
 
 - Readme
 - Projects
 - Documents
 
-The :guilabel:`Readme` tab shows the README of the selected document template. The :guilabel:`Projects` tab shows all projects using the selected document template. The :guilabel:`Documents` tab shows all Documents that were generated using the selected document template, across all projects.
+The :guilabel:`Readme` tab shows the README of the selected document template. The :guilabel:`Projects` tab shows all projects using the selected document template. The :guilabel:`Documents` tab shows all documents that were generated using the selected document template, across all projects.
 
 The document template details on the right side show additional document template metadata, such as ID, description, version, publisher, formats and knowledge models it can be used with.
 

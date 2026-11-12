@@ -1,7 +1,7 @@
 Knowledge Models
 ****************
 
-Users with the :ref:`Use Analytics<roles>` role permission can view analytics of knowledge models. We can create and edit views by selecting from many different fields and see how our knowledge models are doing. The view can be modified and saved to be reviewed later. The data can also be exported to a CSV file.
+Users with the :ref:`Use Analytics<roles>` role permission can view analytics of knowledge models. Choose fields and filters to create a view of knowledge models. Save the view to return to it later, or export its data as CSV.
 
 .. figure:: /_static/screenshots/5.0/guide/analytics-knowledge-models-list.png
     :figclass: guide-screenshot
@@ -35,7 +35,7 @@ The data of a view can be exported to a CSV file by clicking on :guilabel:`Expor
 Knowledge model details
 -----------------------
 
-By clicking on the knowledge model ID or name, we can open that knowledge model detail. If we choose to click on a certain version of a knowledge model, that specific version detail will open. The knowledge model detail has four tabs:
+By clicking on the knowledge model ID or name, we can open that model's details. If we choose to click on a certain version of a knowledge model, the details of that version open. The knowledge model detail has four tabs:
 
 - Readme
 - Projects
@@ -51,9 +51,7 @@ The :guilabel:`Readme` tab shows the exact information that we can see in the kn
 
     Analytics: KM Editors using a Knowledge Model.
 
-The last tab, :guilabel:`Insights`, is the most complex. It shows us detailed information for each question and answer, such as the number of times a certain question was displayed to users and how these questions were answered. If we are viewing details of a value question, we can use search functionality to find the value we are interested in.
-
-Furthermore, we can also open various questions to see insights into how the Researchers are answering them.
+The :guilabel:`Insights` tab shows detailed statistics for each question and answer. A question counts as **displayed** when the preceding answers make it available in the questionnaire. For example, a follow-up question under an unselected answer is not counted as displayed. This describes availability through questionnaire branching, not the number of screen views. If we are viewing details of a value question, we can search for a specific value.
 
 The knowledge model details on the right side show additional knowledge model metadata, such as ID, description, license and version.
 

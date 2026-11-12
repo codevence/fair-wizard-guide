@@ -3,14 +3,14 @@
 Project List
 ************
 
-In the project list, we can see a list of all projects we have access to. Those are the projects where we were assigned to with any role or that are visible by all other logged-in users in the :ref:`project sharing settings<sharing>`. The projects are filtered to those we are explicitly assigned to by default.
+In the project list, we can see a list of all projects we have access to. Access can come from a project role, user-group membership, visibility settings or organization and workspace permissions. See :ref:`project sharing <sharing>`. The projects are filtered to those we are explicitly assigned to by default.
 
 We can see project names, label :guilabel:`Template` if the project is a template, update badges, and icons indicating sharing settings:
 
 - **Outdated KM** - the project uses a knowledge model with a newer version available
 - **Outdated DT** - the project uses a document template with a newer version available
 
-- **Lock icon** - the project can be only accessed by you
+- **Lock icon** - private project sharing
 - **People icon** - the project is shared with other users, hovering on the icon provides additional information
 - **Globe icon** - anyone with a link can access the project
 
@@ -31,7 +31,7 @@ We can search for specific projects using the search field or filter them using 
 
 .. NOTE::
 
-    Note that some of the filters can be disabled based on the FAIR Wizard settings or user role.
+    Some filters can be disabled based on the FAIR Wizard settings or user role.
 
 
 We can :ref:`create a new project<create-project>` by clicking the :guilabel:`Create` button.
@@ -43,9 +43,9 @@ We can :ref:`create a new project<create-project>` by clicking the :guilabel:`Cr
 
     Project list and actions.
 
-By clicking the triple dots on each item in the list we can access some actions:
+Open an item's three-dot menu to see the available actions:
 
-- **Open project** - will simply open the project
+- **Open project** - opens the project
 - **Create project from this template** - will create a new project from the selected project template (this is only available if the project is also a project template)
 - **Clone** - creates a project with the source questionnaire, files, comments and named versions. Other explicit collaborators and the source sharing settings are retained. Generated documents are not copied
 - **Migrate** - will start a :ref:`project migration<project-migration>`

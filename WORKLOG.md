@@ -319,3 +319,37 @@ Verification: strict HTML and LaTeX-source builds passed for both guides. The sc
 - Update certifi to the first patched version 2026.10.18 for the reported bundled-root certificate alert
 - Keep docutils 0.22.4: Sphinx 9.1.0 requires docutils <0.23, so PR #273 remains incompatible; no unrelated Sphinx upgrade attempted
 - Preview and production branches remain unchanged
+
+
+## 2026-11-11 — Guide proofreading
+
+- Base: `origin/preview` at `f2767595ee64fcd6fa7d86eb80b573d4eb6c8d39`; isolated branch `codex/guide-proofread`.
+- Reviewed guide prose for grammar, unclear instructions, internal contradictions and repetitive AI-style wording. Shared prose was checked across DSW and FAIR Wizard while retaining product-specific scope and features.
+- Edited 53 RST source files. Corrected import guidance, ORCID save instructions, rendering-reference wording, and language in knowledge-model and project workflows. Corrected the private-project icon description, shortened MCP examples and AI Prefill instructions, and clarified Analytics prose.
+- Checked OpenID editing and user-group save behavior against the local shared frontend source at `4a4c858c`; rendering options and worker configuration against engine-tools `origin/main` at `bea50b8`.
+- Verification: strict Sphinx HTML and LaTeX source builds passed with warnings treated as errors; `git diff --check` passed. All 43 code blocks in the edited RST files are unchanged.
+- Limits: no live application or third-party sign-in test, external link audit, full implementation audit, or rendered PDF check. Release dates, the Analytics Insights count wording and Word image-compression advice still need confirmation. Third-party AI-client screens were preserved and were not tested live.
+- Original working copies and existing unfinished edits were left intact.
+
+
+### Information-preservation recheck
+
+- Rechecked the proofreading diff against its original base after the user asked about factual changes and accidental loss.
+- The first pass did include intentional factual corrections and abridgement, rather than language-only edits. Restored the empty-secret distinction, preview/project workflow tip and first-tab detail. Corrected a sentence introduced in the metamodel overview.
+- Restored the MCP prompt examples and associated guidance that had been removed. Restored the clear, well-structured source-document advice in AI Prefill and clarified the retained custom-reply workflow.
+- Retained explicit, documented factual corrections to contradictory instructions. Code examples and screenshots remain unchanged against the original base.
+- Recheck verification: strict HTML and LaTeX source builds and diff whitespace checks passed. 43 code blocks and 94 image references, plus all 24 original MCP example requests were compared with the original base and retained. This does not establish the truth of every factual statement in the guide.
+
+
+### Pandoc image-compression experiment
+
+- Tested locally with Pandoc 3.9.0.2 using 1800×1200 PNG and JPEG images displayed at three inches. Used a default reference plus references with 72-DPI, 150-DPI and disabled-compression settings. Repeated the low-DPI case with Markdown input. A font-size change confirmed each custom reference was used.
+- In all five original-image output cases, embedded PNG/JPEG bytes, SHA-256 hashes and dimensions matched the source files. The doNotAutoCompressPictures flag was copied; defaultImageDpi and discardImageEditingData were not. Independently resizing the two source images before generation reduced the embedded media and output size.
+- Checked the result against Pandoc's 3.9.0.2 DOCX writer and Microsoft's OOXML/image-compression documentation. The guide now recommends optimizing source images or using Word's compression on the generated document, instead of promising compression through reference.docx.
+- Scope: local Pandoc generation, not the deployed worker binary or a Microsoft Word open/save test. The shared worker source delegates conversion to Pandoc. The low-DPI output was rendered with bundled LibreOffice and its single page inspected.
+
+### Analytics Insights terminology
+
+- Clarified the displayed count using the user's product explanation: a question is available when preceding answers reach its questionnaire branch. Unreached follow-up branches are excluded; the measure is not a screen-view count.
+- Removed this terminology question from the PR's unresolved review points. This clarification is based on the user's explanation, not a new implementation audit.
+- Verification: strict Sphinx HTML build and diff whitespace checks passed.
