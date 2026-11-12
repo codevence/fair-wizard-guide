@@ -120,7 +120,7 @@ The following video tutorial explains and showcases sharing options and tools th
 
 .. NOTE::
 
-    Some of the following options might be globally disabled in the application settings for the whole FAIR Wizard, therefore not visible on the project level.
+    Some sharing options may be disabled in the application settings and hidden for individual projects.
 
 
 Users
@@ -134,13 +134,13 @@ Visible by all other logged-in users
 
 We can enable the :guilabel:`Visible by other logged-in users` toggle to grant access without listing each user. In single-workspace mode, this applies to other signed-in users. With multiple workspaces, it applies to users who can access the project's workspace. Then, we can also choose what the users can do -- **view**, **comment**, or **edit** the project. We cannot grant **owner** access this way though.
 
-This can be useful, when we want to have an example project accessible by everybody. We can simply enable this and choose that other users can **view** the project. We also want to set this up when we create a :ref:`project template<project-templates>`.
+For an example project or :ref:`project template<project-templates>`, choose **view** access if other users should be able to use it without changing it.
 
 
 Public link
 ===========
 
-We can enable the :guilabel:`Public link` toggle to grant access to the project to anyone who has the link. We can again choose what they can do -- **view**, **comment**, or **edit** the project. Also, the public link is visible there, so we can simply copy it and send to whoever we want to collaborate with. Then, they don't need a FAIR Wizard account and still be able to access our project.
+We can enable the :guilabel:`Public link` toggle to grant access to the project to anyone who has the link. We can again choose what they can do -- **view**, **comment**, or **edit** the project. Copy the link and send it to the people we want to collaborate with. They can access the project without a FAIR Wizard account.
 
 Workspace access
 ================

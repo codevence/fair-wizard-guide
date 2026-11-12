@@ -19,7 +19,7 @@ On the left side of the editor, there is a navigation tree reflecting the struct
 
 .. TIP::
 
-    There is no search, however, if we want to quickly find an entity by name we can click on :guilabel:`Expand all` in the navigation tree and use search functionality of our web browser.
+    There is no search, however, if we want to quickly find an entity by name we can click on :guilabel:`Expand all` in the navigation tree and use the browser's search.
 
 
 Editors
@@ -31,9 +31,9 @@ The main area of the :guilabel:`Knowledge Model` tab is the actual editor. The f
 
 - **Move** - we can move entities around the knowledge model. However, not every entity can be put under everything. We can open the move modal window and see where the current entity can be moved to.
 
-- **Delete** - delete is simply used for deleting the entities. This action cannot be undone, so we need to be careful what we delete.
+- **Delete** - remove the entity. This action cannot be undone.
 
-There are different entities we can edit in the knowledge model, the editor shows different fields based on what we edit:
+The editor shows different fields for each type of entity:
 
 - :ref:`Knowledge Model<knowledge-model>`
 - :ref:`Chapter<chapter>`
@@ -55,7 +55,7 @@ There are different entities we can edit in the knowledge model, the editor show
 
     Value question configuration.
 
-Besides their own fields, each entity has so-called **Annotations**. They are arbitrary key value pairs that can be assigned to the entity and used later, when :ref:`developing a document template<document-template-development>`.
+Besides their own fields, each entity has **Annotations**: arbitrary key-value pairs that can be assigned to the entity and used later, when :ref:`developing a document template<document-template-development>`.
 
 .. figure:: /_static/screenshots/5.0/guide/km-integration.png
     :figclass: guide-screenshot

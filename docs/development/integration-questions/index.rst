@@ -3,9 +3,7 @@
 Integration Questions
 *********************
 
-FAIR Wizard can be integrated with other services using so-called :ref:`integration question<integration-question>`. The answer to that type of question does not contain only the answer itself but also a link to that external resource (which can be done, for example, using a persistent identifier). Therefore, these answers help clearly understand what the researchers use and promotes interoperability.
-
-Examples of such integrations that are used within the common knowledge model is `FAIRsharing <https://fairsharing.org>`_ or `ROR <https://ror.org>`_.
+An :ref:`integration question<integration-question>` searches a service or dataset and stores the selected result in the questionnaire. Its integration defines how the result is displayed, including any link or persistent identifier. Examples of external resources include `FAIRsharing <https://fairsharing.org>`_ and `ROR <https://ror.org>`_.
 
 We can connect a question to a source in three ways:
 

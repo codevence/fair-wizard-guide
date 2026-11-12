@@ -7,10 +7,6 @@ If configured :ref:`submission services <submission-service>` require additional
 
 If there is no submission service that requires additional properties, there is a note that no settings are available.
 
-.. NOTE::
-
-    The admin should notify users about the required properties for the submission service.
-
 Submission-property values, such as service API tokens, are stored encrypted. The administrator should explain which values each configured submission service requires.
 
 .. TODO::
